@@ -1,0 +1,8 @@
+title: HecLDA
+language: English
+summary: This is XX
+programming_language: Python
+environment: unittest
+content:
+- lesson1
+- lesson2
