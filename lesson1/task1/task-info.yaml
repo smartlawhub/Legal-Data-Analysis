@@ -8,3 +8,5 @@ files:
   visible: true
 - name: tests/__init__.py
   visible: false
+- name: Lesson 1.py
+  visible: true
