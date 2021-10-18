@@ -7,11 +7,3 @@ print(var)
 
 var1 = 1
 print(var1)
-
-var3 = 4
-
-var4 =5
-
-
-
-var5=3
