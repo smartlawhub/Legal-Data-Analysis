@@ -1,0 +1,15 @@
+type: edu
+custom_name: Lists et al.
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 538
+    length: 30
+    placeholder_text: Check Description
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

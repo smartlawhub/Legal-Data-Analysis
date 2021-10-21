@@ -1,0 +1,16 @@
+type: edu
+files:
+- name: __init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 1799
+    length: 4
+    placeholder_text: A int
+- name: tests/__init__.py
+  visible: false
+- name: Lesson 1.py
+  visible: true
