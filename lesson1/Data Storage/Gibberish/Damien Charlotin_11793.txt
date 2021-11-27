@@ -1,0 +1,134 @@
+<h1 class="ArticleTitle">
+ US Court declines to set aside Mesa v. Canada award, and rejects investor’s argument that NAFTA tribunal breached due process by showing “deference” to government measures
+</h1>
+<p class="f-24">
+</p>
+<p>
+ Mesa Power Group LLC, who failed last year to obtain compensation from a NAFTA tribunal in an investment dispute hinging on measures in the Canadian province of Ontario, has failed in a bid to set aside the resulting award.
+</p>
+<p>
+ In a June 15, 2017 Memorandum Opinion, the US District Court for the District of Columbia has rejected Mesa Power’s petition.
+</p>
+<p>
+ We reviewed the 2016 NAFTA award
+ <a href="https://www.iareporter.com/articles/mesa-v-canada-tribunal-construes-naftas-time-bar-and-procurement-rules-does-not-follow-wto-on-attribution-issue-and-frowns-on-investors-use-of-u-s-judicial-discovery/">
+  here
+ </a>
+ and
+ <a href="https://www.iareporter.com/articles/in-mesa-award-waste-mgt-reading-of-fet-is-embraced-despite-post-bilcon-criticisms-but-majority-offers-much-deference-to-state-policy-choices-mfn-access-to-stronger-fet-is-nixed/">
+  here
+ </a>
+ . Readers will recall that a majority of the tribunal of
+ <a href="http://www.iareporter.com/arbitrator/Kaufmann-Kohler">
+  Gabrielle Kaufmann-Kohler
+ </a>
+ (chair, appointed by ICSID, the appointing authority),
+ <a href="http://www.iareporter.com/arbitrator/Brower">
+  Charles N. Brower
+ </a>
+ (Mesa Power’s appointee) and
+ <a href="http://www.iareporter.com/arbitrator/Landau">
+  Toby Landau
+ </a>
+ (Canada’s appointee) decided that the measures challenged by Mesa Power entered the NAFTA’s definition of “procurement” and were thus only reviewable under the minimum standard of treatment in NAFTA’s article 1105. The award also interpreted article 1105 so that such review accorded a “good level of deference” to the regulatory choices and actions of the respondent state.
+</p>
+<p>
+ As we report below, both arbitral findings were unsuccessfully challenged by Mesa Power in the DC set aside proceedings.
+</p>
+<p>
+ Lewis Baach PLLC, Astigarrga Davis Mullins &amp; Grossman, PA, and Appleton &amp; Associates were counsels for the claimant in these set aside proceedings, while Reed Smith LLP assisted Canada’s team of in-house counsels.
+</p>
+<p>
+ <strong>
+  Which law controls the case need not be decided as claimant’s petition fails even under more favourable law
+ </strong>
+</p>
+<p>
+ The parties sparred over the choice of law applicable to the set aside proceedings. Although Mesa Power petitioned the DC Court, the seat of the arbitration had been Miami, Florida. For Canada, this meant that the case law of the 11
+ <sup>
+  th
+ </sup>
+ Circuit, and not that of the DC Circuit, should govern the set aside proceedings.
+</p>
+<p>
+ This choice-of-law issue had great importance, notably because the 11
+ <sup>
+  th
+ </sup>
+ Circuit recognises fewer grounds to set aside international arbitration awards. In particular, the 11
+ <sup>
+  th
+ </sup>
+ Circuit denies that “manifest disregard of the law” can be a basis for set-aside, whereas Mesa Power’s petition before the DC Court was partly based on this ground.
+</p>
+<p>
+ The DC Court, however, found Canada’s argument in this respect unconvincing, and saw analogies with the situation where a case is transferred from one federal circuit to another. In the latter case, the law of the circuit which receives the case governs – which would point, here, to the case law of the DC circuit. Ultimately, however, the Court found that it did not need to answer this question, as Mesa Power’s arguments would fail even under the more favourable standards of the DC Circuit.
+</p>
+<p>
+ <strong>
+  “Manifest disregard of the law” a valid ground for set aside
+ </strong>
+</p>
+<p>
+ This choice-of-law question was aimed in particular at Mesa Power’s effort to claim that the tribunal committed a “manifest disregard of the law” in deciding the claims.
+</p>
+<p>
+ The existence of “manifest disregard of the law” as an independent ground for setting aside an award has stirred controversy in the US for decades.
+</p>
+<p>
+ Acknowledging the controversy, the Court nonetheless pursued its earlier policy of assuming, without deciding, that Mesa Power could validly present a claim for manifest disregard of the law. The DC Court, however, stressed that its scope of review under this and the other grounds invoked by the claimant – i.e. the tribunal’s alleged misbehaviour and alleged excess of powers – remained narrow, and required more than a disagreement with the tribunal’s interpretation of the law being applied.
+</p>
+<p>
+ <strong>
+  Claimant can only prove “disagreement” with tribunal’s interpretation of “procurement,” insufficient for set aside purposes
+ </strong>
+</p>
+<p>
+ Mesa Power’s first argument before the Court related to the tribunal’s interpretation of the term “procurement” in NAFTA’s Chapter 11. This interpretation led the majority to dismiss Mesa Power’s discrimination and MFN claims.
+</p>
+<p answer="Cakey">
+ The tribunal, the claimant contended, had ignored the definition of “procurement” in other NAFTA chapters, and therefore erred in interpreting the term as it stands in Chapter 11. (In this respect, Mesa Power’s argument followed closely the dissenting opinion of Mr Brower in the case, which we’ve reviewed
+ <a href="https://www.iareporter.com/articles/in-mesa-award-waste-mgt-reading-of-fet-is-embraced-despite-post-bilcon-criticisms-but-majority-offers-much-deference-to-state-policy-choices-mfn-access-to-stronger-fet-is-nixed/">
+  here
+ </a>
+ .)
+</p>
+<p>
+ Rather than engaging in this interpretative dispute, the Court noted that the tribunal’s analysis did not cross the line between an (allegedly) mistaken, text-based interpretation and “something else.” The DC Court noted that the “tribunal employed all of the standard interpretative tools that a court or arbitration panel would normally use”. The Court found support for this conclusion in the fact that the dissenting arbitrator used the same tools to reach a different conclusion.
+</p>
+<p>
+ For the Court, then, Mesa Power’s challenge to the tribunal’s interpretation was in the nature of a mere disagreement with the conclusion reached. As the standard of review to set aside an award requires more than a mistaken interpretation, Mesa Power’s first argument failed.
+</p>
+<p>
+ <strong>
+  Deference not a breach of equality between the parties
+ </strong>
+</p>
+<p>
+ The claimant then sought to challenge the tribunal’s statement that review under NAFTA article 1105 included “a good level of deference to the manner in which a state regulates its internal affairs.” In the claimant’s view, the tribunal here exceeded its authority and breached the requirement that parties to the arbitration be treated equally.
+</p>
+<p>
+ The Court however found the claimant’s cavils to be misguided: the tribunal was not here accepting without much review Canada’s legal arguments or factual assertions, “as that term [deference] is usually used in U.S. law.”* On the contrary, the tribunal “exhaustively” reviewed Canada’s actions under NAFTA’s article 1105.
+</p>
+<p>
+ For the Court, the tribunal’s “deference” was merely “an acknowledgment that a government is entitled to make policy choices that are not perfectly rational.” It embodies the opinion that under NAFTA’s standards of protection, imperfect policy choices are not necessarily unfair or inequitable or otherwise in breach of the minimum standard.
+</p>
+<p>
+ Once again, the court stressed that Mr. Brower’s dissent supported this conclusion, as he accepted the majority’s premises but came to a different conclusion on the merits. For the Court, the investor was again merely disagreeing with respect to the interpretation of the law – here, article 1105 –, and not providing evidence of the tribunal misbehaving, exceeding its authority or manifestly disregarding the law.
+</p>
+<p>
+ <strong>
+  Canada is denied attorney fees but can enforce award in the US
+ </strong>
+</p>
+<p>
+ Although Canada was successful on the merits, the DC Court dismissed its request for attorney fees. The Court reasoned that petitioning for a set aside is part of a losing party’s rights in an arbitration. Although Mesa Power’s arguments failed, they were not frivolous nor indicative of bad faith, and thus did not warrant reimbursement of Canada’s fees.
+</p>
+<p>
+ However, the District Court also granted Canada’s counter-petition to confirm and enforce the award in the United States. This will allow Canada to collect the third of its legal fees (from the underlying arbitration) that the tribunal had ordered the claimant to pay.
+</p>
+<p>
+</p>
+<p>
+ * In an interesting footnote, the tribunal considered and rejected Canada’s argument that the “deference” due under international law, mentioned by the tribunal, was similar to the so-called “Chevron deference” in US law.
+</p>

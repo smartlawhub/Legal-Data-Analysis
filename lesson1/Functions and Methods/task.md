@@ -13,17 +13,31 @@ my_function(1,2)
 
 Functions can be much more complicated. Notably, while you need to pass all expected arguments (also called parameters), you can also specify "bonus" arguments that are not necessarily required.
 
-<b>3.</b> You can create, and you will create your own functions. However, Python has already plenty of built-in functions, so that you don't have to invent the wheel everytime you need to do something.
+<b>3.</b> You can create, and you will create your own functions. However, Python has already plenty of built-in 
+functions, so that you don't have to invent the wheel everytime you need to do something. As you already saw, you 
+don't need a function to calculate the sum of two variables, so `my_function` is redundant.
 
+Other important functions are those that allow you to play with the types of variables. For instance, `str` 
+transform your variable into a string, `int` into a number, `list` into a list, etc. Check also the function range, 
+that allows you to iterate over a definite number of numbers:
+
+```python
+for x in range(0, 20, 5):  # Range takes your first number, the upper limit (not included), and (if needed) the steps to get there 
+    print("This is number " + str(x))
+```
 
 <b>4.</b> In addition, Python is a shared resources, and for most uses someone has already created a function for you, such that you just need to import it. This is the system of packages and librairies that power Python. 
 
-You can either import a full package (such as `numpy` here), or dedicated functions or "modules" in a package. The difference is in terms of performance (some packages are heavy). You then call the functions in accordance with their name as imported, a name that you can set yourself (some are conventional: `pandas` is nearly always `pd`)
+You can either import a full package (such as `numpy` here), or dedicated functions or "modules" in a package. The 
+difference is in terms of performance (some packages are heavy). You then call the functions in accordance with 
+their name as imported, a name that you can set yourself (some are conventional: `pandas` is nearly always `pd`, 
+`numpy` is  `np`, etc.)
 
-<b>5.</b> The first package here is specialised in numbers and mathematical operations; it typically goes further than the basic Python functions. For instance, if you want to compute a mean.
+<b>5.</b> The first package here, `numpy`  is specialised in numbers and mathematical operations; it typically goes 
+further than the basic Python functions. For instance, if you want to compute a mean.
 
 <b>6.</b> Frequently, the data and variables you will manipulate have functions (called "methods") already attached to them.
-(We won't discuss it, but it's related to `classes` in Python, which you can learn more about <a href='https://docs.python.org/3/tutorial/classes.html'>here</a>). 
+(We won't discuss it, but it's related to `classes` in Python, about which you can learn more <a href='https://docs.python.org/3/tutorial/classes.html'>here</a>). 
 
 We saw it earlier when we used `append` to add an item to a list. The equivalent method for sets is `add`.
 
@@ -37,4 +51,4 @@ Strings have a function `split` that can be used to obtain a list of items in th
     </ul>
 
 <b>8.</b> <u>Exercise 2</u> Using the methods you just learned, find the number of words that are common to both the 
-first and third verse of the poem. 
+first and third verse of the poem.

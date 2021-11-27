@@ -1,0 +1,145 @@
+<h1 class="ArticleTitle">
+ UPDATED: Against backdrop of threatened BIT arbitration, Paris Court of Appeal confirms release of Russian space agency assets that had been frozen by Yukos claimants
+</h1>
+<p class="f-24">
+</p>
+<p>
+ The Paris Court of Appeal this morning ordered the release of debts owed to Russian space agency Roscosmos. The debts had been earlier frozen by former Yukos shareholders in their quest to enforce a massive (but still-contested) arbitral award against Russian assets.
+</p>
+<p>
+ Readers will recall that Hulley Enterprises Limited, Veteran Petroleum Limited, and Yukos Universal Limited, were the successful claimants in a trio of arbitrations that saw the tribunal of
+ <a href="https://www.iareporter.com/arbitrator/Fortier">
+  Yves Fortier
+ </a>
+ ,
+ <a href="https://www.iareporter.com/arbitrator/Poncet">
+  Charles Poncet
+ </a>
+ and
+ <a href="https://www.iareporter.com/arbitrator/Schwebel">
+  Stephen Schwebel
+ </a>
+ award the highest compensation ever seen in investment arbitration proceedings, at more than $50 billion (see
+ <a href="https://www.iareporter.com/articles/russia-ordered-to-pay-us50-bil-to-former-yukos-majority-shareholders-as-in-oxy-case-fortier-chaired-tribunal-reduces-damages-due-to-investors-misbehaviour/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ Since then, and while set aside proceedings are underway in the Netherlands (and were
+ <a href="https://www.iareporter.com/articles/dutch-court-sets-aside-us50-billion-yukos-award-criticising-tribunal-for-accepting-provisional-application-of-energy-charter-treaty-to-russia/">
+  successful for Russia at the first-instance level
+ </a>
+ ), the claimants have been scouring the world for Russian assets to seize in lieu of the awarded compensation.
+</p>
+<p>
+ Hulley Enterprises Limited and Veteran Petroleum Limited briefly succeeded in convincing French courts to freeze the payment by French company Arianespace of some €300 million in contractual debts owed to Roscosmos, an entity alleged to be an alter ego of the Russian government.
+</p>
+<p>
+ In early 2016, a French first instance court in Evry then lifted the two freezing orders, reasoning that Roscosmos was not responsible for the debts of the Russian Federation.
+</p>
+<p>
+ However, the Paris Court of Appeal subsequently re-installed the freezing orders pending its decision on the merits. Now, in two nearly identical decisions issued today, the Court has ultimately rejected the claimants’ attempt to seize the sums owed to Roscosmos.
+</p>
+<p>
+ <strong>
+  Amounts owed to Roscosmos are not owed to Russia
+ </strong>
+</p>
+<p>
+ The claimants’ attempt to seize the sums owed by Arianespace to Roscosmos relied on French enforcement provisions, which allow a creditor to seize the debts owed to its debtor by one of this debtor’s creditors. In the claimants’ view, the sums owed to Roscosmos would eventually revert to Russia, their debtor under the 2014 awards.
+</p>
+<p>
+ Yet, the Court of Appeal ultimately rejected this thesis, finding that Roscosmos was financially independent from the Russian Federation. The Court also dismissed the claimants’ alternative argument that Roscosmos had contracted with Arianespace as an agent of the Russian Federation.
+</p>
+<p>
+ Roscosmos and Arianespace (intervening) however failed in their further request for damages from the claimants: the Court saw no abuse in the claimants’ enforcement actions.
+</p>
+<p>
+ <strong>
+  Of further note, claimants succeed in preventing recognition of the Dutch set aside judgment in France – for now
+ </strong>
+</p>
+<p>
+ Despite this setback for the award-creditors, Hulley Enterprises Limited and Veteran Petroleum Limited were successful in an important respect: the Paris Court refused to accede to Roscosmos’ and Russia’s demand that the first instance (set-aside) judgment of The Hague court, which had vacated the Yukos awards, be recognised by the Paris Court. Recognition would have had the effect of depriving the awards of any possibility to be enforced in France.
+</p>
+<p>
+ The Court reasoned that under the French conception of the autonomy of international arbitration, the decision of The Hague court was “relative” and had no bearing on the enforcement – or even the existence – of the awards in France.
+</p>
+<p>
+ In any case, the Court noted, recognition proceedings relating to the awards themselves were still ongoing in France, and should be the place to entertain the question of the awards’ validity in France.*
+</p>
+<p>
+ In the meantime, the Court applied the provisional execution of the award as per French arbitration law.**
+</p>
+<p>
+ <strong>
+  Court of Appeal decision might put an end to threatened investment arbitration against France
+ </strong>
+</p>
+<p>
+ The unfreezing of Roscomos’ assets could have additional implications.
+</p>
+<p>
+ <a href="https://www.iareporter.com/articles/russian-space-agency-threatens-bit-arbitration-against-france-following-moves-to-enforce-yukos-award-dispute-echoes-kaliningrad-bit-claim-against-lithuania/">
+  As we reported
+ </a>
+ , Roscosmos sent a notice of dispute to French Prime Minister Manuel Valls on October 21, 2016 (available
+ <a href="https://www.italaw.com/sites/default/files/case-documents/italaw7683_2.pdf">
+  here
+ </a>
+ ), claiming that the freezing order over the amounts owed by Arianespace breached the 1989 France-USSR bilateral investment treaty.
+</p>
+<p>
+ The notice stressed in particular that the freezing order would postpone payment until the decision of the Court of Appeal, a breach of the treaty’s fair and equitable treatment standard that resulted in damages for Roscosmos. The space agency also explained that, were the Court of Appeal to allow the claimants to seize these sums, this would amount to an expropriation of its investment in France.
+</p>
+<p>
+ The decision of the Paris Court of Appeal would mean that this dispute, if it still goes forward, could focus on the mere delay in payment of the sums owed to Roscosmos. Worthy of note, the French government intervened in the Court of Appeal proceedings in favour of Roscosmos against Hulley Enterprises Limited and Veteran Petroleum Limited.
+</p>
+<p>
+ The notice of dispute referred to the six-months waiting period under the treaty, which should have lapsed by April 2016. There is no indication however that Roscosmos initiated the UNCITRAL arbitration threatened in the notice of dispute.
+</p>
+<p>
+</p>
+<p>
+ * [UPDATE: shortly after this article was published, the award creditors issued a press release disclosing
+ <span class="s1">
+  that the Paris Court of Appeal has reopened the debate in the proceedings concerning the enforcement of the awards in France. The Court requested comments on the possibility of referring to the European Court of Justice a question on the interpretation of the Energy Charter Treaty, under whose ambit the original arbitration took place.”]
+ </span>
+</p>
+<p>
+ [UPDATE 2: It now emerges that a
+ <span class="s1">
+  different section of the Court of Appeal issued a judgment in Russia’s challenge against the recognition of the awards in France. The judgment, also dated June 27, 2016 is available in French
+  <a href="https://www.italaw.com/sites/default/files/case-documents/italaw9023_0.pdf">
+   <span class="s2">
+    here
+   </span>
+  </a>
+  .
+ </span>
+ <span class="s3">
+ </span>
+ <span class="s1">
+  Rather than taking a final decision on Russia’s appeal against the 2014 registration of the award in France (which allowed for their provisional enforcement and the events described above), the Court decided to reopen the case and sought the comments of the parties on the appropriateness of referring certain interpretative questions to the Court of Justice of the European Union (CJEU). (The Court nonetheless rejected one of Russia’s objections in refusing to give effect to the Dutch judgment to deny recognition of the awards.)
+ </span>
+</p>
+<p class="p3">
+ <span class="s1">
+  The Court of Appeal might then seek the CJEU’s input on how to interpret several ECT provisions relevant to answer Russia’s challenge to the jurisdiction of the tribunal (for a summary, see
+  <a href="https://www.iareporter.com/articles/in-depth-reviewing-russias-arguments-for-setting-aside-50-billion-yukos-awards/">
+   <span class="s2">
+    here
+   </span>
+  </a>
+  ). Among others, the Court could refer questions related to the article providing for provisional application of the ECT (whose interpretation was crucial in setting aside the awards in The Hague), or to the definitions of “investor” and “investment” under the treaty.
+ </span>
+</p>
+<p class="p3">
+ <span class="s1">
+  We will further report on these proceedings as they unfold.
+ </span>
+</p>
+<p>
+ ** There is an interesting doctrinal point here, as the partial awards on jurisdiction in the Yukos arbitration fell under the old, pre-2011 French arbitration law, when provisional execution was not the norm. Russia contended that since the 2014 merits awards depended on the 2011 decisions, they should be governed by the former arbitration law, but the Court ruled to the contrary.
+</p>

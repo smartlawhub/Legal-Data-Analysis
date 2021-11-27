@@ -1,0 +1,156 @@
+<h1 class="ArticleTitle">
+ A stay of award is kept in place in Bolivia case, and ad-hoc committee picks a side in debate over powers to order posting of bank guarantees
+</h1>
+<p class="f-24">
+</p>
+<p>
+ On February 21, 2017, an ICSID ad hoc committee in the case of Quiborax v Bolivia has issued a decision [
+ <a href="https://icsid.worldbank.org/en/Pages/cases/casedetail.aspx?CaseNo=ARB/06/2&amp;tab=DOC">
+  click to download
+ </a>
+ ] denying the claimants’ request for a lift of the stay on enforcement of the award. The decision was signed by the committee’s president,
+ <a href="http://www.iareporter.com/arbitrator/Rigo-Sureda">
+  Andrés Rigo Sureda
+ </a>
+ ; other committee members are
+ <a href="https://www.iareporter.com/arbitrator/Argueta-Pinto">
+  Milton Argueta Pinto
+ </a>
+ , and
+ <a href="http://www.iareporter.com/arbitrator/Soderlund">
+  Christer Söderlund
+ </a>
+ .
+</p>
+<p>
+ This ad hoc committee has been constituted at the end of 2015 at the request of Bolivia, which seeks to annul the ICSID award in favour of Chilean company Quiborax S.A. and its majority-owned Bolivian subsidiary, Non-Metallic Minerals S.A.
+</p>
+<p>
+ <a href="http://www.iareporter.com/articles/in-new-ruling-arbitrators-find-bolivias-termination-of-chilean-mining-concessions-to-be-discriminatory-unlawful-and-done-under-bogus-pretexts/">
+  As we’ve reported
+ </a>
+ , the original arbitral tribunal of
+ <a href="https://www.iareporter.com/arbitrator/Kaufmann-Kohler">
+  Gabrielle Kaufmann-Kohler
+ </a>
+ ,
+ <a href="https://www.iareporter.com/arbitrator/Lalonde">
+  Marc Lalonde
+ </a>
+ and
+ <a href="https://www.iareporter.com/arbitrator/Stern">
+  Brigitte Stern
+ </a>
+ had found that the Bolivian authorities acted discriminatorily and unlawfully in terminating the investor’s mining concessions in Bolivia, resulting in the unlawful expropriation of the claimants’ investment. The tribunal had awarded nearly $50 million in compensation.
+</p>
+<p>
+ <strong>
+  Settlement negotiations between the parties proved fruitless
+ </strong>
+</p>
+<p>
+ As part of its annulment bid, Bolivia had received a provisional stay of enforcement from ICSID’s Secretary General.
+</p>
+<p>
+ In a subsequent June 30, 2016 procedural decision [
+ <a href="http://icsidfiles.worldbank.org/icsid/ICSIDBLOBS/OnlineAwards/C71/DC9953_Sp.pdf">
+  click to download
+ </a>
+ ], the committee recorded the agreement of the parties to the effect that the enforcement of the award would continue to be suspended as part of ongoing settlement negotiations. The order also recorded the claimants’ reservation of their right to ask for the termination of this suspension.
+</p>
+<p>
+ Citing the failure of these settlement negotiations, the claimants later sought a termination of the stay.
+</p>
+<p>
+ <strong>
+  Annulment proceedings started in good faith
+ </strong>
+</p>
+<p>
+ In seeking the lift of the stay on enforcement, the claimants contended that such stays are the exception to the general rule under the ICSID Convention. They also pointed to Bolivia’s public statements to the effect that it would not honour the award, and the alleged bad faith and dilatory nature of these annulment proceedings.
+</p>
+<p>
+ Bolivia countered that the referenced public statements dated from before the date of the award, and were contradicted by more recent statements pledging to honour Bolivia’s international obligations. Far from being brought in bad faith, the state also argued that its request for annulment stemmed from serious flaws in the award, some of them flagged by the dissenting arbitrator (we covered that dissent
+ <a href="http://www.iareporter.com/articles/in-a-new-dissent-brigitte-stern-sets-valuation-date-at-date-of-expropriation-in-both-lawful-and-unlawful-scenarios-and-decries-use-of-ex-post-data/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ Ultimately, the ad-hoc committee agreed that Bolivia’s apparent attitude towards compliance has evolved over time, and further noted that its request for annulment (signed by some of Bolivia’s higher authorities) pledged to respect the award in categorical terms. In addition, the committee found that Bolivia’s annulment claims were, as a matter of first impression, serious enough, and thus not seemingly dilatory and bad faith tactics.
+</p>
+<p>
+ <strong>
+  Criminal proceedings that Bolivia had maintained – in defiance of an earlier procedural order – are deemed irrelevant to the question of a stay
+ </strong>
+</p>
+<p>
+ Further, the investors pointed to the ongoing criminal proceedings targeted at individuals in Bolivia related to the investment. Bolivia was requested to suspend these proceedings in an infamous provisional measures order issued by the tribunal in 2010 (see
+ <a href="http://www.iareporter.com/articles/arbitrators-order-that-bolivian-criminal-proceedings-be-suspended/">
+  here
+ </a>
+ ), as a result of which the relationship between Bolivia and ICSID soured dramatically (see
+ <a href="http://www.iareporter.com/articles/as-new-case-lands-at-icsid-and-several-more-loom-bolivia-turns-up-the-heat-on-arbitral-system/">
+  here
+ </a>
+ ). The claimants cited Bolivia’s failure to comply with this order as another ground that warrant the termination of the stay.
+</p>
+<p>
+ The committee, however, focused on the tribunal’s finding that these criminal proceedings, although they continued in breach of the provisional measures, did not amount to a treaty breach. Therefore, the committee reasoned, the continuation of these proceedings to this day was irrelevant in deciding to lift or continue the stay.
+</p>
+<p>
+ <strong>
+  Balance of prejudice to the parties in continuing the stay leads the committee’s reasoning
+ </strong>
+</p>
+<p>
+ Both parties agreed that the committee should weigh (i) the risk that the respondent state does not honour the award; and (ii) the risk that the state, if successful in the annulment proceedings, cannot recover the awarded sums from the investor.
+</p>
+<p>
+ But the parties differed on the application of these tests to this case. Bolivia stressed its own prior compliance with awards, including in the Rurelec case (as we reported
+ <a href="http://www.iareporter.com/articles/investors-strike-deal-with-bolivia-in-order-to-secure-rapid-payment-of-some-of-the-compensation-awarded-by-arbitrators/">
+  here
+ </a>
+ ). The government also warned that there was no clear record of Quiborax’s own willingness and ability to honour its obligations, and that corporate entities can easily duck their responsibilities. While the claimants could be compensated for the stay in any case by the payment of post-award interest; the state risked losing its money forever if the stay were lifted, but the award later annulled.
+</p>
+<p>
+ The committee agreed that it should look at the possible prejudice that might befall each party. On the facts, the committee found that it was difficult to judge the likelihood of Bolivia recovering any sums that it might pay out in the short-term, due to a lack of financial information regarding Quiborax, and particularly NMM. Meanwhile, there was no basis to cast doubt over the state’s professed commitment to honour the award.
+</p>
+<p>
+ Since the prejudice to the investor in continuing the stay could be compensated by the post-award interests awarded by the tribunal, the tribunal ultimately opted in favour of continuing the stay.
+</p>
+<p>
+ <strong>
+  Subsidiary request for bank guarantee is rejected
+ </strong>
+</p>
+<p>
+ Alternatively, the investors had asked the Committee to order Bolivia to post a bank guarantee (or any other form of security) in the amount of the award. The claimants cited the decision of the ad hoc committee in Sempra v Argentina (of which Mr Christer Söderlund was also member), which had granted a similar request in view of Argentina’s history of uneven compliance (see
+ <a href="http://www.iareporter.com/articles/icsid-committee-asks-argentina-to-put-75-million-into-escrow-if-it-wishes-for-arbitral-award-to-remain-stayed/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ This latter request was characterized by Bolivia as beyond the reach of the committee’s powers, as it amounted to a request for provisional measures – something that article 52(4) of the ICSID Convention arguably did not cover. Bolivia relied on the decision of the ad hoc committee in Libananco Holding v Cyprus (of which Mr Rigo Sureda was also a member), which had expressed doubts regarding the existence of such powers (see our analysis
+ <a href="http://www.iareporter.com/articles/annulment-committee-rejects-turkeys-bid-to-lift-stay-of-enforcement-on-15-million-costs-award-against-investor/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ However, the committee noted that the Libananco committee – whatever its doubts – had declined to make a finding on this question, as the investor in that case had failed to prove its case anyway. Moreover, citing the analysis by the ad hoc committee in Enron v Argentina (see
+ <a href="http://www.iareporter.com/articles/icsid-panel-in-enron-case-gives-argentina-60-days-in-which-to-confirm-whether-it-will-pay-award-forthwith-if-annulment-fails/">
+  here
+ </a>
+ ), the committee found that it enjoyed such a power.
+</p>
+<p>
+ Yet, on the facts, the committee found that Bolivia’s pledge to honour the award was expressed in words usually found satisfactory by other committees. Thus the committee declined the claimant’s subsidiary request.
+</p>
+<p>
+ The committee reserved its decision on costs until its future decision on the annulment.
+</p>
+<p>
+ Bolivia is represented in these annulment proceedings by Dechert LLP; claimants are assisted by counsels from Chilean law firm Bofill Mir &amp; Alvarez Jana Abogados.
+</p>

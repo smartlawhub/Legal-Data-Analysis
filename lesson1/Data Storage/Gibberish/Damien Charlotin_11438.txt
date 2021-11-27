@@ -1,0 +1,307 @@
+<h1 class="ArticleTitle">
+ ANALYSIS: In Yemen decision, tribunal situates its reasoning on narrow jurisdictional clause within context of other prior cases under Chinese and Russian treaties
+</h1>
+<p class="f-24">
+</p>
+<p>
+ <a href="https://www.iareporter.com/articles/in-new-ruling-chinese-investment-treaty-is-deemed-broad-enough-to-ground-expropriation-claim-against-yemen-but-mfn-clause-does-not-permit-further-broadening-of-claims/">
+  As we reported
+ </a>
+ in a brief article, arbitrators recently ruled on the jurisdictional objections raised by Yemen in its dispute with Chinese claimant Beijing Urban Construction Group Co. Ltd (BUCG). Below, we report more fully on the May 31, 2017 decision on jurisdiction [
+ <a href="https://www.iareporter.com/wp-content/themes/iareporter/download.php?post_id=27505">
+  click to download
+ </a>
+ ].
+</p>
+<p>
+ The dispute, heard by a tribunal of
+ <a href="https://www.iareporter.com/arbitrator/binnie">
+  Ian Binnie
+ </a>
+ (chair, appointed by the parties),
+ <a href="https://www.iareporter.com/arbitrator/townsend">
+  John Townsend
+ </a>
+ (claimant’s appointee), and
+ <a href="https://www.iareporter.com/arbitrator/Douglas">
+  Zachary Douglas
+ </a>
+ (Yemen’s appointee), has its roots in a 2006 contract to build a $100 million international terminal for Yemen’s main airport, in Sana’a. Following the termination of the contract in July 2009, the claimant filed for arbitration with the International Centre for Settlement of Investment Disputes (ICSID) in November 2014 (see
+ <a href="https://www.iareporter.com/articles/china-bit-claims-round-up-beijing-urban-construction-group-co-ltd-sues-yemen-as-chinese-claim-against-mongolia-proceeds/">
+  here
+ </a>
+ ). Hearings on jurisdiction were held in March 2017.
+</p>
+<p>
+ The proceedings are held under the 2002 China-Yemen Bilateral Investment Treaty (BIT), which, as described below, limits the jurisdiction of investor-state tribunals. While the tribunal dismissed Yemen’s objections regarding the scope of its jurisdiction, it also rejected the claimant’s attempts to broaden it by way of the BIT’s Most-Favoured Nation (MFN) clause.
+</p>
+<p>
+ <strong>
+  Tribunal accepts jurisdiction over state-owned entity under “
+  <em>
+   Broches
+  </em>
+  test”
+ </strong>
+</p>
+<p>
+ Yemen first contended that BUCG did not qualify as an investor under the ICSID Convention, due to the claimant being wholly-owned by the People Republic of China (PRC).
+</p>
+<p>
+ In support of this objection, Yemen relied on the “
+ <em>
+  Broches
+ </em>
+ test,” named after one of the ICSID Convention’s architects, Aron Broches. Mr. Broches had opined that a state-owned entity could qualify as “a national of another contracting state” under article 25 of the ICSID Convention unless that entity “is acting as an agent for the government or is discharging an essentially governmental function.”
+</p>
+<p>
+ Both parties in the BUCG v. Yemen case agreed as to the relevance of this “test,” but disagreed with respect to its application to the facts. Yemen contended that BUCG was indeed an “agent” for the Chinese government. The state cited as evidence BUCG’s general purpose of advancing the PRC’s development and its national policies.
+</p>
+<p>
+ This did not convince the tribunal, which noted that BUCG had been engaged in a commercial venture when it participated in Yemen’s tender for an international terminal. The tribunal also noted that Yemen itself, at another juncture, described this dispute as an “ordinary garden variety commercial dispute” – that is, a dispute unrelated to the PRC’s national, state-defined policies.
+</p>
+<p>
+ Nor was BUCG “discharging an essentially governmental function” here: even if the Chinese Government were the ultimate decision-maker in BUCG’s performance of the contract, this was too remote from the project to be relevant.
+</p>
+<p>
+ <strong>
+  Narrow jurisdictional clause already interpreted in earlier disputes involving Chinese treaties
+ </strong>
+</p>
+<p>
+ Yemen’s next objection, arguably the most important in these proceedings, was based on the BIT’s investor-state dispute settlement clause. Article 10 is an unusually narrow such clause, of the type found in many of the PRC’s (and some other former communist states’) investment treaties, and which limits the jurisdiction of investment tribunals to disputes “relating to the amount of compensation for expropriation.”
+</p>
+<p>
+ This would be only the latest case where arbitrators needed to judge whether such a clause limited their jurisdiction to a mere quantitative exercise – assessing the amount of compensation in case of an otherwise-established expropriation – or allowed them to go further and to judge the prerequisite question as to whether an expropriation has, in fact, occurred.
+</p>
+<p>
+ Readers may recall, in particular, the saga surrounding the award in Sanum v Laos, where a similarly-worded clause in the China-Laos BIT
+ <a href="https://www.iareporter.com/articles/arbitrators-say-china-bit-allows-them-to-determine-if-expropriation-occurred-but-mfn-cant-be-used-to-broaden-jurisdiction-further/">
+  was deemed sufficient to ground the tribunal’s jurisdiction to decide whether an expropriation had occurred
+ </a>
+ . But, subsequently, in set-aside proceedings, the pivotal clause was construed “narrowly” by the
+ <a href="https://www.iareporter.com/articles/on-eve-of-annulment-ruling-in-chinese-bit-case-singapore-high-court-offers-criticism-of-an-icsid-ruling-that-had-served-as-inspiration-in-uncitral-case/">
+  Singapore High Court
+ </a>
+ , before being read more broadly by the
+ <a href="https://www.iareporter.com/articles/singapore-appeals-court-restores-arbitral-finding-that-chinese-investment-treaty-extends-to-macau/">
+  Singapore Court of Appeal
+ </a>
+ .
+</p>
+<p>
+ The
+ <em>
+  Sanum
+ </em>
+ saga played out against the backdrop of developments in an earlier case,
+ <em>
+  Tza Yap Shum v Peru
+ </em>
+ under the China-Peru BIT. In that case – which we described,
+ <a href="https://www.iareporter.com/articles/icsid-panel-interprets-narrow-looking-jurisdictional-clause-so-as-to-permit-arbitration-over-alleged-expropriation-in-peru/">
+  back in 2009
+ </a>
+ , as “an obscure arbitration with broad implications,” a tribunal had interpreted  a similar clause “broadly,” to the effect that it afforded jurisdiction over the question whether an expropriation took place, and not solely over the compensation’s
+ <em>
+  quantum
+ </em>
+ . The tribunal’s interpretation in that case would later survive
+ <a href="https://www.iareporter.com/articles/unpacking-the-reasoning-of-the-ad-hoc-annulment-committee-in-the-tza-yap-shum-v-peru-narrow-arbitration-clause-case/">
+  annulment
+ </a>
+ proceedings.
+</p>
+<p>
+ In Yemen’s view, however, the
+ <em>
+  Tza Yap Shum
+ </em>
+ award had been “wrongly decided and should not be followed.” Yemen favoured the “narrow” interpretation, under which ICSID jurisdiction would be open only to claimants unsatisfied by the compensation offered to them by the respondent state. On this view, findings as to the existence of an expropriation (whether there has been a taking, whether it has been discriminatory, etc.) would exceed the tribunal’s limited mandate. This interpretation also meant that such a jurisdictional clause covered only “lawful” expropriations and not “unlawful” ones.
+</p>
+<p>
+ <strong>
+  Tribunal rejects Yemen’s interpretation as entailing a contradiction in the treaty
+ </strong>
+</p>
+<p>
+ Finding textual arguments unhelpful,* the tribunal concentrated its attention on the structure of the BIT’s jurisdictional clause. Crucially, the tribunal found that article 10(2) was a fork-in-the-road clause: claimants were invited to submit “any legal dispute” to either Yemeni courts,
+ <em>
+  or
+ </em>
+ to an ICSID tribunal.
+</p>
+<p>
+ The proviso mentioning the “amount of compensation” was inserted just after this second option, and reads: “either Contracting Party shall give its irrevocable consent to the submission of any dispute relating to the amount of compensation for expropriation for resolution under such arbitration procedure. Other disputes submitted under such procedure shall be mutually agreed upon between both Contracting parties.”
+</p>
+<p>
+ The tribunal found that this language was inconclusive with respect to the “narrow” and “broad” interpretations debated between the parties. Accordingly, the interpretation should rely on the context, as well as on the treaty’s object and purpose. (The tribunal here hewed very closely, and sometimes explicitly, to the analysis of the “five judge panel of the Singapore Court of Appeal” mentioned
+ <a href="https://www.iareporter.com/articles/singapore-appeals-court-restores-arbitral-finding-that-chinese-investment-treaty-extends-to-macau/">
+  above
+ </a>
+ .)
+</p>
+<p>
+ As to the proviso’s context, the tribunal found that Yemen’s “narrow” interpretation would lead to a contradiction in the treaty, a fate that the claimant’s “broad” one would escape.
+</p>
+<p>
+ Indeed, under Yemen’s interpretation, an investor could resort to ICSID arbitration only where the respondent state conceded liability in the first place, and would be limited to local court adjudication otherwise. This reading would offer the respondent state control over the investor’s access to international arbitration,** whereas the treaty’s fork-in-the-road clause is framed, by contrast, in terms of the investor’s choice between the two options. (Here as well, the tribunal found support for this analysis in the award in
+ <em>
+  Tza Yap Shum
+ </em>
+ and the Singapore Court of Appeal’s decision in
+ <em>
+  Sanum
+ </em>
+ .)
+</p>
+<p>
+ As to the BIT’s object and purpose, the tribunal paid lip-service to the notion that arbitrators should not read too much into it. (Indeed, in reviewing the respective awards in
+ <a href="https://www.iareporter.com/articles/on-eve-of-annulment-ruling-in-chinese-bit-case-singapore-high-court-offers-criticism-of-an-icsid-ruling-that-had-served-as-inspiration-in-uncitral-case/">
+  Sanum
+ </a>
+ and
+ <a href="https://www.iareporter.com/articles/swedish-appeals-court-contradicts-tribunal-with-respect-to-narrowly-worded-arbitration-clause-sowing-more-uncertainty-as-to-scope-of-some-russian-and-chinese-treaties/">
+  Renta 4 v Russia
+ </a>
+ , both the Singapore High Court and the Svea Court of Appeal have cautioned against using the perceived object and purpose of a BIT to broaden similarly-worded jurisdictional clause). Nonetheless, the tribunal went on to hold that a narrow interpretation would defeat the tribunal’s sense of the treaty’s object and purpose: to promote investments. On the tribunal’s reasoning, without “investor protection”, the BIT “would be seen as a trap for unwary investors instead of an incentive for them to invest […].”*** (The tribunal did not refer to any empirical support for this perception.)
+</p>
+<p>
+ <strong>
+  Tribunal distinguishes precedents based on Russian treaties
+ </strong>
+</p>
+<p>
+ Readers may recall that the type of jurisdictional clause at play in this case is not only found in many of the BITs signed by the PRC, but also in investment treaties negotiated by Russia or its soviet predecessor. Both Yemen and the claimant also cited and debated precedents based on these cases, notably Berschader v Russia,
+ <a href="https://www.iareporter.com/articles/legal-analysis-rosinvestco-v-russia-arbitration-was-about-expropriation-but-arbitrators-touched-on-broad-range-of-treaty-interpretation-questions/">
+  RosInvest v Russia
+ </a>
+ and
+ <a href="https://www.iareporter.com/articles/tribunal-in-spanish-shareholders-yukos-claim-holds-that-narrow-arbitration-clause-permits-expropriation-claim/">
+  Renta 4 v Russia
+ </a>
+ .****
+</p>
+<p>
+ However, the tribunal deemed the Berschader and RosInvest precedents irrelevant, as the underlying treaties had no fork-in-the-road clause, “which is central to the present case.”
+</p>
+<p>
+ In Renta 4 v Russia, however, the tribunal had concluded that it had jurisdiction. While seeing differences with the present case, the BUCG tribunal ultimately concurred with the importance given by the Renta 4 tribunal’s to the treaty’s object and purpose.
+</p>
+<p>
+ The tribunal did
+ <u>
+  not
+ </u>
+ however discuss the findings of the Swedish Svea Court of Appeal that rejected the jurisdictional reasoning of the Renta 4 award. We reported on this “declaratory” decision by the Svea Court of Appeal
+ <a href="https://www.iareporter.com/articles/swedish-appeals-court-contradicts-tribunal-with-respect-to-narrowly-worded-arbitration-clause-sowing-more-uncertainty-as-to-scope-of-some-russian-and-chinese-treaties/">
+  here
+ </a>
+ . We have since confirmed that the Swedish Supreme Court declined to hear a further appeal. As such, the Svea Court of Appeal’s “declaratory” judgment appears likely to lead, in due course, to formal set aside of the Renta 4 award.
+</p>
+<p>
+ <strong>
+  MFN clause applies only to substantive protections
+ </strong>
+</p>
+<p>
+ In keeping with the typical tactic of claimants in disputes involving this kind of narrow jurisdictional clause (see
+ <a href="https://www.iareporter.com/articles/arbitrators-say-china-bit-allows-them-to-determine-if-expropriation-occurred-but-mfn-cant-be-used-to-broaden-jurisdiction-further/">
+  Sanum v Laos
+ </a>
+ , or
+ <a href="https://www.iareporter.com/articles/arbitral-award-surfaces-in-airline-dispute-under-austria-slovakia-bilateral-investment-treaty/">
+  Austrian Airlines v Slovakia
+ </a>
+ ), BUCG also attempted to rely on the treaty’s MFN clause to widen the tribunal’s jurisdiction so that claims other than expropriation could also be arbitrated.
+</p>
+<p>
+ The tribunal alluded to the debate (
+ <a href="https://www.iareporter.com/articles/analysis-mfn-clause-that-had-worked-for-some-previous-investors-fails-to-unlock-door-to-arbitration/">
+  often chronicled in past reports
+ </a>
+ ) regarding the scope of MFN clauses, and in particular whether such clauses can reach beyond the substantive treatment granted to investors to the procedural (e.g., dispute settlement) provisions found in investment agreements.
+</p>
+<p>
+ In the event, the tribunal held that it had no need to weigh in on this debate, as the China-Yemen BIT’s MFN clause applied to “treatment accorded to investors of the other Contracting party in its territory with respect to activities relating to their investments.” In the tribunal’s reading, the
+ <em>
+  territorial
+ </em>
+ scope of the “treatment” at stake unambiguously restricted the MFN clause to substantive treatment.
+</p>
+<p>
+ <strong>
+  Tribunal finds investment in claims under a contract…
+ </strong>
+</p>
+<p>
+ Yemen’s next jurisdictional objection was
+ <em>
+  ratione materiae
+ </em>
+ : the state contested that BUCG had an investment in the first place, as it merely had “to provide a performance guarantee” under the contract. Yemen also contested the legality of BUCG’s investment, and the fact that it had been made in its territory.
+</p>
+<p>
+ Reflecting on the interpretation of “investment” under the ICSID Convention and the BIT, the arbitrators noted that a middle way had developed between the view of the
+ <em>
+  Joy Mining
+ </em>
+ tribunal (the so-called “double-keyhole test”, whereby a claimant must have an investment under the meanings of both treaties) and that of the
+ <em>
+  Malaysia Historical Salvors
+ </em>
+ <em>
+  ad hoc
+ </em>
+ annulment committee (according to which the BIT was the primary text to consider). The middle way focuses on the BIT’s definition of investment, but concedes that ICSID tribunals must not assert jurisdiction in cases where this definition is in excess of what is permissible under the ICSID Convention.
+</p>
+<p>
+ In the tribunal’s view, the inclusion of “claims to any performance having an economic value” in the BIT clearly did not exceed the permissible definition of an investment under the ICSID Convention. Thus, the tribunal had “no difficulty” in finding that BUCG had an investment.
+</p>
+<p>
+ (The tribunal did not seem to answer, however, Yemen’s objection that the investment had not been made “in accordance with its laws and regulations,” because it had not been registered under the state’s investment laws. However, the award answered a similar objection at an earlier juncture, when it dismissed as unfounded Yemen’s view that such registration was a condition precedent to investment protection under the BIT.)
+</p>
+<p>
+ <strong>
+  … but tribunal does not consider dispute as merely contractual
+ </strong>
+</p>
+<p>
+ Finally, Yemen contended that the dispute was solely commercial and contractual in nature, and should be referred to the arbitral forum provided under the contract.
+</p>
+<p>
+ The tribunal swiftly dismissed this last objection, noting that the same set of facts can give rise to distinct treaty and contract claims (a common refrain in investment arbitration, as recently recalled in our article looking back on the
+ <a href="https://www.iareporter.com/articles/looking-back-in-impregilo-v-pakistan-case-arbitrators-needed-to-grapple-with-distinction-between-treatycontract-claims-and-scope-of-umbrella-clause/">
+  Impregilo v Pakistan
+ </a>
+ case). Besides, as BUCG’s claim cited the alleged intervention of Yemen’s military forces, it likely went beyond a mere contractual dispute.
+</p>
+<p>
+ The tribunal thus dismissed Yemen’s objections while refusing to extend its jurisdiction over non-expropriation claims as urged by the claimant; it reserved costs for the conclusion of the merits proceedings.
+</p>
+<p>
+</p>
+<p>
+ * The tribunal was confronted with the inexistence of an authoritative English text, and had to rely on a (revised) translation provided by the claimant and contested by Yemen. The award noted that “[t]here is, of course, some irony in having English speaking lawyers making detailed and nuanced arguments dissecting an English text when the text itself has no official status whatsoever.”
+</p>
+<p>
+ ** In this respect, if article 10 were restricted to lawful expropriations as argued by Yemen, “the consequence would be that the more egregious a State’s misconduct, the less protection would be available to a foreign investor […].”
+</p>
+<p>
+ *** At this juncture, Yemen also tried to rely on the (communist) PRC’s alleged wariness with respect to investor-state arbitration, as allegedly reflected in its treaty practice. This had been a relevant consideration for the
+ <a href="https://www.iareporter.com/articles/on-eve-of-annulment-ruling-in-chinese-bit-case-singapore-high-court-offers-criticism-of-an-icsid-ruling-that-had-served-as-inspiration-in-uncitral-case/">
+  Singapore High Court
+ </a>
+ that adopted a narrow reading of a similar clause (albeit in a treaty linking two communist states), but the tribunal judged this point irrelevant and, in any case, refused to examine it under article 32 VCLT when it had already reached an interpretation under article 31 VCLT..
+</p>
+<p>
+ **** Mr Townsend had served as lead counsel in the RosInvestCo case. The award records no discussion, however, of the precedents in
+ <a href="https://www.iareporter.com/articles/in-finally-released-emv-v-czech-republic-awards-arbitrators-found-jurisdiction-under-narrow-arbitration-clause-but-found-no-expropriation-of-media-investment/">
+  EMV v Czech Republic
+ </a>
+ (in which Mr Douglas served as counsel), or
+ <a href="https://www.iareporter.com/articles/arbitral-award-surfaces-in-airline-dispute-under-austria-slovakia-bilateral-investment-treaty/">
+  Austrian Airlines v Slovak Republic
+ </a>
+ , where similar clauses had been debated.
+</p>

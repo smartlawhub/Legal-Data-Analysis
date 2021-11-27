@@ -7,7 +7,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 1799
+  - offset: 104
     length: 4
     placeholder_text: A int
 - name: tests/__init__.py

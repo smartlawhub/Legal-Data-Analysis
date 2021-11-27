@@ -1,0 +1,310 @@
+<h1 class="ArticleTitle">
+ In Tatneft v Ukraine award, tribunal sees breach of FET in the totality of the record but awards only the price originally paid by the investor
+</h1>
+<p class="f-24">
+</p>
+<p>
+ <em>
+  [Editor’s note: this is the second part in a pair of articles discussing the award in Tatneft v Ukraine; the first part, dealing at length with the factual background of the case,
+ </em>
+ <em>
+  and the tribunal’s appraisal of the facts, can be
+  <a href="http://www.iareporter.com/articles/in-long-confidential-russia-ukraine-bit-award-tribunal-reviews-evidence-of-alleged-black-raid-by-oligarch-facilitated-by-ukraines-courts-and-prosecutor/">
+   found here
+  </a>
+  .]
+ </em>
+</p>
+<p>
+ In an
+ <a href="http://www.iareporter.com/articles/in-long-confidential-russia-ukraine-bit-award-tribunal-reviews-evidence-of-alleged-black-raid-by-oligarch-facilitated-by-ukraines-courts-and-prosecutor/">
+  introductory article
+ </a>
+ , we reported on the (complicated) factual findings of the tribunal in Tatneft v Ukraine, whose award was recently brought to light following enforcement proceedings in the US.
+</p>
+<p>
+ The dispute stemmed from, and centres on the events through which Tatneft’s stake in a Ukrainian refinery had been wiped-out. The refinery is owned by Ukrtatnafta, an erstwhile joint-venture between Ukrainian and Tatarstan interests. For ease of comprehension, the award depicts a struggle between two warring camps: Tatarstan’s side of the joint-venture (“the Tatarstan parties”, among which figures the claimant Tatneft), and the Ukrainian side.
+</p>
+<p>
+ Below, we report on the liability and damages findings of the tribunal composed of
+ <a href="http://www.iareporter.com/arbitrator/Brower">
+  Charles N. Brower
+ </a>
+ (claimant’s appointee),
+ <a href="http://www.iareporter.com/arbitrator/Lalonde">
+  Marc Lalonde
+ </a>
+ (respondent’s appointee), and
+ <a href="http://www.iareporter.com/arbitrator/Orrego-Vicuna">
+  Francisco Orrego Vicuña
+ </a>
+ (chair by agreement of the co-arbitrators).
+</p>
+<p>
+ As we note below, Ukraine’s actions were assessed primarily through the lens of a broadly-construed fair and equitable treatment obligation. At the damages phase, Ukraine was ultimately ordered to compensate Tatneft for the price paid for its initial investment.
+</p>
+<p>
+ <strong>
+  Tribunal looks at cumulative effect of measures in order to assess treaty breach
+ </strong>
+</p>
+<p>
+ At the outset of its analysis, the tribunal rejected Ukraine’s plea to analyse each element of the case in isolation, and instead favoured an overarching approach that would consider the cumulative effect of various events. (The same approach was embraced by the tribunal in
+ <a href="http://www.iareporter.com/articles/investor-allegations-of-top-level-political-conspiracy-not-borne-out-but-some-measures-of-romania-point-to-prosecutorial-animus/">
+  Rompetrol v. Romania
+ </a>
+ (where Mr. Lalonde served), which also concluded that some prosecutorial activity, taken as a whole, breached the fair and equitable treatment standard.)
+</p>
+<p>
+ <strong>
+  Unusual BIT provision guarantees “complete and unconditional legal protection”, but tribunal sidesteps it
+ </strong>
+</p>
+<p>
+ At the outset, the tribunal acknowledged that Article 2(2) of the Russia-Ukraine BIT provided for an unusual and seemingly broad guarantee: “the complete and unconditional legal protection of investments made by investors of the other Contracting Party.” However, as we discuss below, the tribunal preferred to import (via an MFN clause) the more familiar fair and equitable treatment (FET) and full protection and security standards and to analyse Ukraine’s behaviour primarily against those standards.
+</p>
+<p>
+ The tribunal did muse briefly on the meaning of the more unusual provision, observing that case law is scarce. (Although the parties discussed one of the numerous cases involving Russian investor
+ <a href="http://www.iareporter.com/articles/in-newly-uncovered-award-russian-investor-fails-to-show-that-bit-was-breached-by-environmental-charges-supposedly-contravening-stabilization-promises/">
+  Yury Bogdanov against Moldova
+ </a>
+ , the tribunal distinguished that prior case on the basis that it did not pertain to decisions by the host state’s courts). However, the tribunal supposed that this standard might be easier to breach than the customary international law standard of denial of justice.*
+</p>
+<p>
+ While the tribunal sidestepped application of the standard in this case, the provision would seem likely to be examined in future cases, given the large number of currently-pending cases under the Russia-Ukraine BIT. (Indeed, Mr Brower sits on the tribunal in one such case,
+ <a href="http://www.iareporter.com/articles/in-the-first-of-a-possible-wave-of-bit-claims-by-ukraine-state-owned-entities-against-russia-an-uncitral-tribunal-is-finalized/">
+  Oschadbank v. Russia
+ </a>
+ .)
+</p>
+<p>
+ <strong>
+  Tribunal seems not to see a denial of justice, without explicitly clarifying on what basis it was examining that obligation
+ </strong>
+</p>
+<p>
+ On the facts, and despite all the improprieties identified (see our
+ <a href="http://www.iareporter.com/articles/in-long-confidential-russia-ukraine-bit-award-tribunal-reviews-evidence-of-alleged-black-raid-by-oligarch-facilitated-by-ukraines-courts-and-prosecutor/">
+  companion report
+ </a>
+ ), the tribunal was not convinced that there had been a denial of justice by Ukraine’s courts, at least from a procedural point of view and as this term is understood in customary international law. The tribunal noted that the “courts have been generally available to the affected parties,” and “mere errors of fact or law on the part of the domestic courts do not breach the standard of denial of justice.” In this particular context, the tribunal also observed that discrimination on the basis of nationality was not established by the evidence either.
+</p>
+<p>
+ (As explained below, the tribunal did flag a different form of discrimination: a favouring of one set of shareholder interests in Ukrtatnafta. This analysis took place in the context of the tribunal’s FET analysis, seemingly implying that narrower nationality-based discrimination is relevant for the customary-law standard of denial of justice, while the more capacious FET standard can catch other sorts of discrimination.)
+</p>
+<p>
+ <strong>
+  FET standard imported via MFN
+ </strong>
+</p>
+<p>
+ The Russia-Ukraine BIT at the basis of Tatneft’s claim had no FET clause, but the parties agreed that the BIT’s most-favoured nation clause allowed FET to be imported from the UK-Ukraine BIT.
+</p>
+<p>
+ The parties however discussed the FET standard’s interpretation, and its application to judicial conduct. In the investor’s view, the FET standard went beyond customary international law and the associated standard of denial of justice, while Ukraine opined that FET did no more than encompass this customary international law standard.
+</p>
+<p>
+ The tribunal seemed to take the claimant’s side on this point. For the purpose of its review, however, the tribunal was satisfied that it was “not difficult to ascertain that [FET] encompasses today at least: (a) protection against arbitrary and unreasonable measures, discrimination, and denial of justice, (b) the right to procedural propriety and due process, and (c) the assurance of a predictable, consistent and stable legal framework.”
+</p>
+<p>
+ <strong>
+  Tribunal find that decisions of Ukraine courts were, on the whole, unfair and unreasonable
+ </strong>
+</p>
+<p>
+ As the tribunal underlined when reviewing the facts, the troubling factor in this dispute was that each relevant event led “farther away from the faithful observance of the FET standard.”
+</p>
+<p>
+ These events included the reinstatement of Mr Ovcharenko as Chairman of Ukrtatnafta, including the
+ <em>
+  ex parte
+ </em>
+ orders obtained by Mr Ovcharenko (the tribunal acknowledged the findings of the tribunal in
+ <a href="http://www.iareporter.com/articles/on-merits-tribunal-splits-on-deference-to-be-shown-to-sri-lanka-supreme-court-and-whether-a-debt-is-expropriated-if-contractual-dispute-forum-is-available/">
+  Deutsche Bank v. Sri Lanka
+ </a>
+ , where similar,
+ <em>
+  ex parte
+ </em>
+ interim measures had been found to breach due process); the forceful take-over of the refinery; and the curious fate of the criminal investigations regarding these events (which had been quickly and suspiciously aborted despite their substantive basis).
+</p>
+<p>
+ For the tribunal, these events were disquieting in themselves, even if not necessarily giving rise on their own to a breach of the FET standard. However, these were deemed a mere prelude to more troubling behaviour, including questionable behaviour of the state Prosecutor,** and the multiple court proceedings through which Tatneft eventually lost its investment.
+</p>
+<p>
+ As a result, the debate over whether the Ukraine courts’ decisions themselves constituted a denial of justice was, in the tribunal’s mind, beside the point: these decisions, seen light of the entire set of circumstances, were unfair and unreasonable.
+</p>
+<p>
+ <strong>
+  Legitimate expectations must be respected, even when actions of judiciary are at issue
+ </strong>
+</p>
+<p>
+ Ukraine’s conduct also seems to have breached Tatneft’s legitimate expectations of a predictable, consistent and stable legal framework. Although the tribunal did not flatly declare such a finding, it instead rejected an argument by Ukraine that respect for legitimate expectations arises only in relation to executive acts. The tribunal disagreed that the acts of the judiciary are controlled only by the denial of justice standard: a “predictable, consistent and stable legal framework is a FET requirement which ought to be safeguarded in its integrity irrespective of which organ of the State might compromise its availability.”
+</p>
+<p>
+ <strong>
+  Evidence of discrimination with respect to “given identifiable interests”
+ </strong>
+</p>
+<p>
+ Likewise, the tribunal noted that a finding of discrimination under the rubric of the FET clause was “unavoidable”. This case did not necessarily involve nationality-based discrimination, the tribunal explained, but discrimination towards “given identifiable interests” (here, the Tatarstan parties) as compared to other interests in the joint-venture.
+</p>
+<p>
+ “Particularly telling” were the Prosecutor’s actions to enforce a supposed “parity” requirement (between the Ukrainian and Tatarstan sides, under the Ukrtatnafta Treaty), “which was forgotten as soon as the Ukrainian-related interests took over the company […], as if the parity requirement no longer had any relevance.”
+</p>
+<p>
+ <strong>
+  Effective means obligation can be imported from Energy Charter Treaty, but is seemingly not relevant
+ </strong>
+</p>
+<p>
+ Another claim under the “effective means” standard (imported via MFN from article 10(12) of the Energy Charter Treaty) was also discussed briefly at two junctures. At one point, the tribunal found that there was no breach “as [Ukraine’s] court system had been generally available.” However, the award also records the arbitrators’ view that this question was “inseparable” from questions under the FET standard.
+</p>
+<p>
+ Similarly, at a later juncture, the award is somewhat ambiguous as to whether the tribunal sidestepped this issue because the same measures had already given rise to a breach of FET, or because the effective means obligation itself was viewed as subsumed into the FET obligation.
+</p>
+<p>
+ (The relevant provision of the award reads as follows: “The Tribunal has discussed above the factual and legal questions concerning both denial of justice and the availability of effective means for the assertion of claims and enforcement of rights. As liability has already been found in the light of the fair and equitable treatment and full protection and security standards, there is no need to examine the question of effective means separately, which is to a large extent subsumed under that standard.”)
+</p>
+<p>
+ <strong>
+  After importing full protection and security clause into treaty, tribunal favours a broad construction of this particular obligation
+ </strong>
+</p>
+<p>
+ Ukraine also breached the full protection and security (FPS) standard, similarly imported via MFN from the UK-Ukraine BIT, in failing to prevent the forceful take-over of the refinery.
+</p>
+<p>
+ The tribunal acknowledged disagreements over whether FPS covers only physical protection (as held in
+ <a href="http://www.iareporter.com/articles/looking-back-at-merits-phase-saluka-v-czech-republic-discusses-the-role-of-regulatory-powers-in-establishing-expropriation-and-fet-breaches/">
+  Saluka v. Czech Republic
+ </a>
+ ), or constitutes a more general legal protection (as held, e.g., in
+ <a href="http://www.iareporter.com/articles/majority-in-peru-banking-crisis-case-says-that-savvy-investor-should-have-known-of-the-strengths-and-weaknesses-of-peruvian-institutions/">
+  Renée Rose Levy v. Peru
+ </a>
+ ).
+</p>
+<p>
+ The tribunal inclined to the broad interpretation, notably because article 2(2) of the Russia-Ukraine BIT also provided for “complete and unconditional legal protection” in accordance with Ukraine’s legislation.
+</p>
+<p>
+ Besides, the conjunction of FPS and FET in the same sentence in the UK-Ukraine BIT testified to the “close relationship” between the two standards. Accordingly, the tribunal found that the failings of the Ukrainian legal system (and of the Prosecutor) had been already properly looked at in the context of the FET standard.
+</p>
+<p>
+ Nevertheless, the tribunal was satisfied that Ukraine had also failed to comply with FPS in its narrower “physical security” sense, given its failure to prevent the refinery’s take-over. The presence of government troops at the refinery following the take-over was particularly damnable, and Ukraine’s explanation (that these troops were acting as a private security force) lacked credibility, the tribunal said.
+</p>
+<p>
+ <strong>
+  Not enough evidence for a judicial expropriation, although concept is embraced by tribunal
+ </strong>
+</p>
+<p>
+ Tatneft also claimed that Ukraine’s conduct amounted to a creeping expropriation of its investment. Although the property of Ukrtatnafta was not transferred to Ukraine/Naftogaz, but to Privat Group, this expropriation benefitted Ukraine in that the Ukrainian side took full control of Ukrtatnafta, the claimant argued.
+</p>
+<p>
+ The tribunal acknowledged the difficult question of whether an expropriation can “originate in the judiciary” or in judicial decisions. The case-law was unclear, in the tribunal’s view, as it seemed sometimes to confuse “judicial expropriation” with other standards such as denial of justice or FET. But the tribunal noted that examples of such expropriations existed, such as in the
+ <a href="http://www.iareporter.com/articles/bangladesh-courts-overstepping-supervisory-role-in-icc-arbitration-amounts-to-unlawful-expropriation-at-icsid/">
+  Saipem v. Bangladesh
+ </a>
+ or
+ <a href="http://www.iareporter.com/articles/newly-disclosed-award-in-kyrgyzstan-arbitration-saw-finding-of-judicial-expropriation-and-a-review-of-valuation-approaches/">
+  Sistem v. Kyrgyzstan
+ </a>
+ cases.
+</p>
+<p>
+ In the present case, the arbitrators appeared to be satisfied that the judicial decisions, taken all together, caused the annihilation of the claimant’s investment. But a few “uncertainties” however stood in the way of a finding of expropriation, chief among them the fact that the beneficiary of the alleged expropriation was not necessarily Ukraine/Naftogaz (but instead Korsan and the Privat Group),*** and that it was hard to discern any kind of expropriatory intent on Ukraine’s part (assuming such intent was a necessary element of an expropriation).
+</p>
+<p>
+ The tribunal concluded that “[e]ven if an expropriation were found to have occurred it would be of a rather unusual kind.” Given that the tribunal had already found a breach of FET, it ultimately held that it was unnecessary to rule on expropriation.
+</p>
+<p>
+ <strong>
+  Tribunal pays lip-service to “deference” towards judiciary, but offers various reasons why it should be limited
+ </strong>
+</p>
+<p>
+ Before switching to the assessment of Tatneft’s damages, the tribunal offered a few concluding words on the proper level of deference in applying the BIT’s protection to judicial decisions.
+</p>
+<p>
+ General “deference” was warranted when dealing with court decisions of a host state, but with requirements and limits. One requirement was that the respondent state’s courts be free of suspicions of corruption or incompetence. Moreover, for the tribunal, limits were found in egregiousness or “manifest injustice”, suggesting that decisions that are “tenable” (or “legitimately reached”, or “juridically possible”) should in general warrant deference.
+</p>
+<p>
+ In the present case, the tribunal however was “not at ease with an unrestricted application of the standard of deference.” Indeed, another limit of deference was the requirement to examine “the process as a whole,” and in “light of this broader perspective, deference cannot stand in the way of safeguarding treaty standards of protection.” Thus, “the fair and equitable treatment standard has been compromised by a number of court actions.”
+</p>
+<p>
+ <strong>
+  Alleged state facilitation of losses related to unpaid oil delivery
+ </strong>
+</p>
+<p>
+ A discrete part of Tatneft’s claim concerned oil deliveries it made to Ukrtatnafta, whose payment had allegedly been frustrated by the activities of Privat Group. In the claimant’s narrative, multiple intermediaries in these deliveries allowed Privat Group to siphon away Ukrtatnafta’s payment, in a scheme used by “private raiders” in Ukraine. According to the claimant, Ukrainian courts were allegedly complicit, and Ukraine therefore liable, in permitting the corporate manipulations at the root of the claimant’s frustrated payments.
+</p>
+<p>
+ Without really opining on the possibility to find a state liable under this theory, the tribunal rejected Tatneft’s argument on the basis of a lack of evidence regarding the causal link between Ukraine’s conduct and the claimant’s harm (although “elements of State participation in facilitating [the alleged] schemes [we]re present in the evidentiary record”). Ukraine’s role in all this was, if anything, too remote to ground liability.
+</p>
+<p>
+ <strong>
+  Parties propose various valuation methods, but tribunal favours neither side
+ </strong>
+</p>
+<p>
+ After its merits findings, the tribunal proceeded to assess the fair market value of Tatneft’s shares in Ukrtatnafta at the time the claimant lost them (in 2009 for the shares Tatneft owned through Seagroup and AmRuz; in 2010 for its direct investment). Estimates by the claimant and respondent’s experts ranged from $15 million to $358 million. The claimant had initially sought restitution of its shares as its primary relief, but by the end of the arbitration sought only compensation.
+</p>
+<p>
+ As noted by the tribunal, the discrepancy was a result of very different methodologies. Tatneft favoured identifying a valuation range on the basis of multiple valuation methods (including taking into account the price paid in 2009 by Korsan and the Privat Group of Mr Kolomoisky to acquire Ukrtatnafta’s shares, following the annulment of Seagroup and AmRuz’s share purchase agreements). None of those methods however took Ukrtatnafta’s financial statements into account, as Tatneft framed those statements as “unreliable.”
+</p>
+<p>
+ For its part, Ukraine preferred a DCF analysis – something of a reversal for a state,
+ <a href="http://www.iareporter.com/articles/in-depth-latest-venezuela-award-uses-asset-based-valuation-overriding-states-push-for-income-based-approach-and-advocates-for-a-low-pre-award-interest-rate/">
+  although not unprecedented
+ </a>
+ – and argued that this analysis based on the aforementioned financial statements would result in a negative valuation. Given this negative result, Ukraine also proposed a method whereby a valuation range was found on the basis of the refinery’s net salvage value, and its value under a scenario where it is reconfigured to “improve profitability”.
+</p>
+<p>
+ The tribunal saw weakness in each of the parties’ respective proposals. The tribunal stressed the oddity of Tatneft relying on the share price paid by Korsan and Privat Group, the alleged “black raiders” who were at the source of its own woes. Above all, however, the tribunal took issue with the claimant’s desire not to take Ukrtatnafta’s financial statements into account. The tribunal stressed that Tatneft had been in charge of issuing these statements until 2007, and therefore their alleged unreliability “should not exculpate the Claimant from the more limited compensation the Tribunal shall award.”
+</p>
+<p>
+ As for the respondent’s DCF analysis, the tribunal deemed this to rely too extensively on these contested financial statements. Moreover, Ukraine’s estimated salvage value of the refinery was insufficiently reliable, as its own experts had not gained full access to the refinery.
+</p>
+<p>
+ <strong>
+  Tribunal takes its own path and looks at initial share purchase price – although there was disagreement among the tribunal on that sum
+ </strong>
+</p>
+<p>
+ Ultimately offering its own valuation approach, the tribunal stressed the very limited amount of reliable data. In these circumstances, the best approach was to rely on the “best available evidence,” which was simply what the claimant had effectively paid for its shares in 2000 (when it acquired a 8% stake from a temporary shareholder) and 2007 (when it acquired 49% of AmRuz and 100% of Seagroup).
+</p>
+<p>
+ “As a result, the Claimant will essentially be reimbursed for what it has paid,” the tribunal concluded. Tatneft’s claim for any increase in the shares’ value since acquisition also stumbled on the lack of reliable data. This resulted in approximately $112 million in damages, exclusive of interest. (The award records a dissent with respect to the compensation; the unnamed dissenter would have awarded only half this figure, on the basis that “the alternative methodological valuations could not result in a figure greater than US$ 52.3 million”.)
+</p>
+<p>
+ Three-months compounded interest at USD LIBOR +3% was granted, and the costs of the arbitration (in excess of $2 million) were split in half (without much reasoning). Each party was left to bear its own legal costs.
+</p>
+<p>
+</p>
+<p>
+ * The tribunal also accepted, to an extent, “the proposition that the customary law denial of justice test has not remained unchanged since first formulated and that the current understanding that customary law has evolved so as to become more closely identified with the applicable treaty standards is the prevalent approach.” It added elsewhere that “[d]enial of justice thus becomes inseparable from fair and equitable treatment and both standards will supplement each other to the point that they may be considered as expressions of the updated contents of customary law as presently understood.”
+</p>
+<p>
+ The emphasis put on the joint evolutionary nature of these standards of protection, as well as the broad reading of the FET standard, are reminiscent of the award in
+ <a href="http://www.iareporter.com/articles/government-of-canada-prevails-in-nafta-chapter-11-arbitration-claimant-merrill-ring-weighing-options/">
+  Merrill &amp; Ring v. Canada
+ </a>
+ , which was chaired by Mr Orrego Vicuña, or indeed of his recent dissent in
+ <a href="http://www.iareporter.com/articles/on-merits-arbitrators-disagree-as-to-polands-liability-in-relation-to-tax-authorities-handling-of-tax-audits-and-treatment-of-transfer-pricing-conduct/">
+  Schooner Capital v. Poland
+ </a>
+ .
+</p>
+<p>
+</p>
+<p>
+ ** In this respect, the tribunal stressed the findings of the EU’s Venice Commission that Ukraine’s Prosecutor has a role going much beyond the European standards of democracy and the rule of law.
+</p>
+<p>
+ *** Ukraine had tried at an early juncture of the case to dissociate itself from the Privat Group in this case, declaring that “Naftogaz and Privat Group are not blood brothers; they distrust each other intensely.”
+</p>

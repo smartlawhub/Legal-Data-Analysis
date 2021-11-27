@@ -2,18 +2,23 @@
 
 <p>This is the first lesson in the context of Course HEC <i>Law Project Legal Data Analytics</i></p>
 
+<p><i>*** First a bit of Semantics: Code, Console, Comments, Etc. . Need to talk about os at some point as 
+well***</i></p>
+
 <h2>Basic operations in Python</h2>
 
 <p>Computer code, at its most basic, calculates stuff. You can think of this course and everything that follows as expanding the uses of a calculator. For instance:</p>
 
 ```python
 2+2
-4
+=> 4
 ```
 
-Typically, in Python you'd use the command `print` to have stuff appear on your screen. It is also more precise, as it gives the computer the exact command to process. 
+Typically, in Python you'd use the command `print` to have stuff appear on your screen. It is also more precise, as 
+it gives your computer the exact command to process. 
 
-For instance, if you add a line of computations above and try to run everything in the Console, Python will only render the last line - but if you insert two `print` statement, one after the other, both will render.
+For instance, if you add a line of computations above and try to run everything in the Console, it will only render 
+the last line - but if you insert two `print` statement, one after the other, both will render.
 `print` is a <em>command</em>. Like most commands, it requires some <em>parameters</em>, that are indicated within brackets. Eg.  
 
 ```python
@@ -21,17 +26,17 @@ print(2+2)
 print(2*3)
 ```
 
-We will come back to functions a bit later. Before that, we need to discuss <em>variables</em>, which are objects in which you store information.
-Variables are typically written in lower caps; the way to you assign data to a variable is with a `=` sign, as 
-follows. You can then use variables directly in functions (such as print), or do operations between them.
-What do you think will print if we press Run ?
+We will come back to functions a bit later. Before that, we need to discuss <em>variables</em>, which you can think 
+of as recipients in which you store information.
+Variables are typically written in lower caps; the way  you assign data to a variable is with a `=` sign, as follows.
+You can then use variables directly in functions (such as print), or do operations between them.
+What do you think will print if we press Enter ?
 
 ```python
 my_var = 1
 my_var2 = 2
 my_var3 = 2*3
 print(my_var + my_var2 + my_var3)
-9
 ```
 There are different types of numbers in Python, but we'll see that later. Now, variables need not be numbers. They can also be text, which in Python is typically known as a string. Likewise, you can make operations with them, such as collating two strings.
 

@@ -1,0 +1,251 @@
+<h1 class="ArticleTitle">
+ In now-public award, arbitrators interpret Ghana’s constitution and disagree with Supreme Court’s reading of key provision; gov’t is estopped from arguing that contract is invalid due to lack of parliamentary approval
+</h1>
+<p class="f-24">
+</p>
+<p>
+ A petition registered on Friday with the US District Court for the District of Columbia casts light on an arbitral award obtained in 2014 by a foreign-owned* investor against the Republic of Ghana.
+</p>
+<p>
+ The underlying dispute arose from a Power Purchase Agreement (PPA) with British energy investor Balkan Energy and its Ghanaian subsidiary (both wholly-owned subsidiaries of US companies).
+</p>
+<p>
+ Despite the contractual nature of the claim, the awards disclosed with the petition display some hallmarks of investment-treaty arbitration. Starting with the arbitrators:
+ <a href="https://www.iareporter.com/arbitrator/Orrego-Vicuna">
+  Francisco Orrego Vicuña
+ </a>
+ chaired a tribunal composed of
+ <a href="https://www.iareporter.com/arbitrator/Schwebel">
+  Stephen Schwebel
+ </a>
+ and Thomas Mensah.** Under the PPA’s arbitration clause, the Permanent Court of Arbitration was administering the case.
+</p>
+<p>
+ Below, we report on the fate of Ghana’s sole jurisdictional objection: that the PPA was void due to parliamentary approval never having been granted.
+</p>
+<p>
+ As we indicate, the tribunal would offer its own reading of Ghana’s constitution – departing from the view taken by the country’s Supreme Court – and held that the state could not escape its obligations merely due to the underlying contract not having been submitted for parliamentary approval.
+</p>
+<p>
+ <strong>
+  Claimant files for arbitration while Ghana seeks to stop the arbitration in domestic courts
+ </strong>
+</p>
+<p>
+ Ghana and Balkan Energy entered into the Power Purchase Agreement in 2007. The PPA provided for the refurbishment, commissioning and operating of a power barge (a ship containing a generator that produces electricity), to alleviate a grave energy shortage at the time. Under the PPA, Ghana had to connect the barge to its electricity grid, and take and pay for the generated electricity.
+</p>
+<p>
+ Importantly, article 181(5) of the Ghanaian Constitution requires parliamentary approval for any “international business or economic transaction to which the Government is a party.” However, the PPA recorded Ghana’s assurances that it had full power and authorization to enter the Agreement. As a condition precedent, the PPA also needed a letter from Ghana’s Attorney General confirming that all authorizations have been obtained. This letter was provided; it held that article 181(5) was inapplicable to the PPA, as it was signed with a local company: Balkan Energy’s Ghanaian subsidiary.
+</p>
+<p>
+ <strong>
+  Both parties appear to favour arbitration, but Ghana later asks its High Court to restrain Balkan Energy’s arbitration claim
+ </strong>
+</p>
+<p>
+ Relations between the parties soon deteriorated, and both parties alleged that the other failed to perform the PPA.
+</p>
+<p>
+ Ghana stated in August 2009 that the dispute should be referred to arbitration, but it was Balkan Energy that eventually filed a Notice of Arbitration in December of 2009. A few days before the first procedural meeting between the parties and the tribunal, Ghana sought an order from the Ghana High Court of Justice restraining Balkan Energy from taking any step in the arbitration, pending a determination, sought by the state from its domestic courts, that the PPA and the arbitration clause were void. The order was granted.
+</p>
+<p>
+ <strong>
+  Tribunal declines claimant’s request for an anti-suit injunction to restrain Ghana’s pursuit of local claims – but refuses halt its own proceedings in deference to local injunction
+ </strong>
+</p>
+<p>
+ Notwithstanding the injunctive order from the Ghana High Court and the state’s request to suspend the arbitral proceedings, the arbitrators elected to proceed with the October 2010 hearing on jurisdiction. Then, the claimant sought an anti-suit injunction from the tribunal, in a bid to prevent Ghana from pursuing its claims before the Ghanaian courts.
+</p>
+<p>
+ The tribunal issued an Interim Award on December 22, 2010 [
+ <a href="http://www.iareporter.com/wp-content/themes/iareporter/download.php?post_id=27117">
+  click to download
+ </a>
+ ]. While professing the “highest respect for the courts of Ghana and its legal system,” and underlining the tribunal’s own “aim to seek the most reasonable alternative in the pursuit of justice,” the tribunal noted that it was not bound by the order of the Ghana High Court, nor did the latter question the tribunal’s competence to rule on Ghana’s objections under the UNCITRAL rules. “In the same spirit of courtesy and respect,” the tribunal thus denied the claimant’s request for an anti-suit injunction.
+</p>
+<p>
+ <strong>
+  Competence-competence and separability to found the tribunal’s jurisdiction
+ </strong>
+</p>
+<p>
+ Ghana’s main jurisdictional objection was that one question before the tribunal – the PPA’s validity – was non-arbitrable. Indeed, this question required an interpretation of article 181(5) of the Ghanaian Constitution, an interpretation reserved (at least as a matter of priority) to the Ghanaian courts and, as such, non-arbitrable.
+</p>
+<p>
+ This alleged non-arbitrability arguably affected both the PPA and the arbitration agreement contained therein – notwithstanding the clause’s separability – because the PPA was explicitly governed by Ghanaian law. Indeed, Ghana argued that the arbitration agreement in the contract was also subject to article 181(5), and thus itself invalid due to the lack of parliamentary approval.
+</p>
+<p>
+ At the outset, the tribunal noted that this case involved “[t]wo bedrock principles of international arbitration, namely, the principle of competence-competence, and the principle of separability of the arbitration clause from the contract of which it is part.”
+</p>
+<p>
+ These two principles, the tribunal found, were well-established and incontestable. But the tribunal found issues in Ghana’s interpretation and application of the separability principle: if, as Ghana argued, the same law applied to the PPA and the arbitration agreement, and application of that law led to the latter’s invalidity due to the invalidity of the broader contract, then the principle of separability was not properly respected.
+</p>
+<p>
+ <strong>
+  Dutch law, not Ghanaian law, governs arbitration agreement
+ </strong>
+</p>
+<p>
+ Rather, the tribunal ultimately found that the arbitration agreement (which had no choice-of-law provision) was governed by a different law than the PPA – Dutch law, the law of the seat. (The PPA provided for an arbitration in The Hague.)
+</p>
+<p>
+ Although this solution, the tribunal noted, is not universally adopted by tribunals and writers (some consider that arbitration agreements are governed by the same law as the main contract), the tribunal came to its view by virtue of the so-called “validation principle”: it is better to opt for a law that best guarantees the validity of the arbitration clause. The fact that the parties chose the Netherlands as the arbitration’s seat supported the tribunal’s view that they also intended to “detach the arbitration agreement from the domestic law or the courts of either Party.”
+</p>
+<p>
+ <strong>
+  Constitutional interpretations are arbitrable, even under Ghanaian law (and notwithstanding constitution’s allocation of judicial powers)
+ </strong>
+</p>
+<p>
+ Turning to its jurisdiction, the tribunal found that questions of constitutional interpretation were arbitrable, even if Ghanaian law governed the arbitration agreement. Indeed, although article 130 of the Constitution reserved constitutional questions to the Supreme Court, the tribunal read this article as being concerned only with “the organization and allocation of [judicial] powers in the domestic context of Ghana”. Holding otherwise, on the tribunal’s view, would mean that any international dispute against Ghana involving a constitutional question could not be arbitrated. (Editor’s Note: we quote the tribunal’s fuller analysis in an endnote.***)
+</p>
+<p>
+ In its pleadings, Ghana warned against the potential for inconsistent decisions if the tribunal and the Supreme Court, both seized with a constitutional question, ultimately disagreed. On this point, the tribunal answered that the annulment or enforcement stage is the proper moment to discuss inconsistent outcomes, or similar issues of public policy.
+</p>
+<p>
+ <strong>
+  Arbitration agreement valid, and Ghana is estopped from claiming otherwise
+ </strong>
+</p>
+<p>
+ Turning to the arbitration agreement’s validity, the tribunal found that it was unaffected by article 181(5) of the constitution (and its requirement of parliamentary approval of certain transactions) – even if this article were deemed applicable under Dutch law – as the contract under scrutiny was not an “international business or economic transaction.”
+</p>
+<p>
+ Besides, the tribunal was satisfied that Ghana was estopped from contesting the jurisdiction of the tribunal. Citing Kardossopoulos v Georgia and ADC v Hungary, the tribunal noted that “the approval of business transactions by government officials not objected to as to their legality under local law, and relied upon for a number of years, have been held to amount to estoppel.” The tribunal stressed Ghana’s representations concerning the validity of both the PPA and the arbitration agreement (indeed, after relations deteriorated between the parties, it was Ghana – not the investor – that first adverted to the possible use of the contract’s arbitration provisions to resolve the dispute.).
+</p>
+<p>
+ <strong>
+  No need to suspend the arbitration in deference to Ghanaian courts
+ </strong>
+</p>
+<p>
+ Ghana’s last attempt to prevent the tribunal from exercising jurisdiction relied on the order from the Ghana High Court and the doctrine of
+ <em>
+  lis pendens
+ </em>
+ . Citing the arbitral decision in the Mox Plant Case (in which arbitrator Mensah had been presiding over a five-member tribunal), Ghana argued that arbitral tribunals should defer to national and foreign courts seized of questions of arbitrability and suspend proceedings pending the determination of this question.
+</p>
+<p>
+ The tribunal was not convinced that the Mox Plant Case was relevant to this case, as the tribunal’s jurisdiction in the former case derived from a clause (article 282 of the UN Convention on the Law of the Seas) that excluded jurisdiction “if the parties in the dispute have agreed … that such dispute shall be submitted to another procedure that entails a binding decision”. Hence, arbitrators in the Mox case had reason to defer to the European Court of Justice, which had primary jurisdiction over disputes involving community law under the European treaties.
+</p>
+<p>
+ The Mox Plant Case was then sufficiently distinguishable. In the present case, the tribunal was “not only convinced that it has acted correctly in finding in favour of its jurisdiction in the arbitration, but […] also believe[d …] that it has an obligation to give effect to the commitment of the Parties to arbitration.” The order of the Ghanaian High Court – which, the tribunal noted, was “difficult to reconcile” with Ghana’s obligations under the New York Convention – had no bearing on this finding.
+</p>
+<p>
+ <strong>
+  Supreme Court finds that the PPA was subject to parliamentary approval
+ </strong>
+</p>
+<p>
+ Although it refused to postpone or suspend the arbitral proceedings in deference to the proceedings in the Ghanaian courts, the tribunal indicated that it was ready to “arrange for an ample procedural calendar” so as to take account of the outcome of these proceedings.
+</p>
+<p>
+ Ghana’s Supreme Court issued its judgment on May 16, 2012, while the parties were still exchanging written pleadings in the arbitration case. Before remitting the matter to a lower court for judgment on the PPA’s validity, the Supreme Court found that the PPA was an “international business transaction” falling under article 181(5) of the Constitution.
+</p>
+<p>
+ <strong>
+  Tribunal disagrees with Supreme Court’s reasoning, holds the PPA valid
+ </strong>
+</p>
+<p>
+ The tribunal addressed this judgment in its final, April 1, 2014 award [
+ <a href="http://www.iareporter.com/wp-content/themes/iareporter/download.php?post_id=27118">
+  click to download
+ </a>
+ ]. Reiterating its “highest respect for the courts of Ghana”, the tribunal identified two questions to answer: whether the PPA was an “international business transaction” under article 181(5), and the effect of this determination on the PPA’s validity.
+</p>
+<p>
+ The first question had been answered in the affirmative by the Supreme Court. However, the tribunal noted that this determination had not “been free from doubt”, that it was “only one possible alternative”, and that the views of both parties had been “plausible”. The tribunal gave weight to the fact that Balkan Energy’s Ghanaian subsidiary signed the PPA, and that “this is not a case brought under a foreign investment treaty”.**** Besides, the conduct of the parties, even after the dispute arose, showed that this was not their understanding of the PPA.
+</p>
+<p>
+ This led the tribunal, despite professing “due deference and respect” for the court, to reject the Supreme Court’s analysis. Looking at the totality of the circumstances, the tribunal found that the PPA was not an international business transaction.
+</p>
+<p>
+ Turning to the second question, the tribunal acknowledged the high probability that the PPA would later be held void
+ <em>
+  ab initio
+ </em>
+ by Ghanaian courts, following the Supreme Court’s determination.*****
+</p>
+<p>
+ Yet, the tribunal ultimately accepted that the PPA was valid, and Ghana was estopped from benefitting from such determination. Two principles under international and Ghanaian law concurred to this finding. First, getting necessary approvals was Ghana’s sole responsibility under the PPA, and “it is a well recognized general principle of law that no party can take advantage of its own wrongdoing or omission to the detriment of the rights and interests of another party.”
+</p>
+<p>
+ Second, the tribunal deemed the aforementioned letter from Ghana’s Attorney General – that had affirmed that Article 181(5) did not apply to the contract – as well as Ghana’s subsequent conduct, to have created “legitimate rights and expectations” for Balkan Energy. The tribunal observed “that the principle that a reasonable and legitimate expectations of a party can give rise to a benefit that cannot be denied to that party is a well-acknowledged principle of the common law and is, as such, part of the laws of the Republic of Ghana.”
+</p>
+<p>
+ The conjunction of these two principles prevented the PPA from being held void
+ <em>
+  ab initio
+ </em>
+ . The PPA being valid, the tribunal proceeded to discuss the claims of both parties regarding performance.
+</p>
+<p>
+ (Readers will recall that other cases raise similar issues; most recently, we’ve written
+ <a href="http://www.iareporter.com/articles/arbitrators-find-generous-long-term-contract-should-factor-into-valuation-of-bit-claim-because-government-had-apparent-authority-if-not-actual-authority-to-make-it/">
+  about a Belize dispute
+ </a>
+ touching on such themes.)
+</p>
+<p>
+ <strong>
+  Investor had sought $500 million, but receives only restitution after both sides are deemed in breach
+ </strong>
+</p>
+<p>
+ The claimant had sought more than $500 million in compensation from Ghana.
+</p>
+<p>
+ However, the rest of the final award , less interesting to
+ <em>
+  IAReporter
+ </em>
+ from a legal/policy perspective, eventually held both parties independently in breach and the PPA impossible to enforce. The tribunal thus deemed the contract to be terminated.
+</p>
+<p>
+ Damages totaling some $12 million as well as interest were granted on a restitution basis to the claimant.******
+</p>
+<p>
+ <strong>
+  Wrongful arrest of a manager is also grounds for some compensation to claimant
+ </strong>
+</p>
+<p>
+ The tribunal also awarded $50,000 to compensate for the arrest of one manager of Balkan Energy: the manager had been arrested and imprisoned without access to a lawyer for two days, shortly after Balkan Energy instituted the arbitration. Ghana insisted that the manager had no standing to bring this claim. However, on the tribunal’s view, such an arrest was not only a harm to the manager, but also an undue “interference with the ordinary conduct of the business of the Claimant” that warranted compensation.
+</p>
+<p>
+ <strong>
+  Counsel in the case
+ </strong>
+</p>
+<p>
+ The claimant was represented by the law firms NautaDutilh, and Bentsi-Enchill, Letsa &amp; Ankomah. During the merits phase the law office of Mitchell Madden also joined the claimant’s team. Ghana was represented by Dewey and LeBoeuf LLP, Reindorf Chambers in Ghana, and Dutch lawyer Jacomijn J. van Haersolte-van Hof. At the merits phase, and following the collapse of Dewey and LeBoeuf, the respondent was advised by DLA Piper and Reindorf Chambers.
+</p>
+<p>
+</p>
+<p>
+ * [UPDATE, April 3, 2017: The original version of this article had described the claimant as a “foreign investor”, however as is noted elsewhere in the article the claimant was a locally-incorporated entity that was foreign-owned.]
+</p>
+<p>
+ ** Mr Thomas A. Mensah, of Ghana, is a former President of the International Tribunal on the Law of the Sea (ITLOS).
+</p>
+<p>
+ *** Paragraph 143 of the jurisdictional award is worth quoting in full: “Arbitration tribunals are not infrequently confronted with the need to interpret and apply constitutional provisions relevant to the resolution of disputes submitted to them, just as they are normally required to interpret and apply treaties that are relevant to the disputes. There is nothing abnormal in exercising a judicial function necessary for the proper administration of justice. Hence the Tribunal does not consider that, in asserting its competence to determine its jurisdiction in this case, it is disregarding or in any way contradicting the force of Article 130 of the Constitution of Ghana. In the view of the Tribunal, the purpose of that provision, like similar clauses in numerous other constitutions, is to establish the judicial supremacy of the Supreme Court in the organization and allocation of powers in the domestic context of Ghana. When there is a case that transcends national borders because of an arbitration agreement or some other legal commitment, such a provision becomes qualified and not necessarily predominant. Otherwise, as the Claimant has rightly noted, any dispute involving some element of constitutional interpretation, or any dispute in which an objection is raised that there is such an element, which is not difficult to do, would automatically be excluded from international arbitration, in spite of the existence of a clear commitment by the Parties to subject the dispute to arbitration.”
+</p>
+<p>
+ ****
+ <em>
+  Editor’s Note:
+ </em>
+ It’s difficult to resist the thought that, had the very same transaction been the subject of a claim under an investment treaty, perhaps the tribunal might have mused on the object and purpose of the BIT being served by permitting such a “foreign” dispute to be arbitrated.
+</p>
+<p>
+ ***** Although Ghana argued that the principle of
+ <em>
+  res judicata
+ </em>
+ bound the tribunal regarding the PPA’s validity, the tribunal later stressed that the High Court had not yet pronounced on the dispute, and that there was “room for a determination by the Ghanaian judiciary that is consistent with the conclusions of this Award.”
+</p>
+<p>
+ ****** The state also prevailed with respect to a $300,000 counterclaim. Although the arbitration costs amounted to more than $1 million, the petition reveals that Balkan Energy agreed to recover only 95% of the award’s compensation providing Ghana pays the costs and expenses of the arbitration. Each party bore its own costs.
+</p>

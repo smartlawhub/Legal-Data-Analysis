@@ -2,7 +2,7 @@
 
 <b>1.</b> Finally, some basics notions of syntaxes. You write code as you would write anything: sequentially. This means you first define your variables or your functions before using it, or Python won't be able to know what you mean.
 
-An important first concept is the `loop`, which tells Python to do something as long as a condition is not fulfilled. The typical condition is to go over (the term is "iterate") a number of elements, for instance in a list.
+An important first concept is the `loop`, which tells Python to do something as long as a condition is not fulfilled. The typical use is to go over (the term is "iterate") a number of elements, for instance in a list.
 
 <b>2.</b> You will note that for your loop to work, the second level of instructions needs to be shifted to the right.
 

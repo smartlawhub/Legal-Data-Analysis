@@ -1,0 +1,243 @@
+<h1 class="ArticleTitle">
+ Looking Back: In resubmitted Vivendi proceedings following annulment, tribunal confirms jurisdiction and finds Argentina in breach of FET
+</h1>
+<p class="f-24">
+</p>
+<p>
+ <em>
+  (Editor’s Note: This is a report in our new series examining investment treaty awards that were rendered prior to the launch of IAReporter in 2008. Other articles in this series can be found
+  <a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.iareporter.com/iar-search/?iarsearch%3Dsidebar_cats%26c1%3D1688&amp;source=gmail&amp;ust=1503617154988000&amp;usg=AFQjCNFAZzJ26xEbyt0BO6cPCB0uwO87BQ" href="https://www.iareporter.com/iar-search/?iarsearch=sidebar_cats&amp;c1=1688" rel="noopener noreferrer" target="_blank">
+   here
+  </a>
+  .)
+ </em>
+</p>
+<p>
+ The annulment of the first Vivendi v. Argentina award, reviewed in our
+ <a href="https://www.iareporter.com/articles/looking-back-vivendi-v-argentina-saga-explored-the-relation-between-contract-and-treaty-claims/">
+  companion piece
+ </a>
+ , meant that the road was cleared for the claimants to resubmit the case to ICSID – which they did, by a Request for Arbitration dated August 29, 2003.
+</p>
+<p>
+ This led to the constitution of an arbitral tribunal of
+ <a href="https://www.iareporter.com/arbitrator/Rowley">
+  J. William Rowley
+ </a>
+ (chair),
+ <a href="https://www.iareporter.com/arbitrator/Kaufmann-Kohler">
+  Gabrielle Kaufmann-Kohler
+ </a>
+ (claimants’ appointee) and Carlos Bernal Verea (Argentina’s appointee). On November 14, 2005, the tribunal issued a Decision on Jurisdiction, reviewed below and available
+ <a href="https://www.italaw.com/sites/default/files/case-documents/ita0214.pdf">
+  here
+ </a>
+ .
+</p>
+<p>
+ Notably, the tribunal confirmed that jurisdiction should be appreciated as at the start of the proceedings, and that the first tribunal’s jurisdictional findings had
+ <em>
+  res judicata
+ </em>
+ effects over the second tribunal.
+</p>
+<p>
+ Following its decision on jurisdiction, the tribunal ruled on the merits of Vivendi’s claims in an August 20, 2007 award (available
+ <a href="https://www.italaw.com/sites/default/files/case-documents/ita0215.pdf">
+  here
+ </a>
+ ), also reviewed below. The “Vivendi II” award is notable for reviewing the Fair and Equitable Treatment (FET) standard under Argentina’s BITs, and for opting for a different valuation method where the DCF analysis is inappropriate.
+</p>
+<p>
+ This award was also subject to (unsuccessful) annulment proceedings in 2010, as
+ <a href="https://www.iareporter.com/articles/arbitral-award-will-stand-in-vivendi-v-argentina-case-but-an-arbitrator-is-criticized-over-lack-of-disclosure/">
+  we reported
+ </a>
+ . (
+ <a href="https://www.iareporter.com/articles/after-settling-some-awards-argentina-takes-more-fractious-path-in-bond-holders-case-with-new-bid-to-disqualify-arbitrators/">
+  We also reported
+ </a>
+ in 2013 on the efforts by the claimant to collect payment under the award.)
+</p>
+<p>
+ The claimants continued to be represented by
+ <a href="https://www.iareporter.com/arbitrator/Schwebel">
+  Stephen Schwebel
+ </a>
+ , along with a team from Sidley Austin Brown &amp; Wood, LLP and a pair of local counsel, Luis A. Erize and Ignacio Colombres Garmendia. Argentina relied on its in-house counsel, assisted by a team from (then) Mayer, Brown, Rowe &amp; Maw.
+</p>
+<p>
+ <strong>
+  Jurisdiction should be appreciated as at the start of the proceedings
+ </strong>
+</p>
+<p>
+ Argentina’s central objection* to the tribunal’s jurisdiction was that Vivendi was no longer the direct, majority shareholder at the time of the proceedings. Argentina contended that a succession of corporate restructuring saw the claimant shed most of its participation in its Argentine subsidiary CAA, to the extent that it resubmitted the claim as a minority, indirect shareholder only. For the state, Vivendi’s amounted to a derivative claim, prohibited under international and Argentinian laws.
+</p>
+<p>
+ In answer, the tribunal stressed that its jurisdiction over the claimant’s case should be appreciated at the date when the proceedings were instituted. “The consequence of this rule is that,” the tribunal said, “once established, jurisdiction cannot be defeated. It simply is not affected by subsequent events”, including Vivendi’s restructurings.
+</p>
+<p>
+ Besides, the tribunal said, its findings were bound by the un-annulled conclusions of the first tribunal on jurisdiction, which were
+ <em>
+  res judicata
+ </em>
+ . The tribunal disagreed that the corporate changes pointed out by the respondent amounted to “new facts” that could defeat the
+ <em>
+  res judicata
+ </em>
+ effects of the first award.
+</p>
+<p>
+ Lastly, on the facts, the tribunal found that Vivendi actually remained at all times majority shareholder in CAA, so that there was identity of parties and claims with the first case. Since Vivendi was still the majority shareholder, the tribunal also dismissed Argentina’s argument that Vivendi’s was a derivative claim (nonetheless, the tribunal added that minority shareholders were anyway allowed to bring claims under the treaties).
+</p>
+<p>
+ <strong>
+  Tribunal should consider treaty claims
+ </strong>
+</p>
+<p>
+ Argentina’s last objection was that the annulment proceedings had left only one claim on the tribunal’s table: that the Tucumán authorities conspired to frustrate the Concession Agreement. Argentina interpreted the
+ <em>
+  ad hoc
+ </em>
+ committee’s decision to the effect that all of Vivendi’s claims pertaining to the contract itself were out of reach for the tribunal.
+</p>
+<p>
+ The arbitrators held this as a misconstruction of the record, one which entailed the same error that had led the first award to be partially annulled. On the contrary, the tribunal said, all claims should be considered, but as possible treaty claims; whether they also constituted contractual breaches had no bearing on the tribunal’s task. (
+ <a href="https://www.iareporter.com/articles/analysis-tribunal-in-paraguay-jurisdictional-ruling-viewed-treatys-umbrella-clause-as-broad-and-encompassing-many-commitments/">
+  As we reported
+ </a>
+ , the claimant’s counsel,
+ <a href="https://www.iareporter.com/arbitrator/Alexandrov">
+  Stanimir Alexandrov
+ </a>
+ , later chaired a tribunal – in SGS v. Paraguay – that took lessons from the Vivendi saga in holding that a tribunal needed “very strong cause” to refuse to exercise the jurisdiction it has.)
+</p>
+<p>
+ <strong>
+  Costs reserved, but Argentina’s objections were inappropriate
+ </strong>
+</p>
+<p>
+ While the tribunal reserved the costs of the jurisdictional phase for the end of the proceedings (see below), it noted that most of Argentina’s objections had been either raised unsuccessfully at earlier stages, or in many other fora before (an Appendix to the award lists all 18 cases against Argentina which found that derivative and shareholder claims were permitted under international law). As a result, the tribunal concluded that Argentina’s objections had been not only unfounded, but also raised “inappropriately”.
+</p>
+<p>
+ <strong>
+  On merits, disputes about facts take central stage
+ </strong>
+</p>
+<p>
+ The tribunal’s 2007 decision on the merits noted that the parties derived different interpretations from a factual record that was otherwise mostly agreed upon.
+</p>
+<p>
+ As we recounted in our
+ <a href="http://articles/looking-back-vivendi-v-argentina-saga-explored-the-relation-between-contract-and-treaty-claims/">
+  separate piece
+ </a>
+ , Vivendi and CAA alleged that the Tucumán province’s officials had caused it to terminate the Concession Agreement, after they incited customers to cease payment of their water bills, and otherwise defeated the smooth operation of the Concession through regulatory action.
+</p>
+<p>
+ In Argentina’s view, CAA could only blame itself for its difficulties in collecting payment: the company had substantially increased the value of invoices shortly after taking over, and badly managed episodes of water turbidity that lasted for several weeks.
+</p>
+<p>
+ On the facts, the tribunal’s sympathy went to CAA, who had inherited deeply defective water and sewage facilities and equipment, and went to great lengths to overhaul and repair the previous neglect. Invoices were in line with the provisions of the Concession Agreement, as originally acknowledged by the water regulator itself. The turbidity episodes, unexpected at the time CAA took over and which posed no sanitary risk, had been managed with “efficiency and professionalism”, the tribunal said.
+</p>
+<p>
+ By contrast, the tribunal found, the Tucumán authorities reacted in a way that undermined the efforts of CAA and worsened the public panic with respect to the episodes. For instance, officials who had sought to allay public concern were replaced on the spot with political appointees.
+</p>
+<p>
+ The tribunal stressed the context in which all of this took place, and in particular the intense political opposition to the privatisation of water and sewages services in Tucumán. To CAA’s misfortune, a party resolutely opposed to the privatisation took over the government of the province a few months after it began operating, and at the end of a campaign where the privatisation had been one of the main issues. The Tucumán legislature soon issued a resolution asking CAA to revise its tariff, despite the provisions of the Concession Agreement, and in a retroactive manner.
+</p>
+<p>
+ “Political attacks” continued even when negotiations between CAA and the province were underway to adopt a new Concession Agreement. Individual legislators volunteered to explain to customers how to make claims against CAA and stop paying their bills without being cut off from the service. To CAA’s dismay, a renegotiated agreement, agreed upon in a third round of negotiations after the ICSID proceedings had been started, was then substantially amended by the legislature.
+</p>
+<p>
+ CAA terminated the Concession Agreement in August 1997; at that time, its invoice collection rate was 20%. However, the company had to continue operating the water and sewage services post-termination, for more than a year, while the province sought an alternative. Thereafter, the provincial officials continued to prevent CAA from collecting outstanding invoices.
+</p>
+<p>
+ <strong>
+  Tribunal is permitted to take Concession Agreement into account despite forum-selection clause
+ </strong>
+</p>
+<p>
+ As we reported in our
+ <a href="http://articles/looking-back-vivendi-v-argentina-saga-explored-the-relation-between-contract-and-treaty-claims/">
+  companion piece
+ </a>
+ , the first Vivendi arbitration stumbled on clause 16.4 of the Concession Agreement that reserved the “interpretation and application” of the contract to the Tucumán administrative courts. The first tribunal considered that, as the case was inextricably linked to the Concession Agreement, it was unable to rule on the case before the Tucumán courts had the opportunity to rule on the dispute concerning the Concession Agreement.
+</p>
+<p>
+ The Vivendi II tribunal, however, found no difficulty in holding that it was allowed to take the contractual background into account in its review of whether Argentina was liable for a treaty breach – an inquiry, in any case, different from one looking for a contractual breach. A finding that the contract had been breached might simply be relevant for a finding of a treaty breach (although, in the event, the tribunal did not need to find a contractual breach to conclude that Argentina breached the Argentina-France BIT).
+</p>
+<p>
+ <strong>
+  Fair and Equitable Treatment standard not limited to denial of justice
+ </strong>
+</p>
+<p>
+ Analysing the BIT’s central provisions, the tribunal dismissed Argentina’s argument that the BIT’s FET standard was similar to the customary minimum standard of treatment (although the tribunal also later found that Argentina’s actions would have breached this standard). The tribunal rather interpreted FET as an autonomous, objective standard, which encompassed more than mere denial of justice (as argued by Argentina).
+</p>
+<p>
+ In particular, the tribunal found that the standard undoubtedly included an “obligation not to disparage and undercut a concession (a ‘do no harm’ standard) that has properly been granted, albeit by a predecessor government, based on falsities and motivated by a desire to rescind or force a renegotiation.”
+</p>
+<p>
+ The tribunal also smiled on the claimant’s contention that the “full protection and security” standard covered more than mere “physical” security, and could apply to situations of continued harassment of an investor. (This interpretation was later cited and endorsed by the Ares International and MetalGeo v Georgia tribunal; see
+ <a href="https://www.iareporter.com/articles/long-unpublished-award-against-republic-of-georgia-finds-fet-breach-following-bad-faith-negotiations-but-frowns-on-broad-notions-of-judicial-expropriation/">
+  here
+ </a>
+ .)
+</p>
+<p>
+ <strong>
+  Tribunal finds breach of FET standard
+ </strong>
+</p>
+<p>
+ Given the facts summarised above, the tribunal swiftly found that Tucumán had mounted, “improperly and without justification […] an illegitimate ‘campaign’ against the concession, the Concession Agreement, and the ‘foreign’ concessionaire.” The tribunal found support, among other pieces of evidence, in a case study commissioned by the World Bank, where one of Argentina’s own witnesses described extensively the politically-motivated actions of the local authorities. For the tribunal, these actions, notably in their response to the turbidity incident, were “irresponsible, unreasonable and disproportionate.”
+</p>
+<p>
+ The tribunal specified that the province was in its right to reverse the privatisation process, but held that “it is clearly wrong (and unfair and inequitable in terms of the BIT) to seek to bring a concessionaire to the renegotiation table through threats of rescission based on colourable allegations after having wrongly deprived the concessionaire’s billings of formal legitimacy.” (For an interesting parallel,
+ <a href="https://www.iareporter.com/articles/in-merits-award-opaque-and-protracted-privatization-process-breaches-treaty-even-though-no-investment-was-made/">
+  see our analysis
+ </a>
+ of the Nordzucker v. Poland award, which also involved public officials getting cold feet over a privatization process.)
+</p>
+<p>
+ For the tribunal, the “politically driven arm-twisting” pursued by the local authorities “had a devastating effect” on the economic viability of Vivendi’s investment. At the very least, it undermined the claimants’ legitimate expectations that the province would not mount an “illegitimate campaign against them.”
+</p>
+<p>
+ <strong>
+  Expropriation claim also successful
+ </strong>
+</p>
+<p>
+ The tribunal also found that the actions of the Tucumán authorities amounted to an expropriation under the treaty. The award put to rest Argentina’s contention that contractual rights could not be expropriated, and that expropriation required more than a mere decrease in value of the expropriated assets (the tribunal found that a substantial decrease could constitute an indirect expropriation). The tribunal also explained that the state’s motives underlying the measures were irrelevant for the assessment of their expropriatory nature: the measures’ effect on the investor was the “critical factor”.
+</p>
+<p>
+ Argentina’s actions and omissions, the tribunal held, led to a substantial decrease in the investment’s value, as they “struck at the economic heart of, and crippled, the Claimants’ investment.” The concession was in effect rendered valueless when citizens were convinced by the authorities not to cease paying their bills.
+</p>
+<p>
+ <strong>
+  DCF approach rejected given uncertain future profitability
+ </strong>
+</p>
+<p>
+ Looking at the BIT and relevant jurisprudence, the tribunal held that the investment should be compensated for its fair market value. However, the award looked dimly on the discounted cash-flow (DCF) analysis presented by the claimants, finding flaws in its assumptions – and notably its reliance on a future profitability of the investment that was all but uncertain.
+</p>
+<p>
+ Rather, the tribunal favoured an “investment value” approach, designed to replace Vivendi in the position it would have been had it never invested in Tucumán. Although evidence was lacking in this respect, the tribunal explained that “the fact that damages cannot be fixed with certainty is no reason not to award damages when a loss has been incurred. In such cases, approximations are inevitable; the settling of damages is not an exact science.” As a result, around $105 million was awarded to the claimants.
+</p>
+<p>
+ The award shortly dismissed Argentina’s last objection: that full compensation should not be awarded, in light of the economic crisis that hit Argentina in the early 2000s. The tribunal considered that this was irrelevant, as the events underlying the case occurred before this. However, the tribunal held that the claimants should be compensated in dollars, given the peso’s sharp devaluation since the nineties. Compound interest at 6% was added to the compensation awarded.
+</p>
+<p>
+ Costs were split equally between the parties, except as concerned the jurisdictional phase for which Argentina was ordered to cover the claimants’ costs entirely.
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+ * Other objections included: (i) that CAA was not French-owned at the time the proceedings were instituted; and (ii) that CAA failed to submit some documentation (such as power of attorneys) with its Request for Arbitration. The tribunal replied that (i) this objection had already been dismissed by the first tribunal; and (ii) this did not pertain to jurisdiction.
+</p>

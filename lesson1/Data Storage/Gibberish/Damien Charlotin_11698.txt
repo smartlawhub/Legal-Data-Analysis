@@ -1,0 +1,316 @@
+<h1 class="ArticleTitle">
+ Looking Back: Tecmed v. Mexico breaks ground in adopting expansive reading of the Fair and Equitable Treatment and upholding protection of investors’ “legitimate expectations”
+</h1>
+<p class="f-24">
+</p>
+<p>
+ <em>
+  (Editor’s Note: On January 10, 2018 we updated this report to add further discussion of the tribunal’s damages analysis, including discussion of an issue that came to our attention only after we published
+  <a href="https://www.iareporter.com/articles/looking-back-at-damages-phase-arbitrators-in-sd-myers-v-canada-case-quantified-foregone-income-due-to-border-closure-role-of-ngo-driven-political-risk-also-touched-upon/">
+   another report
+  </a>
+  in our Looking Back series: the willingness of tribunals to consider social/community pressure on an investor as a negative factor in the valuation of damages.)
+ </em>
+</p>
+<p>
+ The May 2003 award in Técnicas Medioambientales Tecmed, S.A. v. Mexico [
+ <a href="http://www.italaw.com/sites/default/files/case-documents/ita0854.pdf">
+  click to download
+ </a>
+ ] has often been characterized as being on the far end of the spectrum of possible interpretations of the ‘fair and equitable treatment’ obligation, embodying a standard highly demanding of states. As we discuss below, this case also proved seminal – and no less controversial – in several other respects, making it a cornerstone of modern investment jurisprudence.
+</p>
+<p>
+ In 1996, following a public tender, a subsidiary of the Spanish-registered claimant purchased Cytrar, a hazardous waste landfill located near Hermosillo, the capital of the Mexican state of Sonora. Problems soon arose between the local population and Tecmed regarding the proximity of the landfill to the city. While the investor was negotiating a relocation of the landfill, the National Ecology Institute (INE), a Mexican federal agency, refused to renew its operating permit, in effect closing it down. In 2000, the investor brought a claim before the International Centre for Settlement of Investment Disputes (ICSID) under the 1995 Spain-Mexico bilateral investment treaty (BIT).
+</p>
+<p>
+ The tribunal in the Tecmed arbitration was composed of
+ <a href="https://www.iareporter.com/arbitrator/fernandez-rozas">
+  José Carlos Fernández Rozas
+ </a>
+ (claimant’s appointee), Carlos Bernal Verea (respondent’s appointee),* and
+ <a href="https://www.iareporter.com/arbitrator/Grigera-Naon">
+  Horacio Grigera Naón
+ </a>
+ presiding. (This was Mr. Grigera’s first known appointment in an investment treaty case, but he would be appointed often in the ensuing years, typically by claimants.)
+</p>
+<p>
+ The investor was represented by Jones Day, while Mexico’s in-house legal team were assisted by the law firm Shaw Pittman and
+ <a href="https://www.iareporter.com/arbitrator/Thomas">
+  Christopher Thomas
+ </a>
+ (then) of Thomas &amp; Partners.
+</p>
+<p>
+ <strong>
+  Tribunal upholds jurisdiction, but only over alleged breaches occurring after entry into force
+ </strong>
+</p>
+<p>
+ Mexico contested the tribunal’s temporal jurisdiction on two grounds. First, it noted that the treaty entered into force only in late 1996, while some aspects of the claimant’s case took place before this date. Second, Mexico argued that the claimant’s complaint was brought too late – the BIT imposed a three-year time limit on claims following the events giving rise to the claim and most of the relevant events fell outside of this timeframe.
+</p>
+<p>
+ Meanwhile, Tecmed observed that the BIT applied to “investments made prior to its entry into force”. It also insisted that the primary act underlying its complaint – INE’s refusal to renew its permit – was within the three-year timeframe.
+</p>
+<p>
+ On Mexico’s first objection, the tribunal agreed that the BIT did not apply retroactively. Therefore, events preceding its entry into force could not breach the treaty. Regarding Mexico’s second objection, the tribunal confirmed that a claim would be inadmissible if it related to acts occurring more than three years before the claim was filed.
+</p>
+<p>
+ However, this did not mean that such acts and events were not relevant in finding a treaty breach that occurred
+ <em>
+  within
+ </em>
+ the relevant timeframe. The tribunal could thus consider earlier events providing they led to a breach that “took place or reached its consummation point after … entry into force”, and within the three-year limit.
+</p>
+<p>
+ (Later tribunals, such as
+ <a href="https://www.iareporter.com/articles/analysis-arbitrators-wrestle-with-questions-of-their-jurisdiction-over-events-occurring-before-treatys-entry-into-force-counter-claims-by-mongolia-also-raised-in-mining-dispute/">
+  Paushok v. Mongolia
+ </a>
+ (on which the tribunal president, Mr. Grigera Naón, also sat) have endorsed this reasoning regarding so-called “continuing”, or “composite” acts.)
+</p>
+<p>
+ The tribunal’s temporal jurisdiction thus relied on identifying a relevant treaty breach. (On the merits, as discussed below, the tribunal subsequently found that INE’s Resolution refusing to renew Tecmed’s permit breached the treaty, and that this Resolution occurred within the proper timeframe, thus grounding its jurisdiction.)
+</p>
+<p>
+ <strong>
+  MFN can’t be used to avoid temporal limitations
+ </strong>
+</p>
+<p>
+ Both preliminary objections also met a common counter-argument from the claimant: that the temporal limitations of the Spain-Mexico BIT could be avoided by way of its Most Favoured Nation (MFN) clause.
+</p>
+<p>
+ The tribunal dismissed this argument, finding that the case fell within the limits of MFN clauses contemplated by the Maffezini v. Spain tribunal. For the Tecmed tribunal, the treaty’s temporal application (regarding both acts prior to conclusion and the three-year time limit for claims) was one of the “determining factors for [the contracting parties’] acceptance” that the Maffezini tribunal thought should not be overridden via MFN.
+</p>
+<p>
+ As such, the Tecmed tribunal provided an addition to the four exceptions
+ <a href="https://www.iareporter.com/articles/looking-back-maffezini-v-spain-kicked-off-debate-over-mfn-and-dispute-settlement-but-also-addressed-attribution-and-security-for-costs/">
+  explicitly identified by the Maffezini tribunal
+ </a>
+ , further narrowing the scope of MFN clauses, but without explicitly challenging that tribunal’s findings.
+</p>
+<p>
+ <strong>
+  Tribunal doubts existence of police powers exception, but also moves beyond “sole effect” test
+ </strong>
+</p>
+<p>
+ On the merits, citing the now well-known definition of indirect expropriation in Metalclad v. Mexico (
+ <a href="https://www.iareporter.com/articles/looking-back-metalclad-v-mexico-tribunal-finds-expropriation-and-fet-breaches-in-landfill-approvals-process/">
+  discussed here
+ </a>
+ ), the claimant argued that Mexico’s conduct amounted to an expropriation in that it entirely prevented operation of the landfill.
+</p>
+<p>
+ In this respect, the tribunal first held that “[t]he government’s intention is less important than the effects of the measures” on an investor. On this criterion alone, the refusal to renew Tecmed’s permit amounted to an expropriation.
+</p>
+<p>
+ Similarly, while the tribunal confirmed that a state’s exercise of police powers “may cause economic damage to those subject to its powers … without entitling them to any compensation whatsoever”, it also found “no principle stating that regulatory administrative actions are per se excluded from the scope of the [BIT], even if they are beneficial to society as a whole”.
+</p>
+<p>
+ However, the tribunal added that it was also “appropriate” to consider other factors apart from a measure’s effects, such as the “characteristics” of the measure, before deciding on its expropriatory character.
+</p>
+<p>
+ <strong>
+  Proportionality test introduced via human rights case-law; Mexico fails the test
+ </strong>
+</p>
+<p>
+ For the Tecmed tribunal, two relevant “characteristics” of the state’s measure were its proportionality and reasonableness. Explicitly influenced by the case-law of the European Court of Human Rights – but without explaining why this case-law was relevant under the applicable law** – the tribunal sought to “assess whether the Resolution [wa]s proportional to [the] circumstances, and to the neutralization of the economic and commercial value of the Claimant’s investment.”
+</p>
+<p>
+ While states were owed “due deference” in choosing policy priorities, the tribunal said, this deference did not prevent it from assessing the reasonableness of measures adopted to pursue these priorities.
+</p>
+<p>
+ On the facts, the tribunal found that the Resolution, despite citing minor breaches of the permit by the investor, was mostly based on “socio-political factors” – i.e., opposition to the landfill from local citizens and authorities, and efforts to relocate it farther from Hermosillo. In the tribunal’s assessment, INE’s refusal to renew the permit was primarily a “strategy to put pressure on [the investor] to relocate”, and was not based on public health or environmental concerns.
+</p>
+<p>
+ The tribunal then weighed this “community pressure” against the interference with the investment. It concluded that, since such pressure did not amount to “a serious urgent situation, crisis, need or social emergency”, INE’s decision was not proportional. In its assessment, the tribunal also emphasized the investor’s continually lawful operation of the landfill – particularly regarding its obligations on ecological balance and public health – and that the strength of the alleged “community pressure” was doubtful.
+</p>
+<p>
+ <strong>
+  Tecmed’s views on proportionality, sole effects and police powers find resonances in later cases
+ </strong>
+</p>
+<p>
+ <a href="https://www.iareporter.com/articles/analysis-arbitrators-continue-to-debate-whether-states-deserve-a-margin-of-appreciation-when-it-comes-to-how-to-comply-with-bit-obligations/">
+  As we’ve previously noted
+ </a>
+ , in stressing the ideas of “due deference” and “proportionality”, the tribunal in Tecmed v. Mexico proved to be a source of inspiration to later tribunals that engaged in similar reviews of states’ regulatory powers (although not all applied such a strict proportionality standard).
+</p>
+<p>
+ Meanwhile, the Tecmed tribunal’s caution regarding the “sole effects” test found echoes among some later tribunals and commentators, wary of this test’s lack of concern for states’ regulatory powers.
+ <a href="https://www.iareporter.com/articles/analysis-united-states-unveils-new-model-bilateral-investment-treaty-that-retains-protective-core-and-makes-a-few-tweaks-on-periphery/">
+  As we’ve reported
+ </a>
+ , these criticisms have found their way into a new generation of BITs, with the 2012 US Model BIT, for instance, now downplaying the relevance of a merely adverse effect on an investor in establishing a treaty breach.
+</p>
+<p>
+ Further, despite the tribunal’s apparent rejection of a police powers exception (noted above), its ambivalence on the point may have served as a precursor to later developments, such as the Philip Morris v. Uruguay tribunal’s confirmation of “police powers” as an implicit carve-out from the treaty’s expropriation clause (see our coverage
+ <a href="https://www.iareporter.com/articles/the-philip-morris-v-uruguay-award-on-the-merits-part-one-of-our-three-part-analysis-focusing-on-the-expropriation-claim/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ <strong>
+  Tribunal adopts extensive – and controversial – interpretation of FET
+ </strong>
+</p>
+<p>
+ Despite the expropriation finding, the tribunal also reviewed the investor’s further claims, notably including its FET claim.
+</p>
+<p>
+ Albeit without particular analysis or reasoning, the tribunal introduced this section by describing the content of the FET standard. In its view, the standard included “treatment that does not affect the basic expectations that were taken into account by the foreign investor to make the investment”, as well as “consistent” conduct “free from ambiguity and totally transparent”.
+</p>
+<p>
+ The tribunal was however ambiguous as to what these “basic expectations” were. Earlier in the award, it examined the contractual documentation associated with Tecmed’s acquisition of the landfill, and concluded that the continued legal permission to operate the landfill was among the “legitimate expectations” of the investor when it made the investment. Elsewhere, the tribunal referred to the investor’s expectations that INE would consider only ecological (not socio-political) grounds in renewing the permit, and to Tecmed’s expectations that its permit would be renewed pending relocation of the landfill.
+</p>
+<p>
+ (In more recent awards, as explained below, the exact nature of the legitimate expectations allegedly violated has been a central part of tribunals’ analysis of the FET standard).
+</p>
+<p>
+ Notwithstanding, the tribunal had no difficulty finding that Tecmed’s legitimate expectations had been frustrated by the respondent. The tribunal stressed that INE never offered an “explicit, transparent and clear” warning that the permit might be refused prior to the expected relocation, or even “clear signs” that would have allowed the investor “to adopt a behavior to prevent the non-renewal of the Permit”.
+</p>
+<p>
+ Such lack of transparency, accompanied by contradictions and ambiguities in INE’s conduct, hindered the investor’s “planning of its business activity”, and were thus held to violate FET.
+</p>
+<p>
+ <strong>
+  Tecmed’s definition of FET strongly influenced later jurisprudence
+ </strong>
+</p>
+<p>
+ The tribunal’s definition of FET became a cornerstone of future investors’ claims under the FET standard, and was endorsed by many later tribunals and arbitrators (such as Henri Alvarez’s separate opinion in Total v. Argentina,
+ <a href="https://www.iareporter.com/articles/co-arbitrators-in-total-v-argentina-case-take-widely-divergent-views-of-argentinas-fair-and-equitable-treatment-obligation-under-investment-treaty/">
+  discussed here
+ </a>
+ ). The Tecmed tribunal’s emphasis on transparency was followed by tribunals such as in
+ <a href="https://www.iareporter.com/articles/in-gold-reserve-case-weight-placed-on-hugo-chavezs-statements-venezuelas-heightened-political-risk-premium-should-not-reduce-damages/">
+  Gold Reserve
+ </a>
+ v. Venezuela and
+ <a href="https://www.iareporter.com/articles/in-analysis-of-legitimate-expectations-arbitrators-ask-whether-investors-or-romania-bore-the-risk-of-regulatory-change/">
+  Micula v. Romania
+ </a>
+ (even if reliance on this concept had already led to annulment of the award in Metalclad v. Mexico,
+ <a href="https://www.iareporter.com/articles/looking-back-metalclad-v-mexico-tribunal-finds-expropriation-and-fet-breaches-in-landfill-approvals-process/">
+  reviewed here
+ </a>
+ ).
+</p>
+<p>
+ Meanwhile, Tecmed’s support for a stable and predictable legal framework was picked up in some later awards (e.g.
+ <a href="https://www.iareporter.com/articles/in-depth-unpacking-the-arbitrators-holdings-in-the-murphy-v-ecuador-award-including-the-scope-of-legitimate-expectations-and-the-use-of-ex-post-data-on-damages/">
+  Murphy v. Ecuador
+ </a>
+ and
+ <a href="https://www.iareporter.com/articles/in-now-public-rupert-binder-v-czech-republic-award-tribunals-vacated-and-then-reinstated-jurisdiction-was-exercised-so-as-to-find-no-breaches-of-treaty/">
+  Binder v. Czech Republic
+ </a>
+ ), but toned down in favour of “regulatory flexibility” in others (e.g.
+ <a href="https://www.iareporter.com/articles/breaking-spain-prevails-on-merits-in-first-of-many-energy-charter-treaty-claims-in-the-solar-sector/">
+  Charanne v. Spain
+ </a>
+ ).
+</p>
+<p>
+ But Tecmed’s “extreme” interpretations worried other tribunals, including in the Cargill v. Mexico case (discussed
+ <a href="https://www.iareporter.com/articles/tribunal-sees-a-high-bar-for-breach-of-naftas-minimum-standard-of-protection-doubts-expressed-as-to-impact-of-hundreds-of-bits-on-customary-international-law/">
+  here
+ </a>
+ ) and perhaps most notably,
+ <a href="https://www.iareporter.com/articles/analysis-icsid-tribunal-in-argentine-case-treads-new-ground-with-concept-of-creeping-unfair-treatment/">
+  as we reported
+ </a>
+ , the tribunal in El Paso v. Argentina remarked that Tecmed’s analysis of FET established “a programme of good governance that no State in the world is capable of guaranteeing at all times”.
+</p>
+<p>
+ Nevertheless, the most important holding from Tecmed was certainly the concept of legitimate expectations, which took centre stage in dozens of future cases. It is now commonplace for tribunals (see e.g.
+ <a href="https://www.iareporter.com/articles/analysis-measures-other-than-outright-termination-of-power-purchase-agreement-fail-to-rise-to-level-of-treaty-breaches-by-hungary-in-electrabel-arbitration/">
+  Electrabel v. Hungary
+ </a>
+ ) to affirm that legitimate expectations form the principal element of the FET standard. Still, this concept has been severely criticized by some respondents and individual arbitrators (e.g. Pedro Nikken’s separate opinion in Suez v. Argentina, analyzed
+ <a href="https://www.iareporter.com/articles/suez-analysis-part-2-judge-nikken-assails-reading-of-fair-and-equitable-treatment-in-light-of-investors-expectations-and-signals-that-states-dont-impliedly-waive-their-regulatory-po/">
+  here
+ </a>
+ ). Moreover, later tribunals have sometimes sought to narrow the scope of expectations to specific commitments only (e.g. in
+ <a href="https://www.iareporter.com/articles/analysis-arbitrators-in-edf-v-romania-grapple-with-attribution-of-state-responsibility-and-costs-apportionment/">
+  EDF v. Romania
+ </a>
+ ), or to curtail their relevance at all (particularly in cases under treaties tying the FET standard to customary international law, such as
+ <a href="https://www.iareporter.com/articles/in-mesa-award-waste-mgt-reading-of-fet-is-embraced-despite-post-bilcon-criticisms-but-majority-offers-much-deference-to-state-policy-choices-mfn-access-to-stronger-fet-is-nixed/">
+  Mesa v. Canada
+ </a>
+ ).
+</p>
+<p>
+ <strong>
+  No evidence that Mexico breached other treaty clauses
+ </strong>
+</p>
+<p>
+ Turning to other BIT protections, Tecmed argued that Mexico should also be liable, under the ‘full protection and security’ clause, for various protests that occasionally prevented it from operating the landfill. Tecmed lastly contended that INE’s actions were discriminatory, and breached obligations on the promotion and admission of investments.
+</p>
+<p>
+ However, the tribunal rejected the claimant’s contentions. After noting that “the guarantee of full protection and security is not absolute and does not impose strict liability upon the State”, the tribunal held that the claimant had failed to make out this claim. A similar conclusion was reached on the other remaining claims.
+</p>
+<p>
+ <strong>
+  Tribunal declined to follow a DCF analysis, and awarded market value of the investment
+ </strong>
+</p>
+<p>
+ Finally, in determining quantum, Tecmed proposed that restitution was infeasible and that it should instead receive compensation of US$52 million, pursuant to a Discounted Cash-Flow (DCF) analysis. However, Mexico questioned reliance on a DCF analysis, pointing out that the landfill had only operated for two and a half years.
+</p>
+<p>
+ [UPDATE January 10, 2018: Below we have updated this report to provide additional details of the tribunal’s quantum analysis.]
+</p>
+<p>
+ The objection to a DCF valuation was accepted by the tribunal. Instead, it chose to focus on the expected value of the landfill in an “arm’s-length” transaction. The tribunal’s analysis started from the price that Tecmed originally paid for Cytrar during the public tender, and took into account the investments and increase in the investment’s value and goodwill due to Tecmed up to the date of expropriation, as well as lost profits for two years thereafter, to arrive at a sum of more than US$5.5 million.
+</p>
+<p>
+ In the course of its analysis, the tribunal professed to walk a fine line between taking into account the “community pressure” that would have continued to plague the operation of the landfill – and therefore its future profits in the eye of a potential acquirer – while not  taking into account the actions of the Mexican authorities, stemming from the same pressures, which eventually – and contrary to the BIT – led Tecmed’s investment into ruin.
+</p>
+<p>
+ (
+ <em>
+  Editor’s Note:
+ </em>
+ the tribunal’s willingness to factor in such “community pressure” calls to mind the earlier reasoning of the tribunal in SD Myers v. Canada,
+ <a href="https://www.iareporter.com/articles/looking-back-at-damages-phase-arbitrators-in-sd-myers-v-canada-case-quantified-foregone-income-due-to-border-closure-role-of-ngo-driven-political-risk-also-touched-upon/">
+  which seemed to weigh
+ </a>
+ the investor’s exposure to pressre from environmental NGOs in its overall assessment of that claimant’s business risks. More broadly, the willingness of tribunals to consider the negative financial effects of public/NGO pressure may offer another reason for investors to strive to obtain the so-called “social licence” that was discussed in the
+ <a href="https://www.iareporter.com/articles/analysis-bear-creek-tribunal-declines-to-imply-legality-requirement-considers-interpretive-annex-on-indirect-expropriation-and-views-treatys-general-exceptions-clause-as-ruling-out-other-exceptio/">
+  recent Bear Creek v. Peru award
+ </a>
+ .)
+</p>
+<p>
+ For the tribunal, an informed buyer would have come to the conclusion that the landfill would necessarily be relocated, thus curtailing the expected profits from this landfill to two years only (being the estimated time required to achieve this relocation).
+</p>
+<p>
+ Compound interest at 6% per annum was added to this, but the claimant’s request for moral damages was rejected without particular discussion – although the tribunal saw no ground to attribute the “adverse press coverage” suffered by the claimants to Mexico or otherwise found the state liable for this.
+</p>
+<p>
+ Each party was left to bear its own costs.
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+ * Guillermo Aguilar Alvarez was originally appointed by Mexico; however, he resigned after Mexico “made certain observations regarding opinions alleged to have been given by Mr. Aguilar Alvarez in another arbitration proceeding”. It is unclear what prompted these observations, and while Mr. Alvarez was a member of the tribunals in MTD v. Chile and Waste Managements v. Mexico (II) at the time, he eventually resigned in these two cases as well.
+</p>
+<p>
+ ** A feature
+ <a href="https://www.iareporter.com/articles/liability-ruling-in-oxy-v-ecuador-arbitration-puts-spotlight-on-need-for-states-to-mete-out-treatment-that-is-proportionate/">
+  also noticed
+ </a>
+ with respect to the award in Occidental Petroleum v. Ecuador, which relied on Tecmed in its application of proportionality. Although Ecuador raised this point in its efforts to annul the award, the ad-hoc committee
+ <a href="https://www.iareporter.com/articles/oxy-annulment-committee-upholds-tribunal-reasoning-on-proportionality-and-law-42/">
+  was unconvinced
+ </a>
+ .
+</p>

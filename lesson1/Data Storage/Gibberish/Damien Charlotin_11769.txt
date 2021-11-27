@@ -1,0 +1,84 @@
+<h1 class="ArticleTitle">
+ Overview: what’s happening in Egypt-Israel gas pipeline arbitrations
+</h1>
+<p class="f-24">
+</p>
+<p>
+ Setbacks continue to pile up for a pair of Egyptian state-owned companies, EGAS and EGPC, embroiled in a multi-arbitration* dispute over a controversial gas pipeline between Israel and Egypt.
+</p>
+<p>
+ Last week, Israel-owned company Electric Co announced in a statement that a Swiss court, the Swiss Federal Tribunal, has declined to set aside an ICC award that had awarded hefty damages against the two Egyptian state-owned companies, EGAS and EGPC.
+</p>
+<p>
+ <a href="https://www.iareporter.com/articles/armesto-chaired-icc-tribunal-finds-2-billion-damages-in-egyptian-gas-case-with-other-claims-including-treaty-cases-still-pending/">
+  As we reported in 2015
+ </a>
+ , the ICC tribunal had ordered EGAS and EGPC to compensate Electric Co and another party, East Mediterranean Gas Company (EMG), after Egypt halted the operation of a pipeline that supplied gas to Israel and repudiated a related gas supply agreement. The ICC tribunal, which was chaired by
+ <a href="https://www.iareporter.com/arbitrator/Fernandez-Armesto">
+  Juan Fernandez-Armesto
+ </a>
+ , had awarded more than $2 billion to the claimants ($324 million to EMG, $1.76 billion to Electric Co).
+</p>
+<p>
+ This ruling opens the way for Electric Co to seek to enforce the award, although the Egyptian government
+ <a href="http://www.dailynewsegypt.com/2017/04/30/egypt-obliged-pay-2bn-compensation-israel-halting-gas-exports/">
+  reportedly
+ </a>
+ intends to negotiate a settlement, in a framework where Israel might turn from importer to exporter of gas to Egypt (in the event reversing the flow of the pipeline managed by EMG).
+</p>
+<p>
+ Meanwhile, the Egyptian parties suffered another arbitral setback in recent weeks in relation to a claim that they had launched in 2012 with the Cairo Regional Centre for International Commercial Arbitration (CRCICA). The Egyptian parties alleged that they had lawfully terminated the gas supply agreement as a result of EMG’s alleged breaches of that agreement. EMG submitted counterclaims in an amount of more than $3.5 billion.
+</p>
+<p>
+ In April of this year, the CRCICA tribunal of Lord Collins of Mapesbury (Chair),
+ <a href="https://www.iareporter.com/arbitrator/Landau">
+  Toby Landau QC
+ </a>
+ and
+ <a href="https://www.iareporter.com/arbitrator/Born">
+  Gary Born
+ </a>
+ rendered an award accepting certain of EMG’s counterclaims and holding EGAS and EGPC liable for the termination of the agreement.
+</p>
+<p>
+ While the April 7, 2017 partial award is not available, disclosures made in the context of US bankruptcy proceedings confirm that a separate damages phase is yet to play out.
+</p>
+<p>
+ <strong>
+  Treaty-based disputes still ongoing, as earlier abuse of process has been cured
+ </strong>
+</p>
+<p>
+ As readers will recall, the pipeline controversy has also prompted two investment-treaty arbitrations against Egypt, filed on the same day in May 2012. One of these culminated this year, when an ICSID tribunal held Egypt liable under the Egypt-United States BIT.
+ <a href="https://www.iareporter.com/articles/in-new-egypt-ruling-disproportionate-contract-termination-and-failure-to-prevent-pipeline-attacks-underpin-fortier-chaired-tribunals-findings-of-bit-breach/">
+  As we reported
+ </a>
+ , the tribunal found that Egypt should compensate Ampal-American Israel Corporation and several other minority shareholders in EMG, although the tribunal’s assessment of damages is yet to come.
+</p>
+<p>
+ A second treaty claim was brought by Ampal-American’s former CEO and shareholder in EMG, Yosef Maiman, and is still pending before a UNCITRAL tribunal established under the Egypt-Poland BIT. The tribunal made a jurisdictional determination in that case at the end of 2015, and another affirmation of jurisdiction in May of 2016.**
+</p>
+<p>
+ The two arbitrations initially partially overlapped with respect to the shares in EMG at the basis of the claim (Ampal-American’s claim was partly based on shares it indirectly held through one of the claimant in the UNCITRAL arbitration). This prompted the ICSID tribunal
+ <a href="https://www.iareporter.com/articles/arbitrators-allow-investor-to-cure-a-crystalised-abuse-of-process-by-choosing-to-drop-one-of-two-sets-of-parallel-bit-arbitration-claims/">
+  to invite the claimants
+ </a>
+ to elect in which forum they preferred the overlapping claims to be heard, in order to “cure” what the tribunal considered to be an abuse of process.
+</p>
+<p>
+ As recounted by the liability award in the ICSID case, Ampal-American and Mr Maiman chose to split the claims between the two arbitrations and remove any overlap. This move was sanctioned by an August 15, 2016 decision of the ICSID tribunal (still unpublished), which found that the abuse of process had been cured. As a result of this election, Ampal-American is now only seeking compensation for its 8.21% indirect shareholding in EMG (as opposed to 12.5% previously) in the ICSID arbitration.
+</p>
+<p>
+ <em>
+ </em>
+</p>
+<p>
+ * The tribunal in the ICSID case provided a helpful table with information on the four other existing arbitrations in an annex to its Decision on Jurisdiction, which we discussed
+ <a href="https://www.iareporter.com/articles/arbitrators-allow-investor-to-cure-a-crystalised-abuse-of-process-by-choosing-to-drop-one-of-two-sets-of-parallel-bit-arbitration-claims/">
+  here
+ </a>
+ . More recent developments have been described in reports from Ampal-American’s Trustee in bankruptcy proceedings, in particular its fourth report dated April 25, 2017.
+</p>
+<p>
+ ** Correction, Feb 7, 2018: In the original version of this report, we had indicated that the UNCITRAL BIT tribunal had made a jurisdictional determination at the end of 2015 that was “later embodied in a reasoned decision on jurisdiction dated May 5, 2016 (as yet unpublished).” However, we have now determined that the tribunal’s reasoning on jurisdiction was given to the parties only at the end of 2017. At the earlier junctures mentioned in our story above, the tribunal merely wrote to the parties on two successive dates to indicate, first, that it had jurisdiction over the individual claimant in the case, and, later, that it planned to reject Egypt’s other jurisdictional objections. The full reasoning underpinning these determinations, however, came only in a decision on jurisdiction and liability which was issued on December 28, 2017. That latter decision is currently confidential, but its existence was revealed in a February 7, 2018 “status report” submitted in a US Bankruptcy proceeding.
+</p>

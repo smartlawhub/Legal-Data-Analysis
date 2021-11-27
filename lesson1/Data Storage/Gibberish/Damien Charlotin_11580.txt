@@ -1,0 +1,102 @@
+<h1 class="ArticleTitle">
+ Mexico lays out its jurisdictional objections to claims brought by US gaming sector investors, and points to allegedly conflicting ownership information submitted in US racketeering case
+</h1>
+<p class="f-24">
+</p>
+<p>
+ Mexico has recently filed a memorial on jurisdictional objections [
+ <a href="https://www.italaw.com/sites/default/files/case-documents/italaw8957.pdf">
+  click to download
+ </a>
+ ] in an arbitration pitting it against some 39 U.S. investors (companies and individuals) in the gaming and casino industry, collectively referred to as B-Mex and others.
+</p>
+<p>
+ <a href="https://www.iareporter.com/articles/mexico-disputes-round-up-flurry-of-notices-filed-by-water-company-tunnel-builder-gaming-investors-and-beverages-importer/">
+  We reported in 2014
+ </a>
+ on this NAFTA Chapter 11 dispute when it was in its infancy. Since then, and despite difficulties reported below, an extended set of claimants has succeeded in filing a claim under the ICSID Additional Facility rules and a tribunal of
+ <a href="http://www.iareporter.com/arbitrator/Born">
+  Gary Born
+ </a>
+ ,
+ <a href="http://www.iareporter.com/arbitrator/Vinuesa">
+  Raul Vinuesa
+ </a>
+ and
+ <a href="https://www.iareporter.com/arbitrator/Verhoosel">
+  Gaetan Verhoosel
+ </a>
+ (chair)
+ <a href="https://www.iareporter.com/articles/verhoosel-is-asked-by-icsid/">
+  has been constituted
+ </a>
+ to hear the case. The parties subsequently agreed to bifurcate the proceedings.
+</p>
+<p>
+ Claimants are assisted by Quinn Emanuel Urquhart &amp; Sullivan; Mexico relies on its own in-house counsel, as well as on two outside firms: J. Cameron Mowatt Law Corporation and Pillsbury Winthrop Shaw Pittman, LLP.
+</p>
+<p>
+ <strong>
+  Mexico stresses non-compliance with NAFTA’s procedural requirements
+ </strong>
+</p>
+<p>
+ Mexico adduces five grounds to challenge the tribunal’s jurisdiction.
+</p>
+<p>
+ The first two grounds rely on the claimant’s alleged non-compliance with the procedural requirements of articles 1119 and 1121 of NAFTA, which Mexico deems mandatory. The former requires would-be claimants to notify the respondent state 90 days prior to the filing of an arbitration. This Notice of Intent (NOI) shall include, among other things, the names and addresses of the claimants.
+</p>
+<p>
+ Mexico contends that the claimants failed to comply with this requirement, as their original NOI mentioned only 8 of the now 39 claimants, while merely alluding to “several enterprises” on whose behalf these 8 investors intended to bring a claim.
+</p>
+<p>
+ According to Mexico, its efforts to obtain more information from the claimants following the original NOI have been to no avail, with the state receiving no communication from the claimants in the eighteen months that preceded the claimants’ eventual filing for arbitration (reported
+ <a href="https://www.iareporter.com/articles/nafta-case-filed-at-icsid-by-investors-in-gaming-sector/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ While the claimants eventually served an amended NOI
+ <em>
+  after
+ </em>
+ the arbitration had been filed, Mexico points to the “the absurdity of purporting to give advance notice of something that has already happened.” Accordingly, Mexico contends that the request for arbitration was void since it was not preceded by a valid notice of intent in accordance with article 1119.
+</p>
+<p>
+ Moreover, Mexico has pointed to Article 1121 of NAFTA, which requires claimants to submit a written consent to arbitration when filing a case (as well as certain waivers). A number of claimants apparently failed to submit such consent, a failure that first prompted the ICSID Secretariat (following Mexico’s objections) to refuse to register the arbitration.
+</p>
+<p>
+ All claimants eventually filed powers of attorney (conferred to Quinn Emanuel Urquhart &amp; Sullivan), which led the Secretariat to formally register the claim. Mexico counters that these powers of attorney, or the mere filing a Request for Arbitration as suggested by the claimants, cannot obviate the consent in writing contemplated by article 1121.
+</p>
+<p>
+ <strong>
+  “Failure to explain” should deprive the tribunal of jurisdiction
+  <em>
+   ratione personae
+  </em>
+ </strong>
+</p>
+<p>
+ Mexico also objects to what it describes as the claimants’ inability to indicate who owns what, and to supply proof of such ownership in the Mexican companies at the center of the dispute.
+</p>
+<p>
+ Moreover, the respondent points to alleged contradictions in the claimants’ case. The claimants’ later submissions in the ICSID arbitration describe the 31 additional investors – who were not identified in the original NOI – as “minority investors” in the Mexican firms. At the same time, Mexico says that filings in a separate legal proceeding, a US Federal Racketeering Influenced and Corrupt Organizations Act (RICO) claim, characterize the same investors as holding a controlling stake.
+</p>
+<p>
+ In Mexico’s view, the claimants’ ambiguous and contradictory information fails to establish the claimants’ standing as investors in this arbitration, under NAFTA’s articles 1116 (for the US investors) and 1117 (for the Mexican firms on whose behalf the claim is brought).
+</p>
+<p>
+ <strong>
+  Suspicions arose over the validity of powers of attorney signed by non-claimant
+ </strong>
+</p>
+<p>
+ Lastly, Mexico notes that the RICO claim is directed at three individuals who allegedly, in the claimants’ words, “took advantage of the precarious position that Mexico had placed Claimants in to illegally place themselves and their cronies on the boards of directors.”
+</p>
+<p>
+ Mexico notes in this respect that the powers of attorneys on behalf of the Mexican enterprises were signed by one of the individuals sued in the RICO case. Mexico calls for clarification about the validity of such powers of attorney in these circumstances.
+</p>
+<p>
+ We will report further on the case as it unfolds.
+</p>

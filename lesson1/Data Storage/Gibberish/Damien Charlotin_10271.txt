@@ -1,0 +1,308 @@
+<h1 class="ArticleTitle">
+ Overview: Kazakh investors clear jurisdictional hurdles in dispute with Uzbekistan, although further illegality issue looms at merits phase
+</h1>
+<p class="f-24">
+</p>
+<p>
+ <a href="http://www.iareporter.com/articles/arbitrators-dismiss-jurisdictional-objections-to-bit-claim-by-kazakh-investors-against-uzbekistan-including-objection-alleging-corrupt-payments/">
+  As we reported recently
+ </a>
+ , a tribunal reached a decision on jurisdiction on March 8, 2017 [
+ <a href="http://www.iareporter.com/wp-content/themes/iareporter/download.php?post_id=26988">
+  click to download
+ </a>
+ ] in a dispute filed with the International Centre for Settlement of Investment Disputes (ICSID) nearly four years ago. The claimants, Vladislav Kim and eleven other individuals, are partners in a major Kazakh private equity fund, Visor Group.*
+</p>
+<p>
+ This decision opens the way for a hearing of the merits in a dispute over the claimants’ investments in two Uzbek cement production companies.
+</p>
+<p>
+ The tribunal was composed of
+ <a href="https://www.iareporter.com/arbitrator/Caron">
+  David Caron
+ </a>
+ (chair),
+ <a href="https://www.iareporter.com/arbitrator/Fortier">
+  Yves Fortier
+ </a>
+ (claimants’ appointee) and
+ <a href="https://www.iareporter.com/arbitrator/Landau">
+  Toby Landau
+ </a>
+ (respondent’s appointee). The investors chose ICSID arbitration under the 1997 Kazakhstan-Uzbekistan bilateral investment treaty (BIT) (the treaty also provided for arbitration under UNCITRAL Rules, or – surprisingly in light of the seeming obstacle found in Article 34(1) of the ICJ Statute – for a referral of any investor-state dispute to the International Court of Justice).
+</p>
+<p>
+ The dispute was bifurcated in 2014, to review four of Uzbekistan’s five preliminary objections in an initial jurisdictional phase.
+</p>
+<p>
+ Below, we discuss the first two objections raised by Uzbekistan. We report on the third objection (an allegation that the claimants’ investment was made in breach of Uzbek laws) in
+ <a href="http://www.iareporter.com/articles/in-new-ruling-arbitrators-split-as-to-whether-alleged-fraud-by-claimants-should-deprive-tribunal-of-jurisdiction/">
+  a companion article
+ </a>
+ . A fourth objection (an allegation that the claimants’ investment was tainted by corruption) is heard
+ <a href="http://www.iareporter.com/articles/the-presidents-daughter-arbitrators-acknowledge-that-investors-alleged-over-payment-was-intended-for-gulnara-karimova-but-dont-see-proof-that-she-was-an-uzbek-government-offic/">
+  in the final part of our series of reports
+ </a>
+ on this decision.
+</p>
+<p>
+ A fifth objection, which bears on allegations of continuing bribery of Uzbek officials during the operation of the investment, was joined to the merits.
+</p>
+<p>
+ <strong>
+  Disputed factual background
+ </strong>
+</p>
+<p>
+ In 2005, the claimants sought to acquire majority stakes in two cement plants (BC and KC) in Uzbekistan. The decision tersely suggests that the claimants’ “perceived limitation” of the Tashkent Stock Exchange “relating to spread limits and investment protection” led them to take extra steps to ensure that the transaction was fair, as they entered a complex share purchase agreement contractual framework (indeed, the legality of this framework is the main subject of the third jurisdictional objection,
+ <a href="http://www.iareporter.com/articles/in-new-ruling-arbitrators-split-as-to-whether-alleged-fraud-by-claimants-should-deprive-tribunal-of-jurisdiction/">
+  discussed here
+ </a>
+ ). Over the next years, the claimants acquired additional minority shareholdings to fortify their stakes in BC and KC. They eventually held a 83% stake in BC and a 89% stake in KC.
+</p>
+<p>
+ The parties’ narratives surrounding the ensuing lifespan of the investment diverge considerably.
+</p>
+<p>
+ In the claimants’ account, beginning in 2010, the cement plants were subjected to “a campaign of harassment by Respondent”, which took the shape of criminal and regulatory investigations. This culminated in a criminal verdict entered against BC and four of its managers. The judgment further ordered the transfer of a 51% ownership stake in BC to the Uzbek government.
+</p>
+<p>
+ Meanwhile, former minority shareholders represented by the Uzbek government succeeded in a domestic legal case to recover their shares, under the theory that they had been coerced earlier into selling these shares (comprising some 12% of KC) to the claimants.
+</p>
+<p>
+ Contrary to this narrative, the respondent offered a story of shoddy deals, corrupt payments, tax evasion, and coercion. In the respondent’s eyes, it was the allegedly criminal activities swirling around BC and KC that gave rise to the domestic criminal proceedings.
+</p>
+<p>
+ The tribunal only resolved this discrepancy as far as needed to deal with the preliminary objections. We study the tribunal’s treatment of (some of) the corruption allegations
+ <a href="http://www.iareporter.com/articles/the-presidents-daughter-arbitrators-acknowledge-that-investors-alleged-over-payment-was-intended-for-gulnara-karimova-but-dont-see-proof-that-she-was-an-uzbek-government-offic/">
+  in a companion article
+ </a>
+ .
+</p>
+<p>
+ <strong>
+  Expert Gary Born weighs in on the propriety of using anonymous experts
+ </strong>
+</p>
+<p>
+ The procedural record includes an unusual procedural dispute over the claimants’ reliance on anonymous submissions.
+</p>
+<p>
+ The claimants filed their counter-memorial on jurisdiction with an accompanying, and anonymously written, expert report, due to alleged risks that might befall the Uzbekistan-based expert and his/her business activities,** were his/her name to be disclosed. Uzbekistan asked the tribunal to exclude this anonymous expert report from the record, stressing the harm that would befall it if it were deprived of the ability to attempt to impeach the credibility of witnesses testifying against it.
+</p>
+<p>
+ In a procedural order dated December 30, 2014, the tribunal rejected this request, citing “several reports submitted [by Claimants] pointing to political conditions within Uzbekistan as well as the citations to the alleged treatment of other interested parties in this dispute [that]
+ <em>
+  prima facie
+ </em>
+ […] support Claimants’ assertion of a substantial risk to the expert assuming the identity of the expert is disclosed.” This was, however, without prejudice to a later decision as to any weight that might be given to these anonymous submissions.
+</p>
+<p>
+ Uzbekistan repeated its request a few months later, this time with an expert report from
+ <a href="https://www.iareporter.com/arbitrator/Born">
+  Gary Born
+ </a>
+ identifying the issues entailed by such anonymous expert report in terms of procedural fairness. He cited, for example, the difficulties in efficiently cross-examining the report’s anonymous authors. In Mr. Born’s opinion, an award that relied on such experts – where the opposing party was not provided the opportunity to cross-examine them – risked annulment on due process/fairness grounds
+</p>
+<p>
+ Mr. Born concluded that the tribunal should only depart from the general rule (experts need to be identified) on compelling grounds, and a proportional solution should be sought. Such solution could take the shape of testimony on an ‘attorney’s eyes only’ basis – without the presence of Uzbek officials – and subject to the signature of a Non-Disclosure Agreement by Uzbekistan’s counsel.
+</p>
+<p>
+ <strong>
+  Experts eventually balk and withdraw their reports despite the claimants’ wishes
+ </strong>
+</p>
+<p>
+ The claimants accepted this latter solution, and the tribunal decided further that, in a first stage, the anonymous experts would be heard separately during the first hearing on jurisdiction that took place from July 28, to August 1, 2015. In a second stage, the tribunal would decide on the weight to give to this evidence.
+</p>
+<p>
+ However, due to subsequent events at the hearing – specifically “disclosures by Respondent’s counsel” –, “the Anonymous Experts feared they would be identified and declined to testify.” Although the disclosures were ‘accepted-as-inadvertent’, the experts’ oral testimony was postponed.
+</p>
+<p>
+ In the lead-up to the second hearing, the claimants flagged an email that had been sent to the tribunal by the respondent’s counsel, and copied to an Uzbek government official, which allegedly included confidential information regarding the anonymous experts. Although the respondent’s counsel insisted that the government official deleted the mail without reading it, the claimants reported that the experts had lost all faith in the ability of the respondent’s counsel to safeguard their identity from disclosure and thus indicated that they were no longer willing to testify whatsoever.
+</p>
+<p>
+ The tribunal, “concerned that it had a responsibility to ensure the good order and fairness of these proceedings”, asked the anonymous experts if they wanted their reports to be withdrawn from the record, to further protect them from retaliation. Whereas the experts ultimately expressed such a wish, the claimants argued in favour of keeping their expert submissions on record.
+</p>
+<p>
+ The tribunal, which acknowledged the difficult position of each party in these circumstances, ultimately preferred to exclude the anonymous expert reports from the record. It allowed however some of the accompanying exhibits to be reintroduced in the record.
+</p>
+<p>
+ Although relations between claimants and respondent states are sometimes fraught, and allegations that witnesses are at risk are not infrequent (see, for example,
+ <a href="https://www.iareporter.com/articles/arbitrators-order-that-bolivian-criminal-proceedings-be-suspended/">
+  Quiborax v Bolivia
+ </a>
+ ), this is the first time to our knowledge that a claimant feels the need to shield local experts from retaliation from a respondent state by seeking to hide his or her name. (
+ <a href="http://www.iareporter.com/articles/claimants-failure-to-pursue-local-remedies-for-12-months-derails-300-million-claim-against-turkmenistan-use-of-local-courts-not-proven-to-be-futile/">
+  We’ve written about cases
+ </a>
+ against other autocratic regimes in Central Asia, where claimants insist that they could find no local attorneys who would agree to serve as experts against the government.)
+</p>
+<p>
+ The complications detailed in the Kim v. Uzbekistan decision bear witness to the practical difficulties involved in finding an effective means of admitting anonymous testimony while protecting the witnesses
+ <em>
+  and
+ </em>
+ the due process rights of the other party.
+</p>
+<p>
+ <strong>
+  Subsequent loss of citizenship does not bar the tribunal’s jurisdiction
+ </strong>
+</p>
+<p>
+ As a first objection to the tribunal’s jurisdiction, Uzbekistan contested the Kazakh citizenship of some of the claimants. Kazakh nationality is required under the BIT and the ICSID Convention to bring a claim, and the claimants all provided copies of their passports with their Request for Arbitration.
+</p>
+<p>
+ Uzbekistan argued however that under Kazakh law, which does not allow for dual nationality, individuals automatically lose their Kazakh citizenship in certain circumstances, such as when they acquire another nationality or work as officials for a foreign government.
+</p>
+<p>
+ Although the tribunal agreed that the applicable law was not clear, it ultimately disagreed with Uzbekistan’s analysis, finding that a positive act by Kazakh authorities was needed for an individual to be stripped of Kazakh nationality. This conclusion was “consistent with the presumption against statelessness that is a general principle of public international law.”
+</p>
+<p>
+ Citing the jurisdictional award in Micula v Sweden (see
+ <a href="https://www.iareporter.com/articles/analysis-arbitrators-nix-romanias-plea-that-swedish-citizens-were-effectively-romanians-and-unqualified-to-sue-at-icsid/">
+  here
+ </a>
+ ), the tribunal further held that passports are
+ <em>
+  prima facie
+ </em>
+ evidence that create a presumption of nationality – the onus is on the respondent to rebut that presumption. On the facts, the tribunal found that none of the respondent’s arguments succeeded in rebutting this presumption.
+</p>
+<p>
+ In particular, one of the claimants had seen his citizenship terminated by the Kazakh government. Yet, this was immaterial for the tribunal, because this occurred in 2014, and thus after the claim was registered with ICSID. In the tribunal’s view, it sufficed that this claimant was a Kazakh national from the date of the investment to the registration of the case for the tribunal to have jurisdiction
+ <em>
+  rationae personae
+ </em>
+ over this individual.
+</p>
+<p>
+ <strong>
+  Claimants prove they hold an investment despite “complex” ownership structure
+ </strong>
+</p>
+<p>
+ Second, the respondent mounted a multifaceted challenge to the status of the claimants as “investors” holding an “investment” in Uzbekistan.
+</p>
+<p>
+ In a first step, the discussion centred on the structure of the companies and holdings through which the claimants owned their shares in BC and KC. The tribunal agreed that this structure was “complex”. It changed over time, and involved several intermediary entities in the British Virgin Islands and Cyprus.
+</p>
+<p>
+ Uzbekistan contended that the claimants failed to prove both their continuous ownership of the investment and the reality of the ownership structure at the time of the treaty breach.
+</p>
+<p>
+ These objections failed on the facts, as the tribunal stressed that what mattered was the claimants’ ownership at the time of the breach. Any break in this ownership during the investment’s life was irrelevant for jurisdictional purposes.
+</p>
+<p>
+ Here, although there was a temporal gap in the claimants’ account of its ownership, the tribunal was satisfied of the claimants’ stake in the ownership structure at the time of the breach.
+</p>
+<p>
+ <strong>
+  Investor need not be “active” to be protected by the BIT
+ </strong>
+</p>
+<p>
+ A further facet of Uzbekistan’s jurisdictional objection regarding the claimants’ status as investors relied on their alleged “passivity”. In the respondent’s view, the terms of the BIT (such as the requirement that the investment be “made”) required investors to take “active” step in investing. Uzbekistan pointed to the lack of evidence that claimants engaged in the management of BC and KC.
+</p>
+<p>
+ Readers will recall that a tribunal in one of Standard Chartered Bank’s disputes over a Tanzanian power plant project adopted such an interpretation (see
+ <a href="http://www.iareporter.com/articles/in-two-recent-arbitrations-prof-william-w-park-holds-that-wholly-passive-ownership-is-not-enough-for-claimants-to-enjoy-investment-treaty-protection/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ However, the tribunal, in not altogether clear language,*** differed, and found that the BIT did
+ <em>
+  not
+ </em>
+ include such a requirement. The decision on jurisdiction explicitly distinguishes the precedent in Standard Chartered Bank, stressing that the tribunal in that case made a distinction between investments ‘of’ the claimant and ‘by’ the claimant.**** As the Kazakh claimants were not looking to merely hold a financial interest but also to manage and develop the cement plants, the tribunal was satisfied that it was distinguishable from this precedent.
+</p>
+<p>
+ In any case, the tribunal also found that the claimants proved that they were active investors with respect to the investment.
+</p>
+<p>
+ <strong>
+  Remoteness not a bar to jurisdiction; neither is Uzbekistan’s lack of awareness of the investment
+ </strong>
+</p>
+<p>
+ Uzbekistan also argued that the BIT did not protect indirect investments, and that the claimants were too remote from the investment, due to the multi-layered corporate structure that held the investment (a claim typically rejected in investment jurisprudence; see, e.g.,
+ <a href="http://www.iareporter.com/articles/indian-investor-wins-uncitral-bit-claim-against-poland-with-tribunal-finding-by-majority-that-acquisition-of-shareholding-is-enough-to-warrant-bit-protection/">
+  Flemingo v Poland
+ </a>
+ .) Uzbekistan also contended that the claimants’ shares held through the Cypriot trusts were not protected, as the BIT protects only legal (as opposed to beneficial) ownership.
+</p>
+<p>
+ However, the tribunal refused to read these limitations into the text of the treaty.
+</p>
+<p>
+ The state had found alleged support for the remoteness proposition in awards such as in Enron v Argentina and Société Générale v Dominican Republic (see
+ <a href="http://www.iareporter.com/articles/analysis-1-multi-layered-corporate-structure-and-2-purchase-price-do-not-preclude-claim-against-dominican-rep/">
+  here
+ </a>
+ ). On the basis of the same awards, Uzbekistan also derived an “awareness requirement”: investments should not be protected under the BIT if the state was not aware of it.
+</p>
+<p>
+ However, the tribunal was not convinced that such “awareness requirement” existed. On the contrary, such a requirement was inconsistent with the “objects [sic] and purpose of international investment law”. (The tribunal was not speaking here of the narrow object and purpose of the relevant BIT, but did not elaborate as to the perceived objects and purposes of “investment law” as a body of law.)
+</p>
+<p>
+ <strong>
+  Further challenges to the claimants’ investment are rejected
+ </strong>
+</p>
+<p>
+ Uzbekistan further argued that the claimants’ investment was not a protected “investment” under the BIT’s definition.
+</p>
+<p>
+ In this context, the tribunal first rejected the argument that investments financed by a loan do not deserve protection under the BIT. The tribunal found that “[i]t is not at all unusual for investments to entail the use of credit facilities by investors”. A further (undetailed) allegation that the loan was an improper, “related-party transaction” designed to defraud the Kazakh Sovereign Wealth Fund was rejected as unproven.
+</p>
+<p>
+ The respondent also took issue with the claimants’ avowed intent to sell their investment. Short-term investment, Uzbekistan argued, are not protected under the BIT. But the tribunal disagreed, finding that no such restriction could be read in the BIT. Although there are circumstances where “short-term” investment might be denied protection (such as “where investors in a stock exchange briefly hold shares in an undertaking, in the midst of buying and selling”), the circumstances in the case were different and the claimants’ investment in BC and KC were covered by the treaty.
+</p>
+<p>
+ <strong>
+  Both claimants’ and respondent’s conduct warrant some shifting of costs
+ </strong>
+</p>
+<p>
+ While the tribunal reserved its main findings on costs to the merits phase of the arbitration, the conduct of both the claimants and the respondent elicited comments from the tribunal.
+</p>
+<p>
+ First, the tribunal decided to award the claimants’ costs with respect to the proceedings concerning the anonymous experts’ submissions. The tribunal recalled that the respondent’s counsels’ (inadvertent) disclosure of information derailed the whole process. In the tribunal’s words, “Respondent’s Counsel failed to adopt adequate procedures to ensure the integrity of the information entrusted to it. The Tribunal in this matter does not believe it is calling for a high bar of conduct. Rather, it observes a lack of serious engagement with the duties assumed under the Confidentiality Agreement.”
+</p>
+<p>
+ Second, the decision on jurisdiction records that the tribunal was “deeply troubled” by the conduct of Mr Kim during the proceedings. As the tribunal recounted it, “Mr. Kim surreptitiously took photographs during his witness testimony, later posting at least one of these photos on social media accompanied by offensive language and the statement ‘White &amp; Case must die’.”
+</p>
+<p>
+ Although Mr Kim subsequently apologised, the tribunal found this conduct “deeply offensive to Counsel for Respondent and to this Tribunal”, and the incident led the tribunal to discount substantially Mr Kim’s evidence in the proceedings. The tribunal also considered that this will factor in its ultimate decision on costs, at the issue of the merits phase.
+</p>
+<p>
+ Jones Day represented the claimants in this case; Mr Michael Swainston, QC, of Brick Court Chambers also appeared for the hearings. The Republic of Uzbekistan and its in-house counsels were represented by White &amp; Case LLP.
+</p>
+<p>
+ In a
+ <a href="http://www.iareporter.com/articles/in-new-ruling-arbitrators-split-as-to-whether-alleged-fraud-by-claimants-should-deprive-tribunal-of-jurisdiction/">
+  second article
+ </a>
+ , we examine the tribunal’s holdings with respect to the legality of the investment and,
+ <a href="http://www.iareporter.com/articles/the-presidents-daughter-arbitrators-acknowledge-that-investors-alleged-over-payment-was-intended-for-gulnara-karimova-but-dont-see-proof-that-she-was-an-uzbek-government-offic/">
+  in a third
+ </a>
+ , about Uzbekistan’s bribery allegations.
+</p>
+<p>
+</p>
+<p>
+ * Another claim brought by the same claimants against Kyrgyzstan, and registered as Consolidated Exploration Holdings Ltd. and others v. Kyrgyz Republic (ICSID Case No. ARB(AF)/13/1), was settled in September 2015.
+</p>
+<p>
+ **The claimant had initially described the expert in a singular manner, but later revealed that there were two experts who had drafted the anonymous report.
+</p>
+<p>
+ *** The decision on jurisdiction seems to contain a typographical error in this sentence (i.e. a double-negative): “However, the Tribunal does not agree that the ordinary meaning of the term ‘made’ does not necessarily entails a requirement that Claimants must have an ongoing ‘active’ role in the investment such that the term imposes a limitation on the definition of ‘investor’ under the BIT.”
+</p>
+<p>
+ **** At first glance, the tribunal’s impression of the Standard Chartered Bank award is hard to square with that award – which instead seemed to interpret “of” in Article 8(1) of the relevant BIT as meaning, in substance, “by”, in that it entails some form of activity (rather than passivity) on the part of the investor. Indeed, the tribunal in the Standard Chartered case, at paragraph 257, seemed to see the important distinction to lie instead between investments “held by” or “made by” the investor: “(T)he Tribunal has concluded that protection of the UK-Tanzania BIT requires an investment made by, not simply held by, an investor. To be considered to have made an investment, SCB must have contributed actively to the investment.”
+</p>

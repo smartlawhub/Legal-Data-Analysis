@@ -1,7 +1,9 @@
 ## Lists
 
 <b>1.</b> Another type of variable is a <em>list</em>, which is exactly what you think it is: it lists things, such 
-as data, or even other variables, or even other lists ! Lists are denoted by using brackets and commas. You update a list by using the function `.append()` directly from the list.
+as data, or even other variables, or even other lists ! Lists are denoted by using brackets and commas. You update a 
+list by using the function `.append()` directly from the list, as follows: see that the item you added with append 
+now appears at the end of the list.
 
 ```python
 my_list = [1, "Frivolous", text_var2, ["this is list number", 2], "Peake"]
@@ -15,8 +17,7 @@ print(my_list)
 <b>2.</b> A very important feature of lists is that they are ordered. This means if you know the (numerical) index of 
 an item in a list, you can access it immediately. 
 
-Here is how you do it (learn it once and for all: indexes start at 0; the first element in a list can be found at index 0). You can also select an element of a list by reference to its relative position. Finally, if you can select the item in a list of list by collating indexes.
-
+Learn it once and for all: indexes start at 0; the first element in a list can be found at index 0. You can also select an element of a list by reference to its relative position. Finally, if you can select the item in a list of list by collating indexes.
 
 <b>3.</b> You can also select several elements in a list, by using the `:` operator. The operator is not inclusive of the outer limit, meaning that the item on the right-hand-side of the  `:` operator won't be included in the list that is rendered. For instance, if you look for indexes `[0:2]`, you'll get items at index 0 and index 1, but not 2 (because it's excluded).
 
@@ -37,7 +38,8 @@ my_set = {1, 2, 2, 3, 3, 4, "Cake", "Cake"}
 ```python
 my_dict = {1 : "Mervyn", "Peake": 2, "My List" : my_list}
 ```
-<b>6.</b> Before switching to the next section, complete the placeholder such that you can print "Mervyn Peake" 
+<u>Exercice 1</u> Before switching to the next section, complete the placeholder such that you can print "Mervyn 
+Peake" 
 using both the list `my_list` and the dictionary `my_dict`.
 
 <div class="hint">Check out the previous code to identify the correct index and key; don't forget the middle space !

@@ -1,0 +1,282 @@
+<h1 class="ArticleTitle">
+ In now-public Isolux v. Spain award, measures that later breached investor protections in Eiser case were not deemed to breach Isolux’s legitimate expectations
+</h1>
+<p class="f-24">
+</p>
+<p>
+ As revealed in a
+ <a href="https://www.iareporter.com/articles/in-newly-unearthed-energy-charter-treaty-award-arbitrators-grapple-with-denial-of-benefits-nationality-planning-tax-carve-out-and-eu-law-issues/">
+  separate introductory report
+ </a>
+ ,
+ <em>
+  IAReporter
+ </em>
+ have obtained a copy of the July 2016 award in Isolux v. Spain. Below, we analyse the tribunal’s handling of the merits of the case, as well as the dissenting arbitrator’s opinion.
+</p>
+<p>
+ The majority of the tribunal of
+ <a href="https://www.iareporter.com/arbitrator/Derains">
+  Yves Derains
+ </a>
+ (chair),
+ <a href="https://www.iareporter.com/arbitrator/Tawil">
+  Guido Tawil
+ </a>
+ (investor’s appointee) and
+ <a href="https://www.iareporter.com/arbitrator/Von-Wobeser">
+  Claus von Wobeser
+ </a>
+ (Spain’s appointee) found that Spain did not breach the Energy Charter Treaty (ECT) in implementing a new regulatory regime to govern investments in solar-power plants from 2012 to 2014. The majority reasoned that the changes could not breach the claimant’s legitimate expectations at the time it invested, and found that no expropriation occurred, as the investor’s returns have actually surpassed expectations.
+</p>
+<p>
+ Isolux was assisted in these proceedings by Bird &amp; Bird, LLP in Spain and Latham &amp; Watkins, LLP’s Paris office; Spain relied on its in-house counsel.
+</p>
+<p>
+ <strong>
+  Investor complains of “brutal” reversal of regulatory conditions
+ </strong>
+</p>
+<p>
+ Readers who have followed the multiples proceedings filed against Spain by solar energy investors in recent years (see
+ <a href="https://www.iareporter.com/articles/foreign-investment-arbitral-claims-continue-to-pile-up-on-spain-as-government-turns-screws-on-energy-sector/">
+  here
+ </a>
+ or
+ <a href="https://www.iareporter.com/articles/spain-update-more-claims-surface-in-stockholm-and-at-icsid-and-several-new-tribunals-are-finalized/">
+  here
+ </a>
+ ) will recall that one of the bones of contention between the state and the aggrieved investors lies in the cumulative revision of the system of remunerative incentives governing renewable energy producers. We described the evolution of Spain’s regulatory environment in our report on the Eiser v Spain award (see
+ <a href="https://www.iareporter.com/articles/in-depth-arbitrators-in-eiser-award-deem-ect-to-protect-against-total-and-unreasonable-regulatory-change-but-tax-measure-is-excluded-spain-fails-to-admit-favourable-scc-award-into-evidence/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ Notably, the original remuneration regime, adopted in 2007 was not adapted to cope with the intervening financial crisis and the degradation of Spain’s finances. With a view to mitigating the growing “tariff deficit,” Spain set out to amend the terms of the “feed-in tariff” (FiT) remuneration system in 2010. These first regulatory actions gave rise, in particular, to the Charanne, BV v Spain arbitration, which concerned the same assets as the Isolux dispute (see
+ <a href="https://www.iareporter.com/articles/breaking-spain-prevails-on-merits-in-first-of-many-energy-charter-treaty-claims-in-the-solar-sector/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ The 2010 measures did not suffice to solve Spain’s financial straits, however, and the state chose to impose a 7% tax on electricity production in 2012, before amending, and ultimately rolling-back, the FiT system between 2013 and 2014. The FiT remuneration regime was eventually replaced by a system that calculated a “reasonable rate of return” based on the costs and performance of a hypothetical standard plant.
+</p>
+<p>
+ While the Charanne tribunal found that the 2010 measures did not breach the ECT, the Eiser tribunal later found that Spain’s subsequent measures amounted to a “dramatic” regulatory change that ran afoul of the protections of the treaty, and in particular the Fair and Equitable Treatment standard.
+</p>
+<p>
+ Isolux’s claim were similar to those of the Eiser claimants and targeted the same measures. Yet, as we discuss below, the Isolux tribunal came, however, to a different conclusion with respect to breach of the ECT. (As noted below, one partial explanation for the differing outcomes may be that the respective investors invested at different junctures, perhaps creating differing expectations.)
+</p>
+<p>
+ <strong>
+  No independent obligation to create a stable and transparent regulatory environment
+ </strong>
+</p>
+<p>
+ Article 10(1) ECT encompasses several obligations of treatment often found in investment treaties. This article starts thus: “Each Contracting Party shall, in accordance with the provisions of this Treaty, encourage and create stable, equitable, favourable and transparent conditions for Investors of other Contracting Parties to make Investments in its Area.”
+</p>
+<p>
+ Interpreting this article, the tribunal rejected the claimant’s argument that this first sentence encapsulated an obligation for states to create stable and transparent conditions for investments. In the tribunal’s reading, this obligation existed only as part of already existing standards, such as the FET standard and the associated obligation to respect investors’ legitimate expectations.
+</p>
+<p>
+ <strong>
+  Umbrella clause not applicable to general legislation
+ </strong>
+</p>
+<p>
+ Article 10(1)’s last sentence is an umbrella clause protecting “any obligations [the host State] has entered into with an Investor.”
+</p>
+<p>
+ While the claimant contended that this covered the remuneration systems under which it invested, the tribunal disagreed, laying stress on the words “entered into.” For the tribunal, this wording indicated without ambiguity that only specific commitments between states and investors, and not general regulatory acts applying to foreign and domestic investors alike, should fall under the umbrella clause.
+</p>
+<p>
+ While the tribunal saw exceptions for legislation directed explicitly to foreign investors, as in
+ <a href="https://www.iareporter.com/articles/arbitrators-hold-that-failings-of-kazakh-courts-dont-rise-to-level-of-international-law-breach-but-umbrella-clause-can-cover-legislative-promises/">
+  Liman v Kazakhstan
+ </a>
+ , this was not the case here, given that the FiT regime was directed to all investors – and Isolux’s own plants had been first built by its
+ <em>
+  Spanish
+ </em>
+ (i.e. non-foreign) parent, ISOLUX.
+</p>
+<p>
+ (Interestingly, the Isolux case can be contrasted with Micula v Romania, where a majority of the tribunal held that, although general commitments were probably not covered by umbrella clauses, “crystallised” or “vested” entitlements should be covered. This tribunal stressed that the investors in that case had been granted an “investor certificate” that qualified them to receive the scheme of incentives at stake in that case (see
+ <a href="https://www.iareporter.com/articles/majority-of-tribunal-sets-high-bar-for-relying-on-treatys-umbrella-clause-commitments-to-investors-must-be-vested-rights-under-local-law/">
+  here
+ </a>
+ ). Similarly, Isolux’s assets had to be formally registered in order to benefit from the FiT system.)
+</p>
+<p>
+ <strong>
+  Reasonable legitimate expectations are those of a prudent investor*
+ </strong>
+</p>
+<p>
+ Turning to Isolux’s claim that the Spanish regulatory actions violated its legitimate expectations, the tribunal derived from the investment jurisprudence the idea that investors should be expected to have exercised due diligence before investing. While this does not mean that such due diligence be extensive and exhaustive, the alleged expectations of the investor should be measured against the information it should reasonably have known at the time of the investment.
+</p>
+<p>
+ In particular, the tribunal asserted, “an investor cannot hold legitimate expectations based on the regulatory framework when its personal information allows it to expect and anticipate the unfavourable evolution of this regulatory framework before it invests.”
+</p>
+<p>
+ The parties however differed as to what time this meant. Isolux pointed to the decision to invest, which was taken when its Spanish and Canadian parents decided to relocate the Spanish assets with the Dutch entity, in June 2012. For Spain, it meant the time such restructuring effectively took place, in October of that year. A majority of the tribunal concurred with Spain.
+</p>
+<p>
+ <strong>
+  Investor could not have a legitimate expectation that regulatory framework would not be altered
+ </strong>
+</p>
+<p>
+ The tribunal proceeded to find that, as at October 2012, a few weeks before Spain introduced the impugned 7% tax on electricity production, the claimant could not have had a legitimate expectation that the regulatory framework would not take an unfavourable turn. Indeed, at that date, the regime had already been modified several times in ways unfavourable to the investors, always with a goal of fixing the tariff deficit.
+</p>
+<p>
+ (This appears to distinguish the Eiser case from the Isolux case, as the Eiser claimants took their decision to invest following the introduction of the original regime, in 2007.)
+</p>
+<p>
+ Indeed, jurisprudence from the Spanish Supreme Court had several times insisted that the Spanish authorities had the power to modify the regulatory regimes and that plant-owners should not expect that the remuneration regime remain unaltered.
+</p>
+<p>
+ In the Supreme Court’s view, as spelled out in a 2009 judgment, the only limit to the government’s power to adapt the regulatory regime was the legislative commitment to ensure “reasonable returns” for renewable energy producers.
+</p>
+<p>
+ In the view of the tribunal, here was the only legitimate expectation that Isolux could have held when it decided to invest.
+</p>
+<p>
+ The tribunal stressed that this domestic jurisprudence was not binding upon it, but could be useful to determine the investor’s expectations. Indeed, although an exhaustive legal assessment was not expected of the investor, “it can be presumed that [the investor has] knowledge of the important decisions of the supreme judicial authority with respect to the investment’s regulatory framework.”
+</p>
+<p>
+ Besides, the tribunal stressed, Isolux’s Spanish parent, ISOLUX, had been engaged in domestic litigation, made multiple references to this jurisprudence, and lost before the Supreme Court even before Isolux invested. This rendered Isolux, the tribunal held, “a particularly well-informed investor.”
+</p>
+<p>
+ <strong>
+  Abolition of original incentives was predictable
+ </strong>
+</p>
+<p>
+ The claimant however claimed that it could not have predicted that the changes enacted by Spain would be so drastic. While previous changes had only amended the FiT regime, the measures at issue went further, abolishing the regime completley.
+</p>
+<p>
+ The tribunal disagreed, finding that the permanence of the special, original regime
+ <em>
+  per se
+ </em>
+ could not have been a legitimate expectation of the investor. At least as at October 2012, “all investors knew or should have known” that the special regime would be altered, and its abolition a realistic possibility.
+</p>
+<p>
+ <strong>
+  Ceiling on return could not breach legitimate expectations when it is superior to the investor’s own expected return
+ </strong>
+</p>
+<p>
+ The investor also contested the introduction, with the Spanish 2013 measures, of a ceiling to the “reasonable rate of return” of the renewable energy plants.
+</p>
+<p>
+ However, the tribunal found that the claimant’s own expected rate of return when it invested was below this ceiling, even after taxes. Based on a 2011 expert report by Deloitte submitted on behalf of the claimant’s Spanish parent in its recourse before the Spanish domestic courts, the tribunal concluded that Isolux expected a 6.19% rate of return when it invested.
+</p>
+<p>
+ Since this was lower than the ceiling, the tribunal refused to credit Isolux’s claim that the ceiling breached its legitimate expectations.
+</p>
+<p>
+ <strong>
+  No retroactivity in immediate application
+ </strong>
+</p>
+<p>
+ The tribunal also gave short shrift to the claimant’s argument that the new remuneration system was retroactive, as it took into account rates of return previously achieved by the plants built under the special regime to assess the remuneration owed under the new system.
+</p>
+<p>
+ Citing the case of Nations Energy v Panama (in which Mr. von Wobeser sat, see
+ <a href="https://www.iareporter.com/articles/tribunal-diverges-as-to-the-extent-to-which-u-s-panama-treaty-permits-foreign-investors-to-challenge-host-country-tax-measures/">
+  here
+ </a>
+ ), the tribunal distinguished retroactivity and immediate application of a new legal provision. The new Spanish regime was of immediate effect and departed from the original regime, but it did not annul nor reverse the effects of the original regime for the claimant at the time this regime was in force.
+</p>
+<p>
+ <strong>
+  Full protection and security standard not to be confused with FET
+ </strong>
+</p>
+<p>
+ While the claimant tried to prove a breach of the “full protection and security” standard resulting from the instability of the Spanish regulatory framework, the tribunal dismissed this interpretation of the standard. Here, the tribunal adopted the position spelled out most notably in Saluka v Czech Republic (see our looking back review
+ <a href="https://www.iareporter.com/articles/looking-back-saluka-v-czech-republic-tribunal-considered-jurisdiction-over-counterclaims-and-declined-to-hold-claimant-accountable-for-alleged-misdeeds-of-parent-company/">
+  here
+ </a>
+ ), that the FPS standard primarily concerns
+ <em>
+  physical
+ </em>
+ protection against acts by third parties or state agents.
+</p>
+<p>
+ In any case, the tribunal quoted the claimant’s Spanish parent, who had long complained of the “lack of legal certainty” in Spain, including in arguments before the Spanish Supreme Court in 2012. “A party that decides to invest in a country that, according to this party, lacks legal certainty, cannot thereafter complain that this certainty was not ensured,” the tribunal held.
+</p>
+<p>
+ <strong>
+  No unreasonableness in rational policy to protect consumers
+ </strong>
+</p>
+<p>
+ Finally, the tribunal rejected the idea that Spain’s measures were “unreasonable” so as to impair the investment’s operation. For the tribunal, even if the measures were questionable and alternatives may have been more favourable to the investor, this did not amount to unreasonableness, especially when Spain’s policy –to protect energy consumers – was rational.
+</p>
+<p>
+ <strong>
+  Promise of future returns is not an investment
+ </strong>
+</p>
+<p>
+ While Isolux’s FET claim faltered, the claimant also claimed indirect expropriation.
+</p>
+<p>
+ The claimant argued, in particular, that its right to a future rate of return under the FiT system had been expropriated with the introduction of the new regime. Spain objected that this was not an “investment” capable of expropriation, as only “tangible” investments and acquired rights could so qualify.
+</p>
+<p>
+ The tribunal clarified the debate by holding that Isolux’s investment was its (indirect) participation in the Spanish plants, and that the ECT protected the claimant’s title to, as well as the value of, these shares. In this respect, decreasing returns could reduce the shares’ value and might constitute an indirect expropriation.
+</p>
+<p>
+ <strong>
+  No expropriation where returns are actually higher than planned
+ </strong>
+</p>
+<p>
+ On the merits, the tribunal found that the returns of the claimant’s solar plants, under the new system, surpassed those it expected to see at the time of the investment. As such, there was no substantial decrease in the investment’s value, and no expropriation.
+</p>
+<p>
+ To come to this finding, the tribunal preferred to disregard the claimant’s expert reports submitted by Deloitte for the arbitration, which relied on a DCF method, and relied instead on the valuation methods found in an earlier (2011) Deloitte report (see above).
+</p>
+<p>
+ For the tribunal, this 2011 report, which sought to compute the impacts of the Spanish 2010 measures on the solar plants’ profitability, was particularly relevant for the present proceedings. Using this report’s method, and taking into account the legal and regulatory developments since 2011, Spain’s experts came to an even higher rate of return of 7.1%.
+</p>
+<p>
+ Judging that the claimant failed to convincingly challenge this methodology, the tribunal dismissed the indirect expropriation claim.
+</p>
+<p>
+ <strong>
+  Costs split 70/30
+ </strong>
+</p>
+<p>
+ Given that Spain failed with respect to some jurisdictional objections (as related here), the tribunal decided to split all costs 70/30 between the claimant and the respondent respectively.
+</p>
+<p>
+ <strong>
+  Dissenter would have seen breach of FET standard
+ </strong>
+</p>
+<p>
+ In a 5-page dissenting opinion, Guido Tawil explained that he concurred with his co-arbitrators on Spain’s jurisdictional objections, and likewise with the indirect expropriation claim.
+</p>
+<p>
+ However, he departed from the majority as to Spain’s compliance with the FET standard. In the dissenter’s view, the investor could derive legitimate expectations from the original regulatory regime, which was not too “general” for this purpose. Indeed, for the dissenter, the regime was specific enough in its addressees and ambit to generate legitimate expectations.
+</p>
+<p>
+ The dissent explains however that the main problem with the majority opinion lies in its assessment of the claimant’s expectations. For Mr Tawil, the claimant had a legitimate expectation that the FiT regime would remain in force, and not be abolished in its entirety.
+</p>
+<p>
+ Mr Tawil explained that Spain was perfectly entitled to amend its regulatory framework for public policy reasons; yet, in his view, states should compensate those affected even by licit actions. Mr. Tawil worried that the majority’s reasoning would mean that Spain could similarly abolish the guaranty of a reasonable rate of return without compensating investors. Indeed, Mr. Tawil saw no difference between the expectations of the investor about the availability of the FiT regime, and those with regard to the guaranteed reasonable rate of return.
+</p>
+<p>
+</p>
+<p>
+ * [Update January 28, 2018: This sub-headline has been amended as the previous formulation (“Due diligence necessary for generating legitimate expectations”) was potentially misleading. While the tribunal held that reasonable expectations were those of a prudent investor (who, therefore, engaged in a certain amount of due diligence), this does not mean that there is an abstract duty of due diligence.]
+</p>

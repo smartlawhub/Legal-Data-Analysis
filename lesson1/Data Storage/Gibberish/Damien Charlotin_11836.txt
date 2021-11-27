@@ -1,0 +1,252 @@
+<h1 class="ArticleTitle">
+ Looking Back: In Impregilo v Pakistan case, arbitrators needed to grapple with distinction between treaty/contract claims and scope of umbrella clause
+</h1>
+<p class="f-24">
+</p>
+<p>
+ <em>
+  (Editor’s Note: This is a report in our new series examining investment treaty awards that were rendered prior to the launch of IAReporter in 2008. Other articles in this series can be found
+  <a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.iareporter.com/iar-search/?iarsearch%3Dsidebar_cats%26c1%3D1688&amp;source=gmail&amp;ust=1503617154988000&amp;usg=AFQjCNFAZzJ26xEbyt0BO6cPCB0uwO87BQ" href="https://www.iareporter.com/iar-search/?iarsearch=sidebar_cats&amp;c1=1688" rel="noopener noreferrer" target="_blank">
+   here
+  </a>
+  .)
+ </em>
+</p>
+<p>
+ Rendered in 2005, the jurisdictional decision in Impregilo SpA v. Pakistan grappled with several issues that remain perennial subjects of debate in investment arbitration, including the question of the distinction between contract and treaty claims and the scope of umbrella clauses.
+</p>
+<p>
+ Italian investor Impregilo S.p.A was the leader of a joint venture, GBC, set up to develop a hydropower project in Pakistan. In 1995, GBC contracted with Pakistan’s Water and Power Development Authority (WAPDA) for the construction of the dam and related works, with a value of approximately $500 million.
+</p>
+<p>
+ As is usual in this type of projects an engineer served as an agent for Pakistan, and a Dispute Resolution Board (DRB) was created to handle disputes prior to any litigation.
+</p>
+<p>
+ Although the expected completion date was originally in 2000, the works suffered numerous delays. Impregilo attributed these to alleged contractual failures of WAPDA and the engineer. Moreover, the investor complained that the respondent had frustrated the contractual dispute resolution mechanism by failing to appoint a chairman to the DRB for more than two years.
+</p>
+<p>
+ In 2003, Impregilo filed a claim with the International Centre for Settlement of Investment Disputes (ICSID), under the 1997 Italy-Pakistan BIT.* The proceedings culminated in an April 22, 2005 decision on jurisdiction [
+ <a href="http://www.italaw.com/sites/default/files/case-documents/ita0422.pdf">
+  click to download
+ </a>
+ ].
+</p>
+<p>
+ As explained below, Pakistan raised several jurisdictional objections that were partly successful. Following the jurisdictional ruling, the parties settled the case, leaving the merits undecided. As part of the settlement, GBC was awarded $98 million by Pakistan (the September 25, 2005 Order of Discontinuance of Proceedings can be downloaded
+ <a href="http://www.italaw.com/sites/default/files/case-documents/ita0423.pdf">
+  here
+ </a>
+ ).
+</p>
+<p>
+ Arbitrators in this case were
+ <a href="https://www.iareporter.com/arbitrator/Guillaume">
+  Gilbert Guillaume
+ </a>
+ (presiding),
+ <a href="https://www.iareporter.com/arbitrator/Cremades">
+  Bernardo M. Cremades
+ </a>
+ (claimant’s appointee) and
+ <a href="https://www.iareporter.com/arbitrator/Landau">
+  Toby Landau
+ </a>
+ (respondent’s appointee).
+</p>
+<p>
+ The proceedings saw an unusual number of lawyers who would later specialize in investment arbitration. Counsel for the claimant were
+ <a href="https://www.iareporter.com/arbitrator/Price">
+  Daniel Price
+ </a>
+ and
+ <a href="https://www.iareporter.com/arbitrator/Alexandrov">
+  Stanimir Alexandrov
+ </a>
+ , of Sidley Austin Brown &amp; Wood, LLP, as well as
+ <a href="https://www.iareporter.com/arbitrator/Schwebel">
+  Stephen Schwebel
+ </a>
+ and
+ <a href="https://www.iareporter.com/arbitrator/Crivellaro">
+  Antonio Crivellaro
+ </a>
+ . Counsel for the respondent included,
+ <a href="https://www.iareporter.com/arbitrator/Veeder">
+  V.V. Veeder
+ </a>
+ , QC,
+ <a href="https://www.iareporter.com/arbitrator/Khan">
+  Makhdoom Ali Khan
+ </a>
+ ,
+ <a href="https://www.iareporter.com/arbitrator/Pellet">
+  Alain Pellet
+ </a>
+ ,
+ <a href="https://www.iareporter.com/arbitrator/Greenwood">
+  Christopher Greenwood CMG, QC
+ </a>
+ ,
+ <a href="https://www.iareporter.com/arbitrator/Wordsworth">
+  Samuel Wordsworth, QC
+ </a>
+ , Rodman Bundy and Pakistani law firm Umar Bandial &amp; Associates.
+</p>
+<p>
+ <strong>
+  Simply because Impregilo had powers of attorney from other parties did not expand the tribunal’s jurisdiction
+ </strong>
+</p>
+<p>
+ As a first jurisdictional, Pakistan denied that Impregilo had standing to sue on behalf of the joint venture (GBC). Pakistan stressed that GBC was a Swiss entity, but lacked “legal personality” under Swiss law (which had no specific legal regime for joint-ventures), and thus not a “juridical person” as required by Article 25 of the ICSID Convention.
+</p>
+<p>
+ In response, Impregilo pointed to its own contractual right to act on behalf of the joint-venture, and its status as the “Leader” of GBC. Moreover, the other participants in the joint-venture had conferred a specific Power of Attorney upon Impregilo for purposes of the ICSID proceedings.
+</p>
+<p>
+ However, the tribunal sided with Pakistan, stressing that Impregilo’s right to represent GBC and act on its behalf were irrelevant to the jurisdiction of the tribunal. Indeed, holding otherwise would allow municipal contracts and agreements (such as the joint-venture contractual framework) to expand the jurisdictional scope of the ICSID Convention and the BIT, as claimants lacking scope for their own ICSID claim could simply find a representative with the needed nationality and authorize such representatives to bring the claim.
+</p>
+<p>
+ The tribunal also rejected Impregilo’s efforts to claim on behalf of the other non-Italian joint-venture participants. As none of the other participants were protected “investors” under the Italy-Pakistan BIT, the tribunal lacked jurisdiction over their claims.
+</p>
+<p>
+ Observing that one of the other joint-venture participants was a German national, the tribunal stressed that a BIT was in force between Germany and Pakistan, although it contained no dispute-resolution mechanism for investors. In the tribunal’s view, it would be “curious” to allow German nationals to utilize rights that were not available under Germany’s treaty with Pakistan.
+</p>
+<p>
+ Besides, were Impregilo to be awarded damages for the full joint-venture, the tribunal would be unable to compel it to repay these sums to the other participants. Thus, the tribunal had jurisdiction only over Impregilo and its losses.
+</p>
+<p>
+ <strong>
+  Partners in a joint-venture need not bring a claim collectively
+ </strong>
+</p>
+<p>
+ Pakistan also contended that Impregilo was barred from bringing
+ <em>
+  any
+ </em>
+ BIT claim, even for its own loss. The state relied on the proposition that partners in a joint-venture cannot act in their individual capacity, but only jointly, in matters pertaining to the joint-venture. The state observed that in other respects, including related litigation in Pakistan, all partners acted together.
+</p>
+<p>
+ The tribunal was unpersuaded, noting that the joint-venture’s past behaviour was irrelevant to the formal requirements for jurisdiction under the BIT and the ICSID Convention. Even if the type of claims brought by an individual partner needed to be different from those pertaining to the whole partnership (a legal proposition from the jurisprudence of the Iran-US Claims Tribunal, but one which was doubtful in the tribunal’s eye), Impregilo’s claims for treaty breach would satisfy this requirement, as they are different from the joint-venture’s contract claims.
+</p>
+<p>
+ <strong>
+  Contractual breaches by instrumentalities are not attributable to respondent states
+ </strong>
+</p>
+<p>
+ According to Pakistan, the claimant was wrongfully seeking international resolution of what was at heart a contractual dispute. Impregilo countered that, although it was seeking relief regarding treaty claims (see below), the tribunal had jurisdiction over contract claims as well.
+</p>
+<p>
+ Whereas the Italy-Pakistan BIT did not include an umbrella clause, the claimant had two arguments for bringing contract claims within the ambit of the tribunal’s jurisdiction: (i) Pakistan’s consent to arbitration under the BIT is cast in broad terms, referring to “
+ <em>
+  any
+ </em>
+ dispute”; and (ii) the BIT’s Most-Favoured-Nation clause would permit the claimant to import the umbrella clause found in Pakistan’s BIT with Switzerland.
+</p>
+<p>
+ In reviewing Impregilo’s first argument, the tribunal chose first to focus on whether jurisdiction could be extended over a contract to which Pakistan was not a party. On the claimant’s case, the conduct of WAPDA – the actual party to the contract – was attributable to Pakistan under international law; Pakistan denied this.
+</p>
+<p>
+ The tribunal accepted that the international law of attribution could extend a tribunal’s jurisdiction to cover acts of third parties. However, relying on the analysis of the (first) ad hoc committee in Vivendi v. Argentina, the tribunal found that this was true only for treaty breaches – not for contractual breaches, to which the rules of attribution do not apply.
+</p>
+<p>
+ Regardless of the interpretation of the terms “any dispute” in the BIT’s dispute settlement mechanism, Pakistan’s consent to jurisdiction in the BIT did not extend to related third parties such as WAPDA. As a result, the tribunal had no jurisdiction over the contractual claims (unless, it added, there were also at the same time treaty claims – see below).
+</p>
+<p>
+ <strong>
+  Umbrella clause – even if it could be imported via MFN clause – would not apply to contract between investor and state instrumentality
+ </strong>
+</p>
+<p>
+ Likewise, the tribunal did not need to decide whether MFN clauses could import umbrella clauses from other treaties, as these clauses cover commitments between the state and the investor – and do not extend to separate entities (such as WAPDA).
+</p>
+<p>
+ It would fall to later tribunals to decide whether umbrella clauses can be so imported. For example, the tribunal in EDFI v Argentina found that it could (see
+ <a href="http://www.iareporter.com/articles/another-icsid-loss-for-argentina-as-arbitrators-award-136-million-to-jilted-investors-in-electricity-concession-with-interest-award-exceeds-202-million/">
+  here
+ </a>
+ ), whereas the tribunal in Ickale v Turkmenistan found that the (admittedly, more narrowly-drafted) underlying BIT did not allow such import (see
+ <a href="http://www.iareporter.com/articles/analysis-in-a-recent-mfn-clause-interpretation-arbitrators-diverge-from-more-generous-approach-taken-by-certain-earlier-tribunals/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ <strong>
+  Tribunal lays out a test of
+  <em>
+   prima facie
+  </em>
+  jurisdiction
+ </strong>
+</p>
+<p>
+ The above considerations left open the question of whether the claimant had no genuine treaty claim distinct from its contract claims. For the state, it did not suffice for an investor to present essentially-contractual claims as claims for breach of the treaty.
+</p>
+<p>
+ While the tribunal agreed with the latter proposition, it stressed that it should nonetheless refrain from deciding the merits at the jurisdictional stage. Rather, citing precedents from the International Court of Justice and other investment tribunals (such as SGS v Philippines), the tribunal proposed the following test of its jurisdiction: the tribunal will have jurisdiction
+ <em>
+  ratione materiae
+ </em>
+ , and
+ <em>
+  prima facie
+ </em>
+ , if the facts as pleaded by the claimant – assuming that they were true – would fall within the protection provided in the BIT.
+</p>
+<p>
+ <strong>
+  Treaty claims are distinct from, and can then overlap with, contract claims
+ </strong>
+</p>
+<p>
+ Turning to Pakistan’s objection regarding the alleged coincidence of the treaty claims with the contract claims, the tribunal found that this was irrelevant, as the facts giving rise to a contract claim could at the same time give rise to a treaty claim.
+</p>
+<p>
+ The tribunal further explained that ordinary contract breaches would normally not count as treaty breaches. However, breaches attributable to the state acting in its capacity as a state (and not as a commercial party), that is, breaches involving the state’s exercise of sovereign powers, could reach that threshold. The tribunal noted that this distinction recalled that between acts from instrumentalities that are attributable to the state, and those that are not (see above).
+</p>
+<p>
+ Applied to the facts, these considerations allowed the tribunal to find that it had jurisdiction to decide most of Impregilo’s claims on the merits (a few claims were not substantiated enough to permit an analysis, and the tribunal postponed a decision on these to the merits phase). The only exceptions concerned some claims that were concurrently being adjudicated in arbitration proceedings in Pakistan, under the contract’s arbitration clause, and which did not involve Pakistan’s exercise of sovereign power.
+</p>
+<p>
+ <strong>
+  Parallel litigation in contractual dispute does not warrant stay of treaty dispute
+ </strong>
+</p>
+<p>
+ Pakistan also contended that any treaty claim, insofar as it is linked to the contract, should not be heard by the tribunal while dispute-resolution mechanisms are provided in the contract and have not been exhausted. In support, Pakistan cited the earlier case of SGS v Philippines where the international arbitration had been stayed pending the outcome of the related, contract-based proceedings.
+</p>
+<p>
+ The tribunal was unpersuaded that a stay of the proceedings was appropriate in the Impregilo case. The tribunal was not persuaded that contractual arbitration procedings would be “undermined” by the parallel treaty-based proceedings, all the more since the parties to the former were different (GBC v Wapda). (The tribunal did not dwell on a different question: whether waiting for determinations of contractual questions by the contractually-prescribed tribunal could assist or inform the treaty-based tribunal’s own analysis as to whether treaty obligations have been breached)
+</p>
+<p>
+ <strong>
+  Tribunal sees a distinction between internationally wrongful acts and the continuing effects of such acts
+ </strong>
+</p>
+<p>
+ Pakistan’s last objection was a temporal one: the Italy-Pakistan BIT entered into force on June 22, 2001 – i.e., after some of the acts underlying Impregilo’s claims. In the state’s view, this put these acts beyond the arbitration’s jurisdictional scope.
+</p>
+<p>
+ This argument was successful, and the tribunal rejected the claimant’s contention that all allegedly harmful acts were covered given their “continuing character”. In the tribunal’s view, there was a difference between the alleged wrongful act and its effects; simply because the latter may enter the BIT’s temporal scope does not entail that the underlying acts should be judged in view of legal protections that did not apply at the time.
+</p>
+<p>
+ As a result, the tribunal found that it had jurisdiction only regarding acts that occurred after June 22, 2001 – without however, at this stage, determining which acts in particular were included or excluded.
+</p>
+<p>
+ Questions of costs were reserved for the merits phase.
+</p>
+<p>
+ As noted above, the case settled after the jurisdictional decision was handed down.
+</p>
+<p>
+</p>
+<p>
+ * This is technically the second dispute between the parties, as the claimant filed a first dispute with ICSID in February 2002, before withdrawing its request a month later. As related by an Order of the Secretary General for Discontinuance (available
+ <a href="http://icsidfiles.worldbank.org/icsid/ICSIDBLOBS/OnlineAwards/C209/DC2332_En.pdf">
+  here
+ </a>
+ ), the parties at that time had “engaged in discussions and reached an agreement outlining the framework for a possible settlement of the disputes described in the Request”. This probably corresponds to the appointment of a DRB Chairman in April 2002, as recorded in the 2005 award.
+</p>

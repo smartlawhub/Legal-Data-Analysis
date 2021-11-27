@@ -1,0 +1,670 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 250
+    length: 224
+    placeholder_text: '# Your answer here'
+- name: tests/test_task.py
+  visible: false
+- name: Gibberish/Damien Charlotin_10610_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11556_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11438_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11836_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11434_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12024_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_12.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12024.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11801_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11129_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11800_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10895_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11659_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10175_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10233_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11793_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_12.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11828_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11366_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11800.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10895_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10233.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11828_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_15.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11836_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10367_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10233_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11828.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11865_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10027_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11733_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11793_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11412_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10175_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11434_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11836_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11659_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11438_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11769_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10367_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10170_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10247_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_13.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11828_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11793.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11366_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11556_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10895_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11836_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12024_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10367_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11801_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11129_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11865_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_11.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11769.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_11.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11366_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10420.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11434_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11659_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10175_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10716_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10233_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11733_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11438_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11733_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10027_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10716_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11434_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11828_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11129_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10367_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11836_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10170_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10247_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11052.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11438_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11129.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11052_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10027_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11129_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10027.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11733_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11800_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11793_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11366_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11412_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11801.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10895_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11180.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10233_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_14.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11733.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11458.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10367_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10716_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11793_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11366_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11052_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11733_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10895_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_14.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11412_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11434_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_12.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11733_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11836_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10367.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11659.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_12.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11438.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11129_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10233_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11801_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11865_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11800_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11865.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_12.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11434_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10895.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10175_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11412_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11659_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10247_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11438_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11793_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_15.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11828_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11733_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10895_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11800_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_13.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12024_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_11.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10367_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11438_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11865_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_11.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11836_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10027_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10716_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11129_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11580.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_11.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11129_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11801_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11800_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10895_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10716_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11412_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11556_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11052_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11438_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11434_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11769_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_11.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10233_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11828_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10175_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_11.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10895_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11366_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11412.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_13.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11412_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10367_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10175.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11836_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10716.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10610_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11865_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10233_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10247_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629_7.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_14.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11412_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11434_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11132_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10027_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11836.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10175_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11129_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11659_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10666_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11234_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10895_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11438_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11793_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10742_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10271_2.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11698_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10512_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10716_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11434.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629_10.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11800_1.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11733_4.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10629_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10170.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11434_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_12002_9.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10247.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11366.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11836_8.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_12.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10786_6.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10170_3.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10234_5.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_11556.txt
+  visible: true
+- name: Gibberish/Damien Charlotin_10367_5.txt
+  visible: true
+- name: tests/__init__.py
+  visible: false
+- name: __init__.py
+  visible: false

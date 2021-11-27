@@ -1,0 +1,346 @@
+<h1 class="ArticleTitle">
+ Looking Back: Vivendi v. Argentina saga explored the relation between contract and treaty claims
+</h1>
+<p class="f-24">
+</p>
+<p>
+ <em>
+  (Editor’s Note: This is a report in our new series examining investment treaty awards that were rendered prior to the launch of IAReporter in 2008. Other articles in this series can be found
+  <a data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.iareporter.com/iar-search/?iarsearch%3Dsidebar_cats%26c1%3D1688&amp;source=gmail&amp;ust=1503617154988000&amp;usg=AFQjCNFAZzJ26xEbyt0BO6cPCB0uwO87BQ" href="https://www.iareporter.com/iar-search/?iarsearch=sidebar_cats&amp;c1=1688" rel="noopener noreferrer" target="_blank">
+   here
+  </a>
+  .)
+ </em>
+</p>
+<p>
+ <em>
+  (NB: The dispute – ICSID Case No. ARB/97/3 – should not be confused with a second case involving Vivendi, but also other claimants – ICSID Case No. ARB/03/19.)
+ </em>
+</p>
+<p>
+ The case of Compañiá de Aguas del Aconquija S.A. and Vivendi Universal S.A. v. Argentine Republic was the second case in the 60 known investment disputes in which Argentina has been involved since 1997 (for the most recent case filed, see
+ <a href="https://www.iareporter.com/articles/new-icsid-claims-belgian-claimants-sue-madagascar-again-argentina-faces-new-claim-by-us-insurance-giant-and-earlier-telegraphed-chile-claim-is-registered/">
+  here
+ </a>
+ ). It was also one of the longest, running from 1997 to 2012 after a first award had been annulled in 2002. In this article, we retrace the development of the first part of this dispute, which saw the (first) tribunal and the subsequent
+ <em>
+  ad hoc
+ </em>
+ committee discuss the role of forum selection clauses, the distinction between contract and treaty claims, and the scope of the “manifest excess of powers” ground for annulment. A
+ <a href="http://www.iareporter.com/articles/looking-back-in-resubmitted-vivendi-proceedings-following-annulment-tribunal-confirms-jurisdiction-and-finds-argentina-in-breach-of-fet/">
+  second article
+ </a>
+ covers the second set of jurisdictional and merits awards, in the so-called “Vivendi II” case.
+</p>
+<p>
+ French investor Compagnie Générale des Eaux (‘CGE’, the original claimant, later renamed Vivendi Universal) entered through its Argentine subsidiary CAA, into a water and sewage Concession Agreement with the Tucumán province in Argentina in 1995. Disputes soon arose between CAA and the province, leading to the termination of the concession in 1997 – and the filing of an arbitration by the claimants with the International Centre for Settlement of Investment Disputes (ICSID) under the 1991 French-Argentina Bilateral Investment Treaty (BIT). CGE alleged a breach of the BIT’s Fair and Equitable treatment and expropriation protections.
+</p>
+<p>
+ After the first tribunal of Francisco Rezek (chair), Peter D. Trooboff (claimants’ appointee) and
+ <a href="https://www.iareporter.com/arbitrator/Buergenthal">
+  Thomas Buergenthal
+ </a>
+ (appointed by ICSID in default of Argentina’s nomination) had decided to join Argentina’s jurisdictional objections to the merits, the first proceedings culminated in a November 21, 2000 award (
+ <a href="https://www.italaw.com/sites/default/files/case-documents/ita0206.pdf">
+  available here
+ </a>
+ ) that dismissed all of Vivendi and CAA’s claims.
+</p>
+<p>
+ The claimants were represented in this first phase by
+ <a href="https://www.iareporter.com/arbitrator/Price">
+  Daniel Price
+ </a>
+ of Powell, Goldstein, Frazer &amp; Murphy LLP, as well as Argentine lawyer Luis Erize. Argentina, meanwhile, was assisted by its in-house lawyers and Arnold &amp; Porter.
+</p>
+<p>
+ <strong>
+  Argentina raises ‘federal’ objections to jurisdiction
+ </strong>
+</p>
+<p>
+ Argentina raised several objections to jurisdiction in the case. While it accepted that the claimants had an investment in Argentina under the BIT, the latter provided for jurisdiction only in case of disputes between the investors and Argentina. As the Concession Agreement involved only the Tucumán province and not the central government, Argentina denied the existence of any such dispute. The state insisted that the actions of the province could not be attributed to the central government, given Argentina’s federal system.
+</p>
+<p>
+ This did not convince the tribunal, which recalled that under international law, acts of federal subdivisions of a state are attributable to the national government. In any case, the tribunal accepted the claimants’ argument that some claims addressed Argentina’s own actions and omissions with respect to the behaviour of the Tucumán authorities.
+</p>
+<p>
+ Argentina further pointed out that article 25(3) of the ICSID Convention – which lays out the jurisdictional requirements of ICSID arbitrations – provides that “[c]onsent by a constituent subdivision … of a Contracting Party shall require the approval of that State unless that State notifies the Centre that no such approval is required[.]” Since no such approval had been given for Tucumán, the argument went, the tribunal had no jurisdiction.
+</p>
+<p>
+ Having found that the dispute was properly between the investors and Argentina (and not the province), the tribunal had no trouble dismissing this objection as moot. It interpreted article 25(3) as an option to extend the jurisdictional scope of the ICSID Convention for efficiency reasons, not as an additional jurisdictional requirement.*
+</p>
+<p>
+ <strong>
+  Contract’s forum selection clause irrelevant for the tribunal’s jurisdiction
+ </strong>
+</p>
+<p>
+ More potent was Argentina’s argument based on article 16(4) of the Concession Agreement: a forum selection clause that referred any dispute to the administrative courts of Tucumán.
+</p>
+<p>
+ Yet, the tribunal found that article 16(4) did not waive the investors’ rights under the BIT, including their right to submit the dispute to arbitration for claims that included breaches of the BIT – as opposed to contractual breaches. In so doing, the tribunal relied in particular on the only precedent involving Argentina at the time,
+ <em>
+  Lanco v. Argentina
+ </em>
+ , where a tribunal had upheld its jurisdiction despite a similar clause in the contract at issue in that case.
+</p>
+<p>
+ <strong>
+  On the merits, tribunal stresses central character of the contractual claims
+ </strong>
+</p>
+<p>
+ Having established its jurisdiction over Argentina for its own actions or for actions from the Tucumán authorities that were attributable to it, the tribunal proceeded to examine the claimants’ case with respect to the latter.
+</p>
+<p>
+ The claimants cited four categories of actions that had allegedly breached the BIT. The first category grouped actions that reduced the recovery rate (i.e., the number of customers actually paying for the service) under the Concession Agreement. The claimants cited,
+ <em>
+  inter alia
+ </em>
+ , statements by Tucumán authorities encouraging citizens not to pay their bills. The second category included acts that unilaterally reduced the tariff rate. The third referred to abuses of regulatory authority, and the fourth to bad faith dealings, allegedly committed by Tucumán’s public authorities. (All this factual background would be assessed much more carefully in the second award on the merits, reviewed
+ <a href="http://www.iareporter.com/articles/looking-back-in-resubmitted-vivendi-proceedings-following-annulment-tribunal-confirms-jurisdiction-and-finds-argentina-in-breach-of-fet/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ Analysing the facts, the tribunal came to the conclusion that most of the measures at issue were “closely linked to the performance or non-performance of the parties under the Concession Contract.”
+</p>
+<p>
+ In this respect, article 16(4) of the contract – the forum selection clause – came to prominence, as the tribunal held that it could not rule on Argentina’s alleged treaty breaches until the claimants asserted their rights in accordance with the contract, and “have been denied their rights, either procedurally or substantively.”
+</p>
+<p>
+ In the tribunal’s view, this conclusion was compounded by the fact that it could not distinguish Tucumán’s actions in exercise of its sovereign authority from actions taken as a commercial party without an interpretation of the Concession Agreement – a task reserved to the Tucumán administrative courts under article 16(4).
+</p>
+<p>
+ While the claimants had argued that submitting the dispute to the local courts would preclude any further international arbitration under the BIT’s fork-in-the-road clause, the tribunal answered that the clause would apply only to treaty claims, and would not operate if the claimants merely brought contract claims in Argentina.
+</p>
+<p>
+ <strong>
+  “Good office” claim fails to find traction
+ </strong>
+</p>
+<p>
+ Prevented from airing their claims against the Tucumán authorities, the claimants were only left with vague allegations that the central government failed to do everything it could to protect their rights – notably in view of an alleged “good offices” obligation under the BIT.
+</p>
+<p>
+ The tribunal was unconvinced: it noted that the claimants never asked the central government for a specific action, and that none was obviously available absent a determination by a court that Tucumán (or the claimants) had breached the Concession Agreement. It also rejected as unproven the claimants’ contention that Tucumán’s branches of government had colluded to undermine the concession.
+</p>
+<p>
+ As a result, the tribunal dismissed the claimants’ case. Given that the dispute included issues of first impression and had a mixed outcome (the claimants won on jurisdiction), the tribunal decided to split the arbitration costs between the parties, which were left to bear their own legal costs.
+</p>
+<p>
+ <strong>
+  Unsuccessful claimants file for annulment; respondent challenges
+  <em>
+   ad hoc
+  </em>
+  committee member
+ </strong>
+</p>
+<p>
+ The dispute continued, however, as the disappointed claimants promptly filed a request for annulment with ICSID. Following the appointment of an
+ <em>
+  ad hoc
+ </em>
+ committee of
+ <a href="https://www.iareporter.com/arbitrator/Fortier">
+  Yves Fortier
+ </a>
+ ,
+ <a href="https://www.iareporter.com/arbitrator/Crawford">
+  James Crawford
+ </a>
+ and
+ <a href="https://www.iareporter.com/arbitrator/Fernandez-Rozas">
+  José Carlos Fernandez Rosas
+ </a>
+ ,** Argentina challenged Mr Fortier’s appointment, and the two other members of the Committee decided this challenge in an October 3, 2001 decision (available
+ <a href="https://www.italaw.com/sites/default/files/case-documents/ita0208.pdf">
+  here
+ </a>
+ ).
+</p>
+<p>
+ The committee members began by establishing their own powers to decide on Argentina’s disqualification proposal – an issue of first impression, given the silence of the ICSID Convention on challenges in annulment proceedings. While the Convention itself does not explicitly extend the provisions regarding challenge to annulment proceedings, the Arbitration Rules do. The members found that the inclusion of such provision in the Arbitration Rules (despite the Convention’s silence) was proper, notably since it was concordant with the object and purpose of the Convention that the committee appeared to be “independent and impartial.”
+</p>
+<p>
+ Argentina took issue with Mr Fortier’s disclosure that one of the partners in his (then) law firm, Ogilvy Renault, was advising CGE in relation to Québec’s tax law. In reply, Mr Fortier explained that he was not involved in this work, of which only a minor amount would remain outstanding while the committee would be sitting.
+</p>
+<p>
+ The committee members were satisfied that these facts did not suffice to sustain Argentina’s challenge to Mr Fortier: “the mere existence of some professional relationship with a party is not an automatic basis for disqualification of an arbitrator or Committee member.” (This was only the first of many challenges brought against Yves Fortier, often on account of his professional relationships; for the most recent one, see our report in
+ <a href="https://www.iareporter.com/articles/venezuela-hires-private-investigator-to-examine-ties-of-yves-fortiers-secretary-to-his-former-law-firm-but-again-fails-to-make-out-its-case-for-disqualification/">
+  Owens-Illinois v Venezuela
+ </a>
+ .)
+</p>
+<p>
+ <strong>
+  Annulment committee examines its own powers
+ </strong>
+</p>
+<p>
+ After rejecting the challenge, the annulment committee decided Vivendi’s request for annulment in a July 3, 2002 decision (available
+ <a href="https://www.italaw.com/sites/default/files/case-documents/ita0210.pdf">
+  here
+ </a>
+ ). In this decision, the committee began its analysis by reflecting on its role and powers in such proceedings. The committee cited the MINE v. Guinea annulment committee for the proposition that it was not an appeal court, nor should it adopt a presumption in favour or against annulment. The committee also insisted on its relative discretion in deciding on annulment, including on the fact that it is not bound by the requests of the parties in deciding on a partial or complete annulment of the award.
+</p>
+<p>
+ <strong>
+  No serious departure from a fundamental rule of procedure
+ </strong>
+</p>
+<p>
+ Having failed to find fault with the award’s reasoning on jurisdiction (and, indeed, stressing the relevance of the
+ <em>
+  Lanco
+ </em>
+ precedent), the committee proceeded to examine the grounds of annulment with respect to the tribunal’s merits reasoning.
+</p>
+<p>
+ As a first ground, the claimants alleged that the tribunal had disregarded a fundamental rule of procedure in dismissing their claims based on article 16(4), although such legal question had never been “adequately canvassed in argument.”
+</p>
+<p>
+ The committee however stressed that the term “rule of procedure” related to “the manner in which the Tribunal proceeded,” rather than to the award’s content. Further, the committee suggested that it was not “unprecedented in judicial decision-making” that the reasoning of adjudicators, in reconciling the various elements of a case, might come as a surprise to some parties (as long as it is not
+ <em>
+  ultra petita
+ </em>
+ ). An alleged breach of a fundamental rule of procedure had nothing to do with this, especially when the parties had had “full and fair opportunity” to be heard – as they had in this case, where the tribunal, in particular, requested post-hearing briefs in relation to the issue (the interplay of the forum selection clause with the claims) that eventually proved central to the case.
+</p>
+<p>
+ <strong>
+  Manifest excess of powers in failing to rule on Vivendi’s treaty claims
+ </strong>
+</p>
+<p>
+ The claimants were more successful with the second ground for annulment: a manifest excess of powers on the part of the tribunal.
+</p>
+<p>
+ In the committee’s view, such manifest excess of powers could be found both when a tribunal ruled beyond its jurisdiction, and when it failed to exercise the jurisdiction it possessed (provided, the committee qualified, that such failure had an impact on the dispute’s outcome).
+</p>
+<p>
+ The committee then distinguished the claimants’ allegations with respect to the federal government and to the Tucumán authorities. It found that the tribunal had sufficiently answered the claimants’ federal claims with no manifest excess of powers. It also declined to find, as urged by the claimants, that the treatment of these claims was “intimately linked” with the claims regarding the Tucumán authorities (so that if the portion of the award dealing with the latter was annulled, the treatment of the federal claims should be annulled as well). As a result, the committee found that the tribunal’s handling of the claims regarding Argentina’s federal government was
+ <em>
+  res judicata
+ </em>
+ .
+</p>
+<p>
+ It was however the tribunal’s treatment of the claims regarding the Tucumán authorities that caused the partial annulment of the award.
+</p>
+<p>
+ In reasoning that would prove very influential for future tribunals (see
+ <a href="https://www.iareporter.com/articles/looking-back-eureko-v-poland-case-triggered-early-debates-over-role-of-domestic-law-in-investment-arbitration-and-grappled-with-contract-treaty-distinction/">
+  Eureko v. Poland
+ </a>
+ , or
+ <a href="https://www.iareporter.com/articles/in-depth-unpacking-the-facts-and-jurisdictional-objections-of-the-crystallex-v-venezuela-arbitration/">
+  Crystallex v. Venezuela
+ </a>
+ ), the committee stressed the distinction between treaty claims and contract claims. Each stood to be appreciated in accordance with its own law – international law for treaty claims, Argentine laws for the claims concerning the Concession Agreement. The measures underlying a contractual breach could, at the same time, suffice for a treaty breach.
+</p>
+<p>
+ In the committee’s view, what mattered then was the “fundamental basis of the claim” before the tribunal. If the claim was essentially contractual in nature, an international tribunal should give effect to the valid forum selection clause in the contract (a finding that later played out in
+ <a href="https://www.iareporter.com/articles/looking-back-saluka-v-czech-republic-tribunal-considered-jurisdiction-over-counterclaims-and-declined-to-hold-claimant-accountable-for-alleged-misdeeds-of-parent-company/">
+  Saluka v. Czech Republic
+ </a>
+ , or in
+ <a href="https://www.iareporter.com/articles/in-tenaris-award-a-purchasing-contract-is-not-deemed-part-of-protected-investment-arbitrators-see-discrimination-but-cant-see-attribution/">
+  Tenaris v. Venezuela
+ </a>
+ ).
+</p>
+<p>
+ By contrast, when the basis of the claim was a treaty, such a clause could not bar the jurisdiction of an international tribunal under a BIT. “At most, [the proceedings for contractual breaches] might be relevant – as municipal law will often be relevant – in assessing whether there has been a breach of the treaty.”
+</p>
+<p>
+ In the committee’s view, the claimants took the risk*** of having their claims resolved by an international tribunal (under a presumably higher standard for treaty breaches than for contractual breaches), and had been deprived of this opportunity by the tribunal’s manifest excess of powers in declining to rule on these claims. The award was therefore annulled with respect to the Tucumán claims.
+</p>
+<p>
+ <strong>
+  First tribunal did not decide the merits of the claim
+ </strong>
+</p>
+<p>
+ Argentina proposed however another reading of the award: far from failing to decide the claims, the tribunal had actually taken a decision on the merits by allegedly concluding that Vivendi had no viable treaty claim and only contractual claims against the Tucumán province.
+</p>
+<p>
+ The committee disagreed with this reading. It stressed the parts of the award where the tribunal explained that it was
+ <em>
+  impossible
+ </em>
+ to decide on the treaty claims. As a result, the treaty claims remained outstanding. (These would be decided five years later by a second tribunal, as related in our
+ <a href="http://www.iareporter.com/articles/looking-back-in-resubmitted-vivendi-proceedings-following-annulment-tribunal-confirms-jurisdiction-and-finds-argentina-in-breach-of-fet/">
+  second article
+ </a>
+ on this saga.)
+</p>
+<p>
+ Following the first tribunal’s reasoning, the committee apportioned the costs of the annulment proceedings equally between the parties.
+</p>
+<p>
+ <strong>
+  Rectification proceedings no gateway to amend or alter a decision
+ </strong>
+</p>
+<p>
+ The first part of the Vivendi saga had an epilogue, as Argentina sought a rectification decision on a small point that Argentina said the committee had failed to answer, as well as on several “material errors” in the committee’s description of Argentina’s arguments and legal position.
+</p>
+<p>
+ The committee firstly denied having omitted to treat the point flagged by Argentina. It also clarified that rectification proceedings should not serve as gateways to amend or alter a substantial element of the committee’s decision,**** and, on this understanding, rejected most of the rectification requests (while finding two minor clerical errors that could be remedied). Argentina was ordered to bear the costs of these additional proceedings.
+</p>
+<p>
+ In a
+ <a href="http://www.iareporter.com/articles/looking-back-in-resubmitted-vivendi-proceedings-following-annulment-tribunal-confirms-jurisdiction-and-finds-argentina-in-breach-of-fet/">
+  second article
+ </a>
+ , we cover Vivendi’s dispute against Argentina as resubmitted following the first award’s annulment.
+</p>
+<p>
+</p>
+<p>
+ * Article 25(3) would prove crucial in a later dispute, where a tribunal denied jurisdiction over a
+ <em>
+  claim
+ </em>
+ by the Indonesian province of East Kalimantan, on the grounds that Indonesia had not consented to extend ICSID’s jurisdiction to its provinces (see
+ <a href="https://www.iareporter.com/articles/icsid-claim-by-indonesia-state-government-is-declined-on-jurisdictional-grounds/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ ** For this stage of the proceedings, the claimants retained the service of
+ <a href="https://www.iareporter.com/arbitrator/Schwebel">
+  Stephen Schwebel
+ </a>
+ , who later chaired an
+ <em>
+  ad hoc
+ </em>
+ committee which would also rule that the underlying tribunal had committed a “manifest excess of powers” by failing to exercise its task (see
+ <a href="https://www.iareporter.com/articles/majority-finds-that-failure-to-examine-wide-definition-of-investment-in-uk-malaysia-bit-was-manifest-excess-of-powers/">
+  here
+ </a>
+ ). They also hired
+ <a href="https://www.iareporter.com/arbitrator/Alexandrov">
+  Stanimir A. Alexandrov
+ </a>
+ , in a move that would later justify a successful challenge against Mr Alexandrov’s appointment in another case involving Argentina (see
+ <a href="https://www.iareporter.com/articles/lawyer-cant-wear-two-hats-in-arbitrations-with-argentina-challenge-to-arbitrator-upheld-in-uncitral-bit-claim/">
+  here
+ </a>
+ ).
+</p>
+<p>
+ *** In this respect, the committee held, contrary to the underlying tribunal, that the BIT’s fork-in-the-road clause was relevant to this case notwithstanding the nature of the claims – contractual or treaty-based – as the clause applies whenever a dispute “relating to an investment” is submitted to one forum; by choosing international arbitration, the claimants had waived their right to bring contractual claims in Argentina.
+</p>
+<p>
+ **** A later ad hoc committee also chaired by Yves Fortier (
+ <a href="https://www.iareporter.com/articles/annulment-committee-in-pey-v-chile-case-clarifies-applicable-interest-rates-but-cant-supplement-earlier-ruling/">
+  Pey Casado v. Chile
+ </a>
+ ) would find that rectification proceedings could also not serve to answer points not raised in the annulment proceedings.
+</p>
