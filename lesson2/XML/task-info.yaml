@@ -1368,12 +1368,9 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 5282
-    length: 567
-    placeholder_text: Your answer here
-  - offset: 2485
-    length: 567
-    placeholder_text: '# TODO'
+  - offset: 2208
+    length: 873
+    placeholder_text: '# Your Code here'
 - name: tests/test_task.py
   visible: false
 - name: __init__.py

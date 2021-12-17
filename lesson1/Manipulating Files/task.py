@@ -3,8 +3,6 @@ import os
 
 os.chdir("./Lesson1/Manipulating Files")
 
-import os
-
 print(os.listdir("."))  # We check what files are in the folder
 file = "Empty File is Empty.txt"  # We select a file that is in the folder and attribute it to a variable
 newnamefile = file + "a"  # We decide on a new name given a file
