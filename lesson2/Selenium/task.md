@@ -10,7 +10,7 @@ does not budge - this is not a new page loading, but a truly dynamic webpage rea
 can't get the`table` element from the webpage
 
 <b>2. </b>To bypass this issue, you'll need to have someone, or something, click on the right buttons and filling 
-the expected input, which`requests` cannot do (or with difficulty). The most straighfroward strategy here is to imitate 
+the expected input, which`requests` cannot do (or with difficulty). The most straightforward strategy here is to imitate 
 what a human would do with a browser, except that it should be done by a robot.
 
 Enters `Selenium`, a package made for this: Selenium will take control of your browser, and allow 

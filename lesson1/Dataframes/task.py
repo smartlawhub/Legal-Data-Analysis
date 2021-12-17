@@ -12,6 +12,8 @@ df["Lait"].value_counts()
 
 df["Lait"].value_counts().plot(style="x")  # And now we can plot it
 
+all_deps = df.Departement.values.tolist()
+
 df["New_Col"] = ""  # Creating new column with empty values
 
 dep_reg = pd.read_csv("departements-region.csv", header="infer", encoding="utf8")
@@ -20,6 +22,8 @@ dep_reg.head(15)
 dict_dep = dep_reg.set_index("dep_name").to_dict()["region_name"]   # We create a dictionary from the second dataframe; this requires us to set the index with the keys of the dict: the departments; regions will be the values
 df["Region"] = df["Departement"].map(dict_dep)  # Then we map that dictionary on the basis of the values that represent the same key: the departments
 df["Region"].value_counts()
+
+df.loc[df.Lait]
 
 dict_num_dep = dict_dep = dep_reg.set_index("dep_name").to_dict()["num_dep"]
 df["num_dep"] = df["Departement"].map(dict_num_dep)

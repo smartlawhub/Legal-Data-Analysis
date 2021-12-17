@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validation-document.xsd">
+<Donnees_Techniques>
+<Identification>ORCE_442881_20211109.xml</Identification>
+<Date_Mise_Jour>2021-11-10</Date_Mise_Jour>
+</Donnees_Techniques>
+<Dossier>
+<Code_Juridiction>CE</Code_Juridiction>
+<Nom_Juridiction>Section du Contentieux </Nom_Juridiction>
+<Numero_Dossier>442881</Numero_Dossier>
+<Date_Lecture>2021-11-09</Date_Lecture>
+<Numero_ECLI>ECLI:FR:CECHS:2021:442881.20211109</Numero_ECLI>
+<Avocat_Requerant>SCP DUHAMEL - RAMEIX - GURY- MAITRE</Avocat_Requerant>
+<Type_Decision>Ordonnance</Type_Decision>
+<Type_Recours>Plein contentieux</Type_Recours>
+<Code_Publication>Z</Code_Publication>
+</Dossier>
+<Audience>
+<Formation_Jugement> 9ème chambre</Formation_Jugement>
+</Audience>
+<Decision>
+<Texte_Integral><p>Vu le code de justice administrative, notamment son article R. 741-11 modifié par l'article 30 du décret n° 2010-164 du 22 février 2010 ;</p>
+<p>Vu l'ordonnance n° 442881 du 27 octobre 2021 du président de la 9ème chambre de la section du contentieux du Conseil d'Etat, rendue sur le pourvoi formé par la société Auchan hypermarché ;</p>
+<p>Considérant ce qui suit :</p>
+<p>1. Aux termes de l'article R. 741-11 du code de justice administrative : " Lorsque le président du tribunal administratif, de la cour administrative d'appel ou, au Conseil d'Etat, le président de la section du contentieux constate que la minute d'une décision est entachée d'une erreur ou d'une omission matérielle non susceptible d'avoir exercé une influence sur le jugement de l'affaire, il peut y apporter, par ordonnance rendue dans le délai d'un mois à compter de la notification aux parties, les corrections que la raison commande. () ".</p>
+<p>2. Des erreurs matérielles, qui n'ont exercé aucune influence sur le jugement de l'affaire, sont intervenues dans la décision précitée. Il convient dès lors de rectifier cette ordonnance.</p>
+<p>ORDONNE :</p>
+<p>Article 1er : le 3ème considérant de l'ordonnance n° 442881 du 27 octobre 2021 : </p>
+<p>" 3. Il y a lieu, dans les circonstances de l'espèce, de faire application des dispositions de l'article L. 761-1 du code de justice administrative et de mettre à la charge du ministre de l'économie, des finances et de la relance le versement de la somme de 1 500 euros au ministre de l'économie, des finances et de la relance ".</p>
+<p>est modifié ainsi qu'il suit : </p>
+<p>" 3. Il y a lieu, dans les circonstances de l'espèce, de faire application des dispositions de l'article L. 761-1 du code de justice administrative et de mettre à la charge de l'Etat le versement de la somme de 1 500 euros à la société Auchan hypermarché".</p>
+<p>Article 2 : La présente ordonnance sera notifiée à la société Auchan hypermarché et au ministre de l'économie, des finances et de la relance.</p>
+<p>Fait à Paris, le 9 novembre 2021</p>
+<p>Signé : Christophe Chantepy</p>
+<p>La République mande et ordonne au ministre de l'économie, des finances et de la relance, en ce qui le concerne et à tous huissiers à ce requis, en ce qui concerne les voies de droit commun contre les parties privées de pourvoir à l'exécution de la présente décision.</p>
+<p>Pour expédition conforme,</p>
+<p>Pour la secrétaire du contentieux, par délégation :</p>
+</Texte_Integral>
+</Decision>
+</Document>

@@ -3,8 +3,8 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 250
-    length: 224
+  - offset: 994
+    length: 191
     placeholder_text: '# Your answer here'
 - name: tests/test_task.py
   visible: false
@@ -668,3 +668,5 @@ files:
   visible: false
 - name: __init__.py
   visible: false
+- name: 181-20211207-PRE-01-00-EN.pdf
+  visible: true

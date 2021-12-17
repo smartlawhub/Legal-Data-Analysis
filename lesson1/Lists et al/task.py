@@ -1,6 +1,6 @@
 # 1.
-text_var2 = "Cake"
-my_list = [1, "Frivolous", text_var2, ["this is list number", 2], "Peake"]
+beta = "Cake"
+my_list = [1, "Frivolous", beta, ["this is list number", 2], "Peake"]
 print(my_list)
 my_list.append("Swordfish")
 print(my_list)
@@ -16,6 +16,7 @@ print(my_list[3][0])
 print(my_list[0:2])
 print(my_list[:2])
 print(my_list[2:])
+print(my_list[-2])
 
 # 4.
 

@@ -3,7 +3,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 857
+  - offset: 917
     length: 182
     placeholder_text: '# Your answer here; you need to create a dictionary called
       dict_num_by_dep'

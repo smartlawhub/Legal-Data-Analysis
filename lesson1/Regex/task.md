@@ -1,92 +1,85 @@
-<html>
+# Regex
 
-<h2>Regex</h2>
-
-<b>1. </b>It's time to introduce regular expressions, or "regex" for short. (more info <a
-        href='https://docs.python.org/3/library/re.html'>here</a>)
+<b>1. </b>What if I tell you there was a super-easy way to do the previous exercise ? It's time to introduce regular 
+expressions,  or "regex" for short. (more info <a href='https://docs.python.org/3/library/re.html'>here</a>)
 
 We'll spend some time on it because it is extremely important for text-heavy applications; in a course about
 finance  or statistics we would not need it too much, but since we'll be analysing judgments and legal texts, regexes
-    are essential.
+    are essential. And they are great. At the end of this task, you'll be annoyed every time search engines (like 
+Google) don't do regex. It's just so much better.
 
-<b>2. </b>Regexes are patterns that allow you to identify text. These patterns rely on special symbols to cover a 
-range of characters in natural, written language.
-    For instance, the symbol "\d" means "any number", and if you try to match this pattern with a sentence that includes a number, there will be a positive result.
-
- ```python
-import regex as re # regex is typically abbreviated as re
-
-target_sentence = "Count: 3 frivolous cakes and 4 knifes !"
-pattern = "\d"
-sear = re.search(pattern, target_sentence)
-print(sear)
-=> <regex.Match object; span=(7, 8), match='3'>
-```
+<b>2. </b>Regexes are <i>patterns</i> that allow you to identify text. These patterns rely on special symbols to 
+cover a range of characters in natural, written language. Because they rely on patterns, it's much more powerful 
+than a search that focus on a specific word: the word itself might be conjugated, or put in lower caps; a sentence 
+could have extra words. You might be interested in a range of number and not a specific one, etc.
+    
+For instance, the symbol "\d" means "any number", and if you try to match this pattern with a sentence that includes a number, there will be a positive result.
 
 <b>3. </b>Regex will return a regex object, which comes with a number of characteristics. For instance, the "sear" 
 object stores the start of the matching pattern in the target sentence, as well as its end, and the exact matched pattern. 
 
-You'd note that there were two numbers in the target sentence, but the "search" function only found one - the first one. To get all matches, you need another function, which is "findall", and returns a list.
- ```python
-print(re.findall(pattern, target_sentence))
-=> ['3', '4']
-```
+You'd note that there were two numbers in the target sentence, but the "search" function only found one - the first 
+one. To get all matches, you need another function, which is "findall", and returns a list. Let's solve the previous 
+exercise with `findall`.
 
-<b>4. </b>In addition, you have re.sub(pattern, newpattern, target_sentence), that substitutes a pattern for a new 
-pattern, as well as re.split(pattern, target_sentence) which returns a list of strings from the original text, as split by the pattern. Notice that the result does not display the splitting pattern
-
- ```python
-print(re.sub("Cake", "Hake (?!)", poem[:20]))
-=> The Frivolous Hake (?!)
-print(re.split(" ", poem[:20]))
-=> ['The', 'Frivolous', 'Cake\n\n']
-```
+<b>4. </b>In addition, you have `re.sub(pattern, newpattern, target_sentence)`, that substitutes a pattern for a new 
+pattern, as well as re.split(pattern, target_sentence) which returns a list of strings from the original text, as 
+split by the pattern. Notice that the result does not display the splitting pattern.
 
 <b>5. </b>All very good, now, here are the basic patterns:
-<ul><li>Any particular word or exact spelling will match itself: "cake" will match "cake" (but not "Cake", unless you command regex to be case-insensitive);</li>
-    <li>".", catches anything, really, except a newline;</li>
-    <li>\s matches white spaces, including line breaks, etc.; note that the upper-case version, \S, matches anything <i>but</i> a white space; and</li>
-    <li>\w matches a letter, while \W matches anything but a letter.</li>
+<ul><li>Any particular word or exact spelling will match itself: <code>cake</code> will match <code>cake</code> (but not 
+<code>Cake</code>, unless you command regex to be case-insensitive);</li>
+    <li><code>.</code>, catches anything, really, except a newline;</li>
+    <li><code>\s</code> matches white spaces, including line breaks, etc.; note that the upper-case version, 
+<code>\S</code>,matches anything <i>but</i> a white space; and</li>
+    <li><code>\w</code> matches a letter, while <code>\W</code> matches anything but a letter.</li>
     </ul>
-In addition, the following rules apply
-<ul><li>Square brackets can be used to indicate a range of characters, such as "[0-8a-q]" will only look for a number between 0 and 8 OR a letter between a and q;</li>
-    <li>The symbol "|" (that's Alt + 6 on your keyboard) means "or";</li>
-    <li>You'd indicate the expected number of hits with braces: [A-Z]{3} means you are looking for three (consecutive) upper-case letters between A and Z, while [A-Z]{3,6} means you expect between 3 and 6, and [A-Z]{3,} means "at least 3" (but potentially more). Two special characters do the same job, but open-ended, "+" means that you are expected at least one hit, while "*" means you expect any number of hits (including none);</li>
-    <li>Any pattern becomes optional if you add a "?" behind it: "cakey?" will find "cakey" or "cake"; and</li>
-    <li>You can group patterns by bracketing them with parentheses, and then build around it: for instance, "([0-8a-q])|([9r-z])". You can even name the groups to retrieve them precisely from the regex object when there is a match.</li>
-    <li>Characters that are usually used for patterns (such as "?" or "|") can be searched for themselves by "escaping" them with an anti-slash "\" (and the antislash can be escaped with another antislash: "\\" will look for "\")</li>
+In addition, the following rules apply:
+<ul><li>Square brackets can be used to indicate a range of characters, such as <code>[0-8a-q]</code> will only look for a number between 0 and 8 OR a letter between a and q;</li>
+    <li>The symbol <code>|</code> (that's Alt + 6 on your keyboard) means "or";</li>
+    <li>You'd indicate the expected number of hits with braces: <code>[A-Z]{3}</code> means you are looking for three 
+(consecutive) upper-case letters between A and Z, while <code>[A-Z]{3,6}</code> means you expect between 3 and 6, 
+and <code>[A-Z]{3,}</code> means "at least 3" (but potentially more), on the same logic as indexing (except use 
+commas instead of colons). Two special characters do the same job, but open-ended, "+" means that you are expected 
+at least one hit, while <code>*</code> means you expect any number of hits (including none). A concrete example would 
+be <code>\d{4}</code>: a date;</li>
+    <li>Any pattern becomes optional if you add a <code>?</code> behind it: <code>cakey?</code> will find <code>cakey</code> or 
+<code>cake</code>;</li>
+    <li>You can group patterns by bracketing them with parentheses, and then build around it: for instance, <code>(
+[0-8a-q])|([9r-z])</code>. You can even name the groups to retrieve them precisely from the regex object when there is a match.</li>
+    <li>Characters that are usually used for patterns (such as  <code>?</code> or  <code>|</code>) can be searched for 
+themselves by "escaping" them with an anti-slash  <code>\</code> (and the antislash can be escaped with another 
+antislash:  <code>\\</code> will look for  <code>\</code>)</li>
     </ul>
 
 Regex really turns powerful in that you can add a number of conditions to you regex pattern.
 
-<ul><li>A pattern preceded by a "^" will be looked for unly at the beginning of a line; a pattern followed by a $ will only look for it if it finishes the line;</i>
-    <li>Adding a "(?=2ndpattern)" <i>after</i> your first pattern will indicate that your first pattern will match <i>only if</i> the target text matches your second pattern, but the second pattern won't be caught by the regex object (this is very useful, e.g., for substitution).</li>
-    <li>In the same vein, "(?!2ndpattern)", "(?&lt;=2ndpattern)", and "(?!&lt;2ndpattern)" are conditions for "if it does not match after"; "if it matches before", and "if it doesn't match before", respectively.</li>    
+<ul><li>A pattern preceded by a  <code>^</code> will be looked for unly at the beginning of a line; a pattern 
+followed by a <code>$</code> will only look for it if it finishes the line;</li>
+    <li>Adding a <code>(?=2ndpattern)</code> <i>after</i> your first pattern will indicate that your first pattern 
+will match <i>only if</i> the target text matches your second pattern, but the second pattern won't be caught by the regex object (this is very useful, e.g., for substitution).</li>
+    <li>In the same vein, <code>(?!2ndpattern)</code>, <code>(?&lt;=2ndpattern)</code>, and <code>(?!&lt;2ndpattern)
+</code> are conditions for "if it does not match after"; "if it matches before", and "if it doesn't match before", 
+respectively.</li>    
     </ul>
 
 Latest versions of regex also provides for fuzzy searches - that is, with a bit of leeway to catch things despite errors in the pattern (this is exponentially greedy in resources, though, so be careful when you use it). For instance, re.search("(coke){e<=1}", poem), where the braced statement means "one or less errors (e)" will find "cake", as there is only one difference (the latter o/a) between the pattern and the word. 
 
 Finally, there are so-called <i>flags</i> that are typically used outside of the pattern (but can be used inside for a single sub-pattern), as a third argument, to indicate further instructions, such as:
-<ul><li>Ignorecase, "re.I"</li>
-    <li>Ignore linebreaks "re.S"</li>
-    <li>Verbose (allows you to add white spaces that don't count as pattern), "re.X"</li>
-    <li>Multilines ($ and ^ will work for any single line, and not simply for the start and end of the full text), "re.M"</li>
+<ul><li>Ignorecase, <code>re.I</code></li>
+    <li>Ignore linebreaks <code>re.S</code></li>
+    <li>Verbose (allows you to add white spaces that don't count as pattern), <code>re.X</code></li>
+    <li>Multilines (<code>$</code> and <code>^</code> will work for any single line, and not simply for the start 
+and end of the full text), <code>re.M</code></li>
     </ul>
 
-Regex count as boolean: "if sear" will return "True" if there was a match, while you check for a null result by asking "if sear is None".
+Regex count as boolean: <code>if sear</code> will return <code>True</code> if there was a match, while you check for 
+a null result by asking "if sear is None".
 
-Here is a full-on example:
+That's a lot to take in ! But here is a full-on example:
 
- ```python
-sear = re.search(r"""(?<=the\s)   # A look-before condition
-                    (?P<first>[A-Z]\w*?)  # first capitalised term we are looking for; note the ? after *
-                    \s?  # Then we look for a white space
-                    (?P<second>[A-Z]\w*?$)  # and finally the second capitalised word""", poem, re.M|re.X)
-print(sear.group("first"))
-print(sear.group("second"))
- ```
-
-<u>Exercise 4</u> Write some code that will identify the number of the line that meets the following conditions: 
+<u>Exercise 4</u> Hardest exercise so far: you need to create an algorithm. Write some code that will identify the 
+number of the line, in the poem, that meets the following conditions: 
 <ul><li>An odd number of words, but fewer than 8 in total (<u>not</u> counting the numbers at the beginning of the line)</li>
     <li>At least one "ake" sound in it;</li>
     <li>No capitalised letter except for the first one; and</li>
@@ -96,8 +89,7 @@ print(sear.group("second"))
 There is only one line that meets all these conditions. You can do it multiple ways, using all the methods you have learned so far.
 
 <div class="hint"> Look at the raw poem above (remove the "print" statement), and find the relevant pattern to split 
-the poem in lines. Then identify the relevant pattern for each line !</div>
-
+the poem in lines. Then identify the relevant pattern(s) for each line !</div>
 <div class="hint">Think analytically: what's the first step of your algorithm, what's the condition to proceed to 
 the second step, etc.</div>
 <div class="hint">Be careful of the numbers at the beginning of a line: they count as two words, and you should 

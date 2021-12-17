@@ -1,7 +1,7 @@
 # 1
 
-def my_function(var1, var2):
-    return var1 + var2
+def my_function(alpha, beta):
+    return beta + alpha
 
 
 my_function(1, 2)
@@ -26,6 +26,9 @@ print(len("How long is this sentence ?"))
 print(list("this will be turned into a list of elements"))
 print(round(2.3))
 
+for x in range(0, 20, 5):  # Range takes your first number, the upper limit (not included), and (if needed) the steps to get there
+    print("This is number " + str(x))
+
 # 4 - Notice that, as long as you don't use the imported functions, they appear as grey in PyCharm
 
 import numpy
@@ -38,7 +41,8 @@ numpy.mean([1, 5, 10, 15])
 
 # 6
 
-"A freckled and frivolous cake".split(" ")
+splitted_verse = "A freckled and frivolous cake".split(" ")
+"  ".join(splitted_verse)
 
 # 7
 

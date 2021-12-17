@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validation-document.xsd">
+<Donnees_Techniques>
+<Identification>DCE_448729_20211118.xml</Identification>
+<Date_Mise_Jour>2021-11-20</Date_Mise_Jour>
+</Donnees_Techniques>
+<Dossier>
+<Code_Juridiction>CE</Code_Juridiction>
+<Nom_Juridiction>Section du Contentieux </Nom_Juridiction>
+<Numero_Dossier>448729</Numero_Dossier>
+<Date_Lecture>2021-11-18</Date_Lecture>
+<Numero_ECLI>ECLI:FR:CECHS:2021:448729.20211118</Numero_ECLI>
+<Type_Decision>Décision</Type_Decision>
+<Type_Recours>Excès de pouvoir</Type_Recours>
+<Code_Publication>C</Code_Publication>
+</Dossier>
+<Audience>
+<Date_Audience>2021-10-25</Date_Audience>
+<Numero_Role>21712</Numero_Role>
+<Formation_Jugement>10ème chambre jugeant seule</Formation_Jugement>
+</Audience>
+<Decision>
+<Texte_Integral><p>Vu la procédure suivante :</p>
+<p>Par une requête et un mémoire en réplique, enregistrés les 14 janvier et 12 mai 2021 au secrétariat du contentieux du Conseil d'Etat, Mme B I, Mme D J et Mme C H demandent au Conseil d'Etat :</p>
+<p>1°) d'annuler pour excès de pouvoir la décision du 29 décembre 2020 par laquelle la Commission nationale de l'informatique et des libertés (CNIL) a clôturé leur plainte relative au refus opposé par le docteur E K à leur demande de communication de la copie du dossier médical de leur mère décédée ; </p>
+<p>2°) d'enjoindre à la CNIL de rouvrir l'instruction de leur plainte et d'enjoindre à la formation restreinte de la CNIL de prononcer une sanction à l'encontre du docteur K et de le condamner à leur verser une somme de 10 000 euros chacune.</p>
+<p>Vu les autres pièces du dossier ;</p>
+<p>Vu :</p>
+<p>- le code de la santé publique ;</p>
+<p>- la loi n° 78-17 du 6 janvier 1978 ;</p>
+<p>- le code de justice administrative ;</p>
+<p>Après avoir entendu en séance publique :</p>
+<p>- le rapport de Mme Christelle Thomas, maître des requêtes en service extraordinaire,  </p>
+<p>- les conclusions de M. Laurent Domingo, rapporteur public ;</p>
+<p>Considérant ce qui suit :</p>
+<p>1. Il ressort des pièces du dossier que, par plusieurs courriers envoyés entre le 22 février 2018 et le 22 octobre 2020, Mmes I, J et H ont adressé une demande d'accès au dossier médical de leur mère, Madame A I, décédée le 10 juillet 2017, au docteur E K, qui avait été son médecin traitant du 16 décembre 2014 au 13 juin 2016. Par des courriers du 20 mars 2018 et du 1er octobre 2020, ce dernier a refusé la communication du dossier médical sollicité, en indiquant d'une part, que la demande concernait une pathologie survenue dans un hôpital en 2014, soit antérieurement au suivi qu'il a assuré de la patiente, et, d'autre part, que la demande ne visait aucun des motifs légaux justifiant l'accès au dossier médical d'une personne décédée. Le 22 octobre 2020, les requérantes ont saisi la Commission nationale de l'informatique et des libertés (CNIL) d'une plainte à l'encontre de M. K en raison du refus opposé par ce dernier à la transmission de la copie du dossier médical de leur mère. La CNIL a procédé à la clôture de cette plainte par une décision du 29 décembre 2020 dont les requérantes demandent l'annulation pour excès de pouvoir. </p>
+<p>2. L'article 8 de la loi du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés dispose que " La Commission nationale de l'informatique et des libertés est une autorité administrative indépendante. () Elle exerce les missions suivantes : () 2° Elle veille à ce que les traitements de données à caractère personnel soient mis en œuvre conformément aux dispositions de la présente loi et aux autres dispositions relatives à la protection des données personnelles prévues par les textes législatifs et réglementaires, le droit de l'Union européenne et les engagements internationaux de la France. / A ce titre : () d) Elle traite les réclamations, pétitions et plaintes introduites par une personne concernée ou par un organisme, une organisation ou une association, examine ou enquête sur l'objet de la réclamation, dans la mesure nécessaire, et informe l'auteur de la réclamation de l'état d'avancement et de l'issue de l'enquête dans un délai raisonnable () ". Il appartient à la CNIL de procéder, lorsqu'elle est saisie d'une plainte ou d'une réclamation tendant à la mise en œuvre de ses pouvoirs, à l'examen des faits qui sont à l'origine de la plainte ou de la réclamation et de décider des suites à lui donner. Elle dispose, à cet effet, d'un large pouvoir d'appréciation et peut tenir compte de la gravité des manquements allégués au regard de la législation ou de la réglementation qu'elle est chargée de faire appliquer, du sérieux des indices relatifs à ces faits, de la date à laquelle ils ont été commis, du contexte dans lequel ils l'ont été et, plus généralement, de l'ensemble des intérêts généraux dont elle a la charge. L'auteur d'une plainte peut déférer au juge de l'excès de pouvoir le refus de la CNIL d'engager à l'encontre de la personne visée par la plainte une procédure sur le fondement du II de l'article 20 de la loi du 6 janvier 1978, y compris lorsque la CNIL procède à des mesures d'instruction ou constate l'existence d'un manquement aux dispositions de cette loi. Il appartient au juge de censurer ce refus en cas d'erreur de fait ou de droit, d'erreur manifeste d'appréciation ou de détournement de pouvoir. </p>
+<p>3. Selon le troisième alinéa de l'article L. 1110-4 du code de la santé publique, le secret médical ne fait pas obstacle à ce que les informations concernant une personne majeure décédée soient délivrées à ses ayants droit, dans la mesure où elles leur sont nécessaires pour leur permettre de connaître les causes de la mort, de défendre la mémoire du défunt ou de faire valoir leurs droits, sauf volonté contraire exprimée par la personne avant son décès. Il résulte des articles 84 et 86 de la loi du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, que le droit d'accès aux données personnelles s'éteint au décès de la personne concernée et que, par exception, les héritiers de la personne concernée peuvent exercer, après son décès, le droit d'accès à ces données dans la mesure nécessaire à l'organisation et au règlement de la succession du défunt, en l'absence de directives relatives à la communication des données à caractère personnel de la personne décédée, ou de mention contraire dans de telles directives. </p>
+<p>4. La CNIL a clôturé la plainte dont elle était saisie par les requérantes en se fondant notamment sur les échanges intervenus entre ces dernières et le docteur K et sur une conversation téléphonique que ses services ont eue avec celui-ci. Il ressortait de ces éléments, d'une part, que ce médecin estimait que le dossier médical de la mère des requérantes, par ailleurs saisi dans le cadre d'une procédure pénale qui a donné lieu à un classement sans suite en l'absence de lien de causalité avéré entre un acte médical dispensé à l'intéressée et son décès, ne contenait pas de données à caractère personnel qui permettraient aux requérantes de faire valoir leurs droits ou de connaître les causes de ce décès, d'autre part, que ce professionnel de santé a cessé d'être le médecin traitant de la mère des requérantes plus d'un an avant son décès et, enfin, que le conseil départemental de l'ordre des médecins de la Drôme, que le docteur K a consulté pour avis, lui a indiqué que le secret médical faisait obstacle à la communication du dossier médical demandé. Dans ces conditions, eu égard à ses pouvoirs d'instruction et aux diligences qu'elle a accomplies, et alors au surplus que la demande d'accès formulée par les requérantes ne visait pas à l'organisation et au règlement de la succession de la défunte, dont il n'est pas allégué qu'elle aurait établi de son vivant des directives sur la communication de ses données à caractère personnel, la CNIL n'a pas commis d'erreur manifeste d'appréciation en procédant à la clôture de la plainte dont elle était saisie. </p>
+<p>5. Il résulte de ce qui précède que Mmes I, J et H ne sont pas fondées à demander l'annulation pour excès de pouvoir de la décision qu'elles attaquent. Leur requête doit dès lors être rejetée.</p>
+<p>             D E C I D E :</p>
+<p>             ----------------</p>
+<p>Article 1er : La requête de Mmes I, J et H est rejetée. </p>
+<p>Article 2 : La présente décision sera notifiée à Mme B I, première dénommée pour l'ensemble des requérantes et à la Commission nationale de l'informatique et des libertés.</p>
+<p>Délibéré à l'issue de la séance du 25 octobre 2021 où siégeaient : Mme Nathalie Escaut, conseillère d'Etat, présidant ; M. Alexandre Lallet, conseiller d'Etat et Mme Christelle Thomas, maître des requêtes en service extraordinaire-rapporteure. </p>
+<p>Rendu le 18 novembre 2021.</p>
+<p>             La présidente : </p>
+<p>             Signé : Mme Nathalie Escaut</p>
+<p>La rapporteure : </p>
+<p>Signé : Mme Christelle Thomas</p>
+<p>             La secrétaire :</p>
+<p>             Signé : Mme F G448729- 4 -</p>
+</Texte_Integral>
+</Decision>
+</Document>

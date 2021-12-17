@@ -1,4 +1,4 @@
-## Dataframes
+# Dataframes
 
 <b>1. </b>A lot of the analyses you'll be asked to perform will be based on a dataframe, i.e., a spreadsheet where 
 data is structured in rows and columns. 
@@ -19,13 +19,14 @@ it to showcase `pandas`'s abilities. It's a very simple dataframe with names and
 You first load the file with pandas, which makes it easy for you for a dedicated `read_csv` function (no need to use 
 a reader/writer as we just saw before).
 
-```python
-import pandas as pd
+Then we can do a bit of data investigation, see what's the most interesting column or data, etc. One first useful tool is the `.value_count()` method, 
+which allow you to see the rough distribution of a variable. You can use `.loc` to get a slice of the dataframe 
+based on a condition, or `.at` to get a particular cell if you know its index. Iterating over a dataframe is often 
+done with `iterrows` - which provides you with a tuple.
 
-df = pd.read_csv("fromages.csv", header="infer", encoding="utf8")
-```
-
-Then we can do a bit of data investigation, see what's the most interesting column or data, etc.
+It will help you, already at this stage, to correctly understand what kind of input you are dealing with after every 
+pandas command. There is a distinction, first, between a dataframe and a Series (which is a one column df, or an 
+indexed list). Other objects (such as groupers) are less easy to deal with.
 
 <b>3. </b> In particular, it would be helpful to match the Départements with their region. Fortunately, we have a 
 second dataset that does just that, so let's try to match them in a single dataset. In Excel, you would do a VLookup,
@@ -35,5 +36,5 @@ dataframe `df`.
 <b>4. </b>Finally, let's do something more ambitious. I searched for a way to make maps of France online, and just 
 copied and pasted the relevant code.  This is will be the topic of the exercise.
 
-<u>Exercise</u> Based on the two datasets, create a dictionary that you will be able to inputted in the French map 
+<u>Exercise 7</u> Based on the two datasets, create a dictionary that you will be able to inputted in the French map 
 renderer: it should take department numbers (not names) as keys, and the number of entries as values.

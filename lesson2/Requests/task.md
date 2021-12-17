@@ -20,8 +20,7 @@ We'll come back on dynamic websites in the next task.
 <b>2. </b> The distinction between static and dynamic is often blurry, as we'll see, but to the extent possible it's easier to 
 work with static websites, so I'd advise to seek short cuts. For instance, querying a database with a search term 
 can be dynamic (the webpage will depend on the result), but you can make it static in some circumstances, by 
-including the request in the URL, and fiddling with it (example <a href="https://recherche.conseil-constitutionnel.
-fr/?expert=2&q=Libert%C3%A9">here</a>: see how you can manipulate the URL to get the required results, which are 
+including the request in the URL, and fiddling with it (example <a href="https://recherche.conseil-constitutionnel.fr/?expert=2&q=Libert%C3%A9">here</a>: see how you can manipulate the URL to get the required results, which are 
 then static, or mostly so).
 
 <b>3. </b> Now, suppose you want to scrap the French constitution from the website of the Conseil constitutionnel, 
@@ -38,8 +37,8 @@ Yet, as you can see, a few more steps are needed to get the Constitution, as opp
 constitution, and possibly without the `html` code surrounding it.
 
 (Note that, quite often, you'll want to scrap several distinct pages of a website, something you can do with a loop. 
-Sometimes, you don't know in advance what are the pages you'll want to scrap, and there are third-party plugins for 
-this.)
+Sometimes, you don't know in advance what are the pages you'll want to scrap, and there are third-party plugins, 
+known as crawlers, for this.)
 
 <b>4. </b>To go past this issue, you'll need to manipulate the  `html` and locate what you need. To do so, a module 
 called BeautifulSoup is very helpful. But also your browser: what you want to do is:
@@ -57,6 +56,7 @@ language: elements have children and parents, over which you can iterate. For in
 every title (article numbers, here), in the Constitution.
 
 ```python
+cons_div = soup.find("div", class_="field field--name-field-reference-paragraph field--type-entity-reference-revisions field--label-hidden field__items")
 for child in cons_div.findChildren("h3"):  # Note that all 'find' methods in beautifulsoup work from the point of view of the element you use it on
     print(child)
 ```
@@ -78,10 +78,9 @@ for child in cons_div.findChildren("h3"): # We go over every article
     
 ```
 
-<u>Exercise 2</u> The Constitution is divided in parts and sub-sections. Can you write an algorithm that returns the 
+<u>Exercise 9</u> The Constitution is divided in parts and sub-sections. Can you write an algorithm that returns the 
 section with the most articles (subarticles of the form "56-X" count as one). There are several ways to go about it.
 
 <div class="hint">To locate elements by text, you can use the command of the form:
-
-element.findcommand(Target Name, text=re.compile(your regex pattern here))`
+<code>element.find(Target Name, text=re.compile(your regex pattern here))</code>`
 </div>

@@ -33,3 +33,15 @@ else:
 # 4
 
 print(True)
+
+# 5
+
+num_words = 0
+for line in poem.split("\n"):
+    if "cake" in line:
+        num_words += 1
+        if "knife" in line:
+            num_words += 1
+    elif "knife" in line:
+        num_words += 1
+print(num_words)

@@ -4,7 +4,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 538
+  - offset: 547
     length: 30
     placeholder_text: Check Description
 - name: tests/test_task.py

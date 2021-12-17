@@ -15,8 +15,7 @@ store it in the secondary memory.
 <b>3. </b>You can do that through Python, but you need an interface between the code and your computer 
 environment. Fortunately, Python relies on the same kind of methods that are at the basis of most computers (since 
 they get their roots in the UNIX system. If you open the Command Prompt (`cmd` on Windows, or the Terminal on a Mac),
-you 
-can navigate between folders with the command `cd` (for "Change directory"), or create a new folder with `mkdir`.
+you can navigate between folders with the command `cd` (for "Change directory"), or create a new folder with `mkdir`.
 
 <b>4. </b>By default, the Console is virtually located in the folder that hosts your Python Script. But you can move 
 as if you were in the command prompt. Notably, `cd` works as well. Use it with a double period, `cd ..` to go back 
@@ -27,22 +26,14 @@ manipulate files with Python. For instance, the command `os.listdir(".")` return
 in a given directory. (Note that the argument we gave it was ".", which usually means "this current folder".)
 
 `os` is also very helpful to manipulate files from Python, for instance renaming them. Instead of spending an hour 
-renaming hundreds of files, you can do it in a few lines, for instance:
-
-```python
-import os 
-
-print(os.listdir("."))  # We check what files are in the folder
-file = "text.txt"  # We select a file that is in the folder and attribute it to a variable
-newnamefile = file + "a"  # We decide on a new name given a file
-os.rename(file, newnamefile) # We provide os's rename function with the required variables
-```
+renaming hundreds of files, you can do it in a few lines, for instance.
 
 Note that the resulting file is now corrupted: you changed the extension from `txt` to `.txta`, which is unknown - 
 and so you can't read it anymore. There are ways to control for this, but this is the subject of the exercise.
 
 <u>Exercise 5</u> Go to the `Gibberish` folder in Lesson 1 > Storing Data, and rename all files that do not finish 
 by a `_\d` format (for instance, `Damien Charlotin_10786`, but not `Damien Charlotin_10786_1`). Rename these files 
-by adding `_main` to their name. How many files have you renamed ?
+by adding `_main` to their name, but be careful not to alter the file extensions (`.txt`). How many files have you 
+renamed ?
 
 <div class="hint">Remember how to deal with lists, and relative indexing.</div>
