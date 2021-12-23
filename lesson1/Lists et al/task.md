@@ -29,8 +29,7 @@ Sets are like lists (they can take any sort of variable, but not a list), except
 <b>6.</b> A Dictionary is a type of data that links a `key` to a `value`. The key becomes the index of your dictionary; if you give a key to the dictionary, it will return the value. It is useful to track down relations between different data points. Here as well, you can use any type of data you want. You use brackets, and indicate the relationship with a ":" operator.
 
 <u>Exercice 1</u> Before switching to the next section, complete the placeholder such that you can print "Mervyn 
-Peake" 
-using both the list `my_list` and the dictionary `my_dict`.
+Peake" using both the list `my_list` and the dictionary `my_dict`.
 
 <div class="hint">Check out the previous code to identify the correct index and key; don't forget the middle space !
 </div>

@@ -60,6 +60,8 @@ yet another syntax, called xpath. It works like this:
     <li>Then you specify the name of the element, or <code>*</code> if any would do;</li>
     <li>And then you add conditions, in brackets, such as the value of an attribute (introduced by a <code>@</code>),
 or based on other functions (such as whether the element contains a certain text);</li>
+    <li>Finally, xpath comes with a number of functions, such as <code>contains()</code> (allows you to check that 
+the obejct contains a certain text);</li>
     </ul>
 
 For instance, if we needed to find the element `Date_Lecture` in the xml_file, this is what the xPath expression 

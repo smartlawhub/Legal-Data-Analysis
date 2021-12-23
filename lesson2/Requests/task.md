@@ -62,7 +62,7 @@ for child in cons_div.findChildren("h3"):  # Note that all 'find' methods in bea
 ```
 
 To get to the text of the article, once again you need to study the structure of the webpage. Here you'll see that 
-each title has siblings, which are <p> elements, and which enclose the relevant text. Here is some code to 
+each title has siblings, which are `<p>` elements, and which enclose the relevant text. Here is some code to 
 reconstruct the Constitution in a dictionary:
 
 ```python

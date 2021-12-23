@@ -33,14 +33,23 @@ df.groupby("Année").size().plot()  # We group by years, and then use plot the h
 
 df.groupby("Année").Type.value_counts().unstack()   # We combine both tools to get a broader type of chart, and then we unstack
 
+df.index = pd.to_datetime(df.Séance)  # It's sometimes easier for your dataframe to be indexed chronologically
+df.resample("1Y").size().plot()  # And this is equivalent to the groupby above, though now you can resample by quarters, month, etc.
+df.resample("1M").size().plot()  # And this is equivalent to the groupby above, though now you can resample by quarters, month, etc.
+df = df["2010-01-01":"2021-11-01"]  # Data before 2010 is not very relevant, let's cut it out
+x = df.resample("1M").size()  # Let's get a rolling average to get thing in better perspective
+xroll = x.rolling(5).sum()
+xroll.plot()
+
+
 # 3
 
 keys = df["Mots clés"].values.tolist()  # It's sometimes helpful to convert the data in another format, such as columns into a list, which will be ordered just as the dataframe was
-Counter(re.split(", |\$", "$".join(keys))).most_common(10)  # Then we find the most common elements  in the Mot Clés
+Counter(re.split(r", |\$", "$".join(keys))).most_common(10)  # Then we find the most common elements  in the Mot Clés
 
 
 df.iloc[10]  # Compared to your Excel, pandas are shifted two indexes below, to account for 1. the headers, and 2. the fact that Python indexes start at 0
 
 df.loc[df.Année == "1999"]  # You specify a condition, and then obtain a smaller dataframe if you do not care for a particular column; notice that the type is important
 df.loc[df.Année == 1999][["Type", "Objet"]]  # You get more than one columns by using a double list
-
+df.loc[~(XX) & (XX)]  # Use the tilde to specify negative conditions

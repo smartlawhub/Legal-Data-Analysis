@@ -24,6 +24,7 @@ def apply_result(value):  # Or we can just use a function that will do the same,
     else:
         return "Unfavourable"
 
+
 df["Result"] = df["Sens et motivation"].apply(lambda x: apply_result(x))  # This allows you to apply a function to a value
 
 df.Result.value_counts(normalize=True) * 100  # We obtain percent of favourable decisions

@@ -29,6 +29,10 @@ condition is met.</p>
 <b>5.</b> Note that an issue of adding too many conditions to a line, as above, is that you don't know which one was 
 true or false.
 
+This leads us to discuss a number of "best practices" when coding. Type `import this`. Note the point about 
+namespaces: you can get the list of `namespaces` with dir(__builtins__). Understand that variables have different 
+scopes (LEGB Rule).
+
 This is all, or nearly. On the basis of the very basic concepts I just introduced to you run most of the rest of the Python scripts you can see out there. 
 
 <b>6.</b> <u>Exercise 3</u>On the basis of what you learned in the past hour, please iterate over the lines of the 

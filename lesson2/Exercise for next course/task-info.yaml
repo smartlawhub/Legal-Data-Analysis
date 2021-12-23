@@ -3,8 +3,8 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 344
-    length: 3825
+  - offset: 283
+    length: 12
     placeholder_text: Your code here.
 - name: tests/test_task.py
   visible: false
@@ -12,3 +12,5 @@ files:
   visible: false
 - name: tests/__init__.py
   visible: false
+- name: img.png
+  visible: true

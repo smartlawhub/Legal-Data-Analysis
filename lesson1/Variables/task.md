@@ -7,11 +7,6 @@
 <b>1. </b>Computer code, at its most basic, calculates stuff. You can think of this course and everything that 
 follows as expanding the uses of a calculator. For instance:
 
-```python
-2+2
-=> 4
-```
-
 Typically, in Python you'd use the command `print` to have stuff appear on your screen. It is also more precise, as 
 it gives your computer the exact command to process. 
 
@@ -19,24 +14,12 @@ For instance, if you add a line of computations above and try to run everything 
 the last line - but if you insert two `print` statement, one after the other, both will render.
 `print` is a <em>command</em>. Like most commands, it requires some <em>parameters</em>, that are indicated within brackets. Eg.  
 
-```python
-print(2+2)
-print(2*3)
-```
-
 <b>2. </b>We will come back to functions a bit later. Before that, we need to discuss <em>variables</em>, which you can 
 think of as recipients in which you store information.
 
 Variables are typically written in lower caps; the way  you assign data to a variable is with a `=` sign, as follows.
 You can then use variables directly in functions (such as print), or do operations between them.
 What do you think will print if we press Enter ?
-
-```python
-alpha = 1
-beta = 2
-gamma = 2 * 3
-print(alpha  + beta  + gamma)
-```
 
 You can assign and re-assign variables at will: you can even assign a variable to another variable. Variables that 
 contain numbers can also be added or subtracted to with a specific syntax:

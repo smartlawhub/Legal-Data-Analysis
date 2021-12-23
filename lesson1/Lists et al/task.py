@@ -37,4 +37,4 @@ print(my_dict["My List"])
 
 # 7.
 
-print(my_dict[1] + " " + my_list[-2])
+print(#my_dict[1] + " " + my_list[-2])

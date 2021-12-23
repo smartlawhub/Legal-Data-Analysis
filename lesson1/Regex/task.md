@@ -15,12 +15,12 @@ could have extra words. You might be interested in a range of number and not a s
     
 For instance, the symbol "\d" means "any number", and if you try to match this pattern with a sentence that includes a number, there will be a positive result.
 
-<b>3. </b>Regex will return a regex object, which comes with a number of characteristics. For instance, the "sear" 
-object stores the start of the matching pattern in the target sentence, as well as its end, and the exact matched pattern. 
+<b>3. </b>Regex will return a regex object, which comes with a number of characteristics. For instance, the "result" 
+object stores the start of the matching pattern in the target sentence, as well as its end, and the exact matched pattern.
 
 You'd note that there were two numbers in the target sentence, but the "search" function only found one - the first 
-one. To get all matches, you need another function, which is "findall", and returns a list. Let's solve the previous 
-exercise with `findall`.
+one. To get all matches, you need another function, which is "findall", and returns a list of result. Let's solve the 
+previous exercise with `findall`. When to use `search` or `findall` depends on the use case.
 
 <b>4. </b>In addition, you have `re.sub(pattern, newpattern, target_sentence)`, that substitutes a pattern for a new 
 pattern, as well as re.split(pattern, target_sentence) which returns a list of strings from the original text, as 
@@ -29,38 +29,40 @@ split by the pattern. Notice that the result does not display the splitting patt
 <b>5. </b>All very good, now, here are the basic patterns:
 <ul><li>Any particular word or exact spelling will match itself: <code>cake</code> will match <code>cake</code> (but not 
 <code>Cake</code>, unless you command regex to be case-insensitive);</li>
-    <li><code>.</code>, catches anything, really, except a newline;</li>
+    <li><code>.</code>, catches anything, really;</li>
     <li><code>\s</code> matches white spaces, including line breaks, etc.; note that the upper-case version, 
 <code>\S</code>,matches anything <i>but</i> a white space; and</li>
     <li><code>\w</code> matches a letter, while <code>\W</code> matches anything but a letter.</li>
     </ul>
 In addition, the following rules apply:
-<ul><li>Square brackets can be used to indicate a range of characters, such as <code>[0-8a-q]</code> will only look for a number between 0 and 8 OR a letter between a and q;</li>
+<ul><li>Square brackets can be used to indicate a range of characters, such as <code>[0-8a-q]</code> will only look 
+for a number between 0 and 8 OR a letter between a and q (if you need hyphens, put them at the end of the range);</li>
     <li>The symbol <code>|</code> (that's Alt + 6 on your keyboard) means "or";</li>
-    <li>You'd indicate the expected number of hits with braces: <code>[A-Z]{3}</code> means you are looking for three 
-(consecutive) upper-case letters between A and Z, while <code>[A-Z]{3,6}</code> means you expect between 3 and 6, 
-and <code>[A-Z]{3,}</code> means "at least 3" (but potentially more), on the same logic as indexing (except use 
+    <li>You'd indicate the expected number of hits with braces: <code>[A-Q]{3}</code> means you are looking for three 
+(consecutive) upper-case letters between A and Q, while <code>[A-Q]{3,6}</code> means you expect between 3 and 6, 
+and <code>[A-Q]{3,}</code> means "at least 3" (but potentially more), on the same logic as indexing (except use 
 commas instead of colons). Two special characters do the same job, but open-ended, "+" means that you are expected 
-at least one hit, while <code>*</code> means you expect any number of hits (including none). A concrete example would 
-be <code>\d{4}</code>: a date;</li>
+at least one hit, while <code>*</code> means you expect any number of hits (including none; add a <code>?</code> for 
+non-greediness). A concrete example would be <code>\d{4}</code>: a date;</li>
     <li>Any pattern becomes optional if you add a <code>?</code> behind it: <code>cakey?</code> will find <code>cakey</code> or 
 <code>cake</code>;</li>
     <li>You can group patterns by bracketing them with parentheses, and then build around it: for instance, <code>(
 [0-8a-q])|([9r-z])</code>. You can even name the groups to retrieve them precisely from the regex object when there is a match.</li>
     <li>Characters that are usually used for patterns (such as  <code>?</code> or  <code>|</code>) can be searched for 
 themselves by "escaping" them with an anti-slash  <code>\</code> (and the antislash can be escaped with another 
-antislash:  <code>\\</code> will look for  <code>\</code>)</li>
+antislash:  <code>\\</code> will look for  <code>\</code>). Note that <code>regex</code> provides you with an 
+<code>escape</code> function that returns a pattern, but escaped.</li>
     </ul>
 
 Regex really turns powerful in that you can add a number of conditions to you regex pattern.
 
 <ul><li>A pattern preceded by a  <code>^</code> will be looked for unly at the beginning of a line; a pattern 
-followed by a <code>$</code> will only look for it if it finishes the line;</li>
+followed by a <code>$</code> will only look for it if it finishes the line or text;</li>
     <li>Adding a <code>(?=2ndpattern)</code> <i>after</i> your first pattern will indicate that your first pattern 
 will match <i>only if</i> the target text matches your second pattern, but the second pattern won't be caught by the regex object (this is very useful, e.g., for substitution).</li>
     <li>In the same vein, <code>(?!2ndpattern)</code>, <code>(?&lt;=2ndpattern)</code>, and <code>(?!&lt;2ndpattern)
 </code> are conditions for "if it does not match after"; "if it matches before", and "if it doesn't match before", 
-respectively.</li>    
+respectively. This can be hungry in terms of computing power, so don't overdo it.</li>    
     </ul>
 
 Latest versions of regex also provides for fuzzy searches - that is, with a bit of leeway to catch things despite errors in the pattern (this is exponentially greedy in resources, though, so be careful when you use it). For instance, re.search("(coke){e<=1}", poem), where the braced statement means "one or less errors (e)" will find "cake", as there is only one difference (the latter o/a) between the pattern and the word. 
@@ -73,10 +75,13 @@ Finally, there are so-called <i>flags</i> that are typically used outside of the
 and end of the full text), <code>re.M</code></li>
     </ul>
 
-Regex count as boolean: <code>if sear</code> will return <code>True</code> if there was a match, while you check for 
-a null result by asking "if sear is None".
+Regex count as boolean: <code>if result</code> will return <code>True</code> if there was a match, while you check for 
+a null result by asking "if result is None".
 
-That's a lot to take in ! But here is a full-on example:
+That's a lot to take in ! But here is a full-on example.
+
+Note that there are tools to help you check if your regexes work well on the given dataset, such as <a 
+href="https://www.debuggex.com/">this one</a> online.
 
 <u>Exercise 4</u> Hardest exercise so far: you need to create an algorithm. Write some code that will identify the 
 number of the line, in the poem, that meets the following conditions: 

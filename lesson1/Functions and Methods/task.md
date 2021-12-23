@@ -1,4 +1,4 @@
-## Functions
+# Functions
 
 
 <b>1.</b> Now, coming back to functions, they are what allows you to do operations over data and variables in Python 

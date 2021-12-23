@@ -7,8 +7,8 @@ with open("poem.txt", "r") as f:
 
 target_sentence = "Count: 3 frivolous cakes and 4 knifes !"
 pattern = r"\d"
-sear = re.search(pattern, target_sentence)
-print(sear)
+result = re.search(pattern, target_sentence)
+print(result)
 
 # 3
 
@@ -26,7 +26,7 @@ print(re.split(" ", poem[:20]))
 sear = re.search(r"""(?<=the\s)   # A look-before condition
                     (?P<first>[A-Z]\w*?)  # first capitalised term we are looking for; note the ? after *
                     \s?  # Then we look for a white space
-                    (?P<second>[A-Z]\w*?$)  # and finally the second capitalised word""", poem, re.M|re.X)
+                    (?P<second>[A-Z]\w*?$)  # and finally the second capitalised word""", poem, re.M | re.X)
 print(sear.group("first"))
 print(sear.group("second"))
 
