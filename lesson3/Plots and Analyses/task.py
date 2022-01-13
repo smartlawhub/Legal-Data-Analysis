@@ -6,7 +6,7 @@ df = pd.read_csv("", header="infer", encoding="utf8")
 
 df.groupby("Admin").Result.value_counts(normalize=True).unstack()  # As you can see, it's a bit harder to get a document from a Central administration, and a bit easier to get them from municipalities
 
-#TODO We then check that the differences are statistically significant
+# TODO We then check that the differences are statistically significant
 
 df.loc[df.Admin == "Central"].resample("1M").Result.value_counts(normalize=True).unstack()["Favourable"].rolling(3).sum().plot()   # Next we look at the number of decisions per month, focusing on Favourable results, and a rolled average of three months.
 plt.axvline("2017-04-23", color="red")  # We add a line to indicate the presidential election

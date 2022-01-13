@@ -58,9 +58,10 @@ print(set1.symmetric_difference(set2))
 fifth_para = "Around the shores of the Elegant Isles \nWhere the cat-fish bask and purr \nAnd lick their paws with adhesive smiles \nAnd wriggle their fins of fur, \nThey fly and fly ‘neath the lilac sky - \nThe frivolous cake, and the knife \nWho winketh his glamorous indigo eye \nIn the wake of his future wife."
 sixth_para = "The crumbs blow free down the pointless sea \nTo the beat of a cakey heart \nAnd the sensitive steel of the knife can feel \nThat love is a race apart \nIn the speed of the lingering light are blown \nThe crumbs to the hake above, \nAnd the tropical air vibrates to the drone \nOf a cake in the throes of love."
 
+answer = 0   # set answer to correct value after writing relevant code
+
 list_fifth_para = fifth_para.split(" ")
 list_sixth_para = sixth_para.split(" ")
 
 intersect = set(list_fifth_para).intersection(set(list_sixth_para))
-
-print(len(intersect))
+answer = len(intersect)

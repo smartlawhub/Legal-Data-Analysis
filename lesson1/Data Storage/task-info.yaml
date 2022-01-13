@@ -3,8 +3,8 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 994
-    length: 191
+  - offset: 529
+    length: 218
     placeholder_text: '# Your answer here'
 - name: tests/test_task.py
   visible: false
@@ -669,4 +669,10 @@ files:
 - name: __init__.py
   visible: false
 - name: 181-20211207-PRE-01-00-EN.pdf
+  visible: true
+- name: PDF examples.py
+  visible: true
+- name: poem2.txt
+  visible: true
+- name: first_csv.csv
   visible: true

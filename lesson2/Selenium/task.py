@@ -1,11 +1,10 @@
 import regex as re
 import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pandas as pd
 import time
-from selenium.webdriver.common.keys import  Keys as KeysBrowser
+
 
 
 webpage = requests.get("https://www.conseil-etat.fr/ressources/decisions-contentieuses/arianeweb2")
@@ -13,18 +12,26 @@ soup = BeautifulSoup(webpage.content)
 
 table = soup.find("table")
 
-driver = webdriver.Chrome(executable_path="../windows-webdriver.exe")
-driver.get("https://www.conseil-etat.fr/ressources/decisions-contentieuses/arianeweb2") # Even on this page, the search tool, while it displays in the robot browser, can't be reached with the Code Source; but you can see in page source that the search tool is fetched from a "recherche" webpage, and we'll start from this
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.keys import  Keys as KeysBrowser
+
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+driver.get("https://www.conseil-etat.fr/ressources/decisions-contentieuses/arianeweb2")  # Even on this page, the search tool, while it displays in the robot browser, can't be reached with the Code Source; but you can see in page source that the search tool is fetched from a "recherche" webpage, and we'll start from this
 
 driver.get("https://www.conseil-etat.fr/arianeweb/#/recherche")
 
-el = driver.find_element(By.XPATH, r'.//*[contains(text(), "Décisions du Conseil")]') # After a lot of trial and error, we were able to locate the required element, and from this to check the radio box
+soup.find_all("div", class_="checkbox")
+soup.find("input", attrs={"ng-change":"sources.selectSource('AW_DCE')"})
+print(BeautifulSoup(driver.page_source))
+el = driver.find_element(By.XPATH, r'.//*[contains(text(), "Décisions du Conseil")]')  # After a lot of trial and error, we were able to locate the required element, and from this to check the radio box
 el.click()  # We click on the category we are interested in
 
-button = driver.find_element(By.XPATH, ".//button[@class='btn btn-primary']")  # This one was easier
+button = driver.find_element(By.XPATH, ".//button[@class='btn btn-primary']")  # Looking for the "Rechercher" Button
 button.click()  # and then on the button, which discloses the table
 
-table = BeautifulSoup(driver.page_source).find_all("table")[-1]  # Collect tables from the page; there are two of them in the page source, and we are interested in the last one, with results
+table = BeautifulSoup(driver.page_source).find_all("table")[-1]  # Collect tables from the page; there are two of them in the page source, and we are interested in the last one, with results. -1  indexing is not ideal, though, we should sort by length maybe
 
 df = pd.read_html(str(table))[-1]  # To make things easier, we convert the table in a panda dataframe. Not the 'str' command: it's because the original table is an object (and not a string). This returns a list of dataframes, so make sure to select only one, most often the last one
 df.head(10)  # Always a good idea to see what the dataframe look like

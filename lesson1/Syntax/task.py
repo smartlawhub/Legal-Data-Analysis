@@ -1,3 +1,6 @@
+f = open("../../poem.txt", "r")
+poem = f.read()
+
 # 1
 
 words = ["A", "Freckled", "and", "Frivolous", "Cake", "There", "Was"]
@@ -36,6 +39,8 @@ print(True)
 
 # 5
 
+answer = 0  # set answer to correct value after writing relevant code
+
 num_words = 0
 for line in poem.split("\n"):
     if "cake" in line:
@@ -44,4 +49,4 @@ for line in poem.split("\n"):
             num_words += 1
     elif "knife" in line:
         num_words += 1
-print(num_words)
+answer = num_words

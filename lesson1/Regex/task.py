@@ -1,9 +1,11 @@
 # 1
 import regex as re  # regex is typically abbreviated as re
-with open("poem.txt", "r") as f:
+
+with open("../../poem.txt", "r") as f:
     poem = f.read()
 
-#2
+
+# 2
 
 target_sentence = "Count: 3 frivolous cakes and 4 knifes !"
 pattern = r"\d"
@@ -32,12 +34,14 @@ print(sear.group("second"))
 
 
 # Exercise
+
+answer = ""   # set answer to correct value after writing relevant code
+
 longest_line = ""
 for line in re.split(r"\n", poem):
     if re.search("ake", line) and re.search("[A-Z]", re.sub(r"^[\d \.]+", "", line[6:])) is None:
         len_line = len(re.findall(r"\w+", line[3:]))
         if len_line in [3, 5, 7] and len_line > len(re.findall(r"\w+", longest_line[3:])):
             longest_line = line
-print(longest_line[:3])
 
-print(sorted([line for line in re.split(r"\n", poem)[1:] if re.search("ake", line) and re.search("[A-Z]", re.sub(r"^[\d \.]+", "", line[6:])) is None and len(re.findall(r"\w+", line.strip()[3:])) in [3,5,7]], key=len, reverse=True)[0][:3])
+answer = longest_line[:3]

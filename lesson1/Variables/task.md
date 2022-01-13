@@ -22,24 +22,14 @@ You can then use variables directly in functions (such as print), or do operatio
 What do you think will print if we press Enter ?
 
 You can assign and re-assign variables at will: you can even assign a variable to another variable. Variables that 
-contain numbers can also be added or subtracted to with a specific syntax:
+contain numbers can also be added or subtracted to with a specific syntax.
 
-```python
-gamma = gamma + alpha
-print(gamma)
-gamma += 1 
-print(gamma)
-gamma -= 2
-print(gamma)
-```
+<b>3. </b>There are different types of numbers in Python. Now, variables need not be numbers. They can also be text, 
+which in Python is known as a `string`. Likewise, you can make operations with them, such as collating two strings.
 
-There are different types of numbers in Python. Now, variables need not be numbers. They can also be text, which in Python is known as a `string`. Likewise, you can make operations with them, such as collating two strings.
-
-```python
-alpha = "Hello World"
-beta = "Hello Cake"
-print(alpha + beta)
-```
 Do note that the print command does exactly what you ask it to do: it did not insert a space between the two strings here, it's for you to think of this kind of details.
+
+Also important to keep into account is that strings are different from number. And you cannot, for instance, add 
+strings to number.
 
 In what follows, we'll use text and strings taken from Mervyn Peake's poem <a href ="https://gormenghasts.tumblr.com/post/80656474535/the-frivolous-cake-a-freckled-and-frivolous-cake"><i>The Frivolous Cake</i></a>. I have numeroted every verse; we'll store it in a variable for now and come back to it later.

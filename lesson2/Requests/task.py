@@ -1,5 +1,3 @@
-# Scrap French constitution
-
 import requests
 from bs4 import BeautifulSoup
 import regex as re
@@ -26,8 +24,8 @@ for child in cons_div.findChildren("h3"):  # We go over every article
         if sib.name == "h3":  # We check if we have  reached the next article, in which case we  break the loop
             break
         else:  # If we have not reached the next article, we add the text to our variable, separated  by a line-break
-            text += "\n" + sib.text
-    dic_constitution[child.text] = text  # Once the loop over the text elements is over, we input it in our dictionary
+            text += "\n" + sib.text.strip()  # Strip because online text often has empty strings at the end and beginning of text
+    dic_constitution[child.text.strip()] = text  # Once the loop over the text elements is over, we input it in our dictionary
 
 # Exercise
 

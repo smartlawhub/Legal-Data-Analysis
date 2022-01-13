@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: __init__.py
+  visible: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 879
+    length: 239
+    placeholder_text: '# TODO'

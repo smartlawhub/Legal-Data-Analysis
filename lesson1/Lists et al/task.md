@@ -6,7 +6,7 @@ list by using the function `.append()` directly from the list, as follows: see t
 now appears at the end of the list.
 
 <b>2.</b> A very important feature of lists is that they are ordered. This means if you know the (numerical) index of 
-an item in a list, you can access it immediately. 
+an item in a list, you can access it immediately.
 
 Learn it once and for all: indexes start at 0; the first element in a list can be found at index 0. This will lead 
 you to such difficulties if you do not get that 0, not 1, marks the beginning of a list. For instance, the length of 

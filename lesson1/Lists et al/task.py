@@ -17,6 +17,7 @@ print(my_list[0:2])
 print(my_list[:2])
 print(my_list[2:])
 print(my_list[-2])
+print(my_list[0::3])
 
 # 4.
 
@@ -37,4 +38,5 @@ print(my_dict["My List"])
 
 # 7.
 
-print(#my_dict[1] + " " + my_list[-2])
+ans = my_dict[1] + " " + my_list[-2]
+print(ans)

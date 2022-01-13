@@ -26,13 +26,6 @@ then static, or mostly so).
 <b>3. </b> Now, suppose you want to scrap the French constitution from the website of the Conseil constitutionnel, 
 it's pretty easy: you just ask `requests` to fetch the page, and store it in a variable.
 
-```python
-import requests
-
-webpage = requests.get("https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur")
-print(webpage.content)
-```
-
 Yet, as you can see, a few more steps are needed to get the Constitution, as opposed to the page storing the 
 constitution, and possibly without the `html` code surrounding it.
 
@@ -55,28 +48,9 @@ to the BeautifulSoup search criteria. One way to do this is to remember that `ht
 language: elements have children and parents, over which you can iterate. For instance, the following will print 
 every title (article numbers, here), in the Constitution.
 
-```python
-cons_div = soup.find("div", class_="field field--name-field-reference-paragraph field--type-entity-reference-revisions field--label-hidden field__items")
-for child in cons_div.findChildren("h3"):  # Note that all 'find' methods in beautifulsoup work from the point of view of the element you use it on
-    print(child)
-```
-
 To get to the text of the article, once again you need to study the structure of the webpage. Here you'll see that 
 each title has siblings, which are `<p>` elements, and which enclose the relevant text. Here is some code to 
 reconstruct the Constitution in a dictionary:
-
-```python
-dic_constitution = {}
-for child in cons_div.findChildren("h3"): # We go over every article
-    text = "" # We create an empty variable to fill with the text
-    for sib in child.find_all_next(["h3", "p"]): # We iterate over the next elements (careful about 'navigableString' elements in siblnis
-        if sib.name == "h3": # We check if we have reached the next article, in which case we break the loop
-            break
-        else:  # If we have not reached the next article, we add the text to our variable, separated by a line-break
-            text += "\n" + sib.text  
-    dic_constitution[child.text] = text  # Once the loop over the text elements is over, we input it in our dictionary
-    
-```
 
 <u>Exercise 9</u> The Constitution is divided in parts and sub-sections. Can you write an algorithm that returns the 
 section with the most articles (subarticles of the form "56-X" count as one). There are several ways to go about it.
