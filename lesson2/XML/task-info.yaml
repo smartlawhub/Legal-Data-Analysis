@@ -1368,8 +1368,8 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 2208
-    length: 873
+  - offset: 3985
+    length: 1056
     placeholder_text: '# Your Code here'
 - name: tests/test_task.py
   visible: false
@@ -1377,3 +1377,7 @@ files:
   visible: false
 - name: tests/__init__.py
   visible: false
+- name: img_2.png
+  visible: true
+- name: Not so gibberish/YourCSVName.csv
+  visible: true

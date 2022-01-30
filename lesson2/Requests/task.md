@@ -15,7 +15,7 @@ data that is not available or visible in the html code, or not immediately. If y
 typically see the framework in which the page's content is located, but not the content itself. You can also think 
 of it as to how the data is processed: fully by the client for static webpages, and in part by the server for 
 dynamic pages.
-We'll come back on dynamic websites in the next task. 
+We'll come back on dynamic websites in the next task, about Selenium. 
 
 <b>2. </b> The distinction between static and dynamic is often blurry, as we'll see, but to the extent possible it's easier to 
 work with static websites, so I'd advise to seek short cuts. For instance, querying a database with a search term 
@@ -50,7 +50,7 @@ every title (article numbers, here), in the Constitution.
 
 To get to the text of the article, once again you need to study the structure of the webpage. Here you'll see that 
 each title has siblings, which are `<p>` elements, and which enclose the relevant text. Here is some code to 
-reconstruct the Constitution in a dictionary:
+reconstruct the Constitution in a dictionary.
 
 <u>Exercise 9</u> The Constitution is divided in parts and sub-sections. Can you write an algorithm that returns the 
 section with the most articles (subarticles of the form "56-X" count as one). There are several ways to go about it.

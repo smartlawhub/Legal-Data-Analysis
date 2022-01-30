@@ -28,12 +28,21 @@ accompanied by a closed tag of the same name. Tags and sections cannot overlap: 
 you need to close it in that context. Finally, you can also have self-standing, one-tag elements, though they are 
 rarer. All tags can be defined or invented by you.
 
-This document doesn't have much of those, but normally you can specify further `attributes` for each element: these are data points that will not be seen by a natural reader (unless you look at the code directly), but enclose further information for the software, or data scientist, who is probing this data.
+This document doesn't have much of those, but normally you can specify further `attributes` for each element: these 
+are data points that will not be seen by a natural reader (unless you look at the code directly), but enclose 
+further information (such as formatting, or a URL for a link) for the software, or data scientist, who is probing this 
+data. A good example is the <a></a>, which represents a link, and always has an attribute `href`, which is the url:
+
+<code>
+\<\a href="My URL Here">My link here\<\/a>  # Added antislash so that you can see the structure
+</code>
 
 You can also see, hopefully, that the information is enclosed in a hierarchical format, like a tree: you start with 
-the <i>stump</i>, and then you get branches that can branches of their own, etc. Here everything is enclosed in a 
+the <i>stump</i>, and then you get branches that can get branches of their own, etc. Here everything is enclosed in a 
 `Document` element, itself part of an`xml` element. Yet `Document` has only four direct children, which themselves 
 have further children.
+
+![img_2.png](img_2.png)
 
 "Children" is the usual term, though "descendants" is also sometimes used. Logically, you also have "parents" or 
 "siblings".
@@ -56,16 +65,19 @@ yet another syntax, called xpath. It works like this:
 
 <ul><li>You first identify where to find the required element. You typically start from the source element 
 (represented by a dot <code>.</code>), then use one slash if you know the next parent element, or two slashes 
-(<code>//</code>) if any children would do:</li>
+(<code>//</code>) if any descendant would do:</li>
     <li>Then you specify the name of the element, or <code>*</code> if any would do;</li>
     <li>And then you add conditions, in brackets, such as the value of an attribute (introduced by a <code>@</code>),
 or based on other functions (such as whether the element contains a certain text);</li>
     <li>Finally, xpath comes with a number of functions, such as <code>contains()</code> (allows you to check that 
-the obejct contains a certain text);</li>
+the object contains a certain text);</li>
     </ul>
 
 For instance, if we needed to find the element `Date_Lecture` in the xml_file, this is what the xPath expression 
 would look like: `root.xpath(".//Date_Lecture[@date='Wednesday 24 November 2021']") `.
+
+Xpath method Returns a list, be careful about this ! If you are sure there is an element that matches you search, 
+you can just use xPath expressions in `.find()`.
 
 <u>Exercise 8</u> Go over all files, repeat some of the code we used here, and create a `pandas` dataset based on the  
 elements `Numero_Dossier`, `Date_Lecture`, `Date_Audience`, `Avocat_Requerant`, `Type_Decision`, `Type_Recours`, and
