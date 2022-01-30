@@ -1,15 +1,15 @@
 type: edu
 files:
-- name: task.py
-  visible: true
-  placeholders:
-  - offset: 1037
-    length: 182
-    placeholder_text: '# Your answer here; you need to create a dictionary called
-      dict_num_by_dep'
 - name: tests/test_task.py
   visible: false
 - name: __init__.py
   visible: false
 - name: tests/__init__.py
   visible: false
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 917
+    length: 182
+    placeholder_text: '# Your answer here; you need to create a dictionary called
+      dict_num_by_dep'
