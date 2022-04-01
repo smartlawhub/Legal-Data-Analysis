@@ -1,3 +1,5 @@
+<h1>Legal Data Analytics</h1>
+
 <b>This course will introduce students to basic and common data analysis methods and tools, as applied in particular to legal data and legal knowledge.</b>
 
 No pre-requisite required; the course will start from the ground up. Students will only need a computer and an internet connection.
