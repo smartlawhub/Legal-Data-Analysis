@@ -1,0 +1,219 @@
+<h1 class="ArticleTitle">
+ In new award in second Tenaris case, arbitrators weigh in on the effects of Venezuela’s denunciation of ICSID Convention – and then find the state liable for BIT breach
+</h1>
+<p class="f-24">
+</p>
+<p>
+ <em>
+  (Editor’s Note: this article discusses the jurisdictional and liability findings in ICSID case No. ARB/12/23; a second article,
+  <a href="http://www.iareporter.com/articles/damages-in-second-case-brought-to-icsid-by-tenaris-and-talta-a-discounted-cashflow-dcf-valuation-is-embraced-by-arbitrators/">
+   available here
+  </a>
+  , discusses the award’s findings as to the compensation’s quantum).
+ </em>
+</p>
+<p>
+ A new award against Venezuela, dated December 12, 2016, has recently been released by the International Centre for Settlement of Investment Awards (ICSID). Consistent with information
+ <a href="http://www.iareporter.com/articles/venezuela-hit-with-160-million-award-including-pre-award-interest-in-second-of-two-cases-brought-by-tenaris/">
+  previously disclosed
+ </a>
+ by the lead claimant, the 200-page Spanish language award [
+ <a href="http://icsidfiles.worldbank.org/icsid/ICSIDBLOBS/OnlineAwards/C2420/DC9812_Sp.pdf">
+  download here
+ </a>
+ ] ordered Venezuela to pay more than $137 million with interest for the expropriation of the claimants’ assets under the Luxembourg-Venezuela and the Portugal-Venezuela BITs.
+</p>
+<p>
+ This is the second ICSID dispute pitting Venezuela against Luxembourg-based Tenaris and its wholly-owned Portuguese subsidiary, Talta-Trading. In an award rendered in January of 2016 (ICSID Case No. ARB/11/26), a differently-composed tribunal chaired by John Beechey, held Venezuela liable for the unlawful expropriation of the claimants’ investment.
+ <a href="http://www.iareporter.com/articles/rigo-sureda-bernardini-and-fernandez-arroyo-to-hear-venezuelas-effort-to-overturn-arbitral-award/">
+  As we later reported
+ </a>
+ , efforts by Venezuela to annul that award are now underway.
+</p>
+<p>
+ While the first award concerned the claimants’ stake in an entity producing hot briquetted iron (HBI), the second arbitration relates to Tenaris’s 70% indirect shareholding in Tavsa, a Venezuelan entity producing steel tubes, and Talta’s minority shareholding in Comsigua, another producer of HBI.
+</p>
+<p>
+ Arbitrators in this second case were
+ <a href="https://www.iareporter.com/arbitrator/Fernandez-Armesto">
+  Juan Fernández-Armesto
+ </a>
+ (presiding),
+ <a href="https://www.iareporter.com/arbitrator/Gomez-Pinzon">
+  Enrique Gómez Pinzón
+ </a>
+ (claimants’ appointee) and
+ <a href="https://www.iareporter.com/arbitrator/Stern">
+  Brigitte Stern
+ </a>
+ (respondent’s appointee). Freshfields Bruckhaus Deringer US LLP represented the claimants, while Venezuela was assisted by Foley Hoag LLP.
+</p>
+<p>
+ Below we examined the tribunals’ jurisdictional holdings* and its finding of expropriation. In a companion article, we discuss the damages reasoning.
+</p>
+<p>
+ Since Venezuela’s jurisdictional objections touched on the implications of its 2012 denunciation of the ICSID Convention, the tribunal’s reasoning may be of particular interest to other investors and states that find themselves grappling with the consequences of such denunciations.**
+</p>
+<p>
+ <strong>
+  Claims are not time-barred by Venezuela’s denunciation of the ICSID Convention
+ </strong>
+</p>
+<p>
+ In its first jurisdictional objection, Venezuela hoped to reap the benefits of its denunciation of the ICSID Convention in January 2012, which took effect six months later, on June 24, 2012.
+</p>
+<p>
+ Although the investors registered their claim with ICSID on June 20, 2012*** (one of the nine claims to be lodged following Venezuela’s denunciation, see
+ <a href="http://www.iareporter.com/articles/venezuela-claims-round-up-nine-new-investor-state-arbitrations-registered-in-the-months-preceding-icsid-withdrawal/">
+  here
+ </a>
+ ), the state brought the tribunal’s attention to article 72 of the Convention, which provides that the denunciation’s notice “shall not affect the rights or obligations under this Convention of that State […] arising out of consent to the jurisdiction of the Centre given by one of them before” it is received by the Convention’s depositary.
+</p>
+<p>
+ For Venezuela, such “consent to jurisdiction” could only arise following the six-months mandatory negotiation period provided in the relevant BITs. With respect to Tenaris’ investment in Tavsa, Venezuela argued that the consent was never perfected, because Tenaris failed to negotiate in good faith.
+</p>
+<p>
+ Alternatively, Venezuela pointed to the fact that Tenaris’s offer to negotiate had reserved the investor’s right to seek arbitration even
+ <em>
+  before
+ </em>
+ the end of the six-months period, in the event that the negotiations appeared futile. This reservation, Venezuela argued, was inconsistent with the country’s offer to arbitrate contained in the BIT; thus, consent to jurisdiction was allegedly never perfected.
+</p>
+<p>
+ Both arguments were quickly dismissed by the tribunal, who found ample proof that Tenaris had complied with the negotiations requirement. Moreover, Tenaris’s reservation of rights did not complicate its acceptance of Venezuela’s offer to arbitrate. Indeed, the tribunal noted that such a reservation was consistent with a principle endorsed by prior tribunals: that investors need not pursue to their term futile negotiations. What’s more, Tenaris did not, in any event, make use of this reservation.
+</p>
+<p>
+ <strong>
+  Negotiations period not necessary to perfect the parties’ “consent to jurisdiction”
+ </strong>
+</p>
+<p>
+ With respect to the investment in Comsigua, the tribunal similarly found that Talta had complied with the negotiations requirement. The award took time, however, to address Venezuela’s contention that it had no jurisdiction to rule on Tenaris’s indirect loss with respect to Comsigua.
+</p>
+<p>
+ Venezuela stressed that Tenaris had advised it of this dispute and commenced negotiations only a few weeks before the country denounced the Convention. In Venezuela’s view, this meant that the six-months negotiations period was not observed, and its “consent to jurisdiction” absent.
+</p>
+<p>
+ The Luxembourg-Venezuela BIT also provided that investors must choose where to bring their claim, either to the competent national court or to international arbitration, this choice being final. Tenaris opted for ICSID arbitration when they notified Venezuela of the dispute and started the negotiations. But according to Venezuela’s reading of the BIT, the investor had to wait until the end of the negotiations to make this choice. As the six-months period lapsed
+ <em>
+  after
+ </em>
+ Venezuela’s notice of denunciation, the choice of ICSID arbitration was arguably no longer available to the claimant.
+</p>
+<p>
+ In response to Venezuela’s reliance on an opinion by professor
+ <a href="https://www.iareporter.com/arbitrator/Reinisch">
+  August Reinisch
+ </a>
+ , Tenaris offered an expert opinion by professor
+ <a href="https://www.iareporter.com/arbitrator/Schreuer">
+  Christoph Schreuer
+ </a>
+ , who opined that there was a distinction between consent to arbitration and choice of the forum (which occurred, in his view, when Tenaris formally notified Venezuela of the dispute), and submission of the claim to arbitration (which may require the six-months negotiations period to be completed). Professor Schreuer added that to find otherwise would allow states to escape arbitration proceedings by merely denouncing the Convention as soon as they are notified of a dispute.
+</p>
+<p>
+ The tribunal agreed with the claimant’s expert, and saw that nothing prevented an investor from consenting to arbitration and choosing ICSID to bring its claim (as opposed to actually filing for arbitration) before the six months of negotiations had taken place. The tribunal reasoned that this was the only interpretation where the irrevocability of the investor’s choice between arbitration and local proceedings would be meaningful. Given that Tenaris already consented to arbitration (and opted for ICSID) when it notified Venezuela of the dispute, the parties’ consent to jurisdiction had been perfected.
+</p>
+<p>
+ <strong>
+  Investors pass the “effective seat” test
+ </strong>
+</p>
+<p>
+ Similar to Venezuela’s position in the earlier Tenaris arbitration, the respondent once again argued that the treaties’ references to investors having a “seat” in the putative home countries meant that this was more than a mere legal seat in Luxembourg and Portugal, but rather an “effective seat”. Since Venezuela alleged that the effective seat of the claimants was in Argentina, they arguably did not meet the BIT’s requirements.
+</p>
+<p>
+ The tribunal started by noting that international law – the relevant interpretative framework – could accept a distinction between “statutory” and “effective” seat. The tribunal then observed that the BITs required protected investors to be properly constituted under the laws of Luxembourg and Portugal. The seat requirement was in addition to this incorporation requirement, thus implying that the former was not merely a “statutory seat”. In the tribunal’s view, this meant that the seat reference was to some form of “effective seat”.
+</p>
+<p>
+ Thus, the tribunal needed to confirm the content of this concept under international law. While the laws of Luxembourg and Portugal were not controlling, they were relevant. With the assistance of the parties’ local experts’ submissions, the tribunal focused on three factors that indicated an investor’s effective seat: where management and shareholder meetings take place; where the economic activities are conducted; and where the books and accounts are located.
+</p>
+<p>
+ With respect to these three criteria, Venezuela failed to prove that Tenaris and Talta’s effective seats were in Argentina. Although the former had numerous employees there, they were attached to a subsidiary with its own corporate identity, and were thus irrelevant to the determination of Tenaris’s own seat.
+</p>
+<p>
+ On the contrary, the tribunal accepted that both investors’ effective seats were aligned with their statutory seats. In that respect, it mattered that both companies were, in substance, holdings companies (although Talta was not formally registered as such), the activities of which consisted in managing their portfolio and thus did not require much commercial activity.
+</p>
+<p>
+ <strong>
+  Merits: investors’ shares made worthless as they are deprived of any rights
+ </strong>
+</p>
+<p>
+ On the merits, the investors claimed that their properties had been unlawfully expropriated.
+</p>
+<p>
+ As related by the investors, the crucial fact was that Venezuela ordered Comsigua and Tavsa’s assets to be transferred to the state – an indirect expropriation. Although they acknowledge that they retain possession of their shares, including Talta’s minority stake in Comsigua (after discussions to sell that stake failed), the claimants argued that these shares are now worthless.
+</p>
+<p>
+ While Venezuela conceded that it expropriated Tavsa, it denied that this was the case for Comsigua. The state countered that it had merely acquired the stake of the majority shareholders in Comsigua, leaving Talta with its
+ <em>
+  minority
+ </em>
+ stake untouched.
+</p>
+<p>
+ However, the tribunal focused on the undeniable fact that Venezuela had forcefully seized Comsigua’s assets. Although Tenaris still held title over these shares, the company itself had been rendered an empty shell.
+</p>
+<p>
+ Added to this, Comsigua’s new management had been nominated by executive decree, and there had been no shareholders’ meeting (nor annual reports) since the expropriation, meaning that the investors had been “deprived of any opportunity to participate in the company’s activity or life or to benefit from these”. In other words, the company had been indirectly expropriated.
+</p>
+<p>
+ <strong>
+  Venezuela failed to pay prompt compensation
+ </strong>
+</p>
+<p>
+ The award further records the arbitrators’ crucial finding that, seven years after the expropriation, neither taking had been compensated, while the BITs require payment to be if not immediate (as required under the Portugal-Venezuela BIT), at least without “unjustified delay” (Luxembourg-Venezuela BIT).
+</p>
+<p>
+ Venezuela denied that this meant the expropriation had been
+ <em>
+  unlawful
+ </em>
+ . Although it never paid any compensation for Tavsa, there was a process leading to such compensation, and Venezuela stressed that this process had never resulted in a judgement ordering it to pay compensation. Indeed, Venezuela contended that it was the investors’ behaviour (in filing the ICSID claim) that had disrupted this process.
+</p>
+<p>
+ As for the taking of Comsigua, Venezuela stressed that, similarly, it was ultimately the investors’ fault if they could not reach an agreement to sell their shares; indeed, Venezuela recalled that Tenaris ultimately declined an offer to sell them at the price previously accepted by the majority investors.
+</p>
+<p>
+ The tribunal sided with the claimant in this context. As for Tavsa, the tribunal found that, under Venezuela’s expropriation laws, it was for the state itself to initiate the process leading to a judgment on compensation. The award decried the “absolute passivity” of Venezuela in this respect, where it took no step to start this process.
+</p>
+<p>
+ Besides, the tribunal found that the failure of the expropriation process, far from being Tenaris’s fault, was mainly due to Venezuela’s having unexpectedly taken control of Tavsa. As for the investors’ refusal to sell their shares in Comsigua, the tribunal read the factual record in their favour: the negotiations failed for causes not imputable to them.
+</p>
+<p>
+ Venezuela’s last defence (that the BITs merely require the
+ <em>
+  existence of a process
+ </em>
+ providing for compensation) was summarily rejected. The mere existence of legislation on expropriation could not save Venezuela from the simple fact that it had failed to pay “immediately” or without “unjustifiable delays” (as demanded by the BITs).
+</p>
+<p>
+ In a companion article, we discuss the award’s quantification of the investors’ losses.
+</p>
+<p>
+</p>
+<p>
+ * Although the tribunal first decided to bifurcate the proceedings, the record indicates that the parties eventually changed their minds and agreed to have Venezuela’s jurisdictional objections decided with the merits. In this article, we discuss Venezuela’s two main jurisdictional objections. A third objection regarding Tenaris’s alleged incomplete notification of the dispute was dismissed as moot.
+</p>
+<p>
+ ** “Precedents” include two discontinued cases against Bolivia (which withdrew from ICSID in 2007),
+ <a href="http://www.iareporter.com/articles/telecom-italia-subsidiary-agrees-to-withdraw-icsid-claim-against-bolivia-but-case-to-proceed-under-other-auspices/">
+  Euro Telecom International
+ </a>
+ and
+ <a href="http://www.iareporter.com/articles/arbitrators-reject-bolivian-objection-that-pan-americans-claims-are-manifestly-without-legal-merit-effects-of-icsid-denunciation-at-issue-in-case/">
+  Pan American
+ </a>
+ . While the latter culminated in a summary jurisdictional decision in favour of the claimant, it is still unpublished and it is thus unclear how these issues were addressed by the tribunal.
+</p>
+<p>
+ *** Although the claim was formally registered by ICSID only on August 2012, Venezuela did not bring an objection on this basis. Readers will recall that such objection failed in
+ <a href="https://www.iareporter.com/articles/the-rusoro-v-venezuela-award-examining-jurisdiction-time-bar-and-illegality-allegations/">
+  Rusoro v. Venezuela
+ </a>
+ , another arbitration chaired by Juan Fernandez-Armesto.
+</p>
+<p>
+</p>

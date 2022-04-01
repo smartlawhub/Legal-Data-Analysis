@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validation-document.xsd">
+<Donnees_Techniques>
+<Identification>DCE_431980_20211118.xml</Identification>
+<Date_Mise_Jour>2021-11-19</Date_Mise_Jour>
+</Donnees_Techniques>
+<Dossier>
+<Code_Juridiction>CE</Code_Juridiction>
+<Nom_Juridiction>Section du Contentieux </Nom_Juridiction>
+<Numero_Dossier>431980</Numero_Dossier>
+<Date_Lecture>2021-11-18</Date_Lecture>
+<Numero_ECLI>ECLI:FR:CECHS:2021:431980.20211118</Numero_ECLI>
+<Avocat_Requerant>FITZJEAN O COBHTHAIGH</Avocat_Requerant>
+<Type_Decision>Décision</Type_Decision>
+<Type_Recours>Excès de pouvoir</Type_Recours>
+<Code_Publication>C</Code_Publication>
+</Dossier>
+<Audience>
+<Date_Audience>2021-10-25</Date_Audience>
+<Numero_Role>21712</Numero_Role>
+<Formation_Jugement>10ème chambre jugeant seule</Formation_Jugement>
+</Audience>
+<Decision>
+<Texte_Integral><p>Vu la procédure suivante :</p>
+<p>Par une requête, enregistrée le 25 juin 2019 au secrétariat du contentieux du Conseil d'Etat, l'association La Quadrature du Net demande au Conseil d'Etat : </p>
+<p>1°) d'annuler la décision autorisant la mise en œuvre des traitements de données prévus par l'article L. 863-2 du code de la sécurité intérieure, révélée par l'article publié dans Le Monde le 24 avril 2019 intitulé " " L'Entrepôt ", bâtiment ultrasécurisé et outil essentiel du renseignement français " ;</p>
+<p>2°) de mettre à la charge de l'Etat une somme de 256 euros au titre de l'article L. 761-1 du code de justice administrative.  </p>
+<p>Vu les autres pièces du dossier ; </p>
+<p>Vu :</p>
+<p>- le code de la sécurité intérieure ;</p>
+<p>- la loi n° 78-17 du 6 janvier 1978 ;</p>
+<p>- la loi n° 2021-998 du 30 juillet 2021 ; </p>
+<p>- la décision n° 2021-924 QPC du 9 juillet 2021 statuant sur la question prioritaire de constitutionnalité soulevée par La Quadrature du Net ;</p>
+<p>- le code de justice administrative ;</p>
+<p>Après avoir entendu en séance publique :</p>
+<p>- le rapport de Mme Christelle Thomas, maître des requêtes en service extraordinaire,  </p>
+<p>- les conclusions de M. Laurent Domingo, rapporteur public ;</p>
+<p>Considérant ce qui suit :</p>
+<p>1. Aux termes de l'article L. 863-2 du code de la sécurité intérieure, dans sa rédaction applicable au litige : " Les services spécialisés de renseignement mentionnés à l'article L. 811-2 et les services désignés par le décret en Conseil d'Etat prévu à l'article L. 811-4 peuvent partager toutes les informations utiles à l'accomplissement de leurs missions définies au titre Ier du présent livre. / Les autorités administratives mentionnées à l'article 1er de l'ordonnance n° 2005-1516 du 8 décembre 2005 relative aux échanges électroniques entre les usagers et les autorités administratives et entre les autorités administratives peuvent transmettre aux services mentionnés au premier alinéa du présent article, de leur propre initiative ou sur requête de ces derniers, des informations utiles à l'accomplissement des missions de ces derniers. / Les modalités et les conditions d'application du présent article sont déterminées par décret en Conseil d'Etat ". </p>
+<p>2. L'association La Quadrature du Net soutient qu'a été décidée la mise en œuvre des traitements prévus par cet article et demande l'annulation pour excès de pouvoir de cette décision. </p>
+<p>En ce qui concerne le partage d'informations entre services de renseignement : </p>
+<p>3. Par sa décision n° 2021-924 QPC du 9 juillet 2021, statuant sur la question prioritaire de constitutionnalité transmise par le Conseil d'Etat dans le cadre du présent litige, le Conseil constitutionnel a déclaré conformes à la Constitution les premier et troisième alinéas de l'article L. 863-2 du code de la sécurité intérieure, dans sa rédaction antérieure à la loi du 30 juillet 2021 relative à la prévention d'actes de terrorisme et au renseignement. Il a relevé que le partage d'informations entre services de renseignement mettait en œuvre les exigences constitutionnelles inhérentes à la sauvegarde des intérêts fondamentaux de la Nation, que les services susceptibles de partager des informations sur le fondement du premier alinéa de cet article poursuivaient tous des finalités relatives à la défense et à la promotion des intérêts fondamentaux de la Nation mentionnés à l'article L. 811-3 du même code et que le partage d'une information dans ce cadre ne pouvait avoir lieu que lorsque celle-ci était nécessaire à l'accomplissement des missions du service destinataire, dans la limite de ces finalités. Il a également constaté que ce traitement était soumis au respect des règles encadrant les traitements de données à caractère personnel par les services de renseignement et, s'agissant des données recueillies au moyen de techniques de renseignement, des règles mentionnées au livre VIII du code, en particulier en ce qui concernait les conditions de conservation et d'exploitation de ces données. Il a enfin relevé que ces dispositions ne faisaient pas obstacle au contrôle susceptible d'être exercé par les autorités compétentes sur les informations partagées, et, notamment, à celui de la commission nationale de contrôle des techniques de renseignement. </p>
+<p>4. En premier lieu, il ressort de ce qui a été dit au point précédent que le législateur a lui-même précisé l'encadrement du partage d'informations entre services de renseignement en prévoyant notamment les finalités qu'étaient susceptibles de poursuivre de tels traitements, les catégories de données concernées, les conditions d'exploitation, de conservation et de destruction des informations traitées, ainsi que les modalités de leur contrôle. Il s'ensuit que l'application de ces dispositions n'est pas manifestement impossible en l'absence d'intervention d'un texte réglementaire, quand bien même le troisième alinéa de l'article L. 863-2 renvoie à un décret en Conseil d'Etat le soin d'en définir les modalités et conditions d'application. Ces dispositions doivent donc être regardées comme applicables et les traitements qu'elles prévoient peuvent être mis en œuvre sans que soit nécessaire l'adoption d'un décret en Conseil d'Etat. Il s'ensuit que La Quadrature du Net n'est pas fondée à soutenir que la décision attaquée aurait été prise par une autorité incompétente au motif qu'elle devait nécessairement être précédée d'un décret en Conseil d'Etat précisant les modalités de mise en œuvre de ce traitement. </p>
+<p>5. En second lieu et en tout état de cause, dès lors que, ainsi que l'a jugé le Conseil constitutionnel, les règles de recueil, d'exploitation, de conservation et de destruction des données faisant l'objet d'un partage entre services de renseignement ont été définies de façon suffisamment précise par le législateur, l'association requérante n'est pas fondée à soutenir que la décision attaquée serait entachée d'illégalité, faute de prévoir de telles règles.</p>
+<p>En ce qui concerne la communication d'informations aux services de renseignement par certaines autorités administratives : </p>
+<p>6. En premier lieu, par sa décision mentionnée au point 3, le Conseil constitutionnel a jugé que le deuxième alinéa de l'article L. 863-2 du code de la sécurité intérieure, dans sa rédaction antérieure à la loi du 30 juillet 2021, qui autorise certaines autorités administratives à communiquer des informations aux services de renseignement, méconnaissait le droit au respect de la vie privée. Néanmoins, le Conseil constitutionnel a décidé, compte tenu des conséquences manifestement excessives qu'emporterait une abrogation immédiate de ces dispositions, de reporter cette abrogation au 31 décembre 2021. Par suite, et alors même que l'association requérante est l'auteur de la question prioritaire de constitutionnalité, la déclaration d'inconstitutionnalité du deuxième alinéa de l'article L. 863-2 du code de la sécurité intérieure est, à la date de la présente décision, sans incidence sur l'issue du présent litige.</p>
+<p>7. En deuxième lieu, les dispositions du deuxième alinéa de l'article L. 863-2 permettent aux autorités mentionnées à l'article 1er de l'ordonnance du 8 décembre 2005 de transmettre aux services de renseignement, de leur propre initiative ou sur requête de ces derniers, des informations utiles à l'accomplissement de leurs missions, définies par le livre VIII de la sécurité intérieure. L'application de ces dispositions n'est pas manifestement impossible en l'absence de texte réglementaire, quand bien même le troisième alinéa de l'article L. 863-2 renvoie à un décret en Conseil d'Etat le soin d'en définir les modalités et conditions d'application. Ces dispositions doivent donc être regardées comme applicables et les traitements qu'elles prévoient peuvent être mis en œuvre sans que soit nécessaire l'adoption d'un décret en Conseil d'Etat. Il s'ensuit que La Quadrature du Net n'est pas fondée à soutenir que l'acte attaqué portant création d'un bâtiment où serait mise en œuvre la transmission d'informations aux services de renseignements aurait été pris par une autorité incompétente au motif qu'il devait nécessairement être précédé d'un décret en Conseil d'Etat précisant les modalités de mise en œuvre de ce traitement.</p>
+<p>8. En dernier lieu, dès lors qu'il appartenait, ainsi que l'a relevé le Conseil constitutionnel dans sa décision précitée, au législateur de prévoir des garanties en matière de recueil, d'exploitation, de conservation et de destruction des données communiquées aux services de renseignement sur le fondement du deuxième alinéa de l'article L. 863-2, l'association requérante ne saurait utilement soutenir que l'acte attaqué serait illégal en ce qu'il ne prévoit pas de telles garanties. </p>
+<p>9. Il résulte de tout ce qui précède que la requête de La Quadrature du Net doit être rejetée, y compris ses conclusions au titre de l'article L. 761-1 du code de justice administrative.</p>
+<p>             D E C I D E :</p>
+<p>             ----------------</p>
+<p>Article 1er : La requête de La Quadrature du Net est rejetée.</p>
+<p>Article 2 : La présente décision sera notifiée à l'association La Quadrature du Net, à la ministre des armées et au ministre de l'intérieur. </p>
+<p>Copie en sera adressée au Premier ministre.</p>
+<p>Délibéré à l'issue de la séance du 25 octobre 2021 où siégeaient : Mme Nathalie Escaut, conseillère d'Etat, présidant ; M. Alexandre Lallet, conseiller d'Etat et Mme Christelle Thomas, maître des requêtes en service extraordinaire-rapporteure. </p>
+<p>Rendu le 18 novembre 2021.</p>
+<p>             La présidente: </p>
+<p>             Signé : Mme Nathalie Escaut</p>
+<p>La rapporteure : </p>
+<p>Signé : Mme Christelle Thomas</p>
+<p>             La secrétaire :</p>
+<p>             Signé : Mme A B</p>
+<p>             431980- 5 -</p>
+</Texte_Integral>
+</Decision>
+</Document>

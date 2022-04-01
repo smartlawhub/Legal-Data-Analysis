@@ -1,0 +1,139 @@
+<h1 class="ArticleTitle">
+ Canadian miner, backed by its funder, defeats Venezuela’s attempt to set-aside $1.4 billion BIT award
+</h1>
+<p class="f-24">
+</p>
+<p>
+ The dispute pitting Canadian-based Crystallex International Corporation against the Bolivarian Republic of Venezuela reached a further stage last week, when the US district court for the District of Columbia confirmed a $1.4 billion ICSID Additional Facility award in the investor’s favour.
+</p>
+<p>
+ Last year, a tribunal of
+ <a href="https://www.iareporter.com/arbitrator/Levy">
+  Laurent Levy
+ </a>
+ (chair),
+ <a href="https://www.iareporter.com/arbitrator/gotanda">
+  John Y. Gotanda
+ </a>
+ (claimant’s appointee) and Laurence
+ <a href="https://www.iareporter.com/arbitrator/Boisson-de-Chazournes">
+  Boisson de Chazournes
+ </a>
+ (respondent’s appointee) awarded damages to the Canadian miner under the Canada-Venezuela Bilateral Investment Treaty (BIT) ([
+ <a href="http://www.italaw.com/sites/default/files/case-documents/italaw7194.pdf">
+  click to download
+ </a>
+ ]; we dissected the award’s findings
+ <a href="https://www.iareporter.com/articles/in-depth-unpacking-the-facts-and-jurisdictional-objections-of-the-crystallex-v-venezuela-arbitration/">
+  here
+ </a>
+ ,
+ <a href="https://www.iareporter.com/articles/in-depth-tribunal-sees-a-legitimate-expectation-created-by-environment-ministry-conduct-and-sees-later-permit-denial-as-premised-on-specious-concerns/">
+  here
+ </a>
+ and
+ <a href="https://www.iareporter.com/articles/24957/">
+  here
+ </a>
+ ). The dispute stemmed from Venezuela’s mistreatment and expropriation of the claimant’s investment in the Las Cristinas deposit, one of the largest undeveloped gold deposits in the world.
+</p>
+<p>
+ The March 25
+ <sup>
+  th
+ </sup>
+ , 2017 opinion by the district court [
+ <a href="https://www.iareporter.com/wp-content/themes/iareporter/download.php?post_id=27084">
+  click to download
+ </a>
+ ] is a blow to Venezuela’s hopes to annul the award at its seat, and will facilitate further recognition and enforcement of the award in the US and abroad.* (Crystallex had already obtained recognition of the award in Canadian courts by way of a default judgment in July 2016.)
+</p>
+<p>
+ The development also represents a victory for the third-party funder behind the Canadian miner.
+ <a href="https://www.iareporter.com/articles/creditors-of-distressed-mining-company-fail-in-bid-to-block-third-party-financing-of-icsid-arbitration-against-venezuela/">
+  As we noted at the time
+ </a>
+ , the distressed Crystallex (whose Venezuelan mines were its only asset) fought its creditors in Canadian courts to accept a funding agreement by New York-based Tenor Capital Management. Under the deal that gave Crystallex a lifeline during the arbitration, Crystallex agreed to reserve 35% of any compensation awarded for Tenor Capital Management.
+</p>
+<p>
+ <strong>
+  No excess of power by the tribunal in upholding jurisdiction over the case
+ </strong>
+</p>
+<p>
+ In seeking to set aside the award, Venezuela first alleged that the tribunal exceeded its powers. Two findings from the tribunal were singled out as constituting such an excess: its decision to uphold jurisdiction over the claim (whereas Venezuela had argued that the dispute was contractual in nature and did not fall under the BIT); and its choice of a valuation method allegedly used in contradiction with the BIT.
+</p>
+<p>
+ With respect to the tribunal’s jurisdictional findings, Venezuela argued that the district court’s review of the tribunal’s findings should be
+ <em>
+  de novo
+ </em>
+ and not deferential (citing, in particular, the position of the Restatement (Third) of the US Law of International Commercial Arbitration on this issue). The district court however disagreed. In the court’s view, the case law on that point indicated that the standard of review should be deferential where the arbitration rules explicitly provide for the tribunal’s power to review its own jurisdiction.
+</p>
+<p>
+ Not that it mattered here: the district court found that under any standard, Venezuela’s argument would fail. Indeed, the tribunal had already rejected Venezuela’s claims that the claimant had sought to dress up mere contract claims as breaches of the treaty. In the tribunal’s view, Crystallex’s claims went further than mere contractual breaches, as the investor had also challenged sovereign activity by the Venezuelan state and its instrumentalities. The district court found no fault with this analysis.
+</p>
+<p>
+ <strong>
+  Focus on the “last clean date” before first breach found proper
+ </strong>
+</p>
+<p>
+ As we reported
+ <a href="https://www.iareporter.com/articles/24957/">
+  here
+ </a>
+ , the tribunal had averaged the results of two valuation methods (a stock-market method, and a market-multiples method) in arriving at the investment’s value at the time of the expropriation. Venezuela argued that both methods were flawed.
+</p>
+<p>
+ With respect to the stock-market method, the state denounced the tribunal’s decision to consider a “last clean date” (i.e., the last date before Venezuela’s first wrongful actions) in its damages analysis. The tribunal’s reasoning was that Venezuela had committed wrongful actions prior to the expropriation date, and the investment value at the time of the expropriation should reflect the impact of these wrongful acts. A comparison with how other mining companies’ shares fared from that “last clean date” to the expropriation date allowed the tribunal to assess Crystallex’s value “but for” Venezuela’s wrongful actions.
+</p>
+<p>
+ Yet, since the “last clean date” was not the date of the expropriation, Venezuela argued that the tribunal acted in excess of its powers. Venezuela’s argument was twofold: there were no such “wrongful acts” preceding the expropriation; and the BIT prohibited such a valuation method.
+</p>
+<p>
+ The district court refused to follow the state’s first argument, noting that it amounted to an unpermitted review of the merits: the question of the existence of wrongful acts prior to the expropriation had been decided by the arbitrators, who identified breaches of the Fair and Equitable Treatment standard in Venezuela’s conduct.
+</p>
+<p>
+ The district court also upheld the tribunal’s finding that it was not restricted by the BIT’s expropriation clause, which provided for compensation of the investment’s value “immediately before the expropriation or at the time the proposed expropriation became public knowledge”. The tribunal reasoned – and the district court accepted – that Venezuela breached other protections under the treaty as well, so that the tribunal was warranted to adapt the damages analysis to ensure full-reparation under international law.
+</p>
+<p>
+ Venezuela’s opposition to the tribunal’s use of a market-multiple method (on the ground that the tribunal relied on projections it elsewhere rejected) was no more successful. The district court was satisfied that any alleged error by the tribunal here, even if serious, would not suffice to set aside the award.
+</p>
+<p>
+ <strong>
+  No harm to public policy in holding a state to its international obligations
+ </strong>
+</p>
+<p>
+ Venezuela also tried to rely on the alleged “public policy of the United States that States have the sovereign right to regulate the environmental impact of industrial activities”. As Crystallex’s woes allegedly arose due to Venezuela’ environmental concerns, confirming the award would harm this public policy interest.
+</p>
+<p>
+ The district court was unimpressed. It first noted the tribunal’s “serious doubts” that environmental concerns truly motivated Venezuela’s actions against Crystallex.
+</p>
+<p>
+ Further, according to the district court, confirming the award only meant holding Venezuela “to the terms of its own treaty”, in ordering it to compensate the investor for the results of its inequitable actions and expropriation. This would not violate the US’s “basic notions of morality or justice” – which is the threshold where public policy can warrant an award’s set aside.
+</p>
+<p>
+ <strong>
+  Disregard of the law
+ </strong>
+</p>
+<p>
+ Lastly, Venezuela reframed its above-noted allegations (i.e that the tribunal improperly upheld jurisdiction over contract claims and that it used defective valuation methods) under the frame of an alleged “manifest disregard of the law” by the tribunal. Under US law, a “manifest disregard of the law” occurs when the arbitrators are well aware of a legal principle clearly applicable to the case, but decide not to apply it anyway
+</p>
+<p>
+ There is some debate about whether such ground is available to set aside an award. But it was not necessary for the court to resolve this debate, as Venezuela’s claims were no more successful under this guise. The district court found that the tribunal engaged with the law and answered Venezuela’s legal objections. In “neither case did the Tribunal merely pay ‘lip service’ to the applicable law” – there was thus no “manifest disregard of the law”.
+</p>
+<p>
+ The award was therefore confirmed by the district court and Venezuela’s challenge dismissed. A request by Crystallex for Venezuela to post a pre-judgment bond was denied as moot.
+</p>
+<p>
+</p>
+<p>
+ * Crystallex is notably engaged in a fight over Venezuela’s alleged efforts to siphon most of its assets from the US, in a series of transaction that involved not only Venezuela and PDVSA (which owned US-incorporated Citgo, which in turns controls Venezuela’s refineries and pipelines in the US), but also Russian-owned Rosneft (to whom Citgo’s assets were pledged in exchange for PDVSA bonds). ConocoPhilipps, who hope to receive compensation from Venezuela in the pending arbitrations, is
+ <a href="http://laht.com/article.asp?ArticleId=2428463&amp;CategoryId=10717">
+  reportedly
+ </a>
+ also engaged in the fight to prevent Citgo’s assets to escape from their reach.
+</p>

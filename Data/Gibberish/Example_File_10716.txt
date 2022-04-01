@@ -1,0 +1,162 @@
+<h1 class="ArticleTitle">
+ ANALYSIS: Orascom’s claims stumble on earlier case settled by third party, as well as on its own abuse of rights
+</h1>
+<p class="f-24">
+</p>
+<p>
+ As we report in a
+ <a href="https://www.iareporter.com/articles/in-dispute-against-algeria-luxembourg-investor-clears-jurisdictional-objections-but-later-sees-its-claims-inadmissible/">
+  companion article
+ </a>
+ , a trio of arbitrators (
+ <a href="http://www.iareporter.com/categories/kaufmann">
+  Gabrielle Kaufmann-Kohler
+ </a>
+ ,
+ <a href="http://www.iareporter.com/categories/vandenberg">
+  Albert Jan van den Berg
+ </a>
+ and
+ <a href="http://www.iareporter.com/categories/stern">
+  Brigitte Stern
+ </a>
+ ) recently dismissed the claims of Luxembourg-based Orascom TMT Investments Sàrl (OTMTI) against Algeria in a dispute related to local telecoms company Djezzy. OTMTI is owned and controlled by Egyptian billionaire Naguib Sawiris, who successfully turned Djezzy into the main Algerian mobile network operator in the 2000s, before selling its stake to the Russian VimpelCom in 2011.
+</p>
+<p>
+ Although the claimant emerged victorious from Algeria’s jurisdictional objections
+ <em>
+  ratione materiae et personae
+ </em>
+ , the case hit a wall when the tribunal examined a set of further objections that pertained to admissibility or jurisdiction and ultimately found enough merit in some of these to derail OTMTI’s claims.
+</p>
+<p>
+ <strong>
+  Claimant had several avenues to arbitration
+ </strong>
+</p>
+<p>
+ The tribunal’s reasoning was grounded in the case’s factual circumstances. The chain of ownership between Mr Sawiris and Djezzy meant that he had several options to bring the state before an international forum: the dispute could have been brought by Djezzy directly under the original Investment Agreement which provided for ICSID arbitration; by the direct shareholder, Orascom Telecom Holding (OTH), under the Algeria-Egypt BIT; by Weather Investments (which owned OTH) under the Algeria-Italy BIT; or by OTMTI (formerly Weather Investments II, and which owns Weather Investments) under the Algeria-BLEU BIT.
+</p>
+<p>
+ In the event, Mr Sawiris sent a notice of dispute on behalf of OTH to the state in 2010 under the Algeria-Egypt BIT, before his stake in OTH had been sold to VimpelCom. Another notice of dispute, also signed by Mr Sawiris, was filed by Weather Investments a few days later under the Italy-Algeria treaty. OTMTI’s own notice of dispute, however, was filed only later, in 2012.
+</p>
+<p>
+ Notably, OTH eventually acted upon its notice of dispute and initiated UNCITRAL proceedings in 2012. These proceedings were ultimately settled in 2015, when a consent award embodied the sale of 51% of Djezzy to an Algerian state-owned investment fund, and put an end to all remaining claims.
+</p>
+<p>
+ Algeria built a multifaceted argument upon this factual backdrop. The state argued, for example, that there was no “dispute” under OTMTI and Algeria because Mr Sawiris had reportedly been satisfied of the sale of Weather Investments to VimpelCom; that any dispute was actually between Mr Sawiris and Algeria, and was based on personal reasons; that OTMTI lacked standing to arbitrate given that OTH had sent a notice of dispute first and thereby deprived OTMTI of its right to arbitrate (
+ <em>
+  droit d’agir
+ </em>
+ ); and that, alternatively, OTMTI sold its
+ <em>
+  droit d’agir
+ </em>
+ together with Weather Investments, or that the settlement between OTH and Algeria extinguished all claims and should be respected by the tribunal.
+</p>
+<p>
+ <strong>
+  Investment treaties do not allow multiple claimants in a vertical ownership chain to claim for the same injury
+ </strong>
+</p>
+<p>
+ Although the award does not make clear which argument swayed the tribunal, its reasoning in holding OTMTI’s claims inadmissible is coloured by Algeria’s objections – even those it found no need to answer.*
+</p>
+<p>
+ The tribunal’s reasoning started by stressing the similarities between the three notices of dispute: they all cited as grounds for the dispute the same measures and omissions by Algeria. They also referred to each other in defining the dispute, and they were all signed by Mr Sawiris.
+</p>
+<p>
+ For this reason, the tribunal concluded, all three notices referred to the same dispute, and this dispute had “crystallized” first via OTH’s 2010 notice of dispute. The tribunal explained that “[t]o the extent OTH would have restored its company value through arbitration proceedings under the BIT, all of the companies higher up in the corporate chain, including the Claimant, would have been made whole as well.”
+</p>
+<p>
+ This mattered in view of the “purpose of investment treaty arbitration,” which was to fully repair injuries to investors; if one investor in a chain of ownership is made whole, “the claims brought by other members of the vertical chain in other arbitral proceedings may become inadmissible depending on the circumstances.” (The tribunal did not elaborate on how it derived this “purpose of investment treaty arbitration.”)
+</p>
+<p>
+ The question was thus whether OTMTI was claiming any loss that was not already repaired.
+</p>
+<p>
+ <strong>
+  Claimant cannot seek damages for losses that are not its own
+ </strong>
+</p>
+<p>
+ The tribunal identified five heads of damages in OTMTI’s claims. The first was the alleged loss OTMTI suffered when it sold its stake in Djezzy through VimpelCom’s acquisition of Weather Investments in 2011 at an impaired price. However, the tribunal found that this impairment was, in the claimant’s own case, allegedly the result of Algeria’s measures that were first mentioned in the 2010 notices of dispute and, crucially, were at stake also in the (settled) OTH arbitration.
+</p>
+<p>
+ Likewise, the damages allegedly sustained by Algeria’s decision to block a dividend payment from Djezzy had also been suffered most directly by OTH, which was Djezzy’s immediate shareholder. This too had been the subject of OTH’s claims in its own arbitration.
+</p>
+<p>
+ By contrast, the claimant’s third head of damages – that it had to compensate minority shareholders under change-of-control put options in the lead-up to the sale of Weather Investments to VimpelCom – was deemed inadmissible for a different reason: “because these alleged losses derive primarily from the presence of put options in an agreement freely entered into by the Claimant,” and because the sale price “must or should have reflected” the alleged loss.
+</p>
+<p>
+ The fourth head of damages referred to costs incurred to keep the structure afloat following Algeria’s measures, such as bridging loans and capital restructuring transactions. Here again, the tribunal was not satisfied that these losses were those of OTMTI proper – rather, they appeared to have been incurred chiefly by Weather Investments and OTH. In any case, such losses should have been reflected, once again, in the price OTMTI received for the sale of Weather Investments to VimpelCom, the tribunal said.
+</p>
+<p>
+ Lastly, the moral damages sought on account of Mr Sawiris’ reputation were deemed to be unrelated to OTMTI, and thus inadmissible as well.
+</p>
+<p>
+ <strong>
+  Claims ceased to exist following settlement agreement between OTH and Algeria
+ </strong>
+</p>
+<p>
+ The settlement agreement between OTH and Algeria’s investment fund “confirm[ed] and reinforce[ed]” the tribunal’s conclusion. For the tribunal, “the Claimant cannot bring claims in this arbitration that OTH decided to settle, as the settlement clearly resolved the dispute that the Claimant has brought before this Tribunal as is shown by the comparison of the notices of disputes above.” The dispute had ceased to exist in the same way that it would have had the OTH arbitration proceeded to an award on the merits, the tribunal held.
+</p>
+<p>
+ In the tribunal’s view, this conclusion was supported in view of the counterfactual: if settlements between a direct shareholder and a state could be disregarded by an indirect shareholder, states would have no incentive to settle – resolve disputes amicably, in the language of many BITs – in the first place.
+</p>
+<p>
+ It was also reinforced by the fact that OTMTI had sold its investment to VimpelCom. The tribunal could not find any indication that the claimant had reserved for its benefit the investment claims against Algeria. Besides, Mr Sawiris, an experienced businessman, confirmed under examination that the selling price in such circumstances should have reflected the existence of the pending claims.
+</p>
+<p>
+ <strong>
+  Proceedings are also inadmissible due to abuse of rights
+ </strong>
+</p>
+<p>
+ One last additional basis prompted the tribunal to declare the claims inadmissible: in the view of the tribunal, Mr Sawiris’ decision to file multiple notices of dispute at different levels of the chain of ownership constituted an abuse of rights.
+</p>
+<p>
+ The tribunal acknowledged that abuses of rights in investment arbitration had been found in different circumstances, most often where an investor restructured an investment post-dispute to benefit from the dispute resolution provisions of a favourable investment agreement (see, e.g.,
+ <a href="https://www.iareporter.com/articles/philip-morris-v-australia-award-surfaces-tribunal-adopted-looser-test-of-abuse-than-seen-in-pac-rim-case-and-deemed-investors-corporate-restructuring-to-be-abusive/">
+  Philip Morris v. Australia
+ </a>
+ ).
+</p>
+<p>
+ However, for the tribunal, the notion could capture other circumstances, such as those of the present case.** In the tribunal’s view, “the purpose of investment treaties” was best accomplished when only one investor in a chain of ownership brought a claim against a respondent state, and possibly undermined when several investors brought claims for the same harm, due to the risk of conflicting decisions and double recoveries. The tribunal observed that Mr Sawiris had himself confessed that the three notices of dispute had been sent for strategic reasons.
+</p>
+<p>
+ (The tribunal here also cited RSM v. Grenada as a further instance of abusive claims by multiple levels of a chain of ownership. This scenario, involving 100% ownership at each level, was recently distinguished by the Eskosol v. Italy tribunal (
+ <a href="https://www.iareporter.com/articles/italy-fails-to-secure-summary-dismissal-of-eskosol-solar-case-despite-protests-that-it-defeated-identical-ect-claim-by-investors-majority-shareholder/">
+  see here
+ </a>
+ ) from the scenario in that case, where a prior claim by a parent company which owned only 80% of Eskosol could not prevent Eskosol’s own claim from proceeding.)
+</p>
+<p>
+ As OTMTI’s claim was an abuse of “the system of investment protection,” the tribunal found it inadmissible.
+</p>
+<p>
+ Given the respondent’s partial success in the arbitration, the claimant was ordered to shoulder the arbitration costs and 50% of Algeria’s legal costs.
+</p>
+<p>
+</p>
+<p>
+ * The tribunal’s conclusion regarding the admissibility of the claim meant that it had no need to examine and answer several of Algeria’s remaining objections and the claimant’s defences.
+</p>
+<p>
+ Among other arguments, Algeria had contended that OTMTI’s investment was too remote to be protected (a frequent argument in investment arbitration, and nearly always unsuccessful – see
+ <a href="https://www.iareporter.com/articles/overview-kazakh-investors-clear-jurisdictional-hurdles-in-dispute-with-uzbekistan-although-further-illegality-issue-looms-at-merits-phase/">
+  Kim v. Kazakhstan
+ </a>
+ – but which this time came with an emphasis on the risks entailed in the fact that many independent entities had a stake somewhere in the corporate chain between OTMTI and Djezzy. In Algeria’s view, there needed to be a “cut-off point” in the jurisdiction of the tribunal over remote shareholders, lest the state be the subject of many different proceedings arising from the same facts, with possibly divergent outcomes and occasions for double recoveries.
+</p>
+<p>
+ Algeria also contended that OTMTI could not validly file for arbitration in 2012, at a time when it had already sold its stake in Djezzy to VimpelCom and had therefore no investment in Algeria anymore. In the state’s view, it meant that the offer to arbitrate found in the BIT was thus not addressed to the claimant, who could not accept it.
+</p>
+<p>
+ For its part, the claimant had tried to tether the tribunal’s jurisdiction to the original investment agreement, and by reference to the BIT’s umbrella clause.
+</p>
+<p>
+ ** The tribunal acknowledged that there was a precedent for Mr Sawiris’ approach in the twin cases of CME and Lauder v Czech Republic; however, the tribunal stressed that the respondent in that case had refused several offers to consolidate the claims and that, in any case, “it cannot be denied that in the fifteen years that have followed those cases, the investment treaty jurisprudence has evolved, including on the application of the principle of abuse of rights.”
+</p>

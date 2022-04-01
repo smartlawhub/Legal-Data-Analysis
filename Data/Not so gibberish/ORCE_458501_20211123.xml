@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validation-document.xsd">
+<Donnees_Techniques>
+<Identification>ORCE_458501_20211123.xml</Identification>
+<Date_Mise_Jour>2021-11-27</Date_Mise_Jour>
+</Donnees_Techniques>
+<Dossier>
+<Code_Juridiction>CE</Code_Juridiction>
+<Nom_Juridiction>Section du Contentieux </Nom_Juridiction>
+<Numero_Dossier>458501</Numero_Dossier>
+<Date_Lecture>2021-11-23</Date_Lecture>
+<Numero_ECLI>ECLI:FR:CESEC:2021:458501.20211123</Numero_ECLI>
+<Type_Decision>Ordonnance</Type_Decision>
+<Type_Recours>Excès de pouvoir</Type_Recours>
+<Code_Publication>Z</Code_Publication>
+</Dossier>
+<Audience>
+<Formation_Jugement>Section du Contentieux</Formation_Jugement>
+</Audience>
+<Decision>
+<Texte_Integral><p>Vu la procédure suivante : </p>
+<p>Par une requête, enregistrée le 16 novembre 2021 au secrétariat du contentieux du Conseil d'Etat, M. C B et Mme A B doivent être regardés comme demandant au juge des référés du Conseil d'Etat, d'une part, d'annuler les décisions rendues par la juridiction de l'ordre judiciaire dans quatre affaires et, d'autre part, d'enjoindre aux autorités compétentes d'enregistrer leurs dépôts de plaintes. </p>
+<p>Vu les autres pièces du dossier ;</p>
+<p>Vu le code de justice administrative ; </p>
+<p>Considérant ce qui suit :</p>
+<p>1. Aux termes de l'article R. 351-5-1 du code de justice administrative : " Lorsque le Conseil d'Etat est saisi de conclusions se rapportant à un litige qui ne relève pas de la compétence de la juridiction administrative, il est compétent, nonobstant les règles relatives aux voies de recours et à la répartition des compétences entre les juridictions administratives, pour se prononcer sur ces conclusions et décliner la compétence de la juridiction administrative ". Aux termes de l'article R. 122-12 du code de justice administrative : " Le président de la section du contentieux, les présidents adjoints de cette section, les présidents de chambre et les conseillers d'Etat mentionnés au quatrième alinéa de l'article R. 122-7 peuvent, par ordonnance : () 2° rejeter les requêtes ne relavant manifestement pas de la compétence de la juridiction administrative ".</p>
+<p>2. M. et Mme B doivent être regardés comme demandant au juge des référés du Conseil d'Etat, d'une part, d'annuler les décisions rendues par la juridiction de l'ordre judiciaire dans quatre affaires et, d'autre part, d'enjoindre aux autorités compétentes d'enregistrer leurs dépôts de plaintes. Toutefois, il n'appartient pas à la juridiction administrative de connaître d'une requête qui relève manifestement de la juridiction de l'ordre judiciaire.</p>
+<p>3. Ainsi, la requête de M. et Mme B ne relève manifestement pas de la compétence de la juridiction administrative et doit en conséquence être rejetée comme portée devant un ordre de juridiction incompétent pour en connaître.</p>
+<p>O R D O N N E :</p>
+<p>------------------</p>
+<p>Article 1er : La requête de M. et Mme B est rejetée.</p>
+<p>Article 2 : La présente ordonnance sera notifiée à M. C B et Mme A B. </p>
+<p>Fait à Paris, le 23 novembre 2021</p>
+<p>Signé : Christophe CHANTEPY</p>
+<p>Pour expédition conforme,</p>
+<p>La secrétaire du contentieux</p>
+<p>Valérie VELLA</p>
+</Texte_Integral>
+</Decision>
+</Document>

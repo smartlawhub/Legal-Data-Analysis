@@ -1,0 +1,271 @@
+<h1 class="ArticleTitle">
+ Analysis: In new decision in Blue Bank v. Venezuela case, arbitrators scrutinize effects of ICSID denunciation on claim against Venezuela
+</h1>
+<p class="f-24">
+</p>
+<p>
+ <a href="https://www.iareporter.com/articles/bit-claim-is-dismissed-as-arbitrators-find-that-they-lack-personal-jurisdiction-over-trustee-that-managed-a-trust-whose-investments-were-allegedly-harmed/">
+  As we reported recently
+ </a>
+ , a tribunal recently dismissed the claims of Barbados claimant Blue Bank International &amp; Trust (Barbados) Ltd. against Venezuela.
+</p>
+<p>
+ Blue Bank acted as trustee for a Barbados-based trust (the “Qatar Trust”), which indirectly owned a stake in two Venezuelan entities, ITC and Hemesa. These companies were granted concessions to rehabilitate and manage tourism and hospitality facilities in Venezuela and invested, according to the claimant, close to $100 million. Blue Bank’s request for arbitration (available
+ <a href="https://www.italaw.com/sites/default/files/case-documents/ita1078.pdf">
+  here
+ </a>
+ ) alleged that Venezuela breached the Barbados-Venezuela bilateral investment treaty’s (BIT) protections in abruptly terminating the concessions.
+</p>
+<p>
+ In this April 26, 2017 award [
+ <a href="https://www.italaw.com/sites/default/files/case-documents/italaw8768.pdf">
+  click to download
+ </a>
+ ], the tribunal of
+ <a href="https://www.iareporter.com/arbitrator/Soderlund">
+  Christer Söderlund
+ </a>
+ ,
+ <a href="http://www.iareporter.com/arbitrator/Bermann">
+  George Bermann
+ </a>
+ and
+ <a href="https://www.iareporter.com/arbitrator/Malintoppi">
+  Loreta Malintoppi
+ </a>
+ dismissed the case for lack of jurisdiction. Mr Söderlund also appended a separate, concurring opinion to the award [
+ <a href="https://www.italaw.com/sites/default/files/case-documents/italaw8769.pdf">
+  click to download
+ </a>
+ ].
+</p>
+<p>
+ <strong>
+  Burden of proof for jurisdictional facts lies with the claimant
+ </strong>
+</p>
+<p>
+ As a preliminary matter, the parties sparred over who had the burden of proof in jurisdictional proceedings. Blue Bank argued that it only had to present a
+ <em>
+  prima facie
+ </em>
+ factual evidence that the tribunal had jurisdiction, and the burden then shifted to Venezuela to refute this evidence.
+</p>
+<p>
+ However, the tribunal proposed that a distinction be made between facts that have relevance for the jurisdictional issue, and those that are relevant for the merits of the case. The tribunal agreed that the latter could be accepted
+ <em>
+  prima facie
+ </em>
+ , because they would be fully reviewed on the merits. But the former set of facts had to be fully proven at the jurisdictional phase, as argued by Venezuela. This placed the burden of proof on the claimant.
+</p>
+<p>
+ <strong>
+  Venezuela’s denunciation of the ICSID Convention figures prominently in the debates
+ </strong>
+</p>
+<p>
+ Readers will recall that Venezuela denounced the ICSID Convention in January 2012; under article 71 of the Convention, this withdrawal became effective six months later on July 25, 2012. (Blue Bank’s was one of
+ <a href="https://www.iareporter.com/articles/venezuela-claims-round-up-nine-new-investor-state-arbitrations-registered-in-the-months-preceding-icsid-withdrawal/">
+  the nine requests
+ </a>
+ filed with ICSID following Venezuela’s denunciation of the Convention.)
+</p>
+<p>
+ Venezuela claimed that there was no consent to arbitration available when Blue Bank filed for arbitration with ICSID in June 2012, because the denunciation occurred in January. Alternatively, if the tribunal were to consider that there was still consent until July 2012, this would not save Blue Bank’s claims, because the request was registered by the ICSID Secretariat only in August.
+</p>
+<p>
+ The claimant insisted that Venezuela had given its unconditional consent to arbitration under ICSID in the BIT, and this treaty remained in force and was unaffected by the denunciation of ICSID. In any case, the claimant stressed that the request was sent before the denunciation became effective, per article 71.
+</p>
+<p>
+ <strong>
+  Majority finds that Venezuela’s consent to arbitration, under article 71, lasted until July 2012
+ </strong>
+</p>
+<p>
+ The three members of the tribunal concluded in favour of the claimant, although the president took a somewhat different route, as explained in his separate opinion (see below).
+</p>
+<p>
+ The majority agreed with the earlier tribunal in
+ <em>
+  Venoklim v Venezuela
+ </em>
+ (see
+ <a href="https://www.iareporter.com/articles/attempt-to-access-bit-through-portal-of-domestic-law-falls-short-tribunal-appears-to-split-over-propriety-of-locals-using-foreign-entities-to-sue-their-own-state/">
+  here
+ </a>
+ ) that the relevant date for establishing jurisdiction was the date of the request – and not the date of the claim’s registration. Indeed, the latter depends on the ICSID secretariat, and “a claimant should not be prejudiced in its filing of a request of arbitration for any delays that may accrue in connection with the registration.”
+</p>
+<p>
+ The request was thus filed in June in a timely manner; the ICSID Secretariat then posed questions about the claimant’s corporate authority to file the request. Although the claimant resolved these concerns only on July 27, 2012, this did not prejudice the claimant’s position.
+</p>
+<p>
+ Ultimately, the majority reasoned that an
+ <em>
+  effet utile
+ </em>
+ interpretation of article 71 meant that Venezuela’s consent to arbitration endured for six months following the notice of denunciation – and that the claimant’s June request was thus lodged in time. As a result, the tribunal had jurisdiction
+ <em>
+  ratione voluntatis
+ </em>
+ over the claim.
+</p>
+<p>
+ <strong>
+  The big picture: where this decision fits within the context of other similar cases filed after Venezuela gave notice of its denunciation
+ </strong>
+</p>
+<p>
+ The tribunal’s decision is consistent with the
+ <em>
+  Venoklim
+ </em>
+ award cited above, but also the
+ <a href="https://www.iareporter.com/articles/the-rusoro-v-venezuela-award-examining-jurisdiction-time-bar-and-illegality-allegations/">
+  Rusoro v Venezuela
+ </a>
+ and
+ <a href="https://www.iareporter.com/articles/in-new-icsid-award-arbitrators-weigh-in-on-the-effects-of-venezuelas-denunciation-of-icsid-convention-and-then-find-the-state-liable-for-bit-breach/">
+  Tenaris v Venezuela
+ </a>
+ awards.
+</p>
+<p>
+ Out of the remaining five disputes filed in 2012 following Venezuela’s denunciation of the ICSID Convention, three are still pending a decision on jurisdiction. Jurisdictional hearings were held last year in the dispute between Barbados investor Transban Investments Corps and Venezuela, another dispute
+ <a href="https://www.iareporter.com/articles/icsid-rejects-challenges-to-david-caron-and-santiago-torres-bernardez-in-transban-v-venezuela-arbitration/">
+  slowed down by challenges
+ </a>
+ to the arbitrators. Challenges
+ <a href="https://www.iareporter.com/articles/co-arbitrators-zachary-douglas-and-hi-taek-shin-again-reject-a-challenge-to-yves-fortier-and-order-costs-against-venezuela/">
+  have been even fiercer
+ </a>
+ (and one is ongoing at the moment) in the dispute between Owen-Illinois and Venezuela, which also held jurisdictional hearings last year. By contrast, financial issues have slowed the proceedings in
+ <a href="https://www.iareporter.com/articles/in-new-ruling-bit-tribunal-holds-that-alleged-right-to-future-costs-recovery-is-not-a-right-capable-of-grounding-an-interim-security-for-costs-request/">
+  Valle Verde v Venezuela
+ </a>
+ , although jurisdictional hearings were eventually held in February of this year.
+</p>
+<p>
+ As for the two other cases, Saint-Gobain’s claim was filed and registered before July 2012, and Venezuela apparently did not contest jurisdiction;
+ <a href="https://www.iareporter.com/articles/union-takeover-of-french-owned-industrial-plant-is-not-attributed-to-venezuela-initially-but-venezuela-later-meets-ilc-articles-test-of-adopting-such-conduct-as-its-own/">
+  we recently reported
+ </a>
+ on the liability award in this case (only the amount of damages remains to be decided). Finally, the Ternium v Venezuela dispute has been discontinued soon after it was registered.
+</p>
+<p>
+ <strong>
+  Presiding arbitrator looks at article 72 and hints at irrelevance of denunciation of ICSID in BIT disputes
+ </strong>
+</p>
+<p>
+ In the Blue Bank case, the parties also debated the interpretation of article 72 of the ICSID Convention, which provides that a notice denouncing the Convention “shall not affect the rights or obligations under this Convention of that State […] arising out of consent to the jurisdiction of the Centre given […] before such notice was received by the depositary.”
+</p>
+<p>
+ In Venezuela’s view, this confirmed that consent to arbitration could only be “perfected” before the notice of denunciation is sent, not after – because the offer cannot be effective anymore once a state withdraws from ICSID. In Blue Bank’s view, however, this article was either inapplicable to the case, or it only meant that unilateral offers to arbitrate can survive the denunciation of the convention.
+</p>
+<p>
+ Although the majority of the tribunal thought it was unnecessary to discuss this point, Mr Söderlund appended a separate, concurring opinion to the award, where he explains his thinking regarding this article.
+</p>
+<p>
+ On his view, the ICSID Convention was drafted and signed without regard for the modern system of consent to arbitration contained in bilateral and multilateral investment treaties (the convention’s drafters were mostly contemplating investment contracts).
+</p>
+<p>
+ Article 72 appears predicated on an older model where there is a unilateral “offer” to arbitrate that can be later “accepted” in order to “perfect” consent.
+</p>
+<p>
+ By contrast, however, the reciprocal, state-to-state nature of the obligations between a BIT’s contracting parties means that the offer to arbitrate included in the BIT is more than a
+ <em>
+  unilateral
+ </em>
+ “standing offer” as contemplated by article 72. Rather, it is “
+ <em>
+  mutual
+ </em>
+ consent” between the parties to the BIT. Such consent is enduring under the BIT, and does not need to be “perfected” by a later acceptance. This means that this consent remains valid as long as the BIT is not terminated, and article 72 is thus irrelevant here.
+</p>
+<p>
+ Mr Söderlund thus appeared to posit that a denunciation of the ICSID Convention would not necessarily bar a claimant from invoking a state’s consent to ICSID arbitration as found in a BIT. Although he found some statements in the drafting history of the Convention to this effect, Mr Söderlund deemed it unnecessary to square this with the ICSID Convention’s jurisdictional requirements (which require the respondent state to be a contracting party).
+</p>
+<p>
+ Indeed, he mused that good faith “may preserve an investor’s right to access to ICSID arbitration where the State has undertaken to maintain that promise for the duration of a particular BIT.” These considerations will probably be of interest for investors who filed ICSID arbitration requests against Venezuela after 2012, such as
+ <a href="https://www.iareporter.com/articles/icsid-round-up-profiling-new-claims-against-slovenia-costa-rica-venezuela-and-egypt/">
+  Valores Mundiales
+ </a>
+ or
+ <a href="https://www.iareporter.com/articles/another-spanish-investor-brings-a-bit-claim-against-venezuela/">
+  Agroinsumo
+ </a>
+ .**
+</p>
+<p>
+ <strong>
+  Blue Bank, as a trustee, is not an investor under the BIT
+ </strong>
+</p>
+<p>
+ After dealing with the consent issue, and as we previously reported, the tribunal then reviewed Venezuela’s argument that it lacked jurisdiction over the claimant, because the latter was merely the trustee of the Qatar Trust that in turn possessed the investment in this case. The respondent stressed that Blue Bank had never made any investment of its own in Venezuela. Moreover, the state contended that, in any case, Blue Bank does not control the trust: its powers as a trustee are fairly limited.
+</p>
+<p>
+ In the tribunal’s view, Blue Bank satisfied the BIT’s and the ICSID Convention’s
+ <em>
+  nationality
+ </em>
+ requirement, as it was a company of a contracting party. The question was then whether it had an investment in Venezuela.
+</p>
+<p>
+ Reviewing Barbados’ trust law, the tribunal found that trustees only manage assets for the sake of a beneficiary or for a specific purpose; they are paid a fee for managing the trust but have no claim to the performance of the trust’s assets.
+</p>
+<p>
+ The BIT however was clear that a company had to “invest” in order to qualify as an “investor.” Blue Bank had invested nothing on its own, had incurred no risk, was not even sharing in the eventual profit and losses, nor the owner of the Qatar Trust’s assets. There was thus no jurisdiction
+ <em>
+  ratione personae
+ </em>
+ in this case.
+</p>
+<p>
+ <strong>
+  Tribunal expounds on the nature of the trust
+ </strong>
+</p>
+<p>
+ Further, the tribunal stressed that the Qatar Trust itself had no legal personality. The tribunal found support in the precedent of
+ <a href="https://www.iareporter.com/articles/tribunal-in-spanish-shareholders-yukos-claim-holds-that-narrow-arbitration-clause-permits-expropriation-claim/">
+  Renta 4 v Russia
+ </a>
+ , were a tribunal declined jurisdiction over certain Spanish investment funds, which displayed “great similarities with a trust.”
+</p>
+<p>
+ The parties also apparently debated at length whether the Qatar Trust was a beneficiary trust (i.e., set up for the benefit of an identifiable beneficiary) or a purpose trust (i.e., whose
+ <em>
+  raison d’être
+ </em>
+ is in pursuing a specific purpose). The tribunal ultimately found that it was a beneficiary trust.
+</p>
+<p>
+ Indeed, the tribunal agreed with Venezuela that Blue Bank had limited powers as a trustee, and was largely subjected to the decisions of the beneficiary – the “real” and ultimate owner of the trust’s assets. For two of the arbitrators – Mr Bermann and Ms Malintoppi – this reinforced the earlier conclusion that the tribunal lacked jurisdiction over the case.*
+</p>
+<p>
+ <strong>
+  Venezuela refused to pay the advance on costs but is awarded all costs nonetheless
+ </strong>
+</p>
+<p>
+ The decision of the tribunal meant that Venezuela’s abuse and forum-shopping arguments did not need to be reviewed.
+</p>
+<p>
+ The unsuccessful claimant was ordered to pay Venezuela’s legal fees, and the cost of the arbitration, which Blue Bank had already entirely advanced, given Venezuela’s failure to make an advance payment of its share.
+</p>
+<p>
+</p>
+<p>
+ [Disclosure: the author of this article worked as a research assistant for Professor Bermann between October 2014 and February 2016, beginning while the author was engaged in a course of study at Columbia Law School. That work related to other international arbitration subjects and was unrelated to the Blue Bank v. Venezuela investment arbitration.]
+</p>
+<p>
+ * In a paragraph of the award, the president of the tribunal stated that as far as he was concerned, the analysis could have stopped earlier, because the only relevant question was whether Blue Bank “made the investment on which it relies in its own behalf or not.”
+</p>
+<p>
+ ** [UPDATE November 28, 2017: As ultimately transpired in the Valores Mundiales v. Venezuela award (
+ <a href="http://www.iareporter.com/articles/in-now-surfaced-valores-mundiales-award-arbitrators-highlight-why-venezuelas-denunciation-of-the-icsid-convention-did-not-prevent-a-claimant-from-later-filing-for-arbitration/">
+  see our report here
+ </a>
+ ), the claimant in that case had consented to ICSID jurisdiction prior to the denunciation of the ICSID Convention v. Venezuela, meaning that the tribunal in that case found jurisdiction under a narrower interpretation of article 72 than the liberal one advocated here by Mr. Söderlund.]
+</p>

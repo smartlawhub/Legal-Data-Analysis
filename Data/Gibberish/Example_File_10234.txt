@@ -1,0 +1,249 @@
+<h1 class="ArticleTitle">
+ Damages: in second case brought to ICSID by Tenaris and Talta, a discounted cashflow (DCF) valuation is embraced by arbitrators
+</h1>
+<p class="f-24">
+</p>
+<p>
+ <em>
+  (Editor’s Note: this article discusses the quantum findings in the December 2016 award rendered in ICSID case No. ARB/12/23; a first article,
+  <a href="http://www.iareporter.com/articles/in-new-icsid-award-arbitrators-weigh-in-on-the-effects-of-venezuelas-denunciation-of-icsid-convention-and-then-find-the-state-liable-for-bit-breach/">
+   available here
+  </a>
+  , discusses the award’s findings on jurisdiction and liability).
+ </em>
+</p>
+<p>
+ As we explained in a separate article (
+ <a href="http://www.iareporter.com/articles/in-new-icsid-award-arbitrators-weigh-in-on-the-effects-of-venezuelas-denunciation-of-icsid-convention-and-then-find-the-state-liable-for-bit-breach/">
+  here
+ </a>
+ ), an ICSID arbitral tribunal has found in a December 2016 award that Venezuela breached treaties with Luxembourg an Portugal by expropriating the assets of the claimants, Tenaris and Talta, without compensation.
+</p>
+<p>
+ In the award, arbitrators
+ <a href="https://www.iareporter.com/arbitrator/Fernandez-Armesto">
+  Juan Fernández-Armesto
+ </a>
+ (presiding),
+ <a href="https://www.iareporter.com/arbitrator/Gomez-Pinzon">
+  Enrique Gómez Pinzón
+ </a>
+ and
+ <a href="https://www.iareporter.com/arbitrator/Stern">
+  Brigitte Stern
+ </a>
+ found Venezuela liable for the expropriation of the investors’ shares in Tavsa and Comsigua, following the state’s nationalisation of the entire iron and steel industry.
+</p>
+<p>
+ Notably, this is the second arbitration involving these claimants; in an earlier award, dated January 29, 2016 (ICSID Case No. ARB/11/26), a different tribunal awarded them $87.3 million, plus pre-award interest of $85.5 million on the basis of an interest rate of 9% for the expropriation of another investment in Venezuela. The reasoning of this first award as to damages is detailed
+ <a href="http://www.iareporter.com/articles/damages-in-tenaris-v-venezuela-award-arbitrators-see-initial-purchase-price-of-assets-as-best-proxy-for-fair-market-value/">
+  here
+ </a>
+ .
+</p>
+<p>
+ In these second, distinct proceedings, Tenaris and Talta were asking for more than $240 million in compensation and $471 million in pre-award interests in reparation for the expropriation. Below, we analyse the tribunal’s assessment of the investors’ loss, together with its decision on taxes and costs matters.
+</p>
+<p>
+ <strong>
+  Relevant date is the publication of nationalisation decree
+ </strong>
+</p>
+<p>
+ While the BITs provided for compensation to be equivalent to the market value of the assets on the day prior to the moment the expropriation was made public, the parties disagreed as to what date should be chosen. The investors pointed to the first Nationalisation Decree, in 2008, which heralded the imminent nationalization of the steel and iron industry.
+</p>
+<p>
+ Venezuela, on the contrary, argued for May 20, 2009, when then President Chavez announced explicitly that Tavsa and Comsigua would be expropriated. Venezuela noted that Tenaris, in a filing with the American SEC, used this date in disclosing the devaluation of its investment in Tavsa. As for Comsigua, Venezuela stressed that the entity was not listed in the Nationalisation Decree, while most other expropriated companies were.
+</p>
+<p>
+ The tribunal sided with the investors in holding that the SEC filing was irrelevant, and attributable to accounting considerations. Arbitrators also noted that Comsigua implicitly fell within the scope of the Nationalisation decree, given that it was part of the iron and steel industry and the affiliate of another named entity. As a result, the relevant date for valuation purposes was April 30, 2008.
+</p>
+<p>
+ <strong>
+  Claimants urge DCF methodology, while Venezuela favours comparable transactions approach
+ </strong>
+</p>
+<p>
+ The claimants’ experts, Compass Lexecon, proposed that a DCF analysis was the most appropriate methodology. Regarding Tavsa, in which Tenaris acquired a 70% stake in 1999, the experts arrived at a value of $213.2 million. Furthermore, Compass Lexecon compared the DCF result to a “market multiple” valuation method, using comparable companies, which gave a similar result. Notably, this second method included a “control premium”, accounting for the added value that purportedly derived from the fact that Tenaris
+ <em>
+  controlled
+ </em>
+ Tavsa.
+</p>
+<p>
+ Compass Lexecon also advocated the DCF method with respect to Comsigua. They contended that their DCF valuation was borne out when checked against the aforementioned market multiples method, as well as when compared to similar transactions.
+</p>
+<p>
+ Venezuela’s expert (Credibility International) criticized the opposing expert’s methodology and findings both in relation to Tavsa and Comsigua. With respect to Tavsa, Venezuela’s experts focused in particular on Compass Lexecon’s optimistic assumptions in their DCF analysis, such as the beliefs that labour conflicts would disappear and that Tavsa’s level of production would increase. The market multiple method was also deemed inadequate, as it picked companies not truly comparable. Finally, Credibility International deemed the “control premium” to be unnecessary (and arrived at with no regard to Tavsa’s particular circumstances).
+</p>
+<p>
+ For both Tavsa and Comsigua, Venezuela’s experts advocated a methodology that would look at similar transactions. Although Venezuela also offered an appraisal of Tavsa via a corrected DCF analysis, this was nevertheless bolstered by pointing to two recent acquisitions by Tenaris in Mexico and Indonesia for prices which, adjusted for Tavsa’s circumstances, roughly comported with the DCF analysis’s result.
+</p>
+<p>
+ <strong>
+  Tribunal adopts DCF method
+ </strong>
+</p>
+<p>
+ In both cases, the tribunal opted for a DCF analysis; indeed, with respect to Comsigua’s valuation (where Venezuela’s opposition to this method had been strongest), the tribunal explained that it “saw no reason to depart from the traditional DCF method, which has become a standard in valuating companies”, especially in a case when the business has reliable data about its past operations. This being said, the tribunal left the door open to comparison with other valuation methods, such as the market multiples approach.
+</p>
+<p>
+ (By contrast, arbitrators in
+ <a href="http://www.iareporter.com/articles/damages-in-tenaris-v-venezuela-award-arbitrators-see-initial-purchase-price-of-assets-as-best-proxy-for-fair-market-value/">
+  the earlier ICSID case chaired by John Beechey
+ </a>
+ had firmly rejected the DCF and market multiples methods, preferring an “arm’s length transaction” approach).
+</p>
+<p>
+ <strong>
+  Tribunal adopts investors’ suggested “country risk” premium, as well as a “size” premium
+ </strong>
+</p>
+<p>
+ The tribunal also had to mediate disagreements among the experts with respect to certain DCF analysis inputs.
+</p>
+<p>
+ The parties disagreed with respect to the country risk premium, an element about which arbitrators have often differed
+ <a href="http://www.iareporter.com/articles/in-depth-as-3-billion-of-icsid-arbitral-debt-piles-up-on-venezuela-arbitrators-are-seen-to-disagree-on-key-factors-affecting-compensation/">
+  in the past
+ </a>
+ . While Venezuela’s expert advocated the same rate of 14.75% adopted by the tribunal in
+ <a href="http://www.iareporter.com/articles/arbitrators-in-tidewater-v-venezuela-award-identify-six-key-variables-in-dcf-valuation-of-seized-business/">
+  Tidewater v. Venezuela
+ </a>
+ , the investors settled on a much more modest 4.6%.
+</p>
+<p>
+ The tribunal chose not to opine at length on the debate over country risk premia. Instead, the tribunal held that Venezuela’s expert did not specify or further explain what factors would justify the higher rate of 14.75%, and thus preferred to adopt the investors’ suggested rate of 4.6%.
+</p>
+<p>
+ The parties also sparred over the use, and, if so, the proper level, of an adjusted beta in determining the Weighted Average Cost of Capital (WACC) (i.e., the discount rate). The investors advocated a “reversion-to-one” adjustment to the gross beta,* while Venezuela adopted a beta adjusted with reference to the companies’ peer group. As the tribunal found that the “reversion-to-one” adjustment was unwarranted in this case, it eventually opted for Venezuela’s beta.
+</p>
+<p>
+ A final point of contention between the parties was the use of a “size premium” in determining the WACC, to take into account the
+ <em>
+  smaller
+ </em>
+ size of Tavsa and Comsigua as compared to comparable entities. In this respect, the tribunal followed Venezuela in adopting such “size premium”, reasoning that Tavsa and Comsigua, as smaller entities, had higher risks of liquidity crisis.
+</p>
+<p>
+ <strong>
+  Tribunal rejects new claim, and values Tavsa at $112 million
+ </strong>
+</p>
+<p>
+ With respect to Tavsa’s own valuation, the tribunal sided with Venezuela’s experts regarding the company’s expected production levels, observing that production never reached the alleged level (90% of its production capacity) relied upon by the investors; although Tenaris’s expert had blamed labour conflicts for this outcome, the tribunal held that the impact of such conflicts on production was unproven.
+</p>
+<p>
+ As for Tavsa’s
+ <em>
+  costs
+ </em>
+ , the parties debated the importance of technical assistance contracts that, prior to the expropriation, bound Tavsa and Tamsa, Tenaris’s wholly-owned Mexican branch (and Tavsa’s direct parent). The investors contended that Tavsa became self-sufficient in 2008 and did not need to contract for further technical assistance in the future.
+</p>
+<p>
+ However, the tribunal found this hypothesis unconvincing, and accepted Venezuela’s suggestion that this assistance’s expected cost should enter the DCF analysis.
+</p>
+<p>
+ Providing for this outcome, Tenaris’s experts proposed alternatively that Tamsa should be compensated for this loss, as it would have likely remained Tavsa’s provider of technical assistance absent the expropriation. However, the arbitrators rejected this claim, stressing that they could not rule on a claim in excess of what the parties sought in their request to arbitration and further submissions (where there was no mention of such claim).
+</p>
+<p>
+ Applying all these factors to the DCF model used by the parties, the tribunal arrived at a value of around $112 million for Tavsa.
+</p>
+<p>
+ The tribunal was satisfied that this figure comported with valuations reached by alternative valuation methods: specifically using market multiples. (Although the tribunal eventually remained silent on the appropriateness of a “control premium” entering such analysis, readers will recall that the tribunal in
+ <a href="http://www.iareporter.com/articles/24957/">
+  Crystallex v. Venezuela
+ </a>
+ refused to apply such premium.)
+</p>
+<p>
+ <strong>
+  Comsigua’s lack of debt irrelevant in determining the WACC
+ </strong>
+</p>
+<p>
+ With respect to the DCF analysis of Comsigua, Venezuela objected to Compass Lexecon’s method to find this company’s WACC (the WACC is normally arrived at by weighing the costs of a company’s debt and equity). In Comsigua’s case, the investors’ experts’ WACC was based on an optimal capital structure with a debt/equity ratio of 19/81. But Venezuela pointed out that Comsigua was actually debt-free. Venezuela then objected to the opposing experts’ assumption of an optimal capital structure, and proposed that the discount rate be the sole cost of equity.
+</p>
+<p>
+ However, the tribunal accepted the investor’s argument that Comsigua’s actual liabilities were irrelevant to the determination of the WACC, which is always based on an optimal capital structure (i.e., the target capital structure for a potential buyer).
+</p>
+<p>
+ Based on this, the tribunal arrived at a value of $22.3 million for Talta’s 7.58% share in Comsigua.
+</p>
+<p>
+ As with its appraisal of Tavsa, the tribunal checked the result against other valuation methods. These alternatives included a “market multiple” method and a look at similar transactions (chiefly among them, the price once offered by Venezuela to the former majority investors in Comsigua). These checks established that $22.3 million was clearly in the lower band of possible valuations.
+</p>
+<p>
+ The tribunal thus found that its DCF analysis had led it to undervalue Talta’s share in Comsigua. It proceeded to assign to each possible alternative valuation (arrived at through the multiple method and the comparison with similar transactions) a weight depending on its relevance and appropriateness to Comsigua’s case. The average of these weighted alternative valuations led the tribunal to find that Talta’s stake was actually worth around $24.6 million, slightly more than what Venezuela once offered to pay.
+</p>
+<p>
+ <strong>
+  Tribunal sets interest rate as LIBOR +4%, with no regard to Venezuela’s borrowing costs
+ </strong>
+</p>
+<p>
+ The BITs provided for interest to be paid on the sums awarded. While the Luxembourg-Venezuela treaty referred to “normal commercial rates”, the Portugal-Venezuela treaty specified that it should be a rate in use in Venezuela.
+</p>
+<p>
+ In the tribunal’s view, this ruled out both the WACC rate advanced by the claimants, and the rate of a safe investment (10-years US Treasury bonds) advocated by Venezuela.
+</p>
+<p>
+ Rather, the tribunal quickly settled on the LIBOR rate for US deposits +4%. While Venezuela pushed for an added margin of only 2%, the tribunal reasoned that in the current circumstances, where interest rates are unusually low (or even negative), 4% was more adequate. Compounded annually, this would be the same rate for pre-award and post-award interest.
+</p>
+<p>
+ <a href="http://www.iareporter.com/articles/in-depth-latest-venezuela-award-uses-asset-based-valuation-overriding-states-push-for-income-based-approach-and-advocates-for-a-low-pre-award-interest-rate/">
+  As we reported
+ </a>
+ on the very different rates adopted by arbitrators in recent disputes involving Venezuela, the rate is a relatively generous one. Finally, it is worth noting that the tribunal gave no consideration to Venezuela’s borrowing costs in its finding (although the investors mentioned it in their pleadings). This is consistent with the approach taken by recent tribunals, although not,
+ <a href="http://www.iareporter.com/articles/damages-in-tenaris-v-venezuela-award-arbitrators-see-initial-purchase-price-of-assets-as-best-proxy-for-fair-market-value/">
+  seemingly
+ </a>
+ , the tribunal in the first dispute opposing these parties.
+</p>
+<p>
+ <strong>
+  Tribunal orders the compensation to be tax-free
+ </strong>
+</p>
+<p>
+ In addition to their main claims, the investors sought a ruling from the tribunal preventing Venezuela from taxing the compensation awarded, and to reimburse them for any fiscal duties incurred in their home jurisdiction with respect to this compensation. The reasoning behind this request was that, had Venezuela not breached the treaty, these fiscal duties would never had been incurred in the first place. To make the investors properly whole, the award needed to account for this possibility.
+</p>
+<p>
+ The tribunal partly acceded to this request: although it declined to order Venezuela to refrain from taxing the compensation, it specified that the $137 million plus interests owed to the investors should be net of taxes. At the same time, it refused to say anything about the potential fiscal obligations of the investors in repatriating these sums to Portugal and Luxembourg, judging that Venezuela should not be held responsible for the acts of other states.
+</p>
+<p>
+ This is not the first award to consider this dimension of investment claims: a similar request has been granted in another case against Venezuela, also chaired by Juan Fernandez-Armesto (
+ <a href="http://www.iareporter.com/articles/at-damages-phase-in-rusoro-v-venezuela-gold-mining-case-arbitrators-nix-dcf-comparable-companies-and-comparable-transactions-valuation-methods/">
+  Rusoro v. Venezuela
+ </a>
+ ), while the tribunal in
+ <a href="http://www.iareporter.com/articles/arbitrators-in-exxon-v-venezuela-case-award-1-6-bil-with-an-asterisk-and-part-ways-with-conoco-tribunal-in-deeming-expropriation-to-have-been-lawful/">
+  Exxon v. Venezuela
+ </a>
+ similarly refused to hold the state responsible for possible taxation of the award in other jurisdictions.
+</p>
+<p>
+ <strong>
+  Free transfer clause in the treaty does not allow for taxes on the sums awarded
+ </strong>
+</p>
+<p>
+ Lastly, the parties discussed the meaning and relevance of article 5 of the Luxembourg-Venezuela BIT, which provides that each party must allow free transfer of the other party’s investors’ funds, mentioning explicitly as an example the compensation awarded following an illegal expropriation. Article 5.3 adds that state parties must promptly deliver all authorizations necessary for such transfers, “and this, without other charges than the usual taxes and costs”.
+</p>
+<p>
+ In Venezuela’s reading, this latter provision meant that it was entitled to tax any compensation awarded to Tenaris if repatriated to Luxembourg.
+</p>
+<p>
+ The tribunal noted that some ambiguity could stem from the differences between the BIT’s two versions, in French and Spanish. Yet, since the BIT declared the French version as authoritative, the tribunal relied on it to reject Venezuela’s reading: the “usual costs and contributions” were related to the authorizations, not to the sums being transferred.
+</p>
+<p>
+ Following the loser-pays principle, the tribunal ordered the respondent to cover the administrative costs of the arbitration, with an added $2.1 million to the investors for the “reasonable” part of their costs.
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+ * The assumption is that the beta of all companies, in the long-term, tend to revert to the market average, i.e., to 1.
+</p>

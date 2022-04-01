@@ -1,0 +1,101 @@
+<h1 class="ArticleTitle">
+ After-life of 1994 Kazakh foreign investment law continues to be debated, this time as English court refuses to set aside 2013 award that had declined jurisdiction over investor’s arbitration claim
+</h1>
+<p class="f-24">
+</p>
+<p>
+ In a judgment dated March 8, 2017 (
+ <a href="http://www.bailii.org/ew/cases/EWHC/Comm/2017/439.html">
+  here
+ </a>
+ ), Mr Justice Knowles of the High Court of England and Wales has rejected an effort by a foreign investor, Ruby Roz Agricol LLP, to set aside an arbitral award earlier rendered in its dispute against the Republic of Kazakhstan.
+</p>
+<p>
+ We
+ <a href="http://www.iareporter.com/articles/uncitral-tribunal-dismisses-claims-lodged-by-ruby-roz-agricol-against-republic-of-kazakhstan/">
+  previously reported
+ </a>
+ on this dispute, which was one of many to arise from political power struggles in Kazakhstan (for examples of other such claims see
+ <a href="http://www.iareporter.com/articles/as-hearings-loom-in-uncitral-arbitration-investors-hope-that-kazakh-investment-statute-provides-a-safe-harbour/">
+  here
+ </a>
+ ). Ruby Roz’s investment in a Kazakh poultry production and processing facility had allegedly been destroyed by acts attributable to Kazakh officials.
+</p>
+<p>
+ In an award dated August 1, 2013 [
+ <a href="http://www.iareporter.com/downloads/20130804">
+  download here
+ </a>
+ ], a tribunal of Alan Redfern (chair), Joseph Neuhaus (claimant’s appointee), and Bruno Boesch (respondent’s appointee) had declined jurisdiction over Ruby Roz’s claims, finding that a unilateral offer to arbitrate in Kazakh domestic law had lapsed before the claimant sought to accept it.
+</p>
+<p>
+ (Kazakhstan had repealed its 1994 Foreign Investment Law in 2003,
+ <a href="http://www.iareporter.com/articles/growing-number-of-governments-are-amending-domestic-investment-laws-so-as-to-preclude-unilateral-recourse-by-investors-to-international-arbitration/">
+  as part of a seeming trend that has seen some governments renounce legislation
+ </a>
+ that contain unilateral offers to arbitrate).
+</p>
+<p>
+ <strong>
+  English judge agrees with tribunal that there is no offer to arbitrate in the contract
+ </strong>
+</p>
+<p>
+ In its bid to set aside the award, Ruby Roz put forward two arguments that had earlier failed to convince the arbitrators.
+</p>
+<p>
+ The first was that a 1999 contract with an instrumentality of Kazakhstan included an arbitration clause that gave the tribunal jurisdiction over the dispute. The clause provided that a dispute could be submitted “to various foreign arbitral bodies, if the interests of a foreign Investor are affected and there is a written objection by such foreign Investor to the dispute being heard in Kazakhstani courts.”
+</p>
+<p>
+ The arbitrators had focused on the term “foreign Investor” and found that Ruby Roz, although owned from 2004 by Lebanese businessman Mr Kassem Omar, was not a “foreign investor” in the plain meaning of the contract since it was incorporated in Kazakhstan.
+</p>
+<p>
+ Ruby Roz relied on several external sources, such as the Foreign Investment Law, to argue that this contractual term should receive a broader interpretation.
+</p>
+<p>
+ This did not convince Mr Justice Knowles, who, “reluctant to look beyond the Contract”, did not find that any of Ruby Roz’s arguments had the effect of broadening the interpretation of “foreign Investor” to include local entities.
+</p>
+<p>
+ <strong>
+  Nor does court see Ruby Roz enjoying a valid offer to arbitrate via the Foreign Investment Law
+ </strong>
+</p>
+<p>
+ Alternatively, Ruby Roz reiterated its contention that, although the 1994 Kazakh Foreign Investment Law and its offer to arbitrate had been repealed in 2003, a stabilisation clause found in the repealed legislation ensured that its protection would apply to investments for a further period of 10 years.
+</p>
+<p>
+ In Ruby Roz’s case, the 10-years period started to run following an amendment to the contract in 2002 – meaning that there was still a standing offer to arbitrate by Kazakhstan when it sent its Notice of Arbitration in 2010.
+</p>
+<p>
+ <a href="http://www.iareporter.com/articles/analysis-uncitral-tribunal-parts-ways-with-icsid-tribunal-on-validity-of-arbitration-offer-in-repealed-kazakh-foreign-investment-statute/">
+  As we reported
+ </a>
+ , the tribunal had found that this period started to run from 1999, when Ruby Roz first made its investment, and thus had lapsed before the investor sent its Notice.
+</p>
+<p>
+ (
+ <em>
+  Editor’s Note:
+ </em>
+ <a href="http://www.iareporter.com/articles/arbitrators-hold-that-since-repealed-kazakh-investment-law-including-arbitration-and-stablization-clauses-continues-to-apply-to-investment-made-before-laws-repeal/">
+  as we’ve reported
+ </a>
+ , another recently-unearthed arbitral award in the AES and Tau Power v. Kazakhstan case seemed to take a somewhat different reading of the offer of arbitration under the 1994 FIL, with an ICSID tribunal there stressing other key factors – including an investor’s legitimate expectations at the time that an investment was made – before finding that it had jurisdiction under the FIL over those claims.)
+</p>
+<p>
+ <strong>
+  English Court sees no jurisdiction under 1994 Foreign Investment Law, albeit via somewhat different reasoning than earlier tribunal
+ </strong>
+</p>
+<p>
+ As for the Ruby Roz claims under the FIL, Mr Justice Knowles followed a somewhat different line of reasoning from the UNCITRAL arbitral tribunal in ultimately finding that Ruby Roz could not rely on the 1994 law’s offer to arbitrate. The Court observed, in particular, that the stabilisation clause applied to “foreign investments”. However, the definition of “foreign investment” under the Foreign Investment Law, had shifted over the years, and was particularly narrow at the crucial dates for purposes of Ruby Roz’s investment, such that Ruby Roz’s investment would not seem to qualify as a FIL-protected “foreign investment”.
+</p>
+<p>
+ This was enough for Mr Justice Knowles to find that the stabilisation clause could not apply to Ruby Roz’s investment, whatever the exact start and stop-dates of the 10-year stabilization period.
+</p>
+<p>
+ As a result, Mr Justice Knowles agreed with the tribunal’s conclusion that it had no jurisdiction, and declined to set aside the award.
+</p>
+<p>
+ Zachary Douglas QC and James Evans were instructed by Gresham Legal to represent Ruby Roz. The Republic of Kazakhstan was assisted by Paul Key QC and Siddharth Dhar, instructed by Curtis, Mallet­Prevost, Colt &amp; Mosle LLP.
+</p>
