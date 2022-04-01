@@ -1,4 +1,4 @@
-# Data-Analytics-SFJI
+# Legal Data-Analytics
 
 This course will introduce students to basic and common data analysis methods and
 tools, as applied in particular to legal data and legal knowledge.

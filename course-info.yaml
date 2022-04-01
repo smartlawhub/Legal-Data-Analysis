@@ -1,0 +1,7 @@
+title: HecLDA
+language: English
+summary: This is the Package for HEC's Legal Data Analysis - Spring 2022 Course.
+vendor:
+  name: Damien
+programming_language: Python
+environment: unittest
