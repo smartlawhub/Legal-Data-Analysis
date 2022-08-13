@@ -1,4 +1,4 @@
-# 1
+# 1 Try using both lines at the same time in the console, and notice what happend
 
 2+2
 3+3

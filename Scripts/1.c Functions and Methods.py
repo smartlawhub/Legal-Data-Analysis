@@ -19,19 +19,23 @@ for x in range(0, 20, 5):  # Range takes your first number, the upper limit (not
 
 # 3- Notice that, as long as you don't use the imported functions, they appear as grey in PyCharm
 
-import numpy
+import numpy as np
 from collections import Counter
 import pandas as pd
 
 # 4
 
-numpy.mean([1, 5, 10, 15])
+np.mean([1, 5, 10, 15])  # Instead of creating a function to calculate a mean, we can just leverage the existing package numpy
 
 # 5
 
-splitted_verse = "A freckled and frivolous cake".split(" ")
+splitted_words = "A freckled and frivolous cake there was".split(" ")  # The variable splitted_verse will take the result of the right-hand side expression, which splits a string according to a criterion
+splitted_cake = "A freckled and frivolous cake there was".split("cake")
 
-print("  ".join(splitted_verse))
+print(splitted_words)
+print(splitted_cake)
+
+print("  ".join(splitted_words))
 
 # 6
 

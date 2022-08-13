@@ -11,7 +11,7 @@ os.rename(newnamefile, newnamefile[:-1])
 
 # 5
 
-f = open("./Data/poem.txt", encoding="latin1")
+f = open("poem.txt", encoding="latin1")
 poem = f.read()
 print(poem)
 f.close()
