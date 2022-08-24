@@ -21,7 +21,7 @@ The course is designed as a gradual introduction to Python and relevant methods 
 Presentation; the latter hours are reserved for more specialised methods and uses, as well as mentoring in view of 
 preparing the Final Presentation.
 
-As explained further in the Syllabus (available here), each course will be built around three elements:
+As explained further in the Syllabus (available above), each course will be built around three elements:
 
 <ul>
 <li>Some opening considerations of a theoretical nature;</li>
