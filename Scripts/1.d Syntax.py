@@ -1,4 +1,4 @@
-f = open("poem.txt", "r")   # We open and load the poem file with the built-in function "open", which takes as arguments a path (here, the name of the file), and a method ("r" for "read")
+f = open("poem.txt", "r", encoding="latin1")   # We open and load the poem file with the built-in function "open", which takes as arguments a path (here, the name of the file), and a method ("r" for "read"), and an argument encoding (to make sure it can read non-usual characters, if any are inside)
 poem = f.read()  # The function "open" created an object that comes with its own methods, of which "read()" renders a string
 
 # 1

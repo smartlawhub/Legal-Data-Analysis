@@ -6,6 +6,7 @@ import regex as re
 os.chdir("./Data/CSVs")
 
 df = pd.read_csv("Conseil Etat Novembre 2011.csv", header="infer")
+df = df.fillna("")  # Common to fill the "empty" cells (which are cast as "NaN", or "Not a Number", replacing them with an empty string instead (""). This is to facilitate comparisons (as you can't compare a string to a NaN)
 
 # First, some data investigation
 df.head(5)

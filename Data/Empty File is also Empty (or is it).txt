@@ -55,3 +55,13 @@ answer = longest_line[:3]
 #7 
 
 print(sorted([line for line in re.split(r"\n", poem)[1:] if re.search("ake", line) and re.search("[A-Z]", re.sub(r"^[\d \.]+", "", line[6:])) is None and len(re.findall(r"\w+", line.strip()[3:])) in [3,5,7]], key=len, reverse=True)[0][:3])
+
+# 8
+df = pd.read_csv("BIT Data.csv", header="infer")
+for index, row in df.iterrows():
+    for x in range(1, 55):
+        if "Copenhagen" in row["Article " + str(x)]:
+            print(index, "Article " + str(x))
+
+subdf = df.apply(lambda row: row.astype(str).str.contains('Copenhagen').any(), axis=1)
+subdf[subdf == True].index[0]

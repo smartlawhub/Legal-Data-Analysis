@@ -4,7 +4,7 @@ import regex as re
 
 webpage = requests.get("https://www.hec.edu/fr/grande-ecole-masters/ms-et-msc/ms/llm-droit-et-management-international/programme")  # We fetch the webpage and pass it to an object
 print(webpage.status_code)  # The webpage object comes with distinct methods, such as status code, which tells you if connection was successful: 404 means no
-soup = BeautifulSoup(webpage.content)  # We then read the html (which is put as a string in .content) with BeautifulSoup, and pass it to an object we'll call "soup"
+soup = BeautifulSoup(webpage.content)  # We then read the html (which is put as a string in webpage.content) with BeautifulSoup, and pass it to an object we'll call "soup"
 prix_ao = soup.find(title="Prix Juridique et Fiscal Allen & Overy")  # Using that soup object, we look for an element whose title matches the one we are looking for - and we pass it to yet another element
 content = prix_ao.parent.parent.text  # Next, we can use this element to get the element we are actually interested in, which here is the text of the grandparent (.parent.parent)
 print(content)

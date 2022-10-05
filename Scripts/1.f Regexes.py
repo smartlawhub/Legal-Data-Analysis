@@ -1,7 +1,7 @@
 # 1
 import regex as re  # regex is typically abbreviated as re
 
-with open("../../poem.txt", "r") as f:
+with open("poem.txt", "r", encoding="latin1") as f:
     poem = f.read()
 
 

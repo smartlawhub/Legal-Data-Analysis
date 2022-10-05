@@ -14,7 +14,7 @@ for file in files:
     print(root.attrib)  # You can check the attributes of every element this way
     print(root.text)  # Likewise, the "text" attribute gives you the text inside an element; root has no text, as you can see everything is in the elements instead
 
-    tree = etree.ElementTree(root)  # This is a snippet of code I found on the internet to print the structure of the tree; you first recreate a tree from the root
+    tree = etree.ElementTree(root)  # This is a snippet of code I found online to print the structure of the tree; you first recreate a tree from the root
     for el in root.iter():  # Then you iterate all elements/descendants starting from the root with the "iter" method (more about it below)
         path = tree.getpath(el)  # You obtain the full path to that element, which is something that starts with the root ("Document") and ends with the element
         path = path.replace('/', '    ')  # Replacing slashes by a space
@@ -26,7 +26,7 @@ for file in files:
     for child in root:  # The parent element also works as a list of its children element, so you can easily iterate over it immediately like this
         print(child.tag)
 
-    for paragraph in root.iter("p"):  # Though a better way to do it is with iter(); this command takes arguments that allow you to filter the descendants you will see
+    for paragraph in root.iter("p"):  # Though a better way to do it is with iter(); this command takes arguments that allow you to filter the descendants
         print(etree.tostring(paragraph, encoding="unicode"))  # You can also turn any element into a string and see as normal text
 
     for el in root.iter(["Numero_Dossier", "Date_Lecture"]):  # The filter can also be a list of relevant element namess
@@ -54,11 +54,11 @@ details = ["Numero_Dossier", "Date_Lecture", "Date_Audience", "Avocat_Requerant"
 lists_details = []  # Easiest way to create a dataframe is first to have a list of lists, and then pass it to pd.Dataframe(lists, columns=details)
 
 for file in files:
-    newlist = []  # We create a new, empty list, every time we pass to a new file; that list will be filled with relevant data and added to main list
+    newlist = []  # We create a new, empty list, every time we switch to a new file; that list will be filled with relevant data and added to main list
     XML = etree.parse(file)
     root = XML.getroot()
 
-    for detail in details:  # For each file, we iterate over each type of detail
+    for detail in details:  # For each file, we iterate over each type of detail, using a loop
         result = ""
         for el in root.iter(detail):  # and we use this detail to filter from all descendants in root
             result = el.text
@@ -67,3 +67,4 @@ for file in files:
     lists_details.append(newlist)  # Before the loop concludes with one file and passes on to the next, we append the (filled) newlist to main list
 
 df = pd.DataFrame(lists_details, columns = details)  # Out of the loop, we create a dataframe based on that list of lists
+df.to_clipboard(index=False) # Finally, we copy the DataFrame so as to paste it (CTRL+V) in Excel
