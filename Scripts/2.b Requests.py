@@ -42,7 +42,7 @@ for child in cons_div.findChildren("h2"):   # First we notice that all "Titres" 
         if sib.name == "h2":
             break
         else:
-            article_num = re.search(r"\d+|PREMIER", child.text).group()   # Since subarticles count as one, we need to keep track of what article we are in - so same regex as above, except we don't care about second part
+            article_num = re.search(r"\d+|PR", sib.text).group()   # Since subarticles count as one, we need to keep track of what article we are in - so same regex as above, except we don't care about second part; the "PR" bit takes Préambule and Article Premier into account, lest there is an error
             if article_num != prev:  # We then check that we are in a different article; if we are not (e.g., we passed from 88-2 to 88-3, nothing happens
                 count += 1  # If yes, we increase counter
                 prev = article_num  # And now the previous article will become the current article, relevant for next element in loop
