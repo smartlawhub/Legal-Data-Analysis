@@ -3,6 +3,8 @@ import regex as re
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+plt.style.use('fivethirtyeight')
+
 df = pd.read_csv("", header="infer", encoding="utf8")
 
 df.groupby("Admin").Result.value_counts(normalize=True).unstack()  # As you can see, it's a bit harder to get a document from a Central administration, and a bit easier to get them from municipalities

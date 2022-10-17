@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 import pandas as pd
 import time
+from matplotlib import pyplot as plt
 
 
 webpage = requests.get("https://www.conseil-etat.fr/ressources/decisions-contentieuses/arianeweb2")    # We try to get the conseil d'Etat research page
@@ -62,3 +63,6 @@ for x in range(2500):
     el = driver.find_elements(By.XPATH, ".//a[@ng-click='selectPage(page + 1)']")[-1]
     el.click()
 df = pd.concat(LL)
+df.index = pd.to_datetime(df["Date de publication"])
+ax = df.resample("6M")["Code de publication"].value_counts().unstack().plot()
+
