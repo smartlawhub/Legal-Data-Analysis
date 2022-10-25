@@ -25,7 +25,7 @@ def apply_result(value):  # Or we can just use a function that will do the same,
         return "Unfavourable"
 
 
-df["Result"] = df["Sens et motivation"].apply(lambda x: apply_result(x))  # This allows you to apply a function to a value, which is represented by "x" here
+df["Result"] = df["Sens et motivation"].astype(str).apply(lambda x: apply_result(x))  # This allows you to apply a function to a value, which is represented by "x" here
 
 df.Result.value_counts(normalize=True) * 100  # We obtain percent of favourable decisions
 
@@ -42,11 +42,13 @@ def apply_type(value):
     return "Other"
 
 
-df["Admin"] = df.Administration.apply(lambda x: apply_type(x))
+df["Admin"] = df.Administration.astype(str).apply(lambda x: apply_type(x))
 
 print(df.loc[df.Admin == "Other"].Administration.value_counts()[:20])  # Locating with Python using a condition. You'll note for instance that acronymes with a number are often departemental admins, whereas the use of the term "national" indicate central administration
 
 dict_admin = {"[Mm]airie|agglom|commune": "Municipal", "[Rr]égion": "Regional", "[dD]epartment|\d\d\)?$": "Department",
         "[Mm]inist|[Pp]réfec?t|[Ddirection [Gg]énérale|[Nn]ational|[Ff]rançais|[Uu]niversit|[A-Z-]+\)?$": "Central"}
+
+df["Admin"] = df.Administration.astype(str).apply(lambda x: apply_type(x))  # We reapply with broader dict
 
 print(df.Admin.value_counts().to_dict()["Other"])

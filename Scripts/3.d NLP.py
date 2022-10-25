@@ -8,17 +8,47 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+
+nlp = spacy.load("fr_core_news_md", disable=["ner", "textcat"])  # We download spacy in a nlp object; the disable function is for efficiency purposes (some bits of Spacy are slow and useless for our purposes). Models need to be downloaded from the terminal
+
+# 1
+
+df = pd.read_csv("./Data/CSVs/Code civil versions.csv", header="infer")  # Working with a dataset of versions of the Code civil since 1804
+
+text = "\n".join(df.loc[df.version == 1]["Text"].values.tolist())
+doc = nlp(text)
+words_doc = [tok.text for tok in doc if tok.is_alpha and not tok.is_punct]
+CW = Counter(words_doc)
+plt.figure(figsize=(20,20))  #to increase the plot resolution
+plt.ylabel("Frequency")
+plt.xlabel("Words")
+plt.xticks(rotation=90)    #to rotate x-axis values
+for word , freq in CW.most_common(30):
+    plt.bar(word, freq)
+plt.show()
+
+# Now Benford's law
+
+numbers = re.findall("[1-9](?=\d|\-|$)", "".join(df.Art.values.tolist()))
+CC = Counter(numbers)
+plt.figure(figsize=(20,20))  #to increase the plot resolution
+plt.ylabel("Frequency")
+plt.xlabel("Number")
+plt.xticks(rotation=90)    #to rotate x-axis values
+
+for key, value in CC.most_common(9):
+    plt.bar(key, value)
+plt.show()
+
 # 5
 
-nlp = spacy.load("fr_core_news_md", disable=["ner", "textcat"])  # We download spacy in a nlp object; the disable function is for efficiency purposes (some bits of Spacy are slow and useless for our purposes)
-
 roi = nlp("roi")
-
 
 def close_words_from_vector(vec):  # A function I found online that returns the 10 most similar words compared to "vec"
     ms = nlp.vocab.vectors.most_similar(np.array([vec]), n=10)
     return [nlp.vocab.strings[w] for w in ms[0][0]]
 
+close_words_from_vector(roi.vector)
 
 analogie = nlp("roi").vector - nlp("homme").vector + nlp("femme").vector  # We find the vector that corresponds to roi, minus homme, plus femme
 print(close_words_from_vector(analogie))  # Works only with large model
@@ -42,7 +72,7 @@ for sent in doc2.sents:
     verbs = []
     for tok in sent:  # For each sentence, we go token by token
         if tok.pos_ == "VERB":  # We check if that token is a subject, and then we print it
-            verbs.append(tok.text)
+            verbs.append(tok.text + "=" + tok.lemma_)
     print("VERBS: ", verbs)
 
     nouns = []
@@ -52,17 +82,17 @@ for sent in doc2.sents:
 
 # 7
 
-df = pd.read_csv("Code civil versions.csv", header="infer", encoding="utf8")
-df.index = pd.to_datetime(df.Date)
+df = pd.read_csv("Code civil versions.csv", header="infer", encoding="utf8")  # We load again the dataset
+df.index = pd.to_datetime(df.Date)  # Change the index to the date of the article, so as to do time series
 
 
 def spacy_process(text):  # We first prepare the text by using spacy's token elements to remove stop words and punctuation
     doc = nlp(text)   # We transform the text with spacy
     filtered_sentence = []   # Empty list for the tokens we'll want to keep
-    punctuations = ["?",":","!",".",",",";","-"]  # A list of punctuation, plus
+    punctuations = ["?",":","!",".",",",";","-"]  # A list of punctuation
     banned_words = ["ARTICLE", "CODE"]  # A list of words we are not interested in, because they are very frequent
     for token in doc:
-        if token.is_stop is False and token.lemma_ not in punctuations and token.text.upper() not in banned_words:  # We append tokens to the list only if they are not a stop word or in ourt list of punctuations
+        if token.is_stop is False and token.lemma_ not in punctuations and token.text.upper() not in banned_words:  # We append tokens to the list only if they are not a stop word or in our list of punctuations
             filtered_sentence.append(token.lemma_)
 
     return " ".join(filtered_sentence)
@@ -79,9 +109,11 @@ def get_code_by_date(db, end):  # The idea is to sort by version (higher number 
             data.append(row.values)
     return pd.DataFrame(data, columns=db.columns)
 
-
-for year in ["1805", "1950", "2000", "2021"]:  # A selection of years
+fig, ax = plt.subplots(2,2)  # We initialise a set of subplots
+fig.suptitle('Most common words for given years of Code civil')  # Which we entitle
+for e, year in enumerate(["1805", "1950", "2000", "2021"]):  # A selection of years
     print(year)
+    ax.ravel()[e].set_title("Most Common - " + year)
     aggregate_counter = Counter()  # We initialise a counter object (which counts stuff and allows you to get the most common items
     db = get_code_by_date(df, year)  # We get our limited code civil updated by date
     for index, row in db.iterrows():   # We iterate over every article
@@ -95,10 +127,14 @@ for year in ["1805", "1950", "2000", "2021"]:  # A selection of years
         common_words.append(el[0])  # We also add this data to lists that will be used to create a plot
         common_words_counts.append(el[1])
 
-    bar_plt = sns.barplot(common_words, common_words_counts)  # We then create a bar plot with seaborn, this takes two inputs: the names of the words, and a count
+    bar_plt = sns.barplot(ax=ax.ravel()[e], x = common_words, y = common_words_counts)  # We then create a bar plot with seaborn, this takes two inputs: the names of the words, and a count
 
     for item in bar_plt.get_xticklabels():
-        item.set_rotation(90)
+        item.set_rotation(45)
+        if item._text in ["héritier", "créancier", "propriétaire"] :
+            item.set_fontweight("bold")
+
+plt.show()
 
 # And now for something more complicated...
 
@@ -111,7 +147,7 @@ def get_sents(db):  # First we cut articles in sentences. Note that this could a
         sents = re.split(r"\.\n|\. (?=[A-Z])", art.Text)
         for sent in sents:
             ii = ii + 1 if art["ID"] == prev else 0
-            l = [art["Code"], art["Art"], art["ID"], art["ID"] + "_" + str(ii), art["origin_date"], sent + ".", len(sent)]
+            l = [art["Code"], art["Art"], art["ID"], art["ID"] + "_" + str(ii), art["Date"], sent + ".", len(sent)]
             data.append(l)
             prev = art["ID"]
     return pd.DataFrame(data, columns=["Code", "Art", "ID", "Al", "origin_date", "Text", "lenText"])
@@ -122,7 +158,7 @@ def get_subj(doc):
     real_subj = "NoSubj"  # We initialise a variable with subject; it will return "NoSubj" if there aren't any subject
     for subj in [x for x in doc if "nsubj" in x.dep_]:  # We iterate through all possible subjects in the sentence
         real_subj = subj
-        if subj.pos_ == "PRON":  # If this is a pronoun, however, we
+        if subj.pos_ == "PRON":  # If this is a pronoun, however, we say that the pronoum is the previous subject
             real_subj = pastsub
         else:
             pastsub = subj
@@ -132,3 +168,20 @@ def get_subj(doc):
     else:
         full_subj = ''
     return [real_subj, full_subj]
+
+# Same code as above, but focusing on subjects per sentence thanks to the functions above
+fig, ax = plt.subplots(2, 2)
+fig.suptitle('Most common subjects for given years of Code civil')
+for e, year in enumerate(["1805", "1950", "2000", "2021"]):  # A selection of years
+    print(year)
+    ax.ravel()[e].set_title("Most Common Subject - " + year)
+    aggregate_counter = Counter()  # We initialise a counter object (which counts stuff and allows you to get the most common items
+    db = get_code_by_date(df, year)  # We get our limited code civil updated by date
+    db = get_sents(db)
+    db["Subj"] = ""
+    for index, row in db.iterrows():
+        doc = nlp(row["Text"])
+        db.at[index, "Subj"] = get_subj(doc)[0]
+    bar_plt = sns.barplot(ax=ax.ravel()[e], x=db.Subj.astype(str).value_counts()[1:20].index,y=db.Subj.astype(str).value_counts()[1:20].values)  # We then create a bar plot with seaborn, this takes two inputs: the names of the words, and a count
+    for item in bar_plt.get_xticklabels():
+        item.set_rotation(45)

@@ -2,6 +2,10 @@ import regex as re
 import requests
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
+from selenium import webdriver  # Instead, we'll use Selenium (remember to use pip install X if you don't have module X)
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.keys import Keys as KeysBrowser
 import pandas as pd
 import time
 from matplotlib import pyplot as plt
@@ -12,11 +16,6 @@ soup = BeautifulSoup(webpage.content)  # We create a soup element on that basis
 
 table = soup.find("table")  # We look for the table with documents to download
 print(table)  # Uh oh
-
-from selenium import webdriver  # Instead, we'll use Selenium (remember to use pip install X if you don't have module X)
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.keys import  Keys as KeysBrowser
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get("https://www.conseil-etat.fr/ressources/decisions-contentieuses/arianeweb2")  # Even on this page, the search tool, while it displays in the robot browser, can't be reached with the Code Source; but you can see in page source that the search tool is fetched from a "recherche" webpage, and we'll start from this
@@ -48,7 +47,7 @@ for index, row in df.iterrows():  # For each row, we'll make the browser click o
     driver.switch_to.window(driver.window_handles[-1])  # Switch the driver's focus to the window you just opened, with method "switch to", and argument the relevant window from the list of window_handles (latest loaded window will be -1)
     ave_el = driver.find_element(By.CSS_SELECTOR, "button[title='enregistre le document']")  # Find the download button, using CSS selector here so as to rely on the unique 'title'
     ave_el.click()  # Downloading the judgment, in html format; it will end up in your normal Download folder
-    driver.switch_to.window(driver.window_handles[0])  # Important to return to main window, or the next search for rowel won't work
+    driver.switch_to.window(driver.window_handles[0]) # Important to return to main window, or the next search for rowel won't work
 
 # We could add another loop to go over the various pages of result tables. And then it's a question of opening the 50+ files you just downloaded, and work on them
 
@@ -63,6 +62,6 @@ for x in range(2500):
     el = driver.find_elements(By.XPATH, ".//a[@ng-click='selectPage(page + 1)']")[-1]
     el.click()
 df = pd.concat(LL)
-df.index = pd.to_datetime(df["Date de publication"])
+df.index = pd.to_datetime(df["Date de lecture"])
 ax = df.resample("6M")["Code de publication"].value_counts().unstack().plot()
 

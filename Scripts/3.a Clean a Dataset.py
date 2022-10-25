@@ -11,7 +11,7 @@ len(df)  # We check how long the dataframe is
 df.head(15)  # We check that it is well-loaded
 print(df.columns)  # We have a look at the columns, we see there are a number of "Unnamed", which indicates file might be corrupted
 
-df["Len"] = df["Numéro de dossier"].str.len()  # We compute the length of every string in the first column, and store the result in a new column.
+df["Len"] = df["Numéro de dossier"].astype(str).str.len()  # We compute the length of every string in the first column, and store the result in a new column. The astype makes sure we only have strings
 df["Len"].value_counts()  # We check the distribution: while most entries for numero de dossier are 8 characters long (as expected), others are longer, which indicates unexpected data was filled in instead
 
 df = df.drop(df[df.Len > 9].index)  # And then we pass the index of the rows that have a Len > 9 (for the first column) to the drop function
@@ -23,12 +23,15 @@ for x in range(10, 13):  # We also delete the empty columns. We could be lazy an
 
 df = df.dropna()  # We also try to drop the empty rows, if any are left. This is important to deal with datatypes
 
-df["Année"] = df.Année.astype(int)  # For instance, because of the corruption, the columns "Années" is indicated as "object", while it should be an "int"
+for col in df.columns:
+    print(col, " : ", df[col].dtype)  # Beware of data types, as sometime they are not consistent and therefore need to be cleaned.
+df["Année"] = df.Année.astype(int)  #  For instance, if because of some  corruption, the columns "Années" were indicated as "object", we should turn it into an "int"
 
 # 2
 
 df.Type.value_counts(normalize=True)  # We can also multiply by * 100 to get proper percentages
 df.groupby("Année").size().plot()  # We group by years, and then use plot the have an idea of the distribution
+df.Année.hist(bins=20)  # Another approach is to use an histogram, with all years divided into x bins
 
 df.groupby("Année").Type.value_counts().unstack()   # We combine both tools to get a broader type of chart, and then we unstack
 
@@ -43,7 +46,7 @@ xroll.plot()
 
 # 3
 
-keys = df["Mots clés"].values.tolist()  # It's sometimes helpful to convert the data in another format, such as columns into a list, which will be ordered just as the dataframe was
+keys = df["Mots clés"].astype(str).values.tolist()  # It's sometimes helpful to convert the data in another format, such as columns into a list, which will be ordered just as the dataframe was
 Counter(re.split(r", |\$", "$".join(keys))).most_common(10)  # Then we find the most common elements in the Mot Clés; note that we split a single string that we have first joined by a symbol that's easy to identify - it's more efficient than iterating over all entries and splitting these one by one
 
 print(df.iloc[10])  # Compared to your Excel, pandas are shifted two indexes below, to account for 1. the headers, and 2. the fact that Python indexes start at 0
