@@ -89,7 +89,7 @@ df.index = pd.to_datetime(df.Date)  # Change the index to the date of the articl
 def spacy_process(text):  # We first prepare the text by using spacy's token elements to remove stop words and punctuation
     doc = nlp(text)   # We transform the text with spacy
     filtered_sentence = []   # Empty list for the tokens we'll want to keep
-    punctuations = ["?",":","!",".",",",";","-"]  # A list of punctuation
+    punctuations = ["?",":","!",".",",",";","-", "(",")"]  # A list of punctuation
     banned_words = ["ARTICLE", "CODE"]  # A list of words we are not interested in, because they are very frequent
     for token in doc:
         if token.is_stop is False and token.lemma_ not in punctuations and token.text.upper() not in banned_words:  # We append tokens to the list only if they are not a stop word or in our list of punctuations
@@ -182,6 +182,6 @@ for e, year in enumerate(["1805", "1950", "2000", "2021"]):  # A selection of ye
     for index, row in db.iterrows():
         doc = nlp(row["Text"])
         db.at[index, "Subj"] = get_subj(doc)[0]
-    bar_plt = sns.barplot(ax=ax.ravel()[e], x=db.Subj.astype(str).value_counts()[1:20].index,y=db.Subj.astype(str).value_counts()[1:20].values)  # We then create a bar plot with seaborn, this takes two inputs: the names of the words, and a count
+    bar_plt f= sns.barplot(ax=ax.ravel()[e], x=db.Subj.astype(str).value_counts()[1:20].index,y=db.Subj.astype(str).value_counts()[1:20].values)  # We then create a bar plot with seaborn, this takes two inputs: the names of the words, and a count
     for item in bar_plt.get_xticklabels():
         item.set_rotation(45)
