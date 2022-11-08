@@ -182,6 +182,6 @@ for e, year in enumerate(["1805", "1950", "2000", "2021"]):  # A selection of ye
     for index, row in db.iterrows():
         doc = nlp(row["Text"])
         db.at[index, "Subj"] = get_subj(doc)[0]
-    bar_plt f= sns.barplot(ax=ax.ravel()[e], x=db.Subj.astype(str).value_counts()[1:20].index,y=db.Subj.astype(str).value_counts()[1:20].values)  # We then create a bar plot with seaborn, this takes two inputs: the names of the words, and a count
+    bar_plt = sns.barplot(ax=ax.ravel()[e], x=db.Subj.astype(str).value_counts()[1:20].index,y=db.Subj.astype(str).value_counts()[1:20].values)  # We then create a bar plot with seaborn, this takes two inputs: the names of the words, and a count
     for item in bar_plt.get_xticklabels():
         item.set_rotation(45)
