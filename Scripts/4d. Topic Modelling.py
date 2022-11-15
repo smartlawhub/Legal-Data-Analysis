@@ -58,3 +58,103 @@ cassdf.to_clipboard(index=False, encoding="utf8")
 
 fig = topic_model.visualize_topics()
 pio.show(fig)
+
+
+
+##########################################################################################################################################
+# CAS.5 python program
+# Date: 05.11.2022
+# By M.Tournier & D. Biddine
+# Scope of the progrom: scrap the web site  jurispridence.tas-cas.org, in order to detrmine what is the most frequent sport in "Upheld" cases
+##########################################################################################################################################
+import requests
+import re
+import time
+from bs4 import BeautifulSoup
+# We use the pandas library for Dataframe
+import pandas as pd
+# We use the selenium library to find element in web page
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
+
+
+# Function to find most frequent element in a list
+
+def most_frequent(List):
+    counter = 0
+    num = List[0]
+
+    for i in List:
+        curr_frequency = List.count(i)
+        if (curr_frequency > counter):
+            counter = curr_frequency
+            num = i
+
+    return num, counter;
+
+# Get the first page of the web site and find the "next" arrow at the bottom of the page
+
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+driver.get("https://jurisprudence.tas-cas.org/Shared%20Documents/Forms/AllDecisions.aspx")  # Get the first page
+page=1
+el = driver.find_elements(By.XPATH, '//*[@id="bottomPagingCellWPQ2"]//a')[-1] # Find the "next" arrow, which is always the last <a> element under the element with that id
+pages_visited = []  # A list to keep track of URLs visited, to make sure we don't enter an infinite loop
+
+
+#Loops continue to execute the code as long as the condition is true, so as long as "el" is not None - but can therefore easily create an infinite loop, hence the break if we find an URL we already visited
+
+SportList =[]
+ll = []
+while el:
+    # Get the dataframe in page and process the data
+    print ("--------------------")
+    print ("page number : " + str (page))
+    # We upload the "current URL into a dataframe
+    dataframe = pd.read_html(driver.current_url)
+    #print(dataframe)
+    # We start from the second row - as the first contains the title of the columns
+    my_list = dataframe[1]
+    ll.append(my_list)
+    #print(list)
+    row=my_list.shape[0] #We need to get the number of row in the dataframe as it varies in some pages
+    print ("row = " + str(row))
+
+    # We create loop to go through all rows and in case of Upheld case we store the sport in a list
+    for x in range(0, row):
+        element = my_list.values[x]
+        # We select from the element the data we need for our analysis: status, sport and appeallant name
+        status = element[12]
+        sport = element[8]
+        name = element[6]
+        # If the status = Upheld we store the sport name in a List
+        if status == "Upheld":
+            #Test if name is a person
+            print ("Name is "+str(name))
+            if re.search('Club', name): #We exclude names whre the String "club" appears
+                    print('Club in name ' + str(name))
+            else:
+                    if re.search('[A-Z]{2}',name): #We exclude names where we find 2 consecutive Uppercase
+                        print('double CAPS in name ' + str(name))
+                    else:
+                        (print('it is a person ' + str (name)))
+                        SportList.append(sport)
+
+    # Go to next page by clicking on the "next button" at bottom of page
+    time.sleep(1) # Just to slow things down and make sure you can fetch every page
+    el = driver.find_elements(By.XPATH, '//*[@id="bottomPagingCellWPQ2"]//a')[-1]
+    el.click()
+    if driver.current_url in pages_visited:  # We check that we have not already visited that URL
+        break
+    else:
+        pages_visited.append(driver.current_url)
+        page= page + 1
+
+# Now that our  list is complete, we call the above function to determine the most frequent upheld sport
+List = SportList
+num, counter = most_frequent(List)
+print ('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+print ('The most frequent upheld Sport is ', num)
+print ('It is counted ', counter, ' times')
+print ('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')

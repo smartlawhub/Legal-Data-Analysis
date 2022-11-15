@@ -88,7 +88,7 @@ import plotly.io as pio  # This is another plot module in Python
 pio.renderers.default = "browser"  # We set it up so that figure appears in a browser
 
 from bertopic import BERTopic  # We import the module
-topic_model = BERTopic(embedding_model=nlp, n_gram_range=(1, 3), min_topic_size=10, nr_topics=30, )  # We set up the topic model
+topic_model = BERTopic(embedding_model=nlp, n_gram_range=(1, 3), min_topic_size=10, nr_topics=30)  # We set up the topic model
 topics, probs = topic_model.fit_transform(newdf.CText.values.tolist())
 
 fig = topic_model.visualize_topics()
