@@ -100,6 +100,7 @@ plt.ylabel("Nodes")
 # 6
 
 # Assign each to an attribute in your network
+
 nx.set_node_attributes(G, nx.betweenness_centrality(G), 'betweenness')
 nx.set_node_attributes(G, nx.eigenvector_centrality(G), 'eigenvector')
 

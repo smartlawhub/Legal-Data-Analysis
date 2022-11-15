@@ -23,7 +23,7 @@ def guess_gender(details): # We first create a function to automate gender guess
 
 
 # We then load the dataset
-df = pd.read_csv("ICCData.csv", header="infer")
+df = pd.read_csv("Data/CSVs/ICCData.csv", header="infer")
 df = df.fillna("")
 
 new_df = []  # And modify it to get a dataframe with
@@ -53,28 +53,46 @@ df.Gender.value_counts(normalize=True) * 100
 df.Name.value_counts().hist(bins=10)
 plt.show()
 
-#TODO Fix issue with weight
 import networkx as nx
+from networkx.algorithms import community
 
-G = nx.Graph()
 node_list = []
-details_list = []  # A list of the same size as node_list, for graphs purposes
 edge_list = []
+colors = {"United Kingdom (of Great Britain and Northern Ireland)": "blue", "France": "red", "Brazil": "green", "Switzerland": "grey", "United States of America": "gold", "Germany": "black", "Mexico": "purple", "Spain": "yellow"}
+gender = {"male": "blue", "female": "pink", "andy": "purple", "unknown": "grey"}
 for arb in df.groupby("Name"):
-    subdf = df.loc[(df.CID == cid) & (df.Name !=arb[0])]
-    if len(subdf): # We don't care about sole arbs that are never on a tribunal with someone else
-        nation = arb[1].iloc[0]["Nationality"]
+    cids = arb[1]["CID"].values.tolist()
+    subdf = df.loc[(df.CID.isin(cids)) & (df.Name !=arb[0])]
+    if len(subdf): # Filtering to remove sole arbs that are never on a tribunal with someone else
+        nation = arb[1].iloc[0]["Nationality"]  # Any row would go, since nation is always the same for a given individual
         node_list.append((arb[0], {"gender": arb[1].iloc[0]["Gender"], "nationality": nation}))
-        details_list.append([arb[0], len(arb[1]), "blue"])
-        for cid in arb[1]["CID"].values.tolist():
+        if nation not in colors.keys():
+            colors[nation] = "blue"
+        for cid in cids:
+            subdf = df.loc[(df.CID == cid) & (df.Name != arb[0])]
             for index, row in subdf.iterrows():
-                new_edge = (arb[0], row["Name"])
-                num_edges = Counter(edge_list)[new_edge] + 1
-                edge_list.append((new_edge, {"weight": num_edges}))
-G.add_nodes_from(node_list)
-G.add_edges_from(edge_list)
-df_nodes = pd.DataFrame(details_list, columns=["Name", "Degree", "Nationality"])
+                edge_list.append([arb[0], row["Name"], cid])
+df_edge = pd.DataFrame(edge_list, columns=["Source", "Target", "Case"])
+df_edge['weight'] = df_edge.groupby(['Source', 'Target'])['Source'].transform('size')
+G = nx.from_pandas_edgelist(df_edge, 'Source', 'Target', create_using=nx.Graph(), edge_attr='weight')
+G.add_nodes_from(node_list)  # We re-add the nodes to be sure they come with wanted data
+degree = dict((x,y) for x, y in G.degree)
+df_nodes = pd.DataFrame([[x[0], degree[x[0]], x[1]["nationality"]] for x in node_list], columns=["Name", "Degree", "Nationality"])
 df_nodes["page_rank"] = df_nodes.Name.map(nx.pagerank(G))
-df_nodes["betweennessè_centrality"] = df_nodes.Name.map(nx.betweenness_centrality(G))
+df_nodes["betweenness_centrality"] = df_nodes.Name.map(nx.betweenness_centrality(G))
 
-nx.draw_networkx(G, node_color=[x[1] for x in details_list], node_size=[x[0] for x in details_list])
+nx.draw(G, pos=nx.spring_layout(G), node_color=[colors[x[1]["nationality"]] for x in G.nodes(data=True)._nodes.items()], node_size=[degree[x[0]] for x in G.nodes(data=True)._nodes.items()], with_labels=False)
+
+
+Gcc = sorted(nx.connected_components(G), key=len, reverse=True)
+G0 = G.subgraph(Gcc[0])
+nx.draw(G0, pos=nx.spring_layout(G0), node_color=[colors[x[1]["nationality"]] for x in G0.nodes(data=True)._nodes.items()], node_size=[degree[x[0]] for x in G0.nodes(data=True)._nodes.items()], with_labels=False)
+
+
+c0 = community.greedy_modularity_communities(G0)
+map = {}
+for e, x in enumerate(c0):
+    for arb in x:
+        map[arb] = e
+df_nodes["Community"] = df.Name.map(map)
+df_nodes.to_clipboard()
