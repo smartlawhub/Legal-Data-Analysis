@@ -6,6 +6,7 @@ import pandas as pd
 import plotly.io as pio  # This is another plot module in Python
 pio.renderers.default = "browser"  # We set it up so that figure appears in a browser
 import regex as re
+from collections import defaultdict
 
 
 # First, we get the dataset, which in this case are
@@ -14,6 +15,8 @@ url = "https://www.courdecassation.fr/recherche-judilibre?sort=date-desc&items_p
 nlp = spacy.load('fr_core_news_md', disable=["tok2vec", "tagger", "parser", "attribute_ruler", "ner", "textcat"])
 
 main_list = []
+dds = []  # a container for the defaultdicts from the decisions
+types = [] # keeping track of all categories of text in the database
 for x in range(1, 20):
     print(x)
     webpage = requests.get(url + str(x))
@@ -35,7 +38,23 @@ for x in range(1, 20):
         sublist.append(text[peuple.start():6000]) if peuple is not None else sublist.append(text[:5000])
         main_list.append(sublist)
 
-cassdf = pd.DataFrame(main_list, columns=["URL", "Date", "Cour", "ID", "Formation", "Solution", "Text"])
+        dd = defaultdict(str)
+        current_type = ""
+        for el in soup.find_all(["h3", "p"]):
+            if el.name == "h3" and el.find("button") is not None:
+                current_type = el.find("button").getText().strip()
+                if current_type not in types:
+                    types.append(current_type)
+            elif el.name == "p" and "id" in el.attrs:  # We make sure this is a "p" element, as some h3 elements without button subels should not be taken into account
+                dd[current_type] += el.getText().strip() + "\n-----\n"
+        dds.append(dd)
+
+for e, d in enumerate(dds):
+    for tt in types:
+        data = d[tt]
+        main_list[e].append(data[:5000])
+
+cassdf = pd.DataFrame(main_list, columns=["URL", "Date", "Cour", "ID", "Formation", "Solution", "Text"] + types)
 
 
 def spacy_process(text):  # We first prepare the text by using spacy's token elements to remove stop words and punctuation
