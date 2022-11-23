@@ -8,7 +8,7 @@ from networkx.algorithms import community
 import regex as re
 
 
-cc = pd.read_csv("./Data/CSVs/CodeCivilChapters.csv", header="infer", encoding="latin1")  # A dataframe with articles from the code civil together with hierarchy
+cc = pd.read_csv("./Data/CSVs/CodeCivilChapters.csv", header="infer", encoding="utf8")  # A dataframe with articles from the code civil together with hierarchy
 cc = cc.fillna("")
 # Exercise : we need to replace the [Text] column with a better version of the articles, so you should iterate over the dataframe and scrap each url one by one
 
@@ -20,7 +20,7 @@ count_article = 0
 
 for index, row in cc.iterrows():  #We iterate over all articles
     text = row["Text"]
-    sea = re.search(r"Article (?<num>[\d-]+) (?!de la loi)", text, re.S|re.I)  # Basic Search
+    sea = re.search(r"Article (?<num>[\d-]+)(?! de la loi)", text, re.S|re.I)  # Basic Search
     seas1 = re.search(r"Articles ([\d-]+[et, ]*)+", text, re.S|re.I)  # For list of articles
     seas2 = re.search(r"Articles (?<lower>[\d-]+) à (?<upper>[\d-]+)", text, re.S|re.I)  # For ranges of articles
     prec = re.search(r"articles? précédent", text, re.S|re.I)  # Relative Links
@@ -66,23 +66,22 @@ nx.set_node_attributes(G, cc.set_index("Art").to_dict()["Livre"], "Livre")  # Ne
 # 4
 
 nx.draw_spring(G, with_labels=False)
-smaller_G = G.remove_nodes_from(list(nx.isolates(G)))
+smaller_G = G.remove_nodes_from(list(nx.isolates(G)))  # We can remove isolates, but there are none in this network
 
 colors_dict = {"Livre Ier": "blue", "Livre II": "red",
                "Livre III": "yellow", "Livre IV": "black",
                "Livre V": "green",
-               "Titre prÃ©liminaire": "white"}
+               "Titre préliminaire": "white"}
 colors = []
 for node in G.nodes:
     colors.append(colors_dict[G.nodes[node]["Livre"]])
 
-nx.draw_spring(smaller_G, with_labels=False, node_color=colors)
+nx.draw_spring(G, with_labels=False, node_color=colors)
 
 # 5
 
 nx.density(G)  # How dense is your network when compared with the total number of edges possible ?
 
-nx.diameter(G)  # How large is your network ? Throws an error because some bits are not connected to each other
 print(nx.is_connected(G))  # Indicates that the graph is not connected, which is not surprising since ...
 print(nx.number_connected_components(G))  # There are many, many components ! Most of these, however, are solitary nodes
 ii = 0

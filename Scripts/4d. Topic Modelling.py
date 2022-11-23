@@ -19,27 +19,28 @@ dds = []  # a container for the defaultdicts from the decisions
 types = [] # keeping track of all categories of text in the database
 for x in range(1, 20):
     print(x)
-    webpage = requests.get(url + str(x))
+    webpage = requests.get(url + str(x)) # As always, we connect on the page with docs urls, page by page
     soup = BeautifulSoup(webpage.content)
-    aas = soup.find_all("div", class_="decision-item")
+    aas = soup.find_all("div", class_="d"
+                                      "ecision-item")  # And we find the list of docs urls
     for a in aas:
         href = a.find("a").get("href")
-        sublist = [href]
-        title = a.find("h3").text.split("-\n")
+        sublist = [href]  # Looping through that list, we create a sublist in which we add info about each case, starting with the url
+        title = a.find("h3").text.split("-\n")  # We split to obtain the relevant subelements in the title
         formation = a.find("p", class_="decision-item-header--secondary").text.split("-")[0]
         solution = a.find("p", class_="decision-item-header--secondary solution").text
-        for x in title + [formation, solution]:
+        for x in title + [formation, solution]:   # And we add all this to our sublist
             sublist.append(x.strip())
 
-        webpage = requests.get("https://www.courdecassation.fr" + href)
+        webpage = requests.get("https://www.courdecassation.fr" + href)  # Now we connect to the case page itself
         soup = BeautifulSoup(webpage.content)
-        text = soup.find("div", class_="decision-content decision-content--main").getText()
-        peuple = re.search("AU NOM DU PEUPLE", text)
-        sublist.append(text[peuple.start():6000]) if peuple is not None else sublist.append(text[:5000])
-        main_list.append(sublist)
+        text = soup.find("div", class_="decision-content decision-content--main").getText() # To fetch the text of the decision
+        peuple = re.search("AU NOM DU PEUPLE", text)  # Cutting if text is too long, and we prefer to cut the entête rather than the text
+        sublist.append(text[peuple.start():6000]) if peuple is not None else sublist.append(text[:5000])  # A 5000 max length is legit
+        main_list.append(sublist)  # Adding to main_list, which is thus a list of lists, with each sublist corresponding to a case
 
-        dd = defaultdict(str)
-        current_type = ""
+        dd = defaultdict(str)  # We create a defaultdict to make sure that new entries will be an empty string
+        current_type = "" # variable to keep track of the header
         for el in soup.find_all(["h3", "p"]):
             if el.name == "h3" and el.find("button") is not None:
                 current_type = el.find("button").getText().strip()

@@ -6,6 +6,7 @@ from collections import Counter
 import pandas as pd
 from spacy.lang.fr.stop_words import STOP_WORDS as fr_stop
 import matplotlib.pyplot as plt
+import numpy as np
 
 nlp = spacy.load("fr_core_news_md", disable=["ner", "textcat"])
 
@@ -27,7 +28,7 @@ df = df.fillna("")
 
 # 2.
 
-key = "Dispositif"
+key = "Exposé du litige"
 df["CText"] = df[key].apply(spacy_process)  # We clean the moyens with the function used above - It's already done in the dataset you have, but just so you can redo it if necessary
 subdf = df[:600].copy()  # We'll work with a subsample, and check the results over the rest of the sample
 predict_df = df[600:].copy()  # Which we call predict_df
@@ -51,6 +52,7 @@ predict_df["Predict"] = val.tolist()  # Which we pass to the original dataframe 
 predict_df["Correct"] = predict_df.apply(lambda x: x["Solution"] == x["Predict"], axis=1)  # We then create a column that tracks done if prediction is equal to reality
 print(predict_df.Correct.value_counts(normalize=True))  # And focusing only on those values we predicted, we look for the amount that we got right - this is in line with accuracy score
 
+# We can investigate what chamber is the most easy to predict
 print(predict_df.groupby("Formation").Correct.value_counts(normalize=True).unstack())  # We can then compare
 
 # To rebalance the model, we can oversample it - i.e., create fake data that corresponds to the existing one
@@ -72,7 +74,6 @@ import eli5
 data = eli5.show_weights(estimator=classifier, feature_names=list(tfidf.get_feature_names()), top=(50,5))
 with open("data.html", "w") as file:
     file.write(data.data)
-
 
 # 4
 
@@ -111,3 +112,16 @@ sns.stripplot(x='model_name', y='accuracy', data=cv_df,
 plt.show()
 # Accuracy score
 cv_df.groupby('model_name').accuracy.mean()
+
+# Some models are probabilistic, and we can then use that probability to further fine-tune our results
+classifier = SVC(probability=True)  # This is the method we'll be using, but there are many others ! This one is a basic regression
+classifier.fit(X_train, y_train)
+subpredictdf = tfidf.transform(predict_df["CText"])  # Then we test again, a second time, over the rest of the dataset. Likewise, we need to transform this bit of the dataset to mathematical values
+val = classifier.predict(subpredictdf)  # We use the .predict function of the classifier to make predictions, this returns a list of labels
+probs = classifier.predict_proba(subpredictdf)
+predict_df["Predict"] = val.tolist()  # Which we pass to the original dataframe (together with the original solution for the subdf we did not predict)
+predict_df["Prob"] = probs.tolist()
+predict_df["Correct"] = predict_df.apply(lambda x: x["Solution"] == x["Predict"], axis=1)  # We then create a column that tracks done if prediction is equal to reality
+np.mean([x[0] for x in predict_df.loc[predict_df.Predict=="Cassation"]["Prob"].values.tolist()]) # We check the average probability of getting it right
+predict_df[[key, "Predict", "Prob", "Correct"]].to_clipboard(index=False, encoding="utf8")
+print(predict_df.Correct.value_counts(normalize=True))
