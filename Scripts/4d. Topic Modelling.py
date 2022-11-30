@@ -14,25 +14,24 @@ from collections import defaultdict
 url = "https://www.courdecassation.fr/recherche-judilibre?sort=date-desc&items_per_page=30&search_api_fulltext=&expression_exacte=&date_du=2016-12-01&date_au=2022-10-17&judilibre_chambre=&judilibre_type=&judilibre_publication=&judilibre_solution=&judilibre_juridiction=cc&judilibre_formation=&judilibre_zonage=&judilibre_doctype=&judilibre_siege_ca=&judilibre_nature_du_contentieux=&judilibre_type_ca=&op=Trier&page="
 nlp = spacy.load('fr_core_news_md', disable=["tok2vec", "tagger", "parser", "attribute_ruler", "ner", "textcat"])
 
-main_list = []
-dds = []  # a container for the defaultdicts from the decisions
-types = [] # keeping track of all categories of text in the database
+main_list = []  # We create a main list, in which we will fit all our sublists, each of which represent a decision. From this list of list, we will later create a dataframe: each sublist will be a row corresponding to a decision
+dds = []  # a container for the defaultdicts from the decisions (see below)
+types = [] # keeping track of all categories of text in the database (see below)
 for x in range(1, 20):
     print(x)
-    webpage = requests.get(url + str(x)) # As always, we connect on the page with docs urls, page by page
-    soup = BeautifulSoup(webpage.content)
-    aas = soup.find_all("div", class_="d"
-                                      "ecision-item")  # And we find the list of docs urls
-    for a in aas:
-        href = a.find("a").get("href")
+    webpage = requests.get(url + str(x)) # As always, we connect on the page that lists the urls of the decisions, page by page
+    soup = BeautifulSoup(webpage.content)  # We get the html of that page
+    aas = soup.find_all("div", class_="decision-item")  # And we find the elements representing these decisions themselves
+    for a in aas:  # We start a second loop, going now decision by decision, using the elements we just found
+        href = a.find("a").get("href")  # Each of that element, in the attribute href, has the url to the decision itself
         sublist = [href]  # Looping through that list, we create a sublist in which we add info about each case, starting with the url
-        title = a.find("h3").text.split("-\n")  # We split to obtain the relevant subelements in the title
+        title = a.find("h3").text.split("-\n")  # We split the element to obtain the relevant subelements in the title
         formation = a.find("p", class_="decision-item-header--secondary").text.split("-")[0]
         solution = a.find("p", class_="decision-item-header--secondary solution").text
         for x in title + [formation, solution]:   # And we add all this to our sublist
             sublist.append(x.strip())
 
-        webpage = requests.get("https://www.courdecassation.fr" + href)  # Now we connect to the case page itself
+        webpage = requests.get("https://www.courdecassation.fr" + href)  # Now we connect to the decision page itself, to get the data that is not accessible straight from the decision element on the main page
         soup = BeautifulSoup(webpage.content)
         text = soup.find("div", class_="decision-content decision-content--main").getText() # To fetch the text of the decision
         peuple = re.search("AU NOM DU PEUPLE", text)  # Cutting if text is too long, and we prefer to cut the entête rather than the text
@@ -50,12 +49,12 @@ for x in range(1, 20):
                 dd[current_type] += el.getText().strip() + "\n-----\n"
         dds.append(dd)
 
-for e, d in enumerate(dds):
+for e, d in enumerate(dds):  # Based on the defaultdicts collected above, we can add to the existing sublists by adding the relevant values
     for tt in types:
         data = d[tt]
         main_list[e].append(data[:5000])
 
-cassdf = pd.DataFrame(main_list, columns=["URL", "Date", "Cour", "ID", "Formation", "Solution", "Text"] + types)
+cassdf = pd.DataFrame(main_list, columns=["URL", "Date", "Cour", "ID", "Formation", "Solution", "Text"] + types)  # Once this is done, we create our dataframe
 
 
 def spacy_process(text):  # We first prepare the text by using spacy's token elements to remove stop words and punctuation
