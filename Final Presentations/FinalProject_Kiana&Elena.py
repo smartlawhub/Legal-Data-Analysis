@@ -301,7 +301,7 @@ plt.xlabel('Months')
 plt.ylabel('Importance')
 plt.show()
 
-# We create a boxplot with the length of proceeding depending on importance Start Date (before/after 2015)
+# We create a boxplot with the length of proceeding depending on Start Date (before/after 2015)
 
 data_1 = cf[cf.Start_Date < '2015-01-01']["Delta_months"]
 data_2 = cf[cf.Start_Date >= '2015-01-01']["Delta_months"]
