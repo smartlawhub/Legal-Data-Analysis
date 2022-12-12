@@ -1,0 +1,273 @@
+import requests
+import time
+import gender_guesser.detector as gender
+import regex as re
+import json
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+from unidecode import unidecode
+import statistics
+from scipy import stats
+import scipy
+import numpy as np
+
+"""
+dictionary = {} # we create a dictionnary to store all the lists of names each time an assembly occured
+# We are testing each dates from the 1rst of July 2014 to the 1rst of July 2019 to see if there was an assembly this day
+# We first create a specific loop for 2014, starting on the 1rst of July and ending on the 31rst of December
+for y in range (2014,2015):
+    for m in range (7,13): # testing months from July to December
+
+        for d in range (1,32): # testing days
+            time.sleep(0.05)
+            url = "https://www.europarl.europa.eu/doceo/document/PV-8-" + str(y) + "-" + str(m).zfill(2) + "-" + str(d).zfill(2) + "-ATT_FR.html" # using a z.fill to avoid the problems with the 0
+            response = requests.get(url)
+            if response.ok: # when there is a report on the date tested, the attendance list is retrieved
+                soup = BeautifulSoup(response.text, 'lxml')
+                table = soup.find('table')
+                names = table.find_all("p", class_="contents")[1].getText()
+                print(y, m, d)
+                dictionary[f'{y}-{m}-{d}'] = names #we store the attendance list
+
+# The we create a loop that will test every date from the 1rst of January 2015 to the 31rst of December 2018
+for y in range (2015,2019): # to test each year
+    for m in range (1,13): # testing months
+        for d in range (1,32): # testing days
+            time.sleep(0.05)
+            url = "https://www.europarl.europa.eu/doceo/document/PV-8-" + str(y) + "-" + str(m).zfill(2) + "-" + str(d).zfill(2) + "-ATT_FR.html" # using a z.fill to avoid the problems with the 0
+            response = requests.get(url)
+            if response.ok: # when there is a report on the date tested, the attendance list is retrieved
+                soup = BeautifulSoup(response.text, 'lxml')
+                table = soup.find('table')
+                names = table.find_all("p", class_="contents")[1].getText()
+                print(y, m, d)
+                dictionary[f'{y}-{m}-{d}'] = names #we store the attendance list
+
+# The last loop starts on the 1rst of January 2019 to the 1rst of July 2019
+for y in range (2019,2019): # to test each year
+    for m in range (1,13): # testing months
+        for d in range (1,32): # testing days
+            time.sleep(0.05)
+            url = "https://www.europarl.europa.eu/doceo/document/PV-8-" + str(y) + "-" + str(m).zfill(2) + "-" + str(d).zfill(2) + "-ATT_FR.html" # using a z.fill to avoid the problems with the 0
+            response = requests.get(url)
+            if response.ok: # when there is a report on the date tested, the attendance list is retrieved
+                soup = BeautifulSoup(response.text, 'lxml')
+                table = soup.find('table')
+                names = table.find_all("p", class_="contents")[1].getText()
+                print(y,m,d)
+                dictionary[f'{y}-{m}-{d}'] = names #we store the attendance list
+with open('mydata.json','w') as f:
+    json.dump(dictionary, f)
+"""
+with open('mydata.json','r') as f:
+    votes_dictionary = json.load(f)
+
+print(len(votes_dictionary.keys()))
+
+#Scrap Data from wikipedia to obtain a full list fo the complete name of all the parliamentarians of the 8th term
+# get all dataframes from webpage
+dfs = pd.read_html("https://fr.wikipedia.org/wiki/Liste_des_d%C3%A9put%C3%A9s_europ%C3%A9ens_de_la_8e_l%C3%A9gislature")
+
+# remove unwanted dataframes from webpage (Other tables on the page that are annoying)
+dfs.pop(0)
+dfs.pop(-2)
+dfs.pop(-1)
+
+# Add all the tables of all the parties together by the bottom together
+
+# make correct index (Need to reset the index because otherwise the inde stays of the tables
+# before that were concacenated
+full_df = pd.concat(dfs).reset_index(drop=True)
+
+# make a list of the names we removed to be able to keep track and check
+removed = ""
+
+for index, name in enumerate(full_df["Nom"]):
+  # remove [XX] wiki reference
+  name = unidecode(name).lower()
+  name = re.sub(r"\[[^]]*\]", "", name)
+
+# A lot of names need to be manually edited because the name on the wikipedia page does not match the name in the
+#records of the parliament
+
+  if name == 'izaskun bilbao':
+      name = 'izaskun bilbao barandica'
+
+  if name == 'jose blanco':
+      name = 'jose blanco lopez'
+
+  if name == 'pilar del castillo':
+      name = 'pilar del castillo vera'
+
+  if name == 'agustin diaz de mera garcia-consuegra':
+      name = 'agustin diaz de mera garcia-consuegra  diaz de mera garcia consuegra'
+
+  if name == 'rosa estaras':
+      name = 'rosa estaras ferragut'
+
+  if name == 'santiago fisas':
+      name = 'santiago fisas ayxela'
+
+  if name == 'monika benova':
+      name = 'monika flasikova benova'
+
+  if name == 'iratxe garcia':
+      name = 'iratxe garcia perez'
+
+  if name == 'luis de grandes':
+      name = 'luis de grandes pascual'
+
+  if name == 'ramon jauregui':
+      name = 'ramon jauregui atondo'
+
+  if name == 'paloma lopez':
+      name = 'paloma lopez bermejo'
+
+  if name == 'eliza vozemberg':
+      name = 'eliza vozemberg vozemberg-vrionidi'
+
+  if name == 'bogdan zdrojewski':
+      name = 'bogdan andrzej zdrojewski'
+
+  if name == 'georgios epitidios':
+      name = 'georgios epitidios epitideios'
+
+  if name == 'lambros foundoulis':
+      name = 'lambros foundoulis fountoulis'
+
+  if name == 'takis chatzigeorgiou':
+      name = 'takis chatzigeorgiou hadjigeorgiou'
+
+  if name == 'manolis kefaloyiannis':
+      name = 'manolis kefaloyiannis kefalogiannis'
+
+  if name == 'kostas mavridis':
+      name = 'kostas mavridis mavrides'
+
+  if name == "christine revault d'allonnes-bonnefoy d'allonnes bonnefoy":
+      name = "christine revault d'allonnes-bonnefoy"
+      name += "revault d'allonnes bonnefoy"
+
+  if name == 'lola sanchez':
+      name = 'lola sanchez caldentey'
+
+  if name == 'lidia senra':
+      name = 'lidia senra rodriguez'
+
+  if name == 'serguei stanichev':
+      name = 'serguei stanichev stanishev'
+
+  if name == 'roza thun':
+      name = 'roza thun und hohenstein'
+
+  if name == 'ramon tremosa':
+      name = 'ramon tremosa i balcells'
+
+  if name == 'ramon luis valcarcel':
+      name = 'valcarcel siso'
+
+  if name == 'miltos kirkos':
+      name = 'miltos kirkos kyrkos'
+
+  if name == 'maite pagazaurtundua':
+      name = 'maite pagazaurtundua ruiz'
+
+  if name == 'dimitris papadakis':
+      name = 'dimitris demetris papadakis'
+
+  if name == 'inmaculada rodriguez-pinero':
+      name = 'inmaculada rodriguez-pinero fernandez'
+
+
+  full_df.at[index, "Nom"] = name # Actually changing the names
+
+  # remove the annoying ones (the ones who change mid term and who would thus appear as having not voted for several years)
+  if ',' in name or '(' in name: # Wikipedia is inconsistent in the way they indicate a parliamentarian changed
+      full_df.drop(index, inplace=True)
+      removed += name     # Add the removed names to the list
+
+removed += "juaristi abaunz" # Annoying name
+
+print('all names: ', full_df['Nom'].tolist()) # All names of the parliamentarians in our data set
+
+# detect genders
+detector = gender.Detector()
+first_names = [name.split(' ')[0] for name in full_df['Nom']]
+all_genders = [detector.get_gender(first_name.capitalize()) for first_name in first_names]
+
+full_df['Sex'] = all_genders
+
+print("this: ", full_df)
+
+present = []
+
+
+# make a new column and reset the index
+vote_df = pd.DataFrame(full_df["Nom"]).reset_index(drop=True)
+
+print(len(vote_df), " parliamentary members will be considered")
+summed_list = np.zeros_like(vote_df['Nom'])
+for vote, presence_string in votes_dictionary.items():
+
+  presence_list = unidecode(presence_string).lower().split(", ")
+  presence_bool_list = []
+
+  names_found = []
+  for candidate_name in vote_df['Nom']:
+      candidate_present = 0
+      for name in presence_list:
+          if name in candidate_name:
+              candidate_present = 1
+              names_found.append(name)
+              break
+      presence_bool_list.append(candidate_present)
+
+  sus_names =[]
+  for name in presence_list:
+      if name not in names_found and name not in removed:
+          sus_names.append(name)
+  summed_list += presence_bool_list
+
+
+full_df["Presences out of all votes"] = summed_list
+
+print(full_df)
+
+gender_presence_dict = {gender_noun: [] for gender_noun in set(full_df['Sex'])}
+for index, candidate in full_df.iterrows():
+   gender_presence_dict[candidate['Sex']].append(candidate["Presences out of all votes"])
+
+gender_presence_final = {'female': gender_presence_dict['female'] + gender_presence_dict['mostly_female'],
+                        'male':  gender_presence_dict['male'] + gender_presence_dict['mostly_male']}
+print(gender_presence_final)
+
+
+parti_presence_dict = {parti: [] for parti in set(full_df['Parti'])}
+for index, candidate in full_df.iterrows():
+   parti_presence_dict[candidate['Parti']].append(candidate["Presences out of all votes"])
+print(parti_presence_dict)
+
+
+
+country_presence_dict = {country: [] for country in set(full_df['Pays'])}
+for index, candidate in full_df.iterrows():
+   country_presence_dict[candidate['Pays']].append(candidate["Presences out of all votes"])
+print(country_presence_dict)
+
+
+print("Following are the MP that didn't even vote once: Probably an issue with their names in the code.")
+for index, i in enumerate(vote_df.any(bool_only=True, axis=1)):
+  if not i:
+      print(vote_df.at[index, "Nom"])
+
+
+print(full_df.columns)
+
+male =gender_presence_final['male']
+female =gender_presence_final['female']
+
+
+
+result = scipy.stats.ttest_ind(female, male)
+print(result)
