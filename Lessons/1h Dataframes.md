@@ -72,7 +72,7 @@ df["Type_Recours"].value_counts().plot(kind='barh')  # And now we can plot it wi
 
 
     
-![png](output_4_2.png)
+![png](../Data/Images/output_4_2.png)
     
 
 
@@ -96,9 +96,67 @@ More commonly, Pandas objects have a method `.loc`, which returns a slice of the
 ```python
 df.loc[df.Formation_Jugement == "Juge des référés"]  # Filtering the dataframe to focus on all rows where the formation of 
 # judgment is the "Juge des Référées
+# (This output will appear at the end of the file on Github, but not on pycharm)
 ```
 
 
+
+Again like with a list, you may want to loop over a dataframe to work on every data point one after another. Iterating over a dataframe is generally done with the help of the method `iterrows` - which provides you with two elements (index, and a row that can be indexed with column names).
+
+
+```python
+for index, row in df[:15].iterrows():  # We limit the loop to the first 15 rows
+    print(index, row["Formation_Jugement"], row["Avocat_Requerant"])
+```
+
+    0  4ème chambre jugeant seule SCP BENABENT
+    1 10ème chambre jugeant seule CABINET COLIN - STOCLET
+    2 10ème chambre jugeant seule SCP BARADUC, DUHAMEL, RAMEIX
+    3  9ème chambre jugeant seule DOCHLER GATE EMMA
+    4 4ème et 1ère chambres réunies SCP RICHARD
+    5 4ème et 1ère chambres réunies SCP GOUZ-FITOUSSI
+    6  9ème chambre jugeant seule SCP BOUTET-HOURDEAUX
+    7 4ème et 1ère chambres réunies THOUVENIN, COUDRAY, GREVY
+    8 9ème et 10ème chambres réunies 
+    9 9ème et 10ème chambres réunies 
+    10 4ème et 1ère chambres réunies SCP PIWNICA, MOLINIE
+    11 9ème et 10ème chambres réunies CABINET BRIARD
+    12 4ème et 1ère chambres réunies SCP CELICE, TEXIDOR, PERIER
+    13 10ème chambre jugeant seule FITZJEAN O COBHTHAIGH
+    14  4ème chambre jugeant seule SCP LYON-CAEN, THIRIEZ
+
+
+Keeping track of the index is very useful, if you want to change the value of a column, or populate a new column, as in the example below.
+
+
+```python
+df["Empty_Col"] = "" # Creating new column with empty text
+df["New_Col"] = df["Formation_Jugement"].str.replace("jugeant seule", "").str.strip()  # creating new column with data from 
+# another column, except we changed all strings (str) with empty text, and then stripping
+
+df["Mixed"] = False # Another new column, with only False datapoints for now
+for index, row in df.iterrows(): # We loop over the dataframe
+    if re.search("r.unies", row["Formation_Jugement"], re.I):  # We check that the formation is made of chambres réunies
+        df.at[index, "Mixed"] = True  # If this is the case, we reassign the column Mixed at the relevant index with True
+
+df.Mixed.value_counts()
+```
+
+
+
+
+    False    603
+    True      77
+    Name: Mixed, dtype: int64
+
+
+
+Finally (for now), note that you can always put your dataframe in the clipboard (i.e., a CTRL+C) so as to paste it (with CTRL+V) in a normal excel or csv file.
+
+
+```python
+df.to_clipboard(index=False)
+```
 
 
 <div>
@@ -282,62 +340,3 @@ df.loc[df.Formation_Jugement == "Juge des référés"]  # Filtering the datafram
   </tbody>
 </table>
 </div>
-
-
-
-Again like with a list, you may want to loop over a dataframe to work on every data point one after another. Iterating over a dataframe is generally done with the help of the method `iterrows` - which provides you with two elements (index, and a row that can be indexed with column names).
-
-
-```python
-for index, row in df[:15].iterrows():  # We limit the loop to the first 15 rows
-    print(index, row["Formation_Jugement"], row["Avocat_Requerant"])
-```
-
-    0  4ème chambre jugeant seule SCP BENABENT
-    1 10ème chambre jugeant seule CABINET COLIN - STOCLET
-    2 10ème chambre jugeant seule SCP BARADUC, DUHAMEL, RAMEIX
-    3  9ème chambre jugeant seule DOCHLER GATE EMMA
-    4 4ème et 1ère chambres réunies SCP RICHARD
-    5 4ème et 1ère chambres réunies SCP GOUZ-FITOUSSI
-    6  9ème chambre jugeant seule SCP BOUTET-HOURDEAUX
-    7 4ème et 1ère chambres réunies THOUVENIN, COUDRAY, GREVY
-    8 9ème et 10ème chambres réunies 
-    9 9ème et 10ème chambres réunies 
-    10 4ème et 1ère chambres réunies SCP PIWNICA, MOLINIE
-    11 9ème et 10ème chambres réunies CABINET BRIARD
-    12 4ème et 1ère chambres réunies SCP CELICE, TEXIDOR, PERIER
-    13 10ème chambre jugeant seule FITZJEAN O COBHTHAIGH
-    14  4ème chambre jugeant seule SCP LYON-CAEN, THIRIEZ
-
-
-Keeping track of the index is very useful, if you want to change the value of a column, or populate a new column, as in the example below.
-
-
-```python
-df["Empty_Col"] = "" # Creating new column with empty text
-df["New_Col"] = df["Formation_Jugement"].str.replace("jugeant seule", "").str.strip()  # creating new column with data from 
-# another column, except we changed all strings (str) with empty text, and then stripping
-
-df["Mixed"] = False # Another new column, with only False datapoints for now
-for index, row in df.iterrows(): # We loop over the dataframe
-    if re.search("r.unies", row["Formation_Jugement"], re.I):  # We check that the formation is made of chambres réunies
-        df.at[index, "Mixed"] = True  # If this is the case, we reassign the column Mixed at the relevant index with True
-
-df.Mixed.value_counts()
-```
-
-
-
-
-    False    603
-    True      77
-    Name: Mixed, dtype: int64
-
-
-
-Finally (for now), note that you can always put your dataframe in the clipboard (i.e., a CTRL+C) so as to paste it (with CTRL+V) in a normal excel or csv file.
-
-
-```python
-df.to_clipboard(index=False)
-```

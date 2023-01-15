@@ -65,18 +65,16 @@ def play(answer):  # We create a function that returns all words in a given form
 play("atone")
 ```
 
-    [1;30;43mA[0m T O N [1;30;43mE[0m 
-
+![png](../Data/Images/atone.png)
 
 ```python
 play("angel")
 ```
 
-    [1;30;43mA[0m N [1;30;42mG[0m [1;30;42mE[0m [1;30;42mL[0m 
-
+![png](../Data/Images/angel.png)
 
 ```python
 play("bagel")
 ```
 
-    [1;30;42mB[0m [1;30;42mA[0m [1;30;42mG[0m [1;30;42mE[0m [1;30;42mL[0m 
+![png](../Data/Images/bagel.png)
