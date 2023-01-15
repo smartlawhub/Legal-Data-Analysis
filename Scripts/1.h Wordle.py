@@ -4,7 +4,6 @@ from nltk.corpus import brown
 
 ww = list(set([x.upper() for x in brown.words() if len(x) == 5 and re.search(r"^A-Z|[\.,]", x) is None]))  # We don't know the original list of words in Wordle, so we'll just take all 5 letters words in the Brown corpus; we convert all of them to upper caps version for harmonisation puporses
 word = random.choice(ww)  # We pick a random word
-var = 0
 
 def play(answer):  # We create a function that returns all words in a given format depending on how close we are from the right answer
     answer = answer.upper()  # Get the all caps version of the word to compare with dataset of words
