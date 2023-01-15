@@ -33,7 +33,7 @@ for x in range(1, 20):
 
         webpage = requests.get("https://www.courdecassation.fr" + href)  # Now we connect to the decision page itself, to get the data that is not accessible straight from the decision element on the main page
         soup = BeautifulSoup(webpage.content)
-        text = soup.find("div", class_="decision-content decision-content--main").getText() # To fetch the text of the decision
+        text = soup.find("div", class_="decision-content decision-content--main").getText()  # To fetch the text of the decision
         peuple = re.search("AU NOM DU PEUPLE", text)  # Cutting if text is too long, and we prefer to cut the entête rather than the text
         sublist.append(text[peuple.start():6000]) if peuple is not None else sublist.append(text[:5000])  # A 5000 max length is legit
         main_list.append(sublist)  # Adding to main_list, which is thus a list of lists, with each sublist corresponding to a case
