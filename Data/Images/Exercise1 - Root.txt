@@ -1,0 +1,39 @@
+{1: 'freckled and frivolous cake there was\nThat sailed upon a pointless sea, \nOr any lugubrious lake there was\nIn a manner emphatic and free.\nHow jointlessly, and ho
+w jointlessly\nThe frivolous cake sailed by\nOn the waves of the ocean that pointlessly\nThrew fish to the lilac sky.',
+ 2: ' Oh, plenty and plenty of hake there was\nOf a glory beyond compare, \nAnd every conceivable make there was\nWas tossed through the lilac air.',
+ 3: ' Up the smooth billows and over the crests\nOf the cumbersome combers flew\nThe frivolous cake with a knife in the wake\nOf herself and her curranty crew.\nLike a s
+wordfish grim it would bounce and skim\n(This dinner knife fierce and blue) , \nAnd the frivolous cake was filled to the brim\nWith the fun of her curranty crew.',
+ 4: ' Oh, plenty and plenty of hake there was\nOf a glory beyond compare -\nAnd every conceivable make there was\nWas tossed through the lilac air.',
+ 5: ' Around the shores of the Elegant Isles\nWhere the cat-fish bask and purr\nAnd lick their paws with adhesive smiles\nAnd wriggle their fins of fur, \nThey fly and f
+ly \x91neath the lilac sky -\nThe frivolous cake, and the knife\nWho winketh his glamorous indigo eye\nIn the wake of his future wife.',
+ 6: ' The crumbs blow free down the pointless sea\nTo the beat of a cakey heart\nAnd the sensitive steel of the knife can feel\nThat love is a race apart\nIn the speed o
+f the lingering light are blown\nThe crumbs to the hake above, \nAnd the tropical air vibrates to the drone\nOf a cake in the throes of love.'}
+
+
+# In this exercise, you will need to find the number of words that are common to two paragraphs of the poems. The paragraphs are:
+
+#
+
+# There are (at least) three steps to do so, and every method is indicated in the lesson 1c Functions and Methods. Remember, in particular, that the function set() can create a set from a list.
+
+
+python =
+
+TT = ""
+     ...: for index, row in df.loc[df.Type == "DMI"].iterrows():
+     ...:     TT = ""
+     ...:     TT += "# In this exercise, you will need to find the number of words that are common to two paragraphs of the poems. The paragraphs are:\n\na = '"
+     ...:     spls = row["Condition"].split(",")
+     ...:     TT += dd[int(spls[0])].strip().replace('\n','\\n') + "'\nb = '"
+     ...:     TT +=  dd[int(spls[1])].strip().replace('\n','\\n') + "'\n\n"
+     ...:     TT += "# There are (at least) three steps to do so, and every method is indicated in the lesson 1c Functions and Methods. Remember, in particular, that the
+     ...:  function set() can create a set from a list."
+     ...:     #print(os.getcwd())
+     ...:     seta = set(dd[int(spls[0])].strip().split(" "))
+     ...:     setb = set(dd[int(spls[1])].strip().split(" "))
+     ...:     answer = len(seta.intersection(setb))
+     ...:     with open(row["Handle PA"] + " - Exercise1.py", "w") as f:
+     ...:         f.write(TT)
+     ...:     print(answer)
+
+bash = for homedir in /home/!(DamienCh); do     cp "${homedir##*/} - Exercise1.py" $homedir/LDA/Scripts; done

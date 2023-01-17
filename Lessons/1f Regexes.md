@@ -74,6 +74,7 @@ For instance, the symbol "\d" means "any number", and if you try to match this p
 
 
 ```python
+import regex as re
 target_sentence = "Count: 30 frivolous cakes and 40 knifes !"
 pattern = r"\d"
 result = re.search(pattern, target_sentence)
@@ -211,7 +212,8 @@ Regex really turns powerful in that you can add a number of conditions to you re
 <ul><li>A pattern preceded by a  <code>^</code> will be looked for only at the beginning of a line; a pattern 
 followed by a <code>$</code> will only look for it if it finishes the line or text;</li>
     <li>Adding a <code>(?=2ndpattern)</code> <i>after</i> your first pattern will indicate that your first pattern 
-will match <i>only if</i> the target text matches your second pattern, but the second pattern won't be caught by the regex object (this is very useful, e.g., for substitution).</li>
+will match <i>only if</i> the target text matches your second pattern, but the second pattern won't be caught by the 
+regex object (this is very useful, e.g., for substitution). This is called a "look-ahead";</li>
     <li>In the same vein, <code>(?!2ndpattern)</code>, <code>(?&lt;=2ndpattern)</code>, and <code>(?!&lt;2ndpattern)
 </code> are conditions for "if it does not match after"; "if it matches before", and "if it doesn't match before", 
 respectively. This can be hungry in terms of computing power, so don't overdo it.</li>    
@@ -234,8 +236,6 @@ Latest versions of regex also provides for fuzzy searches - that is, with a bit 
 
 Finally, regex objects count as boolean: <code>if result</code> will return <code>True</code> if there was a match, while you can check for a null result by asking "if result is None". (`None` is a special Python object that means that data is empty.)
 
-Note that there are tools to help you check if your regexes work well on the given dataset, such as <a 
-href="https://www.debuggex.com/">this one</a> online.
 
 
 ```python
@@ -293,3 +293,6 @@ for line in poem.split("\n"): # We split the poem by lines and we loop over thes
     No Cake or knife in that line...
     6.7  Of a cake in the throes of love.
 
+
+Note that there are tools to help you check if your regexes work well on the given dataset, such as <a 
+href="https://www.debuggex.com/">this one</a> online.
