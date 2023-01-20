@@ -11,39 +11,53 @@ manipulations on my part to make it somewhat readable).
 ![](../Data/Images/img_1.png)
 ![](../Data/Images/img.png)
 
-So back to .xml. In your Files, I placed a number of decisions by the Conseil d'Etat that were recently released as part of their <a href="https://opendata.conseil-etat.fr/">Open Data program</a>. They are .xml files. They are not great, but they'll do.
+The interest of storing data in a structured format is not only that you can include more than data (such as 
+metadata), but also that, once you know the structure, you can extract data efficienty from all files that follow 
+that format. In other words, just like using a loop over the content of a list allows you to be agnostic about the 
+data in that list, having a structure allows you to be agnostic about the data that was filled in that structure. 
+Just knowing the structure allows you to extract this data (or, for a software like MSWord, display that data in a 
+more aesthetic way).
 
-Let's have a look at one of these files, as it appears if you open it with a browser. You can see that the main text is divided between what we call elements. Each element includes an opening `tag` (or "balise", in French), which must be accompanied by a closed tag of the same name. Tags and sections cannot overlap: when you open a tag in a context, 
-you need to close it in that context. (You can also have self-standing, one-tag elements, of the form <tag/>, though they are rarer.)
+So back to .xml. A typical .xml file looks like the left-hand part of that illustration; the right-hand part 
+reproduces the xml "tree".
+
+![](../Data/Images/img_2.png)
+
+You can see that the data is divided between elements. Each element includes an opening `tag` (or 
+"balise", in French), which must be accompanied by a closed tag of the same name. Tags and sections cannot overlap: 
+when you open a tag in a context, you need to close it in that context. (You can also have self-standing, one-tag 
+elements, of the form <tag/>, though they are rarer.). 
+
+All structured files are hierarchical: starting from a "root", you have branches that themselves have branches ("children" is the usual term, though "descendants" is also sometimes used. Logically, you also have "parents" or "siblings").
+
+Some elements, like "Country" here, can also specify `attributes`: these are data points that will not be seen 
+by a natural reader (unless you look at the code directly), but enclose further information (such as formatting, or 
+a URL for a link) for the software, or data scientist, who is probing this data. Here, you could for instance write 
+"Finland" in many different ways - as long as the CountryCode attribute remains the same, a computer would not see 
+the difference.
+
+Another good example of the importance of attributes is the <code>\<a></a></code> element, which represents a 
+hyperlink in HTML, and always has an attribute `href`, which is the url:
+
+<code>\<\a href="www.myurlhere.com">My link here\<\/a>  # The antislash here was added, so that you can see the 
+structure; otherwise you would only see "My link here" (and could click on it)
+</code>
+
+
+## Decisions from the Conseil d'Etat
+
+In your Files, I placed a number of decisions by the Conseil d'Etat that were recently released as part of their <a href="https://opendata.conseil-etat.fr/">Open Data program</a>. They are .xml files. They are not great, but they'll do.
+
 
 ![](../Data/Images/img_3.png)
 
 
-The documents from the Conseil d'Etat don't have much of those, but normally you can specify further `attributes` for each element: these are data points that will not be seen by a natural reader (unless you look at the code directly), but enclose 
-further information (such as formatting, or a URL for a link) for the software, or data scientist, who is probing this 
-data. A good example is the <code>\<a></a></code>, which represents a link, and always has an attribute `href`, which 
-is the url:
-
-<code>
-\<\a href="My URL Here">My link here\<\/a>  # The antislash here was added, so that you can see the structure; 
-otherwise the element would not appear
-</code>
-
-You can also see, hopefully, that the information is enclosed in a hierarchical format, like a tree: you start with 
-the <i>root</i>, and then you get branches that can get branches of their own, etc. Here everything is enclosed in a 
-`Document` element, itself part of an`xml` element. Yet `Document` has only four direct children, which themselves 
+You can see, hopefully, that the decision's information is indeed enclosed in a hierarchical format, like a tree: you 
+start with the <i>root</i>, and then you get branches that can get branches of their own, etc. In the example below, everything is 
+enclosed in a`Document` element, itself part of an`xml` element. Yet `Document` has only four direct children, which themselves 
 have further children.
 
-![](../Data/Images/img_2.png)
-
-"Children" is the usual term, though "descendants" is also sometimes used. Logically, you also have "parents" or 
-"siblings".
-
-The interest of storing data in a structured format is not only that you can include more than data (such as metadata), but also that, once you know the structure, you can extract data efficienty from all files that follow that format. The Conseil d'Etat decided a few years ago to release all their judgments according to that format, and code that worked to extract data from judgments back then also works for new judgments - as long as they follow the structure.
-
-In other words, just like using a loop over the content of a list allows you to be agnostic about the data in that list, having a structure allows you to be agnostic about the data that was filled in that structure.
-
-For instance, Let's say we want to collect all dates from these decisions from the Conseil d'Etat. Instead of searching 
+Let's say we want to collect all dates from these decisions from the Conseil d'Etat. Instead of searching 
 each text for a date, the .xml format is helpful: we can see that the date is enclosed in an element called 
 `Date_Lecture`. We can just iterate over all files, and collect the dates.
 
@@ -147,7 +161,10 @@ for el in root.iter(["Numero_Dossier", "Date_Lecture"]):  # The filter can also 
     2022-12-05
 
 
-Note also that you can navigate between the elements, to jump from elements to their parents, or siblings. This is very helpful if you know the tag of one element but aren't sure of what follows it; or if you want to work on several elements in line.
+Once you have an element, you can navigate to reach `next` and `previous ` elements with the adequate commands. Both 
+commands work on the <i>same level</i> as the element you are working on - their siblings, but not their parents, or their 
+"cousins" (i.e., children of a sibling to their parent). Note that, if your element is the last child under a parent, 
+it will have  no `getnext()`.
 
 
 ```python
@@ -162,6 +179,8 @@ print(next_el.tag)
 subel = root.getchildren()[1]
 print("The second child from the root is: ", subel)
 print("Its parent is", subel.getparent())
+
+subel.set("ID", 15)  # This is how you add an attribute to an element
 ```
 
     The last child of root is:  Decision

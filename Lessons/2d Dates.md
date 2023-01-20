@@ -1,3 +1,12 @@
+# Dates and xPath
+
+Before turning to scraping, two important points that fit nowhere else.
+
+## Dates
+
+Python has a data format called datetime, which deals with dates. Dates can be text; in some cases, they can be 
+numbers; but they are most useful when they are of the type "datetime", since they then come with great methods to 
+
 parsed_date = datetime.strptime(date.text, "%Y-%m-%d")  # Introducing datetime elements ! The function strptime allows you to read a text (first argument), and if it matches the pattern in second argument, you will create a datetime object (parsed_date here).
 full_date = parsed_date.strftime("%A %d %B %Y")  # Your datetime object can then be transforme (strftime) into a more pleasant date format, again using a pattern
 date.set("date", full_date)  # And this is how you set new attributes into an element
