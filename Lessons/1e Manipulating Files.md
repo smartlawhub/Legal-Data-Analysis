@@ -55,9 +55,6 @@ print(os.listdir("."))
 `os` is also very helpful to manipulate files from Python, for instance renaming them. Instead of spending hours 
 renaming hundreds of files (a common thing for junior lawyers), you can do it with the `os.rename(x, y)` method, which changes file x into y.
 
-Note that the resulting file is now corrupted: you changed the extension from `txt` to `.txta`, which is unknown - 
-and so you can't read it anymore. There are ways to control for this, but this is the subject of the exercise.
-
 
 ```python
 file = "../Data/Empty File is Empty.txt"  # We select a file that is in the folder Data and attribute its name to a variable
@@ -71,6 +68,8 @@ print(os.listdir("../Data"))
     The new file list is:  ['Empty File is also Empty (or is it)1.txt', 'Empty File is Empty.txta', 'poem.txt']
     ['Empty File is Empty.txt', 'Empty File is also Empty (or is it)1.txt', 'poem.txt']
 
+Note that the resulting file is now corrupted: you changed the extension from `txt` to `.txta`, which is unknown - 
+and so you can't read it anymore. There are ways to control for this, but this is the subject of the exercise.
 
 ## Load and Store data
 

@@ -105,6 +105,16 @@ for x in words: # In this second loop, y has not been assigned yet, so it is sti
     Was - There
 
 
+A key thing to understand about loops, and why they are so powerful and important in data science, is that loops 
+allow you to be agnostic about the data you are working on. In other words, you can operate over tons of data 
+without knowing (or needing to know) what is exactly is that data, since the loop does it for you when you 
+define the name of each data point one by one. 
+
+To give you an example, if you loop through the content of a file, you can operate over each file, one by one, even 
+if you have no idea how many files they are or what are the file names: in <code>for x in my_filelist:</code>, each 
+file will be named <code>x</code> for the purpose of what you want to do with that file (e.g., load it or rename it),
+even if the real file name is not x. This is the power of a loop.
+
 ## Conditions
 
 The second important syntax element, and really the basic building block of so much code that runs your 
