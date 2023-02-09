@@ -39,7 +39,6 @@ for index, row in df.loc[df.Type == "DMI"].iterrows():
 
 #Exo 2
 
-
 key = "DMI"
 python = TT = ""
 for index, row in df.loc[df.Type == key].iterrows():
@@ -72,6 +71,31 @@ for index, row in df.loc[df.Type == key].iterrows():
 df.to_csv("Students.csv", index=False)
 
 # bash = for homedir in /home/!(DamienCh); do     cp "${homedir##*/} - Exercise1.py" $homedir/LDA/Scripts; done
+
+# Exo 2.2, located in CE with xml files
+import os
+from lxml import etree
+max = df.loc[df["Type"]==key].index.max()
+ii = 0
+oo = df.loc[df["Type"]==key].index.min()
+key = "Euro"
+while oo <= max:
+    file = os.listdir(".")[ii]
+    try: # Needed because on Tuesday we changed file names
+        TT = etree.tostring(etree.parse("/home/" + df.at[oo, "Handle PA"] + "/" + file).getroot(), encoding="unicode", method="text")
+    except:
+        file = file.replace("2023", "2022")
+        TT = etree.tostring(etree.parse("/home/" + df.at[oo, "Handle PA"] + "/" + file).getroot(), encoding="unicode", method="text")
+    dispo = re.search(r"[DECI\s]+", TT)
+    l = re.findall(r"[\d\s]+euros", TT[dispo.start():])
+    if len(l) > 0 and len(l) < 3:
+        print(file, l)
+        text = '# In this exercice, you will need to find the the amounts (in euros) awarded in the dispositif of a decision of the conseil d Etat.\nimport os\n\n\n# You will first need to move to the CE folder, where the decisions are located, for the following code to function\n# Copy and paste it to have the text of the decision in variable TT:\nfrom lxml import etree\nTT = etree.tostring(etree.parse("' + file + '").getroot(), encoding="unicode", method="text")'
+        text += "\n\n# After this, use regexes to answer the exercise\n\nimport regex as re"
+        with open("../../" + df.at[oo, "Handle PA"] + " - Exercise2.py", "w") as f:
+            f.write(text)
+        oo += 1
+    ii += 1
 
 # Exo 3, with df being a df made from the XML files
 
@@ -107,3 +131,23 @@ while ii < 40:
      L.append([handles[ii], "|".join(results["Numero_Dossier"].values.tolist())])
      ii += 1
 pd.DataFrame(L).to_csv("Results.csv") # To get the results and input them in master file
+
+# Exo 4
+# From a webpage with decisions from the CC (https://www.conseil-constitutionnel.fr/les-decisions?items_per_page=100) and df of Students
+
+aas = soup.find_all("a", href=re.compile("/decision/"))
+
+key = "DMI"
+for index, row in df.loc[df["Type"] == key].iterrows():
+	url = "https://www.conseil-constitutionnel.fr/" + aas[index].get("href")
+	webpage = requests.get(url)
+	soup = BeautifulSoup(webpage.content)
+	block = soup.find("blockquote")
+	if block is not None:
+		ECLI = block.find_all("p")[-1].text.split("\n")[-1]
+		if re.search("ECLI", ECLI):
+			print(ECLI)
+			T = "# Dans cet exercice, vous devrez trouver - en scrapant - \n# (1) le numéro ECLI; et (2) le nombre de considérants\n # de la décision suivante du conseil constitutionnel: \nurl = '" + url + "' \n\nimport requests\nfrom bs4 import BeautifulSoup"
+			with open(row["Handle PA"] + " - Exercise4.py", "w") as f:
+			    f.write(T)
+
