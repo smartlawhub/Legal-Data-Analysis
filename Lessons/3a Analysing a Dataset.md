@@ -442,7 +442,7 @@ df.groupby("Année").Type.value_counts().unstack(level=0)
 
 
     
-![png](../Data/Images/.png)
+![png](../Data/Images/output_4_1.png)
     
 
 
