@@ -280,7 +280,7 @@ df.groupby("Année").size().plot()  # We group by years, and then use plot the h
 
 
     
-![png](output_3_2.png)
+![png](../Data/Images/output_3_2.png)
     
 
 
@@ -442,7 +442,7 @@ df.groupby("Année").Type.value_counts().unstack(level=0)
 
 
     
-![png](output_4_1.png)
+![png](../Data/Images/.png)
     
 
 
@@ -484,7 +484,7 @@ xroll.plot()
 
 
     
-![png](output_6_2.png)
+![png](../Data/Images/output_6_2.png)
     
 
 
@@ -637,7 +637,7 @@ df.groupby("Année").Result.value_counts(normalize=True).unstack().plot()
 
 
     
-![png](output_12_2.png)
+![png](../Data/Images/output_12_2.png)
     
 
 
@@ -734,7 +734,7 @@ sns.countplot(x="Admin", hue="Result", data=df)   # Seaborn has great plot types
 
 
     
-![png](output_16_1.png)
+![png](../Data/Images/output_16_1.png)
     
 
 
@@ -821,7 +821,7 @@ ax.axvline("2012-04-23", color="red")
 
 
     
-![png](output_20_1.png)
+![png](../Data/Images/output_20_1.png)
     
 
 
@@ -842,7 +842,7 @@ plt.axvline("2015-03-29", color="red")
 
 
     
-![png](output_21_1.png)
+![png](../Data/Images/output_21_1.png)
     
 
 
@@ -1002,7 +1002,7 @@ df.loc[(df.Days > 0) & (df.Days < 300)].resample("3M").Days.mean().plot()  # Fin
 
     <AxesSubplot:xlabel='Séance'>
 
-
+![png](../Data/Images/cadadays.png)
 
     <Figure size 432x288 with 1 Axes>
 
