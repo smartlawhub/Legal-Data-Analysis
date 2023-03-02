@@ -86,7 +86,7 @@ while oo <= max:
     except:
         file = file.replace("2023", "2022")
         TT = etree.tostring(etree.parse("/home/" + df.at[oo, "Handle PA"] + "/" + file).getroot(), encoding="unicode", method="text")
-    dispo = re.search(r"[DECI\s]+", TT)
+    dispo = re.search(r"D\s*E\s*C\*I\s*", TT)
     l = re.findall(r"[\d\s]+euros", TT[dispo.start():])
     if len(l) > 0 and len(l) < 3:
         print(file, l)
@@ -151,3 +151,14 @@ for index, row in df.loc[df["Type"] == key].iterrows():
 			with open(row["Handle PA"] + " - Exercise4.py", "w") as f:
 			    f.write(T)
 
+# Exo 5
+
+codes_private_law = ['Code civil', 'Code de commerce', "Code de l'environnement", 'Code de la consommation', 'Code de la route', 'Code des transports', 'Code du sport', 'Code du tourisme', 'Code monétaire et financier',"Code de l'artisanat", 'Code des assurances', 'Code de la propriété intellectuelle', "Code minier (nouveau)", 'Code du travail']
+import random
+
+key = "Euro"
+for index, row in df.loc[df["Type"] == key].iterrows():
+    code = random.choice(codes_private_law)
+    T = "# Dans cet exercice, vous devrez trouver - en scrapant - l'article en vigueur le plus long du code suivant:\n\ncode = '" + code + "'\n\n#Pour ce faire, utilisez le scrapper Legifrance présent sur Github. L'URL du code se trouve dans le dictionnaire Ligne 13."
+    with open(row["Handle PA"] + " - Exercise4.py", "w") as f:
+        f.write(T)
