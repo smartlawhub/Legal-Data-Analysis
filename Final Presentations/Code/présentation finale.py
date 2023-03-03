@@ -47,7 +47,7 @@ for paragraph in root.iter("objet"):
     if re.search("AMO", paragraph.text):
         print(paragraph.text)
 
-#solution ChatGPT
+
 data = []
 for marche in root.findall("marche"):
     acheteur = marche.find("acheteur").findall("*")
