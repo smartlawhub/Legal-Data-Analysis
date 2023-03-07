@@ -22,3 +22,21 @@ for y in lien:#On a essayé d'aller chercher le dispositif avec re.search
     webpage = requests.get(lien)
     soup = BeautifulSoup(webpage.content)
     dispositif = re.search("Par ces motifs", soup, re.I)
+
+    
+ # Solution 
+tableau = []
+for el in l[:3]:
+    sub = []
+    sub.append(lien)
+    lien = "https://www.courdecassation.fr"+el
+    webpage = requests.get(lien)
+    soup2 = BeautifulSoup(webpage.content)
+    dispositif = re.search("Par ces motifs", soup2.getText(), re.I)
+    art700 = re.search("article 700", soup2.getText()[dispositif.start():], re.I)
+    sum = re.search("\d+\s?(\d+\s?)*euros", soup2.getText()[dispositif.start() + art700.start() - 50:])
+    if sum:
+        sub.append(sum.group())
+    else:
+        sub.append("Pas d'Article 700")
+    tableau.append(sub)
