@@ -85,13 +85,7 @@ for index, row in df.iterrows():
         marche_amo = pd.concat([marche_amo, row.to_frame().T]) #on met le résultat dans un DF
 
 
-#scrapper la cour des comptes
-webpage = requests.get("https://www.ccomptes.fr/fr/publications?f%5B0%5D=institution%3A152&items_per_page=10&region=/fr/crc-provence-alpes-cote-dazur&search=&taxonomy_term=all&page=1")
-soup = BeautifulSoup(webpage.content)
-doc_div = soup.find("div", class_="view view-search-publications view-id-search_publications view-display-id-page_4 js-view-dom-id-d84108f645e2ce570ef750828844861978d5d50310b710de271f47797a0600bd")
-print(len([x for x in doc_div.descendants]))
-for child in doc_div.findChildren("h2"):
-    print(child)
+
 
 
 
