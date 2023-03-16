@@ -1,3 +1,5 @@
+Timothé Gendre et Moez Rais 
+
 import os
 import pandas as pd
 from datetime import timedelta, datetime
