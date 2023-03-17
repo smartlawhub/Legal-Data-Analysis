@@ -104,7 +104,6 @@ def get_relative_links(relative_name):  # A function to get links to cited and c
     return list_links
 
 
-
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get("https://www.legifrance.gouv.fr/liste/code?etatTexte=VIGUEUR")  # Connect to first webpage and resolve Captcha if needed
 

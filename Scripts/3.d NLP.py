@@ -44,7 +44,7 @@ plt.show()
 
 roi = nlp("roi")
 
-def close_words_from_vector(vec):  # A function I found online that returns the 10 most similar words compared to "vec"
+def close_words_from_vector(vec):  # A function that returns the 10 most similar words compared to "vec"
     ms = nlp.vocab.vectors.most_similar(np.array([vec]), n=10)
     return [nlp.vocab.strings[w] for w in ms[0][0]]
 

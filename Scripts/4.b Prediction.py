@@ -28,7 +28,7 @@ df = df.fillna("")
 
 # 2.
 
-key = "Exposé du litige"
+key = "Moyens"
 df["CText"] = df[key].apply(spacy_process)  # We clean the moyens with the function used above - It's already done in the dataset you have, but just so you can redo it if necessary
 subdf = df[:600].copy()  # We'll work with a subsample, and check the results over the rest of the sample
 predict_df = df[600:].copy()  # Which we call predict_df
