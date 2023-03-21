@@ -1,0 +1,34 @@
+# Importer le module pandas
+import pandas as pd
+
+# Définition des URLs pour récupérer les 300 premiers résultats du TAS
+url1 = "https://jurisprudence.tas-cas.org/Shared%20Documents/Forms/AllDecisions.aspx?&&p_SortBehavior=0&p_OrderNb=2020906986%2e00000&&PageFirstRow=1&&View={B8CFD508-2A66-4DAD-9CB1-753AD6687E85}"
+url2 = "https://jurisprudence.tas-cas.org/Shared%20Documents/Forms/AllDecisions.aspx?Paged=TRUE&p_SortBehavior=0&p_OrderNb=2020906987%2e00000&p_ID=2267&PageFirstRow=101&&View={B8CFD508-2A66-4DAD-9CB1-753AD6687E85}"
+url3 = "https://jurisprudence.tas-cas.org/Shared%20Documents/Forms/AllDecisions.aspx?Paged=TRUE&p_SortBehavior=0&p_OrderNb=2019906181%2e00000&p_ID=2305&PageFirstRow=201&&View={B8CFD508-2A66-4DAD-9CB1-753AD6687E85}"
+
+# Récupérer les données et les placer dans leurs dataframes respectifs
+data1 = pd.read_html(url1)[1]
+data2 = pd.read_html(url2)[1]
+data3 = pd.read_html(url3)[1]
+
+# Placer les 300 résultats dans un seul dataframe
+result_df = pd.concat([data1, data2, data3], ignore_index=True)
+
+# Grouper le dataframe par type de sport puis par type de litiges et compter le nombre de décisions "upheld"
+upheld_counts_sports = result_df.groupby("Sport")["Outcome"].apply(lambda x: (x == "Upheld").sum())
+upheld_counts_matter = result_df.groupby("Matter")["Outcome"].apply(lambda x: (x == "Upheld").sum())
+
+# Trier les décomptes par ordre décroissant et sélectionner les 5 premiers
+top_5_upheld_sports = upheld_counts_sports.sort_values(ascending=False)[:5]
+top_5_upheld_matter = upheld_counts_matter.sort_values(ascending=False)[:5]
+
+# Imprimer le top 5 des sports avec le plus de résultats "upheld"
+print("Top 5 sports with the most upheld results:")
+for sport, count in top_5_upheld_sports.iteritems():
+    print(f"- {sport}: {count} upheld results")
+print("\n")
+
+# Imprimer le top 5 des types de litiges avec le plus de résultats "upheld"
+print("Top 5 matters with the most upheld results:")
+for matter, count in top_5_upheld_matter.iteritems():
+    print(f"- {matter}: {count} upheld results")
