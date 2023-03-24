@@ -81,10 +81,17 @@ In [?]: def remplacer_articles(texte):
 In [?]: df['Text'] = df['Text'].apply(remplacer_articles) #Ainsi, du texte sous la forme "les articles 4 à 7" seront modifiées pour indiquer "article 4 article 5 article 6 article 7". 
 
         #Deuxième étape - Première analyse : l'évolution du nombre de renvois depuis 1980, au fil du temps 
-
+import csv
+from datetime import datetime
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np                                                                                        
+                                                                                           
         #2.1 : fichiers contenant pour chaque année la version des articles du CGI en vigueur
                                                                                      
-
+filename = "Datamodifiée.csv"
+                                                                                           
 # Boucler sur chaque année de 1979 à 2023
 for year_limit in range(1979, 2024):
 
@@ -169,7 +176,7 @@ df_total = df_total.sort_index()
 plt.plot(df_total.index, df_total["Total"], color='r')
 plt.xlabel("Année")
 plt.ylabel("Nombre total de renvois")
-plt.title("Les renvois à d’autres articles au sein du CGI au fil du temps")
+plt.title("Les renvois à d’autres articles au sein du CGI au fil du temps",weight='bold')
 ax = plt.gca()
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
@@ -179,6 +186,17 @@ ax.spines['bottom'].set_color('black')
 ax.spines['left'].set_color('black')
 ax.spines['bottom'].set_linewidth(2)
 ax.spines['left'].set_linewidth(2)
+
+# Ajout d'un (léger) cadrillage
+plt.grid(True, which='both', linestyle='--', linewidth=0.5)
+
+# Affichage du nombre total de renvois en 1979 et en 2023
+total_1979 = df_total.loc[1979, "Total"]
+total_2023 = df_total.loc[2023, "Total"]
+plt.annotate(f'{total_1979}', xy=(1979, total_1979), xytext=(10,-5), textcoords='offset points')
+plt.annotate(f'{total_2023}', xy=(2023, total_2023), xytext=(10,-5), textcoords='offset points')
+
+#Affichage du graphique
 plt.show()
 
 #Graphique 2 (fonction polynomiale de degré 3): 
@@ -191,22 +209,25 @@ x = df_total.index
 y = df_total["Total"]
 f = np.polyfit(x, y, 3)
 p = np.poly1d(f)
-ax.plot(x, y, 'o', color="red", markersize=3)
-ax.plot(x, p(x), '-', color="blue", linewidth=2)
+ax.plot(x, y, 'o', color="#f33440", markersize=3)
+ax.plot(x, p(x), '-', color="#00407b", linewidth=2)
 
 # Ajout des cadrillages
 ax.grid(True)
 
 # Ajout des labels d'axes et du titre en gras
-ax.set_xlabel("Année")
-ax.set_ylabel("Nombre total de renvois")
+ax.set_xlabel("Année", fontweight='bold', color='black')
+ax.set_ylabel("Nombre total de renvois", fontweight='bold', color='black')
 ax.set_title("Les renvois à d’autres articles au sein du CGI au fil du temps", fontweight='bold')
 
-# Ajout d’une bordure autour de la courbe pour la rendre plus en relief
-for spine in ax.spines.values():
-    spine.set_edgecolor('gray')
-    spine.set_linewidth(1.5)
-  
+# Suppression de l'encadrement en haut et sur le coté droit
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+
+# Mise en gras de la partie gauche et celle du bas du graphique
+ax.spines['left'].set_linewidth(2)
+ax.spines['bottom'].set_linewidth(2)
+
 # Affichage du graphique
 plt.show()
 
@@ -214,28 +235,33 @@ plt.show()
 
 #Analyse des 10 articles contenant le plus de renvois (1980 & 2023) :
 
-# Lecture du fichier CSV
-df = pd.read_csv('articles_2023.csv')
+# Lecture des fichiers CSV
+df_1980 = pd.read_csv('articles_1980.csv')
+df_2023 = pd.read_csv('articles_2023.csv')
 
-# Trier le dataframe par ordre décroissant de la colonne "Num_articles"
-df_sorted = df.sort_values(by=['Num_articles'], ascending=False)
+# Sélection des 10 articles contenant le plus de renvois en 1980 et en 2023
+top_10_1980 = df_1980.nlargest(10, 'Num_articles')
+top_10_2023 = df_2023.nlargest(10, 'Num_articles')
 
-# Extraire les 10 premiers articles avec le chiffre le plus élevé
-top_articles = df_sorted.head(10)
+# Création des sous-graphiques
+fig, (ax1, ax2) = plt.subplots(1, 2)
+colors = ["#f43540", "#74777b"] # Alternance entre rouge et gris
 
-# Créer un graphique à partir des données extraites
-plt.figure(figsize=(8,6))
-plt.bar(top_articles['Art'], top_articles['Num_articles'])
-plt.title('Top 10 des articles du CGI contenant le plus de renvois en 1980', fontsize=14, fontweight='bold')
-plt.xlabel('Article', fontsize=12, fontweight='bold', color='black')
-plt.ylabel('Nombre de renvois', fontsize=12, fontweight='bold', color='black')
-plt.tick_params(axis='both', labelsize=12, width=2, color='black')
-plt.xticks(rotation=90)
-plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.gca().spines['bottom'].set_linewidth(2)
-plt.gca().spines['left'].set_linewidth(2)
+# Sous-graphique pour 1980
+ax1.bar(top_10_1980['Art'], top_10_1980['Num_articles'], color=colors * 5)
+ax1.set_title("Les 10 articles contenant le plus de renvois en 1980")
+ax1.set_xlabel("Articles")
+ax1.set_ylabel("Nombre de renvois")
+ax1.set_xticklabels(top_10_1980['Art'], rotation=90)
+
+# Sous-graphique pour 2023
+ax2.bar(top_10_2023['Art'], top_10_2023['Num_articles'], color=colors * 5)
+ax2.set_title("Les 10 articles contenant le plus de renvois en 2023")
+ax2.set_xlabel("Articles")
+ax2.set_ylabel("Nombre de renvois")
+ax2.set_xticklabels(top_10_2023['Art'], rotation=90)
+
 plt.show()
-
 
 #Analyse des 10 articles ayant subi le + de versions (en 2023) :
 
@@ -246,10 +272,10 @@ df = pd.read_csv("articles_2023.csv")
 versions_count = df.groupby("Art")["version"].max().sort_values(ascending=False)[:10]
 
 # Création d’un graphique en diagramme
-colors = ["#ff5733", "#33a7ff"] # Alternance entre rouge et bleu vif
-plt.bar(versions_count.index, versions_count.values, color=colors * 5)
-plt.title("Les 10 articles ayant subi le plus de versions")
-plt.xlabel("Nom de l'article")
+colors = ["#b33122", "#00407b"] # Alternance entre rouge et bleu vif
+plt.bar(versions_count.index, versions_count.values, color=colors * 5, edgecolor='black')
+plt.title("Les 10 articles ayant subi le plus de versions au sein du CGI")
+plt.xlabel("Articles")
 plt.ylabel("Nombre de versions")
 plt.show()
 
