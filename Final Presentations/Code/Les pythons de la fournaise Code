@@ -1,6 +1,6 @@
 Les pythons de la Fournaise
 
-Axel Brajman, Aude-Lyse Cerveau-Eauclere, Sabah El Majdoub, Clara Rodrigues Briga, Neila touhami
+Axel Brajtman, Aude-Lyse Cerveau-Eauclere, Sabah El Majdoub, Clara Rodrigues Briga, Neila touhami
 
 
 1) Scraping
@@ -416,7 +416,7 @@ df.to_csv('dataframe.csv', index_label='Index')
 
 
 
-3) Visalizer
+3) Visualizer
 
 
 import pandas as pd  # Importation du module pandas pour la création du dataframe
