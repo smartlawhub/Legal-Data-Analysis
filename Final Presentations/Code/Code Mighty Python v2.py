@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 from collections import Counter, defaultdict
 import pandas as pd
 import time
+import matplotlib # In order to get our statistics analysis, we import the matplotlib library
+import matplotlib.pyplot as plt
+import numpy as np # Allows to calculate means and standard deviation, among other standard scientific calculations
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
