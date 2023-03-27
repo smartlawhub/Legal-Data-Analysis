@@ -98,7 +98,7 @@ for index, row in df.iterrows(): # We clean the "solution" column to create two 
         df.at[index, "résultat"] = "non conforme" # All decisions whose result is neither "conforme" nor "non conforme" are considered as "non conforme"
 print(df.résultat.value_counts(normalize=True) * 100)
 
-# Now that we cleaned the data depending on whether the solution is a conformity or not to the Fench Constitution, we can create a graph to show the number of "conforme" or "non conforme" decisions
+# Now that we cleaned the data depending on whether the solution is conforme or not to the Fench Constitution, we can create a graph to show the number of "conforme" or "non conforme" decisions
 
 import locale
 locale.setlocale(locale.LC_ALL, "fr_FR")
