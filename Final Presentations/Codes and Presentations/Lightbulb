@@ -1,1 +1,196 @@
+import requests
+import spacy
+import regex as re
+from bs4 import BeautifulSoup
+import pandas as pd
+import time
+import matplotlib.pyplot as plt
 
+def extract_judge_name(decision_url): # used to extract judge names
+    response = requests.get(decision_url)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.content, 'html.parser')
+        blockquote_tag = soup.find('blockquote').text.strip()
+        match = re.search(r'par le Conseil constitutionnel.*?([A-Z]{4,})', blockquote_tag, re.DOTALL) # We searched every word in the blockquote_tag that contained the following caracteristics: *?([A-Z]{4,}) and which was located right after "par le Conseil constitutionnel"
+        if match:
+            judge_name = match.group(1)
+            if judge_name == "DEBR":
+                judge_name += "É" # the code didn't take into account the French accents, so we had to add this code line
+            return judge_name
+        else:
+            return "Unidentified"
+    else:
+        return None
+
+url_prefix = "https://www.conseil-constitutionnel.fr/les-decisions?cc-page="
+main_list = [] # we create an empty main list, in which we will then add our sublists
+
+for x in range(1, 343): # There are 342 pages but we have to write down 343 so that the last page is taken into account
+    webpage = requests.get(url_prefix + str(x)) # we connect on the page containing the URLs of the decisions, page by page (20 results per page by default)
+    soup = BeautifulSoup(webpage.content, "html.parser") # we ask for the html of each page
+    aas = soup.find_all("div", class_="views-row") # we find the elements representing each decision on the said page
+
+    for a in aas: # second loop to scrap data decision by decision on the said page
+        href = a.find("a").get("href") # we find the URL of each decision
+        sublist = [href] # we create a sublist to then add to the mainlist the necessary information for each case
+        title = a.find("div", class_="title").text.split(" ") # used to extract the title and split it
+        year = None
+        type_decision = None
+
+        for word in title:
+            year_match = re.search(r'\b(\d{4})\b', word) # we look for the year of each decision in the title using a regex
+            if year_match:
+                year = year_match.group(1)
+
+            type_decision_match = re.search(r'\b([A-Z]{2,})\b', word) # we look for the type of decision of each decision in the title using a regex
+            if type_decision_match:
+                type_decision = type_decision_match.group(1)
+
+        if year:
+            sublist.append(year)
+        else:
+            sublist.append("Year unidentified")
+
+        if type_decision:
+            sublist.append(type_decision)
+        else:
+            sublist.append("L") #as we were looking for types of decisions containing at least 2 capital letters, we couldn't find the "L" type of decisions. We thus added this line
+
+        try:
+            solution = a.find("div", class_="field field--name-field-solution-normalisee field--type-string field--label-hidden field__item").text # we look for the solution of each decision in the said page
+        except Exception as e:
+            solution="introuvable"
+        sublist.append(solution)
+
+        detail_webpage = requests.get("https://www.conseil-constitutionnel.fr" + href) # we connect to the decision page itself
+        detail_soup = BeautifulSoup(detail_webpage.content, "html.parser") # we ask for the html of the decision's page
+        detail_div = detail_soup.find("div", class_="clearfix text-formatted field field--name-field-contenu-original field--type-text-long field--label-hidden field__item") # we look for our answer in a specific element of the decision's html code
+
+        if detail_div:
+            text = detail_div.getText()
+            debut = re.search("LE CONSEIL CONSTITUTIONNEL A ÉTÉ SAISI", text)
+            length = len(text) # used to extract the calculate the length of each decision
+            sublist.append(length) # we put our lengths in our sublist
+
+
+        decision_url = "https://www.conseil-constitutionnel.fr" + href # For this section we had to add several lines to account for the inconsistensies (especially decisisions in which the name of the judge wasn't written and the code picked upcode lines to take into a "ECLI")
+        judge_name = extract_judge_name(decision_url)
+        if judge_name in ["JUPP", "ORGA"]: #still don't know why FABIUS wasn't being picked
+            judge_name = "FABIUS"
+        elif judge_name == "AMELLER":  #The regex was picking up AMELLER instead or GUÉNA because of the 'accent'
+            judge_name = "GUÉNA"
+        elif judge_name == "ABADIE":  # same reason
+            judge_name = "GUÉNA"
+        elif x == 173 and judge_name == "ECLI":
+            judge_name = "MAZEAUD"
+        elif x == 175 and judge_name == "ECLI":
+            judge_name = "MAZEAUD"
+        elif x == 195 and judge_name == "ECLI": #same reason again
+            judge_name = "GUÉNA"
+        elif x in [226, 227, 228] and judge_name == "ECLI":
+            judge_name = "Unidentified"
+        elif x == 269 and judge_name == "ECLI":
+            judge_name = "Unidentified"
+        elif x == 271 and judge_name == "ECLI":
+            judge_name = "Unidentified"
+        elif x == 272 and judge_name == "ECLI":
+            judge_name = "Unidentified"
+        elif x in [273, 274, 275, 277, 279, 280] and judge_name == "ECLI":
+            judge_name = "Unidentified"
+        elif x in [279, 280] and judge_name == "JOXE":
+            judge_name = "BADINTER"
+        elif x == 321 and judge_name == "ECLI":
+            judge_name = "PALEWSKI"
+        elif 308 <= x <= 314 and judge_name == "ECLI":
+            judge_name = "Unidentified"
+        elif 326 <= x <= 335 and judge_name == "ECLI":
+            judge_name = "Unidentified"
+        elif 293 <= x <= 305 and judge_name == "ECLI":
+            judge_name = "Unidentified"
+        elif 280 <= x <= 288 and judge_name == "ECLI":
+            judge_name = "Unidentified"
+        elif judge_name == "FRET": # Misspelled last name
+            judge_name = "FREY"
+        elif judge_name == "GUENA": # The site is very inconsistent in the way they write SURNAMES
+            judge_name = "GUÉNA"
+        sublist.append(judge_name) # we put the judges' names in our sublist
+
+        main_list.append(sublist)# we put all the sublists into our main list in order to be able to create a dataframe
+
+
+constitdf = pd.DataFrame(main_list, columns=["URL", "Année", "Type de décision", "Solution", "Length", "Juge"]) # we create a dataframe
+constitdf.to_csv("constitdf.csv", encoding="utf8") # we save the data to CSV
+
+
+
+#1st graph: mean decisions' length per year: linear graph
+
+# Convert 'Length' column to numeric
+constitdf['Length'] = pd.to_numeric(constitdf['Length'], errors='coerce')
+
+# Calculate mean decisions' length per year
+mean_length_per_year = constitdf.groupby('Année')['Length'].mean()
+
+# Plot linear graph for mean decisions' length per year
+plt.figure(figsize=(15, 6))
+plt.plot(mean_length_per_year.index, mean_length_per_year, marker='o', color='green', linestyle='-')
+plt.xlabel('Year')
+plt.ylabel('Average length of decisions')
+plt.title('Average length of decisions per year')
+plt.grid(True)
+plt.xlim(min(mean_length_per_year.index), max(mean_length_per_year.index))  # We set the x-axis limits
+plt.xticks(rotation='vertical')  # we rotate the x-axis labels vertically
+plt.tight_layout()
+plt.show()
+
+
+#2nd graph: number of decisions taken by each President of the Conseil Constitutionnel: histogram graph
+
+# Group data by judge and count the number of decisions for each President
+judge_counts = constitdf['Juge'].value_counts()
+
+# Plot histogram
+plt.figure(figsize=(15, 6))
+judge_counts.plot(kind='bar')
+plt.title('Number of decisions issued by each presiding judge')
+plt.xlabel('Name of the presiding judges')
+plt.ylabel('Number of decisions')
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.show()
+
+
+
+#3rd graph graphique: number of decisions per year : linear graph
+
+# Count the number of decisions per year
+decisions_per_year = constitdf['Année'].value_counts().sort_index()
+
+# Plot linear graph for number of decisions per year
+plt.figure(figsize=(15, 6))
+plt.plot(decisions_per_year.index, decisions_per_year, marker='o', color='red', linestyle='-')
+plt.xlabel('Year')
+plt.ylabel('Number of decisions')
+plt.title('Number of decisions per year')
+plt.xticks(rotation=45) # We rotate the x-axis labels for better readability
+plt.grid(True) # Add gridlines for better readability
+plt.xlim(min(decisions_per_year.index), max(decisions_per_year.index))  # Set x-axis limits
+plt.xticks(rotation='vertical')  # Rotate x-axis labels vertically
+plt.tight_layout()
+plt.show()
+
+
+#4th graph: number of decision for each type of decision since 1958: histogram graph
+
+# Count the number of decisions for each type of capitalized word:
+type_decision_counts = constitdf['Type de décision'].value_counts()
+
+# Plot bar graph
+plt.figure(figsize=(15, 6))
+type_decision_counts.plot(kind='bar', color='pink')
+plt.xlabel('Type of decisions')
+plt.ylabel('Number of decisions')
+plt.title('Number of decisions by type since 1958')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
