@@ -1,1 +1,163 @@
+from selenium import webdriver  
+from selenium.webdriver.common.by import By  
+from selenium.webdriver.support.ui import WebDriverWait  
+from selenium.webdriver.support import expected_conditions as EC  
+from bs4 import BeautifulSoup  
+import pandas as pd  
+import re  
+from selenium.common.exceptions import ElementClickInterceptedException  
+#Take the url of the web page 
+url = 'https://www.amf-france.org/fr/sanction-transaction/Decisions-de-la-commission-des-sanctions'  
+#Initialize the browser 
+driver = webdriver.Chrome()  
+driver.get(url)  
+#Intialize the list which will take our dataframes  
+data_list = []  # The list will take our df page by page  
+#Create a loop to go through the 43 pages  
+for x in range(43):  
+   #We use BeautifulSoup to analyse the html code of the page  
+    soup = BeautifulSoup(driver.page_source, 'html.parser')  
+    #We use .find() to locate the <table> tag  
+    table = soup.find('table')      
+    #We verify that the table has been found 
+    if table:  
+        # On parcourt toutes les lignes de la table  
+        for row in table.find_all('tr'):  
+            #We create a lis which will store the data of each cell of each row  
+            cell_data_list = []              
+            for cell in row.find_all(['th', 'td']):  
+                cell_data_list.append(cell.text.strip())  
+            #We add the list of data of each row to the global list which will include all rows  
+            data_list.append(cell_data_list)  
+    else:  
+        print(f"La balise <table> n'a pas été trouvée pour la page {x + 1}.")  
+    #We search for the element with the arrow to change page   
+    el = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, 'paginate_button.next')))  
+    try:  
+        # Ici, on utilise JavaScript pour cliquer sur l'élément  
+        driver.execute_script("arguments[0].click();", el)  
+    except ElementClickInterceptedException:  
+        print("ElementClickInterceptedException: JavaScript click failed.")  
+# On ferme le navigateur   
+driver.quit()  
+# On convertit la liste des données en df  
+final_df = pd.DataFrame(data_list)  
+# On exclue les trois premières lignes car elles sont inutiles   
+final_df = final_df.iloc[3:]  
+# On exclue la dernière colonne car elle est inutile  
+final_df = final_df.iloc[:, :-1]  
+# On modifie le nom des colonnes pour plus de clarté  
+nouveaux_noms_colonnes = ['Date', 'Thème', 'Titre', 'Sanction', 'Recours']  
+final_df.columns = nouveaux_noms_colonnes  
+# On va renommer le nom des sanctions en enlevant la partie « SAN-XXXX-XX » et en l’ajoutant à une nouvelle colonne « Numéro » qui contiendra le numéro de chaque décision 
+final_df['Numéro'] = final_df['Titre'].str.extract(r'(SAN-\d{4}-\d{2})')  
+final_df['Titre'] = final_df['Titre'].apply(lambda x: re.sub(r'SAN-\d+-\d+', '', x))  
+# On fait pareil pour les montants : on coupe les sanctions en deux avec une colonne pour « Sanction » (montant chiffré) et on crée une colonne « Sanction complémentaire » qui va comprendre les sanctions type ‘interdiction d’exercice’ ou ‘blames’   
+final_df['Sanction complémentaire'] = final_df['Sanction']   
+# Supprimer la partie "XXX €" de la colonne 'Sanction'   
+final_df['Sanction'] = final_df['Sanction'].str.replace(r' €.*$', ' €')  
+# Supprimer la partie "XXX €" dans la colonne 'Sanction complémentaire'   
+final_df['Sanction complémentaire'] = final_df['Sanction complémentaire'].apply(lambda x: re.sub(r'\d{1,3} ?\d{0,3} ?\d{0,3} ?€', '', str(x)))   
+# On supprime les "\n" dans la colonne 'Sanction complémentaire’ pour que ce soit plus propre   
+final_df['Sanction complémentaire'] = final_df['Sanction complémentaire'].str.replace('\n', '')  
+# On supprime les sanctions complémentaires dans la section “Sanction” pour n’avoir que les montants chiffrés et on supprime ensuite le signe « € »   
+final_df['Sanction'] = final_df['Sanction'].str.extract(r'(.*€)')[0]   
+print(final_df)  
+final_df.to_csv('decisions_amf.csv', index=False)  
 
+# Delete spaces and the symbol '€' for each value  
+final_df['Sanction'] = final_df['Sanction'].str.replace(' ', '').str.replace('€', '')   
+# Convert the values into numbers    
+final_df['Sanction'] = pd.to_numeric(final_df['Sanction'], errors='coerce')   
+# Replace non numerical values by 0 and not N/A    
+final_df['Sanction'] = final_df['Sanction'].fillna(0)  
+print(final_df)  
+  
+import pandas as pd  
+from datetime import datetime  
+from locale import setlocale, LC_TIME  
+# Définir la locale pour le format des mois en français  
+setlocale(LC_TIME, 'fr_FR.UTF-8')  
+# Fonction pour convertir la date  
+def convertir_date(date_str):  
+    # Définir les formats de date possibles  
+    formats_date = ["%d %B %Y", "%d %b %Y"]  
+    # Essayer de parser la date avec les formats spécifiés  
+    for format_date in formats_date:  
+        try:  
+            date_obj = datetime.strptime(date_str, format_date)  
+            return date_obj  
+        except ValueError:  
+            pass  
+    # Si aucun format ne correspond, retourner None ou une valeur par défaut  
+    return None  
+# Appliquer la conversion à la colonne "Date"  
+final_df['Date'] = final_df['Date'].apply(convertir_date)  
+# Extraction de l'année à partir de la colonne "Date"   
+final_df['Année'] = final_df['Date'].dt.year  
+# Afficher le DataFrame résultant  
+print(final_df)  
+
+# Filter the rows with the topic "Manipulation de marché"   
+filtered_df = final_df[final_df['Thème'] == 'Manipulation de marché']   
+# Verify the data  
+print(filtered_df.dtypes)   
+# Group by year and calculate the mean of the “Sanctions” column    
+result = filtered_df.groupby(filtered_df['Date'].dt.year)['Sanction'].mean().reset_index()  
+print(result)  
+
+import matplotlib.pyplot as plt  
+result['Date'] = result['Date'].astype(int) 
+result['Sanction'] = result['Sanction'] 
+# Créer le graphique  
+plt.figure(figsize=(10, 6))  
+plt.plot(result['Date'], result['Sanction'], marker='o')  
+plt.title('Évolution des sanctions (Manipulation de marché) par année')  
+plt.xlabel('Année')  
+plt.ylabel('Moyenne des sanctions')  
+plt.grid(True)  
+plt.show()  
+
+#Code pour avoir la moyenne du montant de sanction qui conduit à un recours (il faut répéter ça pour tous les thèmes) 
+# Filtrer les lignes avec le thème "Obligation d’information" et avec un recours 
+filtered_df = final_df[(final_df['Recours'] == 'oui') & (final_df['Thème'] == 'Obligation d\'information')] 
+# Vérifier et afficher les types de données   
+print(filtered_df.dtypes)   
+# Grouper par année et calculer la moyenne de la colonne "Sanction"   
+result = filtered_df.groupby(filtered_df['Date'].dt.year)['Sanction'].mean().reset_index()  
+print(result)  
+
+import pandas as pd  
+import matplotlib.pyplot as plt  
+result['Date'] = result['Date'].astype(int) 
+result['Sanction'] = result['Sanction'] 
+# Créer le graphique 
+plt.figure(figsize=(10, 6))  
+plt.plot(result['Date'], result['Sanction'], marker='o')  
+plt.title('Montant moyen de sanction conduisant à un recours pour (Obligation d\'information) par année')  
+plt.xlabel('Année')  
+plt.ylabel('Moyenne des sanctions')  
+plt.grid(True)  
+plt.show() 
+
+#Code pour le taux de recours par thème :  
+nombre_decisions_par_theme = final_df['Thème'].value_counts() 
+# Calculer le nombre de décisions avec recours par thème 
+nombre_decisions_recours_par_theme = final_df[final_df['Recours'] == 'oui']['Thème'].value_counts() 
+# Calculer le taux de recours par thème 
+taux_recours_par_theme = (nombre_decisions_recours_par_theme / nombre_decisions_par_theme) * 100 
+# Exclure le thème "Thème" du graphique 
+taux_recours_par_theme = taux_recours_par_theme[taux_recours_par_theme.index != 'Thème'] 
+# Créer une palette de couleurs 
+palette_couleurs = plt.get_cmap('tab10') 
+# Création du diagramme en bâtons avec des couleurs différentes 
+plt.figure(figsize=(10, 6)) 
+taux_recours_par_theme.plot(kind='bar', color=palette_couleurs(range(len(taux_recours_par_theme)))) 
+plt.title('Taux de recours par thème') 
+plt.xlabel('Thème') 
+plt.ylabel('Pourcentage de décisions avec recours') 
+plt.xticks(rotation=45, ha='right') 
+plt.tight_layout() 
+plt.show() 
+
+ 
